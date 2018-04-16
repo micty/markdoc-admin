@@ -1,0 +1,41 @@
+﻿
+<div data-panel="/FileList/Sidebar/Stat" class="stat" style="display: none;">
+    <template name="table">
+        <table>
+            <tr class="sname">
+                <th>名称</th>
+                <td>{sname}</td>
+            </tr>
+            <tr class="name">
+                <th>路径</th>
+                <td>{name}</td>
+            </tr>
+            <tr class="type">
+                <th>类型</th>
+                <td>{type}</td>
+            </tr>
+            <tr class="md5">
+                <th>md5</th>
+                <td>{md5}</td>
+            </tr>
+            <tr class="size">
+                <th>大小</th>
+                <td><span class="value">{size}</span> <span class="desc">{sizeDesc}</span></td>
+            </tr>
+            <tr class="time">
+                <th>创建时间</th>
+                <td>{birthtime}</td>
+            </tr>
+            <tr class="time">
+                <th>修改时间</th>
+                <td>{mtime}</td>
+            </tr>
+            <template name="type" placeholder="types">
+                <tr class="{class}">
+                    <th>{name}</th>
+                    <td><span class="value">{value}</span> <span class="desc">{desc}</span></td>
+                </tr>
+            </template>
+        </table>
+    </template>
+</div>

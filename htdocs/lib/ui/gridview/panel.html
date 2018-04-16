@@ -1,0 +1,34 @@
+﻿<template id="tpl-GridView">
+    <div id="{id}" class="GridView {no-footer} {class}">
+        <template name="header" placeholder="header">
+            <table id="{headerId}" class="header">
+                <tr>
+                    <template name="cell" placeholder="cells">
+                        <th>{caption}</th>
+                    </template>
+                </tr>
+            </table>
+        </template>
+        <div id="{tableId}" class="body"></div>
+        <div class="footer">
+            <p id="{counterId}"class="count" title="切换显示已选或正常模式">
+                <span>
+                    已选<span class="number" id="{countId}">0</span>项
+                </span>
+                <span class="mode">(已选模式)</span>
+            </p>
+            <div id="{pagerId}" class="pagerX"></div>
+        </div>
+    </div>
+
+    <template name="check-all">
+        <span id="{checkAllId}" class="chose-btn check-btn" title="全部选中本页的项"></span>
+    </template>
+
+    <template name="check-item">
+        <span data-cmd="check-item" class="chose-btn check-btn {checked}"></span>
+    </template>
+
+  
+
+</template>

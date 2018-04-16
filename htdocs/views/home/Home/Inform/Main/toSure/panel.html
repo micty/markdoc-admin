@@ -1,0 +1,53 @@
+﻿
+<div data-panel="/Home/Inform/Main/API/ToSure" class="dialog-home-Tosure" style="display: none;">
+    <div data-panel="/Home/Inform/Main/API/ToSure/Content" class="detail-body">
+        <template placeholder="detail" name="content">
+            <template name="has-table">
+                <p class="mes">{message}</p>
+                <div class="detail-table" data-cmd="table">
+                    <table>
+                        <thead>
+                            
+                            <tr>
+                                <template name="head" placeholder="head">
+                                    <th><span class="{class}">{headitem}</span></th>
+                                </template>
+
+                            </tr>
+                        </thead>
+                        <tbody class="context">
+                            <template  name="body" placeholder="body">
+                                <tr>
+                                    <template name="td" placeholder="td">
+                                        <template name="default">
+                                            <td><span class="{class}">{bodyitem}</span></td>
+                                        </template>
+
+                                        <template name="input">
+                                            <td>
+                                                <input class="normal-input" type="password" data-index={index} placeholder="" value="" />
+                                            </td>
+                                        </template>
+                                    </template>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </template>
+            <template name="no-table">
+                <p class="mes false">{message}</p>
+            </template>
+        </template>
+    </div>
+    
+    <div data-panel="/Home/Inform/Main/API/ToSure/Footer">
+        <div class="password" data-cmd="password"><span>密码：</span><input type="password" placeholder="请输入密码" /></div>
+        <div class="tip" data-cmd="tip"></div>
+        <div data-cmd="confirm-button" class="confirm-button nosure">   <!--nosure类表示操作失败时显示样式  没有则表示待确认-->
+            <button data-cmd="ok" class="btn-normal main-btn">确定</button>
+            <button data-cmd="cancel" class="btn-normal assist-btn">取消</button>
+        </div>
+    </div>
+
+</div>

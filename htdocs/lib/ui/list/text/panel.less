@@ -1,0 +1,274 @@
+﻿
+
+.TextDropList {
+    /*width: 120px;*/
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+
+
+    &:hover {
+        .text {
+            border-color: #61a7e5;
+        }
+    }
+
+    input[disabled] {
+        cursor: auto;
+        background-color: #f1f1f1;
+
+        &:hover {
+            background-color: #f1f1f1;
+            border-color: #f1f1f1 !important;
+        }
+    }
+
+    .text {
+        font-size: 12px;
+        width: 100%;
+        display: inline-block;
+        border: 1px solid #dce0e4;
+        outline: none;
+        height: 28px;
+        line-height: 28px;
+        border-radius: 2px;
+        padding: 0 30px 0 10px;
+        color: #5a646e;
+        vertical-align: middle;
+        box-sizing: border-box;
+        overflow: hidden;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        background-color: #fff;
+        background-image: url(../img/down-arrow.jpg);
+        background-position: right 10px top 50%;
+        background-repeat: no-repeat;
+
+        &:focus {
+            border-color: #61a7e5;
+        }
+
+        &::-webkit-input-placeholder {
+            color: #b3bcc5;
+        }
+
+        &.error {
+            color: red;
+        }
+    }
+
+    .list {
+        border: 1px solid #dce1e7;
+        min-width: 100%;
+        color: #5a646e;
+        padding: 6px 0;
+        background-color: #fff;
+        text-align: left;
+        box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.1);
+        display: none;
+        //列表是隐藏状态的，无法自动计算列宽。
+        //需要临时变成"可见"状态，但不在可视范围内，用于计算列宽。
+        //计算完成后，移除临时"可见"状态。
+        &.auto-width {
+            height: 0;
+            padding: 0;
+            border: 0;
+            display: block;
+        }
+
+
+        &::-webkit-scrollbar {
+            width: 6px !important;
+        }
+
+        &::-webkit-scrollbar-track-piece {
+            background-color: #fff;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #dce1e7;
+            border-radius: 4px;
+        }
+
+        &::-webkit-resizer {
+            background-repeat: no-repeat;
+            background-position: bottom right;
+        }
+
+        &.loading {
+            width: 100%;
+            height: 60px;
+            background-color: #fff;
+            cursor: default;
+
+            &:after {
+                content: '加载中...';
+                color: #5a646e;
+                font-size: 13px;
+                position: absolute;
+                width: 100%;
+                height: 30px;
+                top: 50%;
+                margin-top: -15px;
+                text-align: center;
+                line-height: 30px;
+                font-size: 14px;
+            }
+        }
+
+        &.nodata {
+            width: 100%;
+            // min-width: 160px;
+            //height: 180px;
+            height: 60px;
+            //background: url(../img/nodata-small.png) no-repeat center;
+            //background-size: 150px 120px;
+            background-color: #fff;
+            cursor: default;
+
+            &:after {
+                content: '(暂无数据)';
+                color: #ccc;
+                font-size: 13px;
+                position: absolute;
+                width: 100%;
+                height: 30px;
+                top: 50%;
+                margin-top: -15px;
+                text-align: center;
+                line-height: 30px;
+                font-size: 14px;
+            }
+        }
+
+        & > li {
+            padding: 0 12px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 13px;
+            cursor: pointer;
+            overflow: hidden;
+            -ms-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+            .keyword {
+                color: red;
+            }
+
+            &.disabled {
+                cursor: default;
+
+                &:hover {
+                    background-color: #fff;
+                }
+            }
+
+
+            &:hover {
+                background-color: #d7e9f8;
+                color: #28323c;
+            }
+
+            &.on {
+                background-color: #fdf59a;
+            }
+
+            .column {
+                display: inline-block;
+                border-right: solid 1px #eee;
+                padding-left: 10px;
+
+                &:first-child {
+                    padding-left: unset;
+                }
+
+                &:last-child {
+                    border-right: none;
+                }
+
+                &.order {
+                    color: #b5b5b5;
+                }
+            }
+        }
+    }
+
+    &.on {
+        border-color: #61a7e5;
+        z-index: 1025;
+
+        &.right {
+            .list {
+                left: auto;
+                right: -1px;
+            }
+        }
+
+        .text {
+            &:after {
+                content: '';
+                border-color: transparent;
+                border-bottom-color: #bbb;
+                margin-top: -9px;
+            }
+        }
+
+        .list {
+            display: block;
+            position: absolute;
+            top: 28px;
+            left: -1px;
+            overflow-y: auto;
+            max-height: 305px; /**够展示 20 条的高度*/
+            &.up {
+                top: auto;
+                bottom: 28px;
+                position: absolute;
+                max-height: 202px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1310px) {
+    .first {
+        .TextDropList {
+            width: 74px;
+        }
+    }
+}
+
+@media (min-width:1311px) and (max-width:1359px) {
+    .first {
+        .TextDropList {
+            width: 83px;
+        }
+    }
+}
+
+@media (min-width:1360px) and (max-width:1400px) {
+    .first {
+        .TextDropList {
+            width: 101px;
+        }
+    }
+}
+
+@media (min-width:1481px) and (max-width:1580px) {
+    .first {
+        .TextDropList {
+            width: 140px;
+        }
+    }
+}
+
+@media (min-width:1581px) {
+    .first {
+        .TextDropList {
+            width: 166px;
+        }
+    }
+}

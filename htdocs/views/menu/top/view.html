@@ -1,0 +1,106 @@
+﻿<div data-view="/TopMenus" class="view view-top-menus" style="display: none;">
+
+    <div data-panel="/TopMenus/Tree" class="tree">
+
+    </div>
+
+    <div data-panel="/TopMenus/Main" class="main">
+
+        <div data-panel="/TopMenus/Main/Header" class="header">
+            <ul data-panel="/TopMenus/Main/Header/Tabs" class="tabs">
+                <!--<li data-index="{index}" class="{class}"><i class="fa fa-{icon}"></i>{name}</li>-->
+            </ul>
+        </div>
+       
+        <section data-panel="/TopMenus/Main/Guide" class="guide" style="display: none; ">
+            <ul data-panel="/TopMenus/Main/Guide/Header" class="header">
+                <li data-id="title">添加一级菜单项</li>
+                <li data-id="check" class="check">
+                    <span data-cmd="check" class="chose-btn check-btn"></span>
+                    该菜单项有二级菜单
+                </li>
+            </ul>
+
+            <form data-panel="/TopMenus/Main/Guide/Form" class="form">
+
+                <div class="base">
+                    <div class="header">
+                        <p>基本信息</p>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>名称</th>
+                            <td><input name="name" required type="text" data-name="名称" /></td>
+                            <td class="desc"><span class="required">*</span>菜单项的名称</td>
+                        </tr>
+
+                        <tr class="file">
+                            <th>文件</th>
+                            <td><input name="file" type="text" /></td>
+                            <td class="desc">链接</td>
+                        </tr>
+                        <tr class="url">
+                            <th>链接</th>
+                            <td><a data-id="url"></a></td>
+                            <td class="desc">完整链接</td>
+                        </tr>
+
+                    </table>
+                </div>
+
+                <div class="more">
+                    <div class="header">
+                        <p>以下字段是针对当前一级菜单项下的所有二级菜单项的</p>
+                        <button data-cmd="add">
+                            <i class="fa fa-tree"></i><span>添加二级菜单项</span>
+                        </button>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>前缀</th>
+                            <td><input name="base" type="text" /></td>
+                            <td class="desc">二级菜单项的公共前缀部分</td>
+                        </tr>
+
+                        <tr>
+                            <th>后缀</th>
+                            <td><input name="ext" type="text" /></td>
+                            <td class="desc">二级菜单项的公共后缀部分</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </form>
+
+            <div data-panel="/TopMenus/Main/Guide/Footer" class="footer">
+                <ul data-panel="/TopMenus/Main/Guide/Footer/Menus">
+                    <!--
+                    <li data-index="{index}">
+                        <button class="{class}">
+                            <i class="fa fa-{icon}"></i><span>{text}</span>
+                        </button>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </section>
+
+        <section data-panel="/TopMenus/Main/Code" class="code" style="display: none;">
+
+            <div data-panel="/TopMenus/Main/Code/Editor" class="editor">
+                <textarea>
+                   
+                </textarea>
+            </div>
+
+            <div data-panel="/TopMenus/Main/Code/Preview" class="preview">
+                <div class="markdoc"></div>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,15 @@
+{
+    "name": "weberp",
+    "version": "",
+    "repository": {},
+    "description": "weberp",
+    "dependencies": {
+        "cheerio": ""
+    },
+    "devDependencies": {
+        "web-master": ""
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    }
+}

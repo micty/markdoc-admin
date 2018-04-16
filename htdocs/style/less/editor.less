@@ -1,0 +1,155 @@
+﻿
+
+/*
+    CodeMirror 自定义主题样式。
+*/
+.cm-s-custom {
+    &.CodeMirror {
+        background: #36312C;
+        color: #EBD1B7;
+    }
+
+    .cm-header {
+        color: #F8BB39;
+    }
+
+    .cm-comment {
+        color: #4CAF50;
+    }
+
+    .cm-hr {
+        color: #9C27B0;
+    }
+
+
+    .cm-header-1,
+    .cm-header-2,
+    .cm-header-3,
+    .cm-header-4,
+    .cm-header-5,
+    .cm-header-6 {
+        font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+        font-weight: 700;
+    }
+
+    .cm-header-2,
+    .cm-header-3,
+    .cm-header-4,
+    .cm-header-5 {
+        margin-top: 13px;
+        margin-bottom: 16px;
+    }
+
+    .cm-header-1,
+    .cm-header-2 {
+        padding-bottom: 10px;
+    }
+
+    .cm-header-1 {
+        font-size: 32px;
+    }
+
+    .cm-header-2 {
+        font-size: 28px;
+    }
+
+    .cm-header-3 {
+        font-size: 24px;
+    }
+
+    .cm-header-4 {
+        font-size: 20px;
+    }
+
+    .cm-header-5 {
+        font-size: 18px;
+    }
+
+    .cm-strong {
+        color: #DB784D;
+    }
+
+    .cm-link {
+        color: rgba(139,158,177,0.8);
+    }
+
+    .cm-tag {
+        color: #10736a;
+    }
+
+    .cm-string {
+        color: #E91E63;
+    }
+
+    .cm-atom,
+    .cm-keyword {
+        color: #2196F3;
+    }
+
+    .cm-operator {
+        color: #9C27B0;
+    }
+
+    .cm-number {
+        color: red;
+    }
+
+    .cm-variable {
+        color: #afafaf;
+    }
+
+    .cm-property {
+        color: #efa455;
+    }
+
+    .cm-quote {
+        color: #9E9E9E;
+
+        &.cm-link {
+            color: #F8BB39;
+        }
+    }
+
+    .cm-em {
+        color: #F44336;
+    }
+
+
+    .CodeMirror-activeline {
+        .CodeMirror-gutter-elt {
+            color: #6bbf06;
+            background: #292522;
+        }
+    }
+
+    .CodeMirror-activeline-background {
+        background: #292522;
+    }
+
+    .CodeMirror-linenumbers {
+        background: #36312c;
+    }
+
+    .CodeMirror-gutter-elt {
+        color: #56792c;
+    }
+
+    .CodeMirror-selected {
+        background: #575d63;
+    }
+
+    .CodeMirror-gutters {
+        border-right: 1px solid #6b6055;
+    }
+
+    div.CodeMirror-cursor {
+        border-left: 1px solid #f8bb39;
+    }
+
+    .CodeMirror-vscrollbar {
+        /*定义滑块，内阴影及圆角*/
+        &::-webkit-scrollbar-thumb {
+            background-color: #555;
+        }
+    }
+}

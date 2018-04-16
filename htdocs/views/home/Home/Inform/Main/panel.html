@@ -1,0 +1,111 @@
+<div data-panel="/Home/Inform/Main" class="inform">
+    <template  data-panel="/Home/Inform/Main/List">
+        <template name="default">
+            <div class="title">
+                <span>单据信息</span>
+                <span>数量</span>
+                <span>金额</span>
+                <span>制单人</span>
+                <span>业务员</span>
+                <span>操作</span>
+            </div>
+            <ul class="item-list" data-type="panel">
+                <template name="item" placeholder="items">
+                    <li class="list" data-index="{index}">
+                        <ul>
+                            <li>{billDate}</li>
+                            <li class="company ">{typeName} <span class="billNo" title="{billNo}" data-type="billNo" data-index="{index}">{billNo}</span></li>
+                        </ul>
+                        <ul class="item-details">
+                            <li>{customer}：{company}</li>
+                            <li class="quantity">{qty}</li>
+                            <li>{amount}</li>
+                            <li>{biller}</li>
+                            <li >{emper}</li>
+                            <li><button data-btn="verify" class="btn-normal assist-btn" data-index="{index}">审核</button></li>
+                        </ul>
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template name="new">
+            <div class="home-foot-button">
+                <button data-btn="checkAll" class="btn-normal assist-btn">一键已阅</button>
+            </div>
+            <div class="title">
+                <span>客户</span>
+                <span>数量</span>
+                <span>金额</span>
+                <span>制单人</span>
+                <span>审核人</span>
+                <span>业务员</span>
+                <span>操作</span>
+            </div>
+            <ul class="item-list" data-type="panel">
+                <template name="item" placeholder="items">
+                    <template name="send">
+                        <li class="list" data-index="{index}">
+                            <ul>
+                                <li>发货日期：{billDate}</li>
+                                <li class="date">您的{typeName}<span class="billNo" title="{billNo}" data-type="billNo" data-index="{index}">{billNo}</span>已发货</li>
+                                <li>销售出库单据编号：{billLinkNo}</li>
+                                <li>发货数量：{qty}</li>
+                            </ul>
+                            <ul class="item-details">
+                                <li>发货人：{biller}</li>
+                                <li>业务员：{emper}</li>
+                            </ul>
+                            <button data-btn="check" class="btn-normal assist-btn" data-index="{index}">已阅</button>
+                        </li>
+                    </template>
+                    <template name="verify">
+                        <li class="list" data-index="{index}">
+                            <ul>
+                                <li>审核日期：{billDate}</li>
+                                <li class="date">您的{typeName}<span class="billNo" data-type="billNo">{billNo}</span>已审核</li>
+                                <li>金额：{amount}</li>
+                                <li>数量：{qty}</li>
+                            </ul>
+                            <ul class="item-details">
+                                <li style="{styleCus}">{customer}：{company}</li>
+                                <li>审核人：{checker}</li>
+                                <li>制单人：{biller}</li>
+                                <li>业务员：{emper}</li>
+                            </ul>
+                            <button data-btn="check" class="btn-normal assist-btn" data-index="{index}">已阅</button>
+                        </li>
+                    </template>
+                </template>
+            </ul>
+        </template>
+        <template name="warn">
+            <div class="home-foot-button">
+                <button data-btn="checkAll" class="btn-normal assist-btn">一键已阅</button>
+            </div>
+            <div class="title">
+                <span>签订数量</span>
+                <span>出库数量</span>
+                <span>未出库数量</span>
+                <span class="tip">备注</span>
+                <span>操作</span>
+            </div>
+            <ul class="item-list" data-type="panel">
+                <template name="item" placeholder="items">
+                    <li class="list" data-index="{index}">
+                        <ul>
+                            <li  class="date">{billDate}</li>
+                            <li class="company">销售订单<span class="billNo" title="{billNo}" data-type="billNo" data-index="{index}">{billNo}</span></li>
+                        </ul>
+                        <ul class="item-details">
+                            <li>{qty}</li>
+                            <li>{qty2}</li>
+                            <li>{diffqty}</li>
+                            <li class="tip" title="将到交期，请安排发货">将到交期，请安排发货</li>
+                            <li><button data-btn="check" class="btn-normal assist-btn" data-index="{index}">已阅</button></li>
+                        </ul>
+                    </li>
+                </template>
+            </ul>
+        </template>
+    </template>
+</div>

@@ -1,0 +1,35 @@
+<div class="report-detail" data-panel="/Home/Report/ReportDetail">
+    <ul data-panel="/Home/Report/ReportDetail/List">
+        <template  name="card" placeholder="detail">
+            <template  name="normal">
+                <li class="card" data-index="{index}">
+                    <p class="title" data-type="{index}">{caption}<span data-btn="delete" class="delete"></span><span data-rpt-btn="{charts-rptnum}" data-btn="scale" class="scale" style="{style}"></span></p>
+                    <div class="detail" data-cmd="report-detail">
+                        <div class="card-title" data-cmd="{index}">
+                            <ul class="date-ul" data-ulindex="{index}">
+                                <li  data-cmd="time" index="1">本日</li>
+                                <li  data-cmd="time" index="2">本周</li>
+                                <li  class="on" data-cmd="time" index="3">本月</li>
+                                <li  data-cmd="time" index="4">本年</li>
+                            </ul>
+                        </div>
+                        <div class="card-img" data-cmd="{charts-rptnum}" style="width: 100%;height: 200px;"></div>
+                    </div>
+                    <div class="nodata" data-type="NoReport"></div>
+                </li>
+            </template>
+            <template  name="special">
+                <li class="card" data-index="{index}">
+                    <p class="title" data-type="{index}">{caption}<span data-btn="delete" class="delete"></span><span data-rpt-btn="{charts-rptnum}" data-btn="scale" class="scale"></span></p>
+                    <div class="detail">
+                        <div class="card-title" data-cmd="{index}">
+                            <ul class="date-ul" data-ulindex="{index}"></ul>
+                        </div>
+                        <div class="card-img" data-cmd="{charts-rptnum}" style="width: 100%;height: 200px;"></div>
+                    </div>
+                    <div class="nodata" data-type="NoReport"></div>
+                </li>
+            </template>
+        </template>
+    </ul>
+</div>

@@ -1,0 +1,281 @@
+
+
+.MarkDoc {
+    //源代码模式。
+    &.SourceMode {
+
+        .source-code {
+            background: none;
+
+            > span {
+                display: none;
+            }
+        }
+    }
+
+    font: 16px/1.6 "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+
+
+    img {
+        max-width: 100%;
+    }
+
+    ul {
+        padding-left: 32px;
+
+        > li {
+            list-style: disc;
+
+            &.todo-list-item {
+                list-style: none;
+                margin-left: -32px;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    li,
+    ol {
+        list-style: decimal;
+    }
+
+    ol {
+        padding: 0px 40px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        /*font-family: 'Fixedsys Excelsior 3.01', Fixedsys;*/
+        font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;
+        font-size: 16px;
+
+        thead {
+            background: #F0F0F0;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 5px 5px;
+            text-align: left;
+        }
+
+
+        code {
+            padding: 3px 4px 3px 4px;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;
+        }
+    }
+
+
+    code {
+        padding: 3px 4px 3px 4px;
+        color: #c7254e;
+        background-color: #f9f2f4;
+        /*font-family: 'Fixedsys Excelsior 3.01', Fixedsys;*/
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    }
+
+    pre {
+        margin: 0;
+        padding: 0px 5px;
+        transition: height 0.3s 0.1s ease;
+        overflow: hidden;
+
+        code {
+            color: #000;
+            background-color: transparent;
+            cursor: text;
+            overflow-y: hidden;
+            overflow-x: auto;
+        }
+    }
+
+
+    h2, h3, h4, h5 {
+        margin-top: 13px;
+        margin-bottom: 16px;
+    }
+
+
+    h1, h2 {
+        /*border-bottom: 1px solid #ddd;*/
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+        /*margin-top: 0 !important;*/
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    hr {
+        height: 4px;
+        padding: 0;
+        margin: 16px 0;
+        background-color: #e7e7e7;
+        border: 0 none;
+    }
+
+
+
+
+    h1, h2, h3, h4, h5, h6 {
+        &.on {
+            background: #ffe7c8;
+        }
+
+        &.title {
+            span {
+                cursor: pointer;
+
+                &:hover {
+                    color: #5e6c7d;
+                }
+            }
+        }
+    }
+
+    blockquote {
+        margin: 0px 0 16px 0;
+        /* padding: 0 15px; */
+        color: #777;
+        border-left: 10px solid #E7ECEE;
+        background-color: #F2F4F6;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 10px 20px;
+
+        p {
+            margin-left: 0;
+        }
+    }
+
+    p {
+        /*text-indent: 32px;*/
+    }
+
+    p, ul {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    a {
+        color: #4183c4;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+
+    .source-code {
+        background-color: #f9f9f9;
+        margin-bottom: 12px;
+        position: relative; //在迁移到别的项目时这个要用到。
+        border: solid 1px #f9f9f9;
+        /*语言类型标签*/
+        > .language {
+            padding: 4px 10px;
+            background: #E1E1E1;
+            color: white;
+
+            &.foldable {
+                cursor: pointer;
+
+                &:hover {
+                    background: #1f79d2;
+                }
+            }
+        }
+        /*折叠时。*/
+        &.on {
+            cursor: pointer;
+            border: solid 1px #1f79d2;
+            transition: border 0.5s 0.3s ease;
+
+            > .language {
+                background: #1f79d2;
+            }
+
+            > .line-numbers-total {
+                margin-left: 20px;
+                opacity: 1;
+                transition: opacity 0.5s 0.3s ease;
+            }
+
+            > .line-numbers {
+                height: 0 !important;
+                transition: height 0.3s 0.1s ease;
+                overflow: hidden;
+            }
+
+
+            > pre {
+                height: 0 !important;
+                transition: height 0.3s 0.1s ease;
+                overflow: hidden;
+            }
+        }
+
+        > .line-numbers-total {
+            background: none;
+            color: #5394d4;
+            font-size: 14px;
+            opacity: 0;
+        }
+        /*行号列表*/
+        > .line-numbers {
+            padding-left: 0px;
+            /*font-family: 'Fixedsys Excelsior 3.01', Fixedsys;*/
+            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            text-align: center;
+            position: absolute;
+            /*background: #f2f2f2;*/
+            color: #8B9CC2;
+            width: 30px;
+            line-height: 20px;
+            margin: 0;
+            border-right: solid 1px #ddd;
+            transition: height 0.3s 0.1s ease;
+            overflow: hidden;
+            text-align: right;
+
+            li {
+                list-style: none;
+                padding-right: 5px;
+            }
+        }
+
+        > pre {
+            margin-left: 45px;
+
+            code {
+                display: block;
+                line-height: 20px;
+                padding: 0px;
+                /*background: #8BC34A;*/
+            }
+        }
+    }
+}

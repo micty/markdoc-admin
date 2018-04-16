@@ -1,0 +1,46 @@
+.home-report{
+  .report-list{
+    width: 100%;
+    ul{
+      margin: 15px 0 0  18px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 320px;
+      li {
+        line-height: 40px;
+        img{
+          width: 30px;
+          height: 30px;
+          vertical-align: middle;
+        }
+        span{
+          margin-left: 20px;
+        }
+        .assist-btn{
+          float: right;
+          width: 68px;
+          margin-top: 6px;
+          &.on{
+            background-color: #61a7e5;
+            border-color: #5796ce;
+            color: #fff;
+            &:hover{
+                background-color: #8abbe6;
+                border-color: #7ca8cf;
+                cursor:pointer;
+
+            }
+          }
+          &:hover{
+              cursor:not-allowed;
+              border-color:#dce6f0;
+          }
+        }
+      }
+    }
+  }
+  footer{
+      height:0;
+
+  }
+}

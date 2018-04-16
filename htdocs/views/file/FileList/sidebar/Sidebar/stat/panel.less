@@ -1,0 +1,73 @@
+
+.view-file-list {
+    aside {
+        .stat {
+            /*展示的是目录。*/
+            &.dir {
+                tr.md5,
+                tr.size {
+                    display: none;
+                }
+            }
+
+            table {
+                font-size: 14px;
+
+                th {
+                    text-align: right;
+                    width: 75px;
+                    box-sizing: border-box;
+
+                    &:after {
+                        content: ':';
+                    }
+                }
+
+                td {
+                    padding-left: 10px;
+                }
+
+                tr.sname {
+                    td {
+                        color: #FF9800;
+                    }
+                }
+
+                tr.name {
+                    td {
+                        color: #2196F3;
+                    }
+                }
+
+                tr.md5 {
+                    td {
+                        color: #8BC34A;
+                    }
+                }
+
+                tr.spliter {
+                    height: 32px;
+                    vertical-align: bottom;
+                }
+
+
+                tr.size,
+                tr.dir-size {
+                    .value {
+                        color: red;
+                    }
+                }
+
+                .desc {
+                    color: #d0d0d0;
+                }
+
+                tr.time {
+                    td {
+                        color: #aaa;
+                    }
+                }
+            }
+        }
+    }
+}

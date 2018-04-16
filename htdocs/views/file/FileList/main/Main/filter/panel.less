@@ -1,0 +1,64 @@
+
+.view-file-list {
+
+    .filter {
+        padding: 5px 10px 0px 10px;
+        font-size: 14px;
+        /* background: #607D8B; */
+        /* border-bottom: solid 1px #5392cc; */
+        /* margin-bottom: 1px; */
+        li {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 5px;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            > div {
+                display: inline-block;
+            }
+
+            &.dir-chk {
+                cursor: pointer;
+
+                span {
+                    margin-left: 5px;
+                    color: #4b6fb0;
+                }
+            }
+        }
+
+
+        input {
+            height: 28px;
+            line-height: 28px;
+            border: 1px solid #dce0e4;
+            border-radius: 2px;
+            padding: 0 10px;
+            color: #5a646e;
+            vertical-align: middle;
+            box-sizing: border-box;
+            font-size: 13px;
+
+            &.name {
+                width: 216px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            &.date {
+                width: 90px;
+
+                &.begin {
+                    /*border-right: none;*/
+                }
+
+                &.end {
+                    /*border-left: none;*/
+                }
+            }
+        }
+    }
+}

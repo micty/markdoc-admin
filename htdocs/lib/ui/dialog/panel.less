@@ -1,0 +1,208 @@
+
+.Dialog {
+
+    z-index: 1024;
+    position: fixed;
+    display: block;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border-radius:3px 3px 2px 2px; //对于有背景图片的子级设置的radius需要比父级小
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
+
+    &.auto-size {
+        transform: translate(-50%,-50%);
+    }
+
+    &.draging {
+        header,
+        article {
+            /*user-select: none;*/
+        }
+    }
+
+    header {
+        background-color: #6cb0ec;
+        background-image: -webkit-linear-gradient(left, #6cb0ec, #478dca);
+        color: #fff;
+        padding-left: 20px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0;
+        border-radius: 2px 2px 0 0;
+        /*cursor: move;*/
+        /*user-select: none;*/
+        i {
+            cursor: pointer;
+            float: right;
+            height: 24px;
+            width: 24px;
+            margin: 5px 5px 0 0;
+            background-image: url(../img/close.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 4px;
+
+
+            &:hover {
+                transform: rotate(180deg);
+                transition: all 0.5s ease;
+                background-color: #f86857;
+            }
+        }
+
+        > .sizer {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            top: 0px;
+            font-size: 12px;
+            padding: 0px 10px;
+            right: 0px;
+            color: #55fd55;
+            display: none;
+            border-radius: 0 2px 0 0;
+        }
+
+        &.resizing {
+            > .sizer {
+                display: inline-block;
+            }
+        }
+    }
+
+
+    article {
+        /*display: -webkit-box;*/
+        /*-webkit-box-pack: center;*/
+        /*-webkit-box-align: center;*/
+        /*text-align: center;*/
+        overflow: hidden;
+        position: absolute;
+        top: 40px;
+        bottom: 49px;
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 16px;
+        word-wrap: break-word;
+
+        > div {
+            height: 100%;
+        }
+    }
+
+    footer {
+        border-top: solid 1px #f8ecf0;
+        height: 49px;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        /*user-select: none;*/
+        line-height: 49px;
+
+        .buttons {
+            padding-right: 10px;
+            float: right;
+
+            button {
+                font-size: 14px;
+                height: 28px;
+                line-height: 28px;
+                padding: 0 12px;
+                color: #fff;
+                border: 1px solid;
+                border-radius: 4px;
+                cursor: pointer;
+                background-color: #61a7e5;
+                border-color: #5796ce;
+                margin-right: 24px;
+
+                &:hover {
+                    background-color: #3397f1;
+                    border-color: #3397f1;
+                }
+
+                &:active {
+                    background-color: #1789ef;
+                    border-color: #1789ef;
+                }
+
+                &.assist-btn {
+                    color: #61a7e5;
+                    background-color: #fff;
+                    border-color: #dce6f0;
+
+                    &:hover {
+                        color: #61a7e5;
+                        border-color: #61a7e5;
+                    }
+
+                    &:active {
+                        background-color: #d7e9f8;
+                        border-color: #61a7e5;
+                        color: #61a7e5;
+                    }
+                }
+                /* 警示按钮 */
+                &.alert-btn {
+                    background-color: #ff6c55;
+                    border-color: #e5614c;
+
+                    &:hover {
+                        background-color: #ff8c7a;
+                        border-color: #e57e6e;
+                    }
+
+                    &:active {
+                        background-color: #ff4a2e;
+                        border-color: #e54229;
+                    }
+                }
+                /* 其他按钮 */
+                &.other-btn {
+                    color: #646464;
+                    background-color: #fff;
+                    border-color: #e1e3e5;
+
+                    &:hover {
+                        border-color: #61a7e5;
+                    }
+
+                    &:active {
+                        background-color: #F8F8F8;
+                    }
+                }
+            }
+        }
+
+
+
+
+
+        > i {
+            background: #f1f1f1;
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: nwse-resize;
+            border-radius: 5px;
+            overflow: hidden;
+
+            &:after {
+                content: '';
+                position: absolute;
+                height: 0;
+                width: 0;
+                border: 24px solid transparent;
+                border-bottom-color: #fff;
+                transform: rotate(-45deg);
+                left: -24px;
+                top: -24px;
+                cursor: default;
+            }
+        }
+    }
+}

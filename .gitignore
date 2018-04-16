@@ -1,0 +1,14 @@
+
+/.svn
+/bak
+
+/bin/node_modules
+/bin/console.log
+/bin/package-lock.json
+
+/build
+
+/htdocs/style/css
+/htdocs/packages
+/htdocs/index.html
+

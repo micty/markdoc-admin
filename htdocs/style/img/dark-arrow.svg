@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>大下拉</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="销售出库单列表" transform="translate(-1259.000000, -65.000000)" fill="#8D97A1">
+            <g id="页签" transform="translate(220.000000, 52.000000)">
+                <g id="下拉" transform="translate(1031.000000, 1.000000)">
+                    <polygon id="大下拉" points="8 12 20 12 14 18"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

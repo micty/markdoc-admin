@@ -1,0 +1,39 @@
+﻿
+.view-side-menus {
+    .main {
+        .guide {
+            ul.header {
+                padding: 8px 10px;
+                margin: 10px 0px;
+                width: 800px;
+                box-sizing: border-box;
+                position: relative;
+                border-bottom: solid 2px #61a7e5;
+
+                li {
+                    display: inline-block;
+
+                    &.check {
+                        position: absolute;
+                        right: 7px;
+                        cursor: pointer;
+                        font-size: 14px;
+                        display: none; /**这个页面不需要显示*/
+                        &.on {
+                            color: #ef6155;
+                        }
+
+                        &:hover {
+                            color: #61a7e5;
+                        }
+
+
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

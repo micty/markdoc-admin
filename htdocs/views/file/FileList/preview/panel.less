@@ -1,0 +1,64 @@
+
+.view-file-list {
+
+
+    .preview {
+        height: 100%;
+        width: calc(100% - 766px);
+        background: #fff;
+        overflow: scroll;
+        display: inline-block;
+        font-size: 14px;
+        box-sizing: border-box;
+
+
+        .tabs {
+            position: fixed;
+            right: 391px;
+            margin-top: 5px;
+            z-index: 2;
+
+            li {
+                display: inline-block;
+                padding: 5px 10px;
+                margin: -2px;
+                cursor: pointer;
+                background: #d0d0d0;
+                color: #fff;
+
+                &:first-child {
+                    border-radius: 4px 0px 0px 4px;
+                }
+
+                &:last-child {
+                    border-radius: 0px 4px 4px 0px;
+                }
+
+                &.on {
+                    background: #03A9F4;
+                    color: #fff;
+
+                    &:hover {
+                        background: #03A9F4;
+                    }
+                }
+
+                &:hover {
+                    background: #b5b5b5;
+                }
+            }
+        }
+
+        .markdoc {
+            margin: 0px 10px;
+            /*图片的，加大 top，以避免跟 tabs 重叠。*/
+            &.image {
+                margin-top: 38px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

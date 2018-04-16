@@ -1,0 +1,45 @@
+
+
+.TableResizer-v2 {
+
+    td,
+    th {
+        position: relative;
+    }
+
+    i.resizer {
+        /*background: red;*/
+        width: 10px;
+        height: 100%;
+        display: inline;
+        position: absolute;
+        top: 0px;
+        right: -5px;
+        cursor: w-resize;
+        z-index: 2;
+
+        b {
+            display: none;
+            position: absolute;
+            top: 0px;
+            left: 6px;
+            background: rgba(0, 0, 0, 0.55);
+            /*background: rgba(40, 50, 60, 0.6);*/
+            font-size: 12px;
+            padding: 5px 5px;
+            font-weight: normal;
+            color: #8cff68;
+            /*color: #8cec52;*/
+            font-style: normal;
+
+            &.on {
+                display: inline-block;
+            }
+
+            /*最后一列，靠左显示*/
+            &.last{
+                left: -40px;
+            }
+        }
+    }
+}

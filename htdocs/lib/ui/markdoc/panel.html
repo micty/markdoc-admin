@@ -1,0 +1,33 @@
+﻿
+
+<template id="tpl-MarkDoc">
+    <template name="source">
+        <div data-cmd="source-code" class="source-code">
+        </div>
+    </template>
+
+    <template name="language">
+        <span data-cmd="language" class="language {foldable}">{language}</span>
+    </template>
+
+    <template name="numbers">
+        <span class="line-numbers-total">折叠了 {total} 行代码...</span>
+        <ul class="line-numbers" style="height: {height}px">
+            <template name="item" placeholder="items">
+                <li>{no}</li>
+            </template>
+        </ul>
+    </template>
+
+    <!--注意：下面的 pre 标签之间的内容不要换行。-->
+    <template name="pre">
+        <pre><code data-language="{language}" class="hljs">{content}</code></pre>
+    </template>
+
+    <template name="title">
+        <span></span>
+    </template>
+   
+
+
+</template>

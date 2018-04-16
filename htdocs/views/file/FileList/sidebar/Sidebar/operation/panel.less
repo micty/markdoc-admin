@@ -1,0 +1,186 @@
+
+.view-file-list aside .operation {
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 5px;
+    left: 0px;
+    right: 0px;
+    /*border-top: solid 1px #e8ecf0;*/
+    width: 100px;
+
+    &.root {
+        .add {
+            display: inline-block;
+        }
+
+        .delete {
+            display: none;
+        }
+
+        .edit {
+            display: none;
+        }
+
+        .rename {
+            display: none;
+        }
+    }
+
+    &.dir {
+        .add {
+            display: inline-block;
+        }
+
+        .delete {
+            display: inline-block;
+        }
+
+        .rename {
+            display: inline-block;
+        }
+    }
+
+    &.file {
+        //图片类型的文件，隐藏编辑按钮。
+        &.image {
+            .edit {
+                display: none;
+            }
+
+           
+        }
+
+        .add {
+            display: inline-block; /*文件类型下，也显示添加按钮*/
+        }
+
+        .delete {
+            display: inline-block;
+        }
+
+        .edit {
+            display: inline-block;
+        }
+
+        .rename {
+            display: inline-block;
+        }
+
+        .download {
+            display: inline-block;
+        }
+
+        .open {
+            display: inline-block;
+        }
+
+        .use {
+            display: inline-block;
+        }
+
+        .demo {
+            display: inline-block;
+        }
+
+        &.side-menu {
+            .sidebar {
+                display: inline-block;
+            }
+        }
+
+        &.top-menu {
+            .topmenu {
+                display: inline-block;
+            }
+        }
+    }
+
+
+
+
+
+
+
+    button {
+        font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+        resize: none;
+        margin: 2px 0px 2px 0px;
+        outline: none;
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 8px;
+        border: 1px solid;
+        border-radius: 2px;
+        cursor: pointer;
+        color: #61a7e5;
+        background-color: #fff;
+        border-color: #dce6f0;
+        display: none;
+        width: 100px;
+
+
+
+        span {
+            margin-left: 5px;
+            /*display: none;*/
+        }
+
+        &:hover {
+            border-color: #61a7e5;
+        }
+
+        &:focus {
+            background-color: #f4faff;
+            border-color: #61a7e5;
+            color: #61a7e5;
+        }
+
+        &.refresh {
+            display: inline-block;
+            color: #3F51B5;
+        }
+
+        &.rename {
+            color: #FF9800;
+
+            &:hover {
+                border-color: #e29f97;
+            }
+
+            &:focus {
+                background-color: #fff5f4;
+                border-color: #e29f97;
+                color: #ef6155;
+            }
+        }
+
+        &.add {
+            color: #6b9629;
+
+            &:hover {
+                border-color: #6b9629;
+            }
+
+            &:focus {
+                background-color: #f4ffe4;
+                border-color: #93c546;
+                color: #6b9629;
+            }
+        }
+
+        &.delete {
+            color: #ef6155;
+
+            &:hover {
+                border-color: #e29f97;
+            }
+
+            &:focus {
+                background-color: #fff5f4;
+                border-color: #e29f97;
+                color: #ef6155;
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+
+.view-file-list {
+
+    .tree {
+        display: inline-block;
+        vertical-align: top;
+        width: 400px;
+        height: 100%;
+        position: relative;
+        border-right: 2px solid #e8ecf0;
+        box-sizing: border-box;
+
+
+        > .header {
+            font-size: 20px;
+            background: #fff;
+            border-bottom: solid 1px #eee;
+            padding-left: 10px;
+            position: relative;
+
+            li {
+                display: inline-block;
+                padding: 4px 5px;
+                color: #eee; /*禁用*/
+                &.dir-only {
+                    display: none;
+                }
+            }
+            /*启用的样式。*/
+            .enabled-li {
+                color: #bad2e4;
+                cursor: pointer;
+
+                &:hover {
+                    color: #afbcc6;
+                }
+
+                &:active {
+                    color: #607D8B;
+                }
+            }
+
+            &.back li.back {
+                .enabled-li;
+            }
+
+            &.forward li.forward {
+                .enabled-li;
+            }
+
+            &.up li.up {
+                .enabled-li;
+            }
+
+            &.root li.root {
+                .enabled-li;
+            }
+
+            &.dir-only li.dir-only {
+                cursor: pointer;
+                position: absolute;
+                right: 0px;
+                font-size: 14px;
+                color: #4b6fb0;
+                bottom: 4px;
+                display: inline-block;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        > .main {
+            width: 100%;
+
+            &.dir-only {
+                li.li-last {
+                    display: none;
+                }
+
+                ul.all-files {
+                    display: none !important;
+                }
+            }
+        }
+
+        > .resizer {
+            position: absolute;
+            width: 4px;
+            height: 100%;
+            right: -4px;
+            bottom: 0px;
+            top: 0px;
+            display: inline-block;
+            cursor: ew-resize;
+
+            &:hover,
+            &:active {
+                background: #9E9E9E;
+            }
+        }
+    }
+}

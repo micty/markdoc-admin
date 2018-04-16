@@ -1,0 +1,53 @@
+
+ul.Outline {
+    font-size: 14px;
+    padding: 0px 14px 0px 25px;
+    overflow: scroll;
+    height: 100%;
+
+    li {
+        cursor: pointer;
+        padding: 2px 0px;
+        color: #08c;
+        /*CSS实现内容超过长度后以省略号显示*/
+        overflow: hidden; /*隐藏超出单元格的部分。*/
+        text-overflow: ellipsis; /*将被隐藏的那部分用省略号代替。*/
+        white-space: nowrap; /* 保证文本内容不会自动换行，如果多余的内容会在水平方向撑破单元格。*/
+        &:hover {
+            color: #005580;
+            text-decoration: underline;
+        }
+
+        &.h1 {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        &.h2 {
+            color: #4b6fb0;
+            font-weight: bold;
+        }
+
+        &.h3 {
+            color: #3F51B5;
+        }
+
+        &.h4 {
+            color: #03A9F4;
+        }
+
+        &.h5 {
+            color: #795548;
+        }
+
+        &.h6 {
+            color: #607D8B;
+        }
+
+
+        .tab {
+            padding: 2px 10px;
+            border-left: dotted 1px #afbcc6;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+
+
+
+
+.master {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #e8ecf0;
+    font-size: 0;
+    min-width: 1280px;
+
+    &.hide {
+        .container {
+            width: calc(100% - 60px);
+            transition: width 0.1s ease-in-out;
+        }
+    }
+
+
+    .container {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 13px;
+        width: calc(100% - 180px);
+        transition: width 0.1s ease-in-out;
+        height: 100%;
+
+
+        > .main {
+            font-size: 0;
+            height: calc(100% - 80px);
+            box-sizing: border-box;
+        }
+    }
+
+
+    &.fullscreen {
+        .container {
+            width: 100%;
+
+            > header {
+                display: none;
+            }
+
+            .main {
+                height: 100%;
+            }
+        }
+    }
+}

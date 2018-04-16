@@ -1,0 +1,36 @@
+
+
+.view-404 {
+    background: #fff;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+
+    .animation {
+        width: 190px;
+        height: 190px;
+        background: url(../img/cloud.png) no-repeat center;
+        position: relative;
+
+        .wheel {
+            position: absolute;
+            bottom: 35px;
+            right: 2px;
+            display: inline-block;
+            height: 105px;
+            width: 105px;
+            background: url(../img/wheel.png) no-repeat center;
+            animation: rotate 2s infinite linear;
+        }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

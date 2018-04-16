@@ -1,0 +1,34 @@
+﻿
+<template id="tpl-Dialog">
+    <div id="{id}" class="Dialog {cssClass}" style="{style}" {attributes}>
+        <header id="{headerId}">
+            <template name="header" placeholder="header">
+                <span>{title}</span>
+                <span id="{sizerId}" class="sizer"></span>
+                <i title="关闭窗口"></i>
+            </template>
+        </header>
+        <article id="{contentId}">
+            <template name="content" placeholder="content"></template>
+        </article>
+
+        <footer id="{footerId}">
+            <template name="footer" placeholder="footer">
+                <template name="content" placeholder="content">
+                </template>
+                <template name="buttons" placeholder="buttons">
+                    <div class="buttons">
+                        <template name="button" placeholder="buttons">
+                            <button data-index="{index}" class="{cssClass}">{text}</button>
+                        </template>
+                    </div>
+                </template>
+                <template name="resizer" placeholder="resizer">
+                    <i data-id="{id}"></i>
+                </template>
+            </template>
+        </footer>
+    </div>
+</template>
+
+

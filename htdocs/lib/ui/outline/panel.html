@@ -1,0 +1,13 @@
+﻿
+<template id="tpl-Outline">
+    <ul class="Outline">
+        <template name="item" placeholder="items">
+            <li data-index="{index}" class="h{level}" title="{text}">
+                <template name="tab" placeholder="tabs">
+                    <span class="tab"></span>
+                </template>
+                <span class="text">{text}</span>
+            </li>
+        </template>
+    </ul>
+</template>

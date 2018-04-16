@@ -1,0 +1,23 @@
+﻿
+
+<div data-panel="/FileList/Dialog" class="view-file-list-dialog" style="display: none;">
+    <div data-panel="/FileList/Dialog/Content" class="pro-content">
+       
+        <template name="names" placeholder="names">
+            <div class="names">
+                <span>{parent}</span><input data-id="name" type="text" value="{name}" placeholder="请输入名称" />
+            </div>
+        </template>
+        <template name="types" placeholder="types">
+            <div class="types">
+                <label><input name="type" type="radio" value="dir" checked="checked" />目录</label>
+                <label><input name="type" type="radio" value="file" />文件</label>
+
+                <label data-panel="/FileList/Dialog/Content/File" class="upload" style="display: none;">
+                    <input type="file" />
+                    <p>可以创建一个空文件，也可以上传一个已有的文件并重命名。</p>
+                </label>
+            </div>
+        </template>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+﻿<template id="tpl-TextDropList">
+    <input id="{txtId}" class="text" value="{text}" {readonly} {disabled}/>
+    <ul id="{ulId}" class="list">
+        <template name="item" placeholder="items">
+            <li data-index="{index}" class="{disabled} {class}" title="{title}">
+                {text}
+                <template name="keyword"><span class="keyword">{keyword}</span></template>
+                <template name="column"><span class="column {class}" style="{width}">{text}</span></template>
+            </li>
+        </template>
+    </ul>
+
+</template>

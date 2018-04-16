@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>markdoc-admin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link href="f/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.debug.css" rel="stylesheet" />
+
+    <link href="f/kisp/kisp.debug.css" rel="stylesheet" />
+    <link href="f/highlight/styles/default.css" rel="stylesheet" />
+    <link href="f/datetimepicker/datetimepicker.mod.debug.css" rel="stylesheet" />
+    <link href="f/CodeMirror/lib/codemirror.css" rel="stylesheet" />
+
+    <link href="f/CodeMirror/theme/3024-day.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/3024-night.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/ambiance-mobile.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/ambiance.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/base16-dark.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/base16-light.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/blackboard.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/cobalt.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/eclipse.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/elegant.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/erlang-dark.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/lesser-dark.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/mbo.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/mdn-like.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/midnight.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/monokai.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/neat.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/neo.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/night.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/paraiso-dark.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/paraiso-light.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/pastel-on-dark.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/rubyblue.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/solarized.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/the-matrix.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/tomorrow-night-eighties.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/twilight.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/vibrant-ink.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/xq-dark.css" rel="stylesheet" />
+    <link href="f/CodeMirror/theme/xq-light.css" rel="stylesheet" />
+
+    <!--weber.less.begin-->
+    <script>
+        [
+            'style/less/global.less',
+            'style/less/confirm.less',
+            'style/less/component.less',
+            'style/less/editor.less',
+
+
+            'lib/**/*.less',
+            'modules/**/*.less',
+            'views/**/*.less',
+        ]
+    </script>
+    <!--weber.less.end-->
+
+</head>
+
+
+
+<body>
+
+    <link rel="html" href="modules/loading/panel.html" />
+    <link rel="html" href="modules/login/panel.html" />
+
+    <div data-panel="/Master" class="master" style="display: none">
+        <link rel="html" href="modules/master/Master/sidebar/panel.html" />
+        <div class="container">
+            <header>
+                <link rel="html" href="modules/master/Master/header/panel.html" />
+                <div class="top-tabs">
+                    <link rel="html" href="modules/master/Master/page-tabs/panel.html" />
+                    <link rel="html" href="modules/master/Master/page-list/panel.html" />
+                </div>
+            </header>
+
+            <div data-panel="/Master/Views" class="main">
+                <!--weber.html.begin-->
+                <script>
+                    [
+                        'views/**/view.html',
+                    ]
+                </script>
+                <!--weber.html.end-->
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!--weber.html.begin-->
+    <script>
+        [
+            'lib/**/panel.html',
+        ]
+    </script>
+    <!--weber.html.end-->
+
+    <script src="f/kisp/jquery/jquery-2.1.1.debug.js"></script>
+    <script src="f/kisp/kisp.debug.js"></script>
+    <script src="f/highlight/highlight.pack.js"></script>
+    <script src="f/marked/marked.mod.debug.js"></script>
+    <script src="f/resolve-url/resolve-url.debug.js"></script>
+    <script src="f/datetimepicker/datetimepicker.mod.debug.js"></script>
+
+    <script src="f/CodeMirror/lib/codemirror.js"></script>
+    <script src="f/CodeMirror/addon/mode/overlay.js"></script>
+    <script src="f/CodeMirror/addon/selection/active-line.js"></script>
+
+    <script src="f/CodeMirror/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="f/CodeMirror/mode/css/css.js"></script>
+    <script src="f/CodeMirror/mode/javascript/javascript.js"></script>
+    <script src="f/CodeMirror/mode/markdown/markdown.js"></script>
+    <script src="f/CodeMirror/mode/gfm/gfm.js"></script>
+
+    <script src="config.js"></script>
+
+    <!--weber.js.begin-->
+    <script>
+        [
+            'data/**/*.js',
+            'defaults/**/*.js',
+            'lib/**/*.js',
+            'modules/**/*.js',
+            'views/**/*.js',
+            'routers/**/*.js',
+            'index.js',
+        ]
+    </script>
+    <!--weber.js.end-->
+
+
+
+</body>
+
+</html>

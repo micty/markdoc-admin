@@ -1,0 +1,147 @@
+﻿
+.view-top-menus {
+
+    .main {
+        .guide {
+
+
+            .form {
+                height: calc(100% - 165px);
+                padding: 0px 20px;
+                box-sizing: border-box;
+                width: 800px;
+
+                &.more {
+                    div.more {
+                        display: block;
+                    }
+                    /*只有是在编辑一级菜单项时，才显示【添加二级菜单项】按钮*/
+                    &.edit-level-1 {
+                        div.more {
+                            .header {
+                                button {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+               
+                /*常规下隐藏【添加二级菜单项】按钮*/
+                div.more {
+                    .header {
+                        button {
+                            display: none;
+                        }
+                    }
+                }
+
+
+                div.base, div.more {
+                    margin-top: 20px;
+                    border: solid 1px #e8ecf0;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+
+                    .header {
+                        position: relative;
+                        padding-bottom: 5px;
+                        margin-bottom: 5px;
+                        border-bottom: solid 0px #61a7e5;
+
+                        p {
+                            font-size: 14px;
+                            color: #ef6155;
+                            margin: 5px 0px;
+                            display: inline-block;
+                        }
+
+                        button {
+                            position: absolute;
+                            right: 0;
+                        }
+                    }
+                }
+
+                div.more {
+                    display: none;
+                }
+
+                table {
+                    border: solid 1px #9E9E9E;
+                    border-bottom: none;
+                    border-left: none;
+                    width: 100%;
+                    font-size: 14px;
+                    border-spacing: 0;
+
+
+                    th {
+                        background: #eee;
+                        text-align: right;
+                        width: 50px;
+                        font-weight: normal;
+                        border: solid 1px #9E9E9E;
+                        border-top: none;
+                        border-right: none;
+                        padding: 5px 5px;
+                    }
+
+                    td {
+                        border: solid 1px #9E9E9E;
+                        border-top: none;
+                        border-right: none;
+                        padding: 0;
+                    }
+
+                    td.desc {
+                        background: #f9f9f9;
+                        width: 200px;
+                        color: #999;
+                        padding-left: 5px;
+
+                        span {
+                            margin-right: 5px;
+                        }
+
+                        .required {
+                            color: red;
+                        }
+                    }
+
+                    input {
+                        width: 100%;
+                        border: navajowhite;
+                        height: 100%;
+                        box-sizing: border-box;
+                        outline: none;
+                        padding: 5px 7px;
+                        font-size: 16px;
+                        /* font-weight: bold; */
+                        /* letter-spacing: 1px; */
+                        color: #61a7e5;
+
+                        &:focus {
+                            background-color: #fff7e6;
+                        }
+                    }
+
+                    tr.url {
+                        background: #f9f9f9;
+
+                        a {
+                            margin-left: 5px;
+                            color: #8da6ce;
+                            text-decoration: underline;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+﻿<div data-view="/DocAdd" class="view view-doc-add" style="display: none;">
+    
+    
+    <link rel="html" href="DocAdd/header/panel.html" />
+
+
+    <div data-panel="/DocAdd/Themes" class="theme-list">
+        <ul data-panel="/DocAdd/Themes/List" style="display: none;">
+            <template name="item" placeholder="items">
+                <li data-index="{index}">
+                    {name}
+                    <template name="desc" placeholder="desc">
+                        <span>({desc})</span>
+                    </template>
+                </li>
+            </template>
+        </ul>
+    </div>
+
+    <div data-panel="/DocAdd/Outline" class="dialog-outline" style="display: none;">
+        <h1>内容目录</h1>
+        <div></div>
+    </div>
+
+    <div data-panel="/DocAdd/Editor" class="editor">
+        <textarea>
+            <link rel="html" href="readme.md" tabs="0" />
+        </textarea>
+    </div>
+
+    <div data-panel="/DocAdd/Preview" class="preview">
+        <div class="markdoc"></div>
+    </div>
+    
+
+</div>
+
+
+

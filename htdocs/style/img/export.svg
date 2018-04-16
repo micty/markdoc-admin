@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>引出</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="图" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="引出" fill="#61A7E5">
+            <g id="引入引出">
+                <path d="M12,5 L1,5 C0.44771525,5 6.76353751e-17,4.55228475 0,4 C-6.76353751e-17,3.44771525 0.44771525,3 1,3 L1,3 L7,3 L7,0 L12,5 Z M0,10 L12,10 L12,12 L0,12 L0,10 Z M0,8 L1,8 L1,10 L0,10 L0,8 Z M11,8 L12,8 L12,10 L11,10 L11,8 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

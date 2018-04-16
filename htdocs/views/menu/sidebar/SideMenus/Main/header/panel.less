@@ -1,0 +1,102 @@
+﻿
+.view-side-menus {
+    .main {
+        .header {
+            border-bottom: solid 1px #e8ecf0;
+
+            .path {
+                display: inline-block;
+                margin-left: 100px;
+                /* margin-top: 10px; */
+                position: relative;
+                bottom: -4px;
+
+                .edit {
+                    color: #ef6155;
+                    display: none;
+                    font-size: 20px;
+                    position: relative;
+                    top: 2px;
+                }
+
+                .add {
+                    color: #ef6155;
+                }
+
+                &.edit-mode {
+                    .edit {
+                        display: inline-block;
+                    }
+
+                    .add {
+                        display: none;
+                    }
+                }
+
+                input {
+                    height: 26px;
+                    width: 300px;
+                    padding: 0 15px 0 10px;
+                    border: 1px solid #ddd;
+                    outline: none;
+                    border-radius: 15px;
+                    margin-right: 10px;
+                    /* background: #fff url(../img/true.png) 8px 5px no-repeat; */
+                    background-size: 14px;
+                    background-position: 10px 50%;
+                    box-shadow: 0px 0px 0px 1px transparent;
+                    /* color: #FF9800; */
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+
+            .tabs {
+                line-height: 48px;
+                /*width: 248px;*/
+                height: 48px;
+                vertical-align: middle;
+                color: #5A646E;
+                overflow: hidden;
+                background-color: #fff;
+                display: inline-block;
+                /* margin-left: 82px; */
+                li {
+                    margin-left: 10px;
+                    height: 44px;
+                    display: inline-block;
+                    font-size: 16px;
+                    cursor: pointer;
+                    padding: 0 14px;
+
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    &.on {
+                        color: #61a7e5;
+                        border-bottom: 4px solid #61a7e5;
+                        /*transition: border-bottom 0.2s ease;*/
+                    }
+
+                    &.save {
+                        font-size: 14px;
+                        color: #fff;
+                        background: #ffaf4a;
+                        height: 30px;
+                        border-radius: 4px;
+                        line-height: 30px;
+                        margin-top: 8px;
+                        margin-right: 8px;
+                        position: absolute;
+                        right: 0px;
+
+                        &:hover {
+                            background: #ff9c20;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

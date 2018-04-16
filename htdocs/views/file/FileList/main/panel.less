@@ -1,0 +1,107 @@
+
+.view-file-list {
+
+
+
+
+
+    .main {
+        width: calc(100% - 766px);
+        display: inline-block;
+        /* overflow: scroll; */
+        height: 100%;
+        box-sizing: border-box;
+        background: #fff;
+
+        .gridview {
+            height: 100%;
+            /* width: calc(100% - 776px); */
+            /* overflow: scroll; */
+            /* display: inline-block; */
+            font-size: 14px;
+            box-sizing: border-box;
+            padding: 5px 5px;
+
+            tr.dir {
+                span.filename {
+                    color: #e28652;
+                }
+            }
+
+
+            td.order {
+                color: #aaa;
+            }
+
+            td.name {
+                color: #61a7e5;
+
+
+                a.detail {
+                    /*为了消除span之间的间隔。*/
+                    font-size: 0px;
+                    display: inline-block;
+                    height: 19px;
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+
+                input {
+                    width: 100%;
+                    font-size: 15px;
+                    padding: 5px 4px;
+                    box-sizing: border-box;
+                    border: none;
+                    outline: none;
+                    display: none;
+                }
+
+                &.text {
+                    padding: 0;
+
+                    a.detail {
+                        display: none;
+                    }
+
+                    input {
+                        display: inline-block;
+                    }
+                }
+            }
+
+            td.size {
+                text-align: right;
+                color: #e29f97;
+            }
+
+            td.time {
+                color: #ccc;
+            }
+
+            span.dir {
+                color: #e08600;
+            }
+
+            span.filename {
+                color: #000;
+            }
+
+            span.keyword {
+                /* color: #fff; */
+                /* background: #6b9629; */
+                font-weight: bold;
+                background: #ececec;
+            }
+
+            a {
+                cursor: pointer;
+
+                &:hover {
+                    background: #FFEB3B;
+                }
+            }
+        }
+    }
+}

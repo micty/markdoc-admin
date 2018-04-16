@@ -1,0 +1,38 @@
+﻿
+<template id="tpl-Pager">
+    <ul class="Pager">
+        <li class="buttons">
+            <ul>
+                <li class="LR-button {first-disabled-class}" data-button="previous" title="上一页">
+                    <i class="left-btn"></i>
+                </li>
+
+                <template name="region" placeholder="regions">
+                    <template name="item">
+                        <li class="item {active}" data-no="{no}">{no}</li>
+                    </template>
+                    <template name="more">
+                        <li class="item more"></li>
+                    </template>
+                </template>
+                <li class="LR-button {final-disabled-class}" data-button="next" title="下一页">
+                    <i class="right-btn"></i>
+                </li>
+            </ul>
+        </li>
+        <li class="page-count">
+            总{total}条，共{count}页，每页
+            <select id="{sizerId}" class="select-num">
+                <template name="size" placeholder="sizes">
+                    <option {selected}>{value}</option>
+                </template>
+            </select>
+        </li>
+        <li class="page-jump">
+            <span>跳到：</span>
+            <input id="{txtId}" type="text" class="page-number" value="{toNo}" />
+            <a href="javascript:" class="jump-button {jump-disabled-class}" data-button="to">GO</a>
+        </li>
+    </ul>
+</template>
+

@@ -1,0 +1,55 @@
+﻿
+.view-side-menus {
+    .main {
+        .code {
+            position: relative;
+            height: 100%;
+
+            .editor {
+                float: left;
+                height: 100%;
+                width: 50%;
+
+                > div {
+                    margin-right: 4px;
+                }
+
+                > ul {
+                    position: absolute;
+                    right: 50%;
+                    top: 0;
+                    margin-right: 12px;
+                    opacity: 0.3;
+                    background: #ffffff;
+                    padding: 10px;
+                    z-index: 2;
+                    font-size: 14px;
+                }
+
+                > textarea {
+                    overflow: auto;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                .CodeMirror {
+                    font-family: Monaco, Menlo, Consolas, 'Courier New', monospace;
+                    height: 100%;
+                    line-height: 1.42857143;
+                }
+            }
+
+            .preview {
+                float: left;
+                height: 100%;
+                width: 50%;
+                background: #fff;
+                overflow: scroll;
+
+                .markdoc {
+                    margin: 0px 10px;
+                }
+            }
+        }
+    }
+}

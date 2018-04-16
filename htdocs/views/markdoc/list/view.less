@@ -1,0 +1,70 @@
+
+.view-doc-list {
+
+    .main {
+        padding: 10px 20px;
+        background: #fff;
+        height: 100%;
+
+        td.title {
+            a {
+                cursor: pointer;
+                /* font-weight: bold; */
+                font-size: 16px;
+                color: #ef9d55;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+
+        td.operation {
+            button {
+                font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+                resize: none;
+                margin: 0;
+                outline: none;
+                font-size: 14px;
+                height: 28px;
+                line-height: 28px;
+                padding: 0 8px;
+                border: 1px solid;
+                border-radius: 2px;
+                cursor: pointer;
+                color: #61a7e5;
+                background-color: #fff;
+                border-color: #dce6f0;
+
+                span {
+                    margin-left: 5px;
+                    display: none;
+                }
+
+                &:hover {
+                    border-color: #61a7e5;
+                }
+
+                &:focus {
+                    background-color: #f4faff;
+                    border-color: #61a7e5;
+                    color: #61a7e5;
+                }
+
+                &.delete {
+                    color: #ef6155;
+
+                    &:hover {
+                        border-color: #e29f97;
+                    }
+
+                    &:focus {
+                        background-color: #fff5f4;
+                        border-color: #e29f97;
+                        color: #ef6155;
+                    }
+                }
+            }
+        }
+    }
+}
