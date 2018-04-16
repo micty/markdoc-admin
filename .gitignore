@@ -12,3 +12,7 @@
 /htdocs/packages
 /htdocs/index.html
 
+/server/bak
+/server/node_modules
+/server/console.log
+/server/package-lock.json

@@ -5,7 +5,7 @@ MarkDoc 文档展示平台管理系统
 
 ###简介 
 
-针对 MarkDoc 文档展示平台的管理系统。
+针对 MarkDoc 文档展示平台的管理系统，包括 web 页面和 server 端。
 
 
 
