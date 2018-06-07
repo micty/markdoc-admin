@@ -18,7 +18,6 @@ define('FileList/List', function (require, module, exports) {
             var dir$dirs = {};  //某个目录对应的子目录列表（仅当前层级，不包括子目录的）。
 
             Directory.each(root, function (dir, files, dirs) {
-               
 
                 //文件列表，取成短名称。
                 files = files.map(function (file) {
@@ -36,6 +35,8 @@ define('FileList/List', function (require, module, exports) {
 
                 //当前目录名，取成短名称。
                 dir = Path.relative(root, dir);
+
+                dir = '/' + dir;
 
                 dir$files[dir] = files;
                 dir$dirs[dir] = dirs;
@@ -61,7 +62,7 @@ define('FileList/List', function (require, module, exports) {
 
                     return {
                         'type': 'file',
-                        'name': name,
+                        'name': '/' + name,
                         'ext': ext,
                         'stat': fs.statSync(file),
                     };
@@ -73,7 +74,7 @@ define('FileList/List', function (require, module, exports) {
 
                     return {
                         'type': 'dir',
-                        'name': name,
+                        'name': '/' + name,
                         'stat': fs.statSync(sdir),
                     };
                 });

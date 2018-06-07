@@ -11,8 +11,8 @@ KISP.panel('/SideMenus/Main/Header', function (require, module, panel) {
 
     panel.on('init', function () {
 
-        Tabs.on('cmd', function (cmd) {
-            panel.fire(cmd);
+        Tabs.on('cmd', function (cmd, fromRender) {
+            panel.fire(cmd, [fromRender]);
         });
 
 

@@ -37,7 +37,9 @@ KISP.launch(function (require, module) {
             //Master.open('DocHelp', []);
             //Master.open('Demo.GridView', []);
             //Master.open('TopMenus', []);
-            //Master.open('SideMenus', ['house/permit/sidebar.json']);
+            //Master.open('SideMenus', ['es6/sidebar.json']);
+            //Master.open('DocAdd', [{ id: '/js-specification.md', }]);
+            //Master.open('DocAdd', [{ id: '/demo.md', }]);
 
 
             Master.open('FileList', []);

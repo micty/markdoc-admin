@@ -7,7 +7,6 @@ define('FileList', function (require, module, exports) {
     var Directory = require('Directory');
     var fs = require('fs');
     var List = module.require('List');
-    var Uploader = module.require('Uploader');
 
     var root = '';
 
@@ -45,7 +44,7 @@ define('FileList', function (require, module, exports) {
         var isFile = !stat.isDirectory();
 
         var data = {
-            'name': id,
+            'name': id.startsWith('/') ? id : '/' + id, //确保以 `/` 开头。
             'stat': stat,
             'type': isFile ? 'file' : 'dir',
         };

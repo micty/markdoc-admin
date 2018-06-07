@@ -24,6 +24,13 @@ KISP.panel('/TopMenus/Main/Guide', function (require, module, panel) {
             'file': function (file) {
                 panel.fire('file', [file]);
             },
+            'change': function () {
+                var item = Form.get();
+                //实时更新到树中。
+                if (item && item.id) {
+                    panel.fire('update', [item]);
+                }
+            },
         });
 
         Footer.on({
@@ -38,8 +45,10 @@ KISP.panel('/TopMenus/Main/Guide', function (require, module, panel) {
             },
             'update': function () {
                 var item = Form.get();
+                if (item) {
+                    panel.fire('update', [item]);
+                }
 
-                panel.fire('update', [item]);
             },
             'delete': function () {
                 var item = Form.get('current');

@@ -14,6 +14,7 @@ KISP.panel('/SideMenus/Main/Header/Tabs', function (require, module, panel) {
 
     var tabs = null;
     var currentIndex = 0;
+    var fromRender = false;
 
 
 
@@ -28,8 +29,13 @@ KISP.panel('/SideMenus/Main/Header/Tabs', function (require, module, panel) {
         tabs.on('change', function (item, index) {
             currentIndex = index;
             item = list[index];
-            panel.fire('cmd', [item.cmd]);
+
+            panel.fire('cmd', [item.cmd, fromRender]);
+            fromRender = false; //重置。
+
         });
+
+
 
         panel.$.on('click', '[data-index]', function () {
             var index = +this.getAttribute('data-index');
@@ -65,7 +71,7 @@ KISP.panel('/SideMenus/Main/Header/Tabs', function (require, module, panel) {
             };
         });
 
-
+        fromRender = true;
         tabs.active(index);
 
     });

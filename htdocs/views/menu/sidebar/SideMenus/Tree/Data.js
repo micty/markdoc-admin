@@ -26,7 +26,7 @@ define('/SideMenus/Tree/Data', function (require, module, exports) {
             var groups = list.map(function (group) {
                 var base = group.base || '';
                 var ext = group.ext || '';
-
+                var name = group.name || '';
 
                 //二级菜单。
                 var list = group.items || [];
@@ -47,6 +47,7 @@ define('/SideMenus/Tree/Data', function (require, module, exports) {
                             'path': path,
                             'url': url,
                             'base': baseFile,
+                            'icon': item.icon,
                         },
                     };
                 });
@@ -54,15 +55,17 @@ define('/SideMenus/Tree/Data', function (require, module, exports) {
                 //一级菜单。
                 var item = {
                     'id': group.id || $String.random(),
-                    'name': group.name,
+                    'name': name,
                     'open': true,
                     'foldable': true,
                     'list': list,
                     'icons': [],
                     'data': {
-                        'name': group.name,
+                        'name': name,
+                        'fold': group.fold || false,
                         'base': base,
                         'ext': ext,
+                        'icon': group.icon,
                     },
                 };
 
@@ -99,8 +102,10 @@ define('/SideMenus/Tree/Data', function (require, module, exports) {
                 //一级菜单。
                 var group = {
                     'name': data.name,
+                    'fold': data.fold,
                     'base': data.base,
                     'ext': data.ext,
+                    'icon': data.icon,
                     'items': [],
                 };
 
@@ -114,6 +119,7 @@ define('/SideMenus/Tree/Data', function (require, module, exports) {
                         return {
                             'name': data.name,
                             'file': data.file,
+                            'icon': data.icon,
                         };
 
                     });

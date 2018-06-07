@@ -1,0 +1,424 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>iPhoto - MarkDoc</title>
+    <link href="http://www.definejs.com/f/fontawesome-free-5.0.13/web-fonts-with-css/css/fontawesome-all.min.css?D61B" rel="stylesheet">
+    <link href="http://www.definejs.com/f/highlight/styles/default.css?1201" rel="stylesheet">
+    <script>!function () { var e = navigator.userAgent; e.indexOf("Chrome") > 0 || e.indexOf("Safari") > 0 || e.indexOf("Firefox") > 0 || (alert("为提升性能和体验，本网站仅支持 Chrome、Safari 等主流浏览器。"), location.href = "https://www.baidu.com/s?wd=chrome") }()</script>
+    <link rel="stylesheet" href="http://www.definejs.com/style/css/CCACD430331EFE4D37888236E2343C0E.css">
+</head>
+<body class="">
+    <div class="wrapper no-header">
+        <div data-panel="/Main" class="panel-main" style="min-width: 750px; max-width: 840px;">
+            <div data-panel="/Main/Content" class="content fadeIn show">
+
+                <div data-id="content" class="container MarkDoc" style="display: block;">
+                    <h1 id="iphoto">iPhoto</h1>
+<hr>
+<p>一个用纯 NodeJS 编写的照片归类小工具。<br>使用该工具，可以对从手机中导出的照片、视频等文档进行归类。<br>至于从其它设备如数码相机导出的照片和视频等，理论上也可以处理。</p>
+<h2 id="-">产生背景</h2>
+<p>我们在使用手机时会产生很多图片和视频等珍贵的资料文档，如：</p>
+<ul>
+<li>拍摄的照片。</li>
+<li>录制的视频。</li>
+<li>手机截屏。</li>
+<li>在使用各种 APP 时保存的图片和视频等。</li>
+</ul>
+<p>用 Windows 导出到电脑时，虽然可以按日期进行归类到对应的目录，但缺少进一步的归类，不方便收集和处理。
+例如，用手机拍摄的照片，照片中就包含有完整的 EXIF 信息，EXIF 信息是一种描述照片信息的元数据，包括拍摄日期、拍摄地点、分辨率等。</p>
+<blockquote>
+<p>EXIF 信息，是可交换图像文件的缩写，是专门为数码相机的照片设定的，可以记录数码照片的属性信息和拍摄数据。 EXIF 可以附加于 JPEG、TIFF、RIFF 等文件之中，为其增加有关数码相机拍摄信息的内容和索引图或图像处理软件的版本信息。</p>
+</blockquote>
+<p>手机截屏、各种 APP 保存得到的图片则没有 EXIF 信息。<br>手机截屏的后缀名为 <code>.PNG</code>，从 APP 中保存得到的图片则为 <code>.JPG</code>。<br>录制的视频格式为 <code>.MOV</code>，而在微信上保存的视频一般为 <code>.mp4</code> 等等。  </p>
+<p>基于以上特征情况，特写了个小工具，用于把从手机中导出的照片、视频等文档进行归类。</p>
+<h2 id="-">使用方式</h2>
+<p>在项目根目录，运行 <code>node index</code> 即可。<br>该工具使用拷贝的方式进行处理，不会对原文件造成影响，请放心使用。<br>当目标文件存在时，可以通过配置指定是覆盖还是跳过，默认是跳过。  </p>
+<h2 id="-">配置</h2>
+<p>在使用之前，请根据个人情况修改根目录下的 <code>config.js</code> 文件中的配置内容。一般而言，只需要配置 <code>src</code> 和 <code>dest.base</code> 字段即可，这两个字段指定了要处理的输入目录和输出的目标目录，其它字段保持为默认值即可。</p>
+<h3 id="-">总配置</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>src</code></td>
+<td><strong><em>string</em></strong></td>
+<td>要扫描的输入目录。</td>
+</tr>
+<tr>
+<td><code>dest</code></td>
+<td><strong><em>object</em></strong></td>
+<td>输出目录，复合值，具体字段见下表。</td>
+</tr>
+<tr>
+<td><code>exif</code></td>
+<td><strong><em>object</em></strong></td>
+<td>EXIF 信息的配置对象，复合值，具体字段见下表。</td>
+</tr>
+<tr>
+<td><code>excludes</code></td>
+<td><strong><em>Array</em></strong></td>
+<td>要排除的文件类型。如一些隐藏的系统文件 <code>.ini</code> 等。</td>
+</tr>
+</tbody></table>
+<pre><code class="language-js">{
+    src: &#39;&#39;,
+    dest: &#39;&#39;,
+    exif: {},
+    excludes: [],
+}</code></pre>
+<h3 id="dest-">dest 配置对象</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>base</code></td>
+<td><strong><em>string</em></strong></td>
+<td>输出的基准目录，输出的所有路径都相对于此目录。</td>
+</tr>
+<tr>
+<td><code>overwrite</code></td>
+<td><strong><em>boolean</em></strong></td>
+<td>当要拷贝到的目标文件已存时，是否进行覆盖。默认是跳过。</td>
+</tr>
+<tr>
+<td><code>error</code></td>
+<td><strong><em>string</em></strong></td>
+<td>发生异常时输出 JSON 数据的保存路径。如果为空或不指定，则不输出。</td>
+</tr>
+<tr>
+<td><code>photo</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对有完整 EXIF 信息的照片的保存路径。</td>
+</tr>
+<tr>
+<td><code>.jpg</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对后缀名为 <code>.jpg</code> (后缀名不区分大小写) 的图片的保存路径。</td>
+</tr>
+<tr>
+<td><code>.png</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对后缀名为 <code>.png</code> (后缀名不区分大小写) 的图片的保存路径。</td>
+</tr>
+<tr>
+<td><code>.mov</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对后缀名为 <code>.mov</code> (后缀名不区分大小写) 的视频的保存路径。</td>
+</tr>
+<tr>
+<td><code>.mp4</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对后缀名为 <code>.mp4</code> (后缀名不区分大小写) 的视频的保存路径。</td>
+</tr>
+<tr>
+<td><code>.*</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对后缀名以上其它情况(后缀名不区分大小写) 的文件的保存路径。</td>
+</tr>
+<tr>
+<td><code>process</code></td>
+<td><strong><em>function</em></strong></td>
+<td>路径处理函数，提供一个机会给用户自己定制输出的文件名。</td>
+</tr>
+</tbody></table>
+<h4 id="process-">process 处理函数</h4>
+<p>dest 配置对象中，支持提供一个生成文件路径的处理函数：<code>process(require, data)</code>。<br>如果提该函数，则在处理每个文件时会调用它，并且它会接收到两个参数：</p>
+<ul>
+<li>参数 require， 是一个函数，可用于加载 <code>iPhoto</code> 本工具内部使用的模块。</li>
+<li>参建 data，是一个普通数据对象。</li>
+</ul>
+<p>其中 data 分两种情况而成员结构不同：</p>
+<h5 id="-exif-">处理带有 exif 信息的照片</h5>
+<p>当处理带有 exif 信息的照片文件时，参数 <code>data</code> 的结构为：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>make</code></td>
+<td><strong><em>string</em></strong></td>
+<td>相机设备的制造商，如 <code>Apple</code>。</td>
+</tr>
+<tr>
+<td><code>model</code></td>
+<td><strong><em>string</em></strong></td>
+<td>相机设备的名称，如 <code>iPhone 7 Plus</code>。</td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td><strong><em>string</em></strong></td>
+<td>相片的拍摄日期中的年份，如 <code>2018</code>。</td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td><strong><em>string</em></strong></td>
+<td>相片的拍摄日期中的月份，如 <code>05</code>。</td>
+</tr>
+<tr>
+<td><code>day</code></td>
+<td><strong><em>string</em></strong></td>
+<td>相片的拍摄日期中的日份，如 <code>29</code>。</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><strong><em>string</em></strong></td>
+<td>原始的基本文件名，如 <code>IMG_9070.JPG</code></td>
+</tr>
+<tr>
+<td><code>file</code></td>
+<td><strong><em>string</em></strong></td>
+<td>原始的完整文件名。</td>
+</tr>
+<tr>
+<td><code>sample</code></td>
+<td><strong><em>string</em></strong></td>
+<td>填充模板。来源于 <code>config.js</code> 的 <code>photo</code> 字段。</td>
+</tr>
+<tr>
+<td><code>ext</code></td>
+<td><strong><em>string</em></strong></td>
+<td>文件名的后缀名部分，如 <code>.JPG</code>。</td>
+</tr>
+<tr>
+<td><code>stat</code></td>
+<td><strong><em>object</em></strong></td>
+<td>文件的统计信息对象，由 NodeJS 原生方法 <code>fs.statSync(file)</code> 获取到。</td>
+</tr>
+<tr>
+<td><code>exif</code></td>
+<td><strong><em>object</em></strong></td>
+<td>exif 信息对象。</td>
+</tr>
+</tbody></table>
+<h5 id="-">处理普通图片和其它文档</h5>
+<p>当处理不带有 exif 信息的图片文件的其它文档时，参数 <code>data</code> 的结构为：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>base</code></td>
+<td><strong><em>string</em></strong></td>
+<td>输出的基准目录。来源于 <code>config.js</code> 的 <code>base</code> 字段。</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><strong><em>string</em></strong></td>
+<td>原始的基本文件名，如 <code>IMG_9070.JPG</code></td>
+</tr>
+<tr>
+<td><code>file</code></td>
+<td><strong><em>string</em></strong></td>
+<td>原始的完整文件名。</td>
+</tr>
+<tr>
+<td><code>sample</code></td>
+<td><strong><em>string</em></strong></td>
+<td>填充模板。来源于 <code>config.js</code> 的 <code>photo</code> 字段。</td>
+</tr>
+<tr>
+<td><code>ext</code></td>
+<td><strong><em>string</em></strong></td>
+<td>文件名的后缀名部分，已转换成小写，如 <code>.jpg</code>。</td>
+</tr>
+<tr>
+<td><code>stat</code></td>
+<td><strong><em>object</em></strong></td>
+<td>文件的统计信息对象，由 NodeJS 原生方法 <code>fs.statSync(file)</code> 获取到。</td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td><strong><em>string</em></strong></td>
+<td>文件的修改日期，也就是照片的真正的<code>创建日期</code>。</td>
+</tr>
+</tbody></table>
+<h3 id="exif-">exif 配置对象</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>exts</code></td>
+<td><strong><em>Array</em></strong></td>
+<td>需要提取 EXIF 信息的文件名后缀。</td>
+</tr>
+</tbody></table>
+<p><strong>注意：</strong> 如果需要扩展针对其它类型的处理，请自行增加一条记录，如 <code>.txt</code>。</p>
+<h3 id="-">配置中的模板填充</h3>
+<p>在配置的值中，路径类型的可以使用模板填充来获得某些信息。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>make</code></td>
+<td><strong><em>string</em></strong></td>
+<td>设备制造商名称，如 <code>Apple</code></td>
+</tr>
+<tr>
+<td><code>model</code></td>
+<td><strong><em>string</em></strong></td>
+<td>设备型号，如 <code>iPhone 4S</code></td>
+</tr>
+<tr>
+<td><code>year</code></td>
+<td><strong><em>string</em></strong></td>
+<td>照片拍摄年份，如 <code>2016</code></td>
+</tr>
+<tr>
+<td><code>month</code></td>
+<td><strong><em>string</em></strong></td>
+<td>照片拍摄月份，如 <code>08</code></td>
+</tr>
+<tr>
+<td><code>day</code></td>
+<td><strong><em>string</em></strong></td>
+<td>照片拍摄日份，如 <code>01</code></td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td><strong><em>string</em></strong></td>
+<td>原始的基本文件名，如 <code>IMG_9070.JPG</code></td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td><strong><em>string</em></strong></td>
+<td>针对没有 EXIF 信息的文件，默认取最后一级目录名为拍摄日期，如 <code>2016-08-29</code></td>
+</tr>
+</tbody></table>
+<p>要使用以上字段，请使用花括号 <code>{}</code> 括起来，如 <code>{make}</code></p>
+<h3 id="-">默认配置</h3>
+<p>在根目录的 <code>config.js</code> 文件中：</p>
+<pre><code class="language-js">
+module.exports = {
+
+    //扫描的来源目录。
+    src: [
+        &#39;E:/Photo/iPhone7P-iTools/2018_04/&#39;,
+    ],
+
+    //输出的目标。 
+    dest: {
+        //输出的基准目录，以下路径相对于此目录。
+        base: &#39;E:/Photo/iPhone7P-out/&#39;,
+
+        //是否覆盖目标文件。
+        overwrite: false,
+
+        //发生错误时的输出文件。
+        error: &#39;error.json&#39;,
+
+        //可以提取出 exif 信息的照片的输出路径。
+        photo: &#39;photo/{make}/{model}/{year}/{year}-{month}-{day}/{name}&#39;,
+
+        //以下是不能提取出 exif 信息的文件。
+        &#39;.jpg&#39;: &#39;jpg/{date}/{name}&#39;,
+        &#39;.png&#39;: &#39;png/{date}/{name}&#39;,
+        &#39;.mov&#39;: &#39;mov/{date}/{name}&#39;,
+        &#39;.mp4&#39;: &#39;mp4/{date}/{name}&#39;,
+        &#39;.*&#39;: &#39;other/{date}/{name}&#39;,
+
+        //生成文件名的处理函数。
+        //可以返回一个字符串或一个对象。 
+        //如果不提供，则使用默认的。
+        process: function (require, data) {
+            //由 iTools 导出的图片、视频等文件，
+            //命名格式如 `20180529_IMG_1153.JPG`，前面的 8 位是文档创建的日期。
+            //由 Windows 导出的，则为原始的文件名如 `IMG_1153.JPG`。 
+            //因此需要判断是哪种格式。
+
+            var name = data.name;
+            var reg = /^\d{8}_/;
+
+            //不符合以如 `20180529_` 开头的命名格式，不在这里处理。
+            if (!reg.test(name)) {
+                return;
+            }
+
+            var $ = require(&#39;$&#39;);           //defineJS 库。
+            var $Date = $.require(&#39;Date&#39;);  //defineJS 库里的模块。
+            var dt = name.slice(0, 8);      //日期串，如 `20180529`
+            var year = dt.slice(0, 4);      //年份，如 `2018`
+            var month = dt.slice(4, 6);     //月份，如 `05`
+            var day = dt.slice(6);          //日份，如 `29`
+            var date = year + &#39;-&#39; + month + &#39;-&#39; + day;  //如 `2018-05-29`
+
+            //尝试解析成标准的 Date 实例。
+            dt = $Date.parse(date);
+
+            //前面的 8 位数字无法解析成有效的日期实例，不在这里处理。
+            if (!dt) {
+                return;
+            }
+
+            //至此，确定是如 `20180529_IMG_1153.JPG` 的命名规则，
+            //则提取后半部分的名称，如 `IMG_1153.JPG`。
+            name = name.slice(9);
+
+            //有 exif 信息的，只需要改一下名称即可。
+            //模板字符串填充中需要用到其它字段，如 `make`、`model`，则默认会从 exif 中提取。
+            //此处只需要覆盖一下要改的字段即可。
+            //有 exif 信息的对应的模板字符串名称为 `photo`
+            if (data.exif) {
+                return { &#39;name&#39;: name, };
+            }
+
+            //其它文档。
+            //要提供的字段就参考对应的模板字符串，如名称为 `.jpg`、`.png` 等。
+            return {
+                &#39;date&#39;: date,
+                &#39;name&#39;: name,
+            };
+
+        },
+
+    },
+
+    //要排除的文件类型。
+    excludes: [
+        &#39;.ini&#39;,
+    ],
+
+    exif: {
+        //需要进行 exif 信息抽取的文件类型。
+        &#39;exts&#39;: [&#39;.JPG&#39;],
+    }
+
+}
+
+</code></pre>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

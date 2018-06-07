@@ -1,6 +1,0 @@
-{
-    "name": "",
-    "css": "**/*.less",
-    "js": "**/*.js",
-    "html": "view.html"
-}

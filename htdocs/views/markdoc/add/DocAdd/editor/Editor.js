@@ -6,12 +6,12 @@ KISP.panel('/DocAdd/Editor', function (require, module, panel) {
     var File = module.require('File');
     var CMD = module.require('CMD');
     var Table = module.require('Table');
+    var Headers = module.require('Headers');
 
     var passive = false;    //是否被动的滚动。 即是否由于外面调用而引起的滚动。
     var editor = null;
     var doc = null;
     var txt = panel.$.find('textarea').get(0);
-
 
     var ext$mode = {
         '.js': 'javascript',
@@ -31,13 +31,19 @@ KISP.panel('/DocAdd/Editor', function (require, module, panel) {
             //theme: 'midnight',
             cursorHeight: 1,
             lineNumbers: true,
-            lineWrapping: true,
+            lineWrapping: true,         //是否自动换行。
             styleActiveLine: true,
+            smartIndent: false,
+            tabSize: 4,
+            //viewportMargin: Infinity, //全部生成 DOM 节点，能性能消耗很大。
         });
 
         doc = editor.getDoc();
 
-        editor.on('scroll', function (mirror) {
+
+
+
+        editor.on('scroll', function () {
             if (passive) {
                 passive = false;
                 return;
@@ -46,14 +52,46 @@ KISP.panel('/DocAdd/Editor', function (require, module, panel) {
             var info = editor.getScrollInfo();
             panel.fire('scroll', [info]);
 
+            ////var doc = editor.getDoc()
+            ////console.log(doc);
+
+            ////var headers = Headers.get(doc);
+            ////console.log(headers);
+
+            //////panel.fire('scroll', [info]);
+
+
+
+            //var headers = Headers.get(doc);
+            //var header = Headers.find(headers, info.top);
+            //console.log('----------------------------------------------');
+
+            //console.log('index:', header.index);
+            //console.log('info:', info);
+            ////console.log('prevItem:', header.prevItem);
+            //console.log('item:', header.item);
+            ////console.log('nextItem:', header.nextItem);
+
+            ////panel.fire('scroll', [header]);
+
+            //var data = Object.assign({}, header, {
+            //    'info': info,
+            //});
+
+            //panel.fire('scroll', [data]);
+
         });
+
+
+
 
         editor.on('change', function () {
             var doc = editor.getDoc()
             var value = doc.getValue();
 
-            panel.fire('content', [value]);
 
+            panel.fire('content', [value]);
+            
         });
 
 
@@ -69,7 +107,7 @@ KISP.panel('/DocAdd/Editor', function (require, module, panel) {
 
         CMD.init(editor);
 
-
+        
     });
 
 
@@ -163,6 +201,9 @@ KISP.panel('/DocAdd/Editor', function (require, module, panel) {
             editor.focus();
         },
 
+        set: function (key, value) {
+            editor.setOption(key, value);
+        },
     };
 
 

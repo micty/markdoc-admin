@@ -12,12 +12,19 @@ KISP.panel('/TopMenus/Main', function (require, module, panel) {
     panel.on('init', function () {
 
         Header.on({
-            'guide': function () {
+            'guide': function (fromRender) {
                 Guide.show();
                 Code.hide();
+
+                //说明是手动点击了 tabs 中的 `向导视图` 页签而触发的。
+                //如果没有这个判断，则会死循环。
+                if (!fromRender) { 
+                    panel.fire('mode', 'guide');
+                }
+
             },
             'code': function () {
-                var values = panel.fire('code', 'mode'); //从父级取返回值。
+                var values = panel.fire('mode', 'code'); //从父级取返回值。
                 var json = values[0];
 
                 Guide.hide();
@@ -50,7 +57,7 @@ KISP.panel('/TopMenus/Main', function (require, module, panel) {
 
         Code.on({
             'change': function (json) {
-                panel.fire('code', 'change', [json]);
+                panel.fire('code-change', [json]);
             },
         });
 
@@ -60,10 +67,6 @@ KISP.panel('/TopMenus/Main', function (require, module, panel) {
 
     /**
     * 渲染。
-    *   options = {
-    *       index: 0,       //要激活的页签序号。
-    *       item: {},       //菜单项。
-    *   };
     */
     panel.on('render', function (item) {
 

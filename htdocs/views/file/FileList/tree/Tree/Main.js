@@ -51,7 +51,10 @@ KISP.panel('/FileList/Tree/Main', function (require, module, panel) {
 
             //点击某一项时触发。
             'item': function (item) {
-                if (item.id.endsWith('/')) { //空目录的指示文件。
+                var id = item.id;
+
+                //空目录的指示文件。
+                if (id != '/' && id.endsWith('/')) { 
                     tree.open(item.parent.id);
                     return;
                 }
@@ -92,6 +95,7 @@ KISP.panel('/FileList/Tree/Main', function (require, module, panel) {
     */
     panel.on('render', function (options) {
         var list = Data.toTree(options);
+        console.log(list);
 
         meta.item = null;
         meta.list = [];
@@ -109,7 +113,7 @@ KISP.panel('/FileList/Tree/Main', function (require, module, panel) {
 
             if (!item) {
                 KISP.alert('不存在节点: ' + id, function () {
-                    tree.open('root');
+                    tree.open('/');
                 });
                 return;
             }
@@ -152,7 +156,7 @@ KISP.panel('/FileList/Tree/Main', function (require, module, panel) {
         },
 
         root: function () {
-            this.open('root');
+            this.open('/');
         },
 
         dirOnly: function (checked) {

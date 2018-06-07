@@ -73,6 +73,7 @@ define('/DocAdd/API', function (require, module, exports) {
                 },
 
                 'success': function (data, json, xhr) {
+                   
                     toast = toast || KISP.create('Toast', {
                         text: '保存成功',
                         duration: 1500,

@@ -47,6 +47,7 @@ define('/TopMenus/Tree/Data', function (require, module, exports) {
                             'path': path,
                             'url': url,
                             'base': baseFile,
+                            'icon': item.icon,
                         },
                     };
                 });
@@ -64,6 +65,7 @@ define('/TopMenus/Tree/Data', function (require, module, exports) {
                         'base': base,
                         'ext': ext,
                         'file': group.file,
+                        'icon': group.icon,
                     },
                 };
 
@@ -103,6 +105,7 @@ define('/TopMenus/Tree/Data', function (require, module, exports) {
                     'base': data.base,
                     'ext': data.ext,
                     'file': data.file,
+                    'icon': data.icon,
                     'items': [],
                 };
 
@@ -116,6 +119,7 @@ define('/TopMenus/Tree/Data', function (require, module, exports) {
                         return {
                             'name': data.name,
                             'file': data.file,
+                            'icon': data.icon,
                         };
 
                     });

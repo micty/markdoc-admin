@@ -13,8 +13,8 @@ KISP.panel('/Master/Sidebar', function (require, module, panel) {
     panel.on('init', function () {
 
         Header.on({
-            'toggle': function () {
-                panel.fire('toggle');
+            'toggle': function (visible) {
+                panel.fire('toggle', [visible]);
             },
         });
 

@@ -8,16 +8,18 @@ KISP.panel('/DocAdd/Preview', function (require, module, panel) {
     var passive = false;    //是否被动的滚动。 即是否由于外面调用而引起的滚动。
     var markdoc = null;
 
-
     //需要保持为代码模式展示的。 
     var exts = ['.json', '.js', '.css', ];
-
+    //var headers = [];
   
+
+
+    var tops = [];
 
 
     panel.on('init', function () {
         markdoc = new MarkDoc({
-            container: $div.get(0),
+            'container': $div.get(0),
         });
 
         markdoc.on('hash', function (href) {
@@ -27,8 +29,16 @@ KISP.panel('/DocAdd/Preview', function (require, module, panel) {
 
         markdoc.on('render', function () {
             var list = markdoc.getOutlines();
+            panel.fire('render', [list]);
 
-            panel.fire('render', [list]); 
+
+            var headers = panel.$.find('h1,h2,h3,h4,h5,h6').toArray();
+
+            tops = headers.map(function (el, index) {
+                var offset = $(el).offset();
+                return offset.top;
+            });
+
 
         });
 
@@ -95,6 +105,9 @@ KISP.panel('/DocAdd/Preview', function (require, module, panel) {
         *   };
         */
         scroll: function (editor) {
+            console.log(editor);
+
+
             var height = $div.outerHeight();
             var top = (height - editor.clientHeight) * editor.top / (editor.height - editor.clientHeight);
 
@@ -105,6 +118,30 @@ KISP.panel('/DocAdd/Preview', function (require, module, panel) {
         to: function (index) {
             markdoc.toOutline(index);
         },
+
+      
+
+        ///**
+        //*
+        //*/
+        //scroll: function (opt) {
+
+        //    passive = true;
+
+        //    var index = opt.index;
+        //    var top = tops[index];
+        //    var dy = opt.item.top - opt.info.top;
+
+          
+
+
+        //    top = top - (dy + 120);
+
+        //    panel.$.get(0).scrollTo(0, top);
+
+
+
+        //},
 
     };
 

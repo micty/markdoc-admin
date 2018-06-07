@@ -1,5 +1,5 @@
 
-var $ = require('../../f/defineJS');
+var $ = require('defineJS');
 
 define('$', function (require, module, exports) {
     return $;

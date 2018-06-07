@@ -84,7 +84,7 @@ define('/FileList/Main/List', function (require, module, exports) {
             var beginDate = filter.beginDate;
             var endDate = filter.endDate;
             var name = filter.name || '';
-            var dir = filter.dir; // dir 可能为 '' 或 false，两者意义不同。
+            var dir = filter.dir;
 
             //可以排除掉 undefined、''、[] 等。
             if (type && type.length > 0) {
@@ -128,19 +128,18 @@ define('/FileList/Main/List', function (require, module, exports) {
                 });
             }
 
-            //注意，根目录的 id 为空字符串。
-            if (typeof dir == 'string') {
-
+            //注意，根目录的 id 为字符串 '/'。
+            if (dir) {
                 list = list.filter(function (item) {
-                    var name = item.name;
+                    var name = item.name.slice(1); //去掉前面的 `/`
 
                     //根目录的。
-                    if (!dir) {
+                    if (dir == '/') {
                         return !name.includes('/');
                     }
 
                     //其它目录的。
-                    var suffix = item.name.slice(dir.length + 1);
+                    var suffix = name.slice(dir.length + 1);
                     return !suffix.includes('/');
 
                 });

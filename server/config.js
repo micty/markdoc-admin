@@ -2,7 +2,8 @@
 module.exports = {
 
     //展示端的 data 目录。
-    //dir: '../../demo/data/',              //针对发布后的。
+    //dir: '../../demo/data/',              //针对发布后的。 kis 内部的。
+    //dir: 'D:/WebSites/htdocs/markdoc/data/',  //针对发布后的。 definejs.com 的。
     dir: '../../markdoc/htdocs/data/',      //本地开发用的。 
 
 

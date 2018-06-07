@@ -7,7 +7,7 @@ KISP.panel('/FileList/Main', function (require, module, panel) {
 
  
 
-    var width = 776;
+    var width = 638;
 
     var meta = {
         'list': [],
@@ -20,13 +20,7 @@ KISP.panel('/FileList/Main', function (require, module, panel) {
        
         Filter.on({
             'change': function (filter) {
-                var isRoot = !meta.item.parent;
                 var id = filter.dir ? meta.item.id : false;
-
-                //指定了使用当前目录，且是根目录。
-                if (id && isRoot) { 
-                    id = '';
-                }
 
                 filter = Object.assign({}, filter, {
                     'dir': id,

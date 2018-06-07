@@ -10,6 +10,7 @@ KISP.panel('/TopMenus/Main/Guide/Form', function (require, module, panel) {
     //外面传进来的菜单项，即正在编辑的项。
     var current = {};
 
+
     /**
     * 迭代表单所有的 input 字段。
     */
@@ -28,10 +29,7 @@ KISP.panel('/TopMenus/Main/Guide/Form', function (require, module, panel) {
     * 动态填充完整文件路径。
     */
     function setUrl(item, file) {
-
-
         file = file || item.data.file || '';
-
 
         if (item.level == 2) {
             var parent = item.parent.data;
@@ -43,6 +41,13 @@ KISP.panel('/TopMenus/Main/Guide/Form', function (require, module, panel) {
         file = Path.join(base, file);     //加上相对于 sidebar.json 文件所在的目录。
 
         panel.$.find('[data-id="url"]').text(file);
+    }
+
+    /**
+    * 设置图标。
+    */
+    function setIcon(value) {
+        panel.$.find('[data-id="icon"]').get(0).className = value;
     }
 
 
@@ -61,10 +66,28 @@ KISP.panel('/TopMenus/Main/Guide/Form', function (require, module, panel) {
             }]);
         });
 
+        //两个事件都要绑定。
+        //input 是为了在输入过程中触发； change 是在失去焦点后触发。
+        panel.$.on('input', 'input[type="text"]', function () {
+            var value = this.value;
+            if (value) { //避免跟 change 一起触发而弹两次 alert。
+                panel.fire('change'); 
+            }
+
+        });
+
+        panel.$.on('change', 'input[type="text"]', function () {
+            panel.fire('change');
+        });
+
 
         panel.$.on('input', 'input[name="file"]', function () {
             var input = this;
             setUrl(current, input.value);
+        });
+
+        panel.$.on('input', 'input[name="icon"]', function () {
+            setIcon(this.value);
         });
 
         panel.$.on('click', '[data-id="url"]', function () {
@@ -72,6 +95,19 @@ KISP.panel('/TopMenus/Main/Guide/Form', function (require, module, panel) {
             var url = a.innerText;
 
             panel.fire('file', [url]);
+
+        });
+
+        panel.$.on('click', '[data-id="icon"]', function () {
+           
+            var icon = panel.$.find('[data-id="icon"]').get(0).className;
+            icon = icon.split(' ')[1];
+            icon = icon.split('-').slice(1);
+            icon = icon.join('-');
+
+            var url = 'https://fontawesome.com/icons/' + icon;
+    
+            window.open(url);
 
         });
 
@@ -92,10 +128,17 @@ KISP.panel('/TopMenus/Main/Guide/Form', function (require, module, panel) {
         panel.$.toggleClass('level-2', level == 2);
 
         each(function (input, name, value) {
-            input.value = isAdd ? '' : data[name] || '';
+            value = input.value = isAdd ? '' : data[name] || '';
+
+            if (name == 'icon') {
+                setIcon(value);
+            }
         });
 
         setUrl(item);
+
+
+      
        
 
     });

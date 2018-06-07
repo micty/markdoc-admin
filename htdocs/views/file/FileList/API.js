@@ -103,7 +103,7 @@ define('/FileList/API', function (require, module, exports) {
                 },
             });
 
-            api.get({'id': item.data.name, });
+            api.get({'id': item.id, });
 
         },
 

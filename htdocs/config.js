@@ -11,7 +11,7 @@
         'demo': {
             //url: 'http://172.18.2.149/',
             url: 'http://www.definejs.com/',
-            file: '{url}#/{file}',
+            file: '{url}#!{file}',
         },
     });
 
@@ -61,7 +61,6 @@
     KISP.data({
         'demo': {
             url: 'http://localhost/Studio/markdoc/htdocs/',
-            file: '{url}#/{file}',
         },
     });
 

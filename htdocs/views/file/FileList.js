@@ -14,7 +14,7 @@ KISP.view('/FileList', function (require, module, view) {
     var storage = new SessionStorage(module.id);
 
     var meta = {
-        item: { id: 'root', },  //当前激活的菜单项。在菜单树填充后首先激活根节点。
+        item: { id: '/', },  //当前激活的菜单项。在菜单树填充后首先激活根节点。
     };
 
 
@@ -114,15 +114,7 @@ KISP.view('/FileList', function (require, module, view) {
                 view.fire('use', [data]);
             },
             'demo': function () {
-                var $String = KISP.require('String');
-                var demo = KISP.data('demo');
-
-                var url = $String.format(demo.file, {
-                    'url': demo.url,
-                    'file': meta.item.id,
-                });
-
-                window.open(url);
+                view.fire('demo', [meta.item.id]);
             },
             'sidebar': function () {
                 view.fire('sidebar', [meta.item.id]);
@@ -144,7 +136,7 @@ KISP.view('/FileList', function (require, module, view) {
     *   file: '',   //渲染完成后要打开的文件。
     */
     view.on('render', function (file) {
-        var id = file || storage.get('id') || 'root';
+        var id = file || storage.get('id') || '/';
         meta.item = { 'id': id, }; //使用完全重新的方式。
 
         API.get();

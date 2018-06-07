@@ -2,10 +2,11 @@
 
 KISP.panel('/DocAdd/Header', function (require, module, panel) {
     var KISP = require('KISP');
+    var $Date = KISP.require('Date');
     var Table = module.require('Table');
+    var Validater = module.require('Validater');
 
     var $name = panel.$.find('[data-id="name"]');
-
 
     panel.on('init', function () {
         
@@ -16,10 +17,23 @@ KISP.panel('/DocAdd/Header', function (require, module, panel) {
             if (cmd.startsWith('editor=')) {
                 cmd = cmd.split('=')[1];
                 panel.fire('editor', [cmd]);
+                return;
             }
-            else {
-                panel.fire(cmd);
+           
+
+            var $this = $(this);
+            var type = this.getAttribute('data-type');
+            var args = [];
+
+            //针对 data-type="on" 的。
+            if (type == 'on') {
+                $this.toggleClass('on');
+
+                var on = $this.hasClass('on');
+                args.push(on);
             }
+
+            panel.fire(cmd, args);
 
 
         });
@@ -29,20 +43,22 @@ KISP.panel('/DocAdd/Header', function (require, module, panel) {
         });
 
 
+        panel.$.on('click', '[data-id="demo"]', function () {
+            var file = $name.val();
+            panel.fire('demo', [file]);
+        });
+
+        panel.$.on('click', '[data-id="outline"]', function () {
+            panel.fire('outline', []);
+        });
+    
+
         Table.on({
             'add': function (data) {
                 panel.fire('table', [data]);
             },
         });
 
-
-        panel.$.on('click', '[data-id="outline"]', function () {
-            panel.fire('outline', []);
-
-        });
-
-
-       
       
     });
 
@@ -53,6 +69,7 @@ KISP.panel('/DocAdd/Header', function (require, module, panel) {
     *   options = {
     *       id: '',     //文件 id。
     *       mode: '',   //模式，只能是 `edit` 或 `new`,
+    *       ext: '',    //可选，后缀名。 主要针对 json 文件显示相应的按钮。
     *   };
     */
     panel.on('render', function (options) {
@@ -72,78 +89,31 @@ KISP.panel('/DocAdd/Header', function (require, module, panel) {
         });
 
         panel.$.toggleClass('edit-mode', isEdit);
+        panel.$.toggleClass('json', opt.ext == '.json');
 
     });
 
 
     return {
-        get: function () {
-            var name = $name.val();
-
-            if (!name) {
-                $name.focus();
+        saved: function (saved) {
+            if (saved === null) {
+                panel.$.find('[data-id="saved"] span').html('已保存');
+                panel.$.addClass('saved');
                 return;
             }
 
-            function error(msg) {
-                KISP.alert(msg, function () {
-                    $name.focus();
-                });
+            if (saved) {
+                var time = $Date.format(new Date(), 'HH:mm:ss');
+                panel.$.addClass('saved');
+                panel.$.find('[data-id="saved"] span').html('已保存 [' + time + ']');
             }
-
-
-
-            var file = name.replace(/\\/g, '/'); //把所有的 '\' 替换成 '/'。
-
-            if (file.includes('../')) {
-                return error('不能引用到父目录中去。');
+            else {
+                panel.$.removeClass('saved');
             }
+        },
 
-            if (file.includes('./')) {
-                return error('不能使用相对路径。');
-            }
-
-            if (file.startsWith('.')) {
-                return error('文件路径非法。');
-            }
-
-            if (!file.includes('.')) {
-                return error('文件名必须包含后缀名。');
-            }
-
-            if( file.includes('..') ||
-                file.includes(':') ||
-                file.includes('*') ||
-                file.includes('?') ||
-                file.includes('"') ||
-                file.includes('<') ||
-                file.includes('>') ||
-                file.includes('|') ||
-                file.includes('//') ||
-                file.includes(' ') ||
-                file.includes('./')) {
-
-                return error('文件路径非法。');
-            }
-
-            var allows = [
-                '.md',
-                '.txt',
-                '.json',
-                '.js',
-                '.css',
-                '.html',
-            ];
-
-            var ext = file.split('.').slice(-1)[0];
-            ext = '.' + ext.toLowerCase();
-
-            if (!allows.includes(ext)) {
-                return error('不能使用后缀名: ' + ext);
-            }
-
-
-            return file;
+        get: function () {
+            return Validater.check($name);
         },
     };
 

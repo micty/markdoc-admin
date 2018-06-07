@@ -114,6 +114,10 @@ KISP.panel('/TopMenus/Tree', function (require, module, panel) {
 
             return items;
         },
+
+        'open': function (id) {
+            tree.open(id);
+        },
     };
 
 

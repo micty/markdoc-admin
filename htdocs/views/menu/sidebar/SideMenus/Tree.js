@@ -116,6 +116,9 @@ KISP.panel('/SideMenus/Tree', function (require, module, panel) {
 
             return items;
         },
+        'open': function (id) {
+            tree.open(id);
+        },
     };
 
 

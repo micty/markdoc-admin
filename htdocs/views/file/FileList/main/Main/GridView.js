@@ -38,13 +38,13 @@ KISP.panel('/FileList/Main/GridView', function (require, module, panel) {
             'name': function (cell) {
                 var item = cell.row.data;
                 var name = item.name;
+                
                 var parts = name.split('/');
                 var filename = parts.slice(-1)[0];      //取最后一段作为短名称。
                 var dir = parts.slice(0, -1).join('/');
 
-                if (dir) {
-                    dir += '/';
-                }
+                dir += '/';
+
 
                 var fullname = dir + filename;
                 var keyword = meta.keyword;

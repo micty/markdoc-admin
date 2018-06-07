@@ -1,0 +1,28 @@
+﻿<template id="tpl-FileTree">
+    <ul class="ul-first">
+        {items}
+        <template name="dir">
+            <li class="normal {open}">
+                <span id="{eid}" data-type="item" class="{on}">
+                    {name}
+                    <template name="icon" placeholder="icons">
+                        <i data-index="{index}" data-type="icon" class="{class}"></i>
+                    </template>
+                </span>
+                <ul style="{display}" class="{hasDir}">
+                    {items}
+                </ul>
+            </li>
+        </template>
+        <template name="file">
+            <li class="li-last">
+                <span id="{eid}" data-type="item" class="{on}">
+                    {name}
+                    <template name="icon" placeholder="icons">
+                        <i data-index="{index}" data-type="icon" class="{class}"></i>
+                    </template>
+                </span>
+            </li>
+        </template>
+    </ul>
+</template>

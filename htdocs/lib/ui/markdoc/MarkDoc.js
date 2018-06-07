@@ -176,9 +176,10 @@ define('MarkDoc', function (require, module, exports) {
             current.html = current.code.html();
             current.ul = meta.$.find('ul');
 
-            meta.emitter.fire('render');
 
-            return title;
+            meta.emitter.fire('render', [{
+                'title': title,
+            }]);
 
         },
 
@@ -281,7 +282,13 @@ define('MarkDoc', function (require, module, exports) {
             }
 
             var $el = $(el);
-            el.scrollIntoViewIfNeeded();
+
+            if (el.scrollIntoViewIfNeeded) {
+                el.scrollIntoViewIfNeeded();
+            }
+            else {//兼容一下低端浏览器。
+                el.scrollIntoView();
+            }
 
             //闪两次
             var timeout = 200;

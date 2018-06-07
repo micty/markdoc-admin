@@ -15,7 +15,6 @@
 
                 th {
                     text-align: right;
-                    width: 75px;
                     box-sizing: border-box;
 
                     &:after {
@@ -36,12 +35,21 @@
                 tr.name {
                     td {
                         color: #2196F3;
+
+                        span {
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            width: 255px;
+                            display: inline-block;
+                        }
                     }
                 }
 
                 tr.md5 {
                     td {
                         color: #8BC34A;
+                        font-size: 13px;
                     }
                 }
 

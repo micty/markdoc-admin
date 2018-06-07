@@ -1,13 +1,10 @@
 {
-    "name": "weberp",
+    "name": "markdoc-admin",
     "version": "",
     "repository": {},
-    "description": "weberp",
-    "dependencies": {
-        "cheerio": ""
-    },
+    "description": "markdoc-admin",
     "devDependencies": {
-        "web-master": ""
+        "web-master": "~1.5.4"
     },
     "engines": {
         "node": ">=0.8.0"

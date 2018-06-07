@@ -30,7 +30,12 @@ define('/FileList/Dialog/API', function (require, module, exports) {
     function add(options) {
         var api = new API('FileList.add');
         var item = options.item;
-        var id = !item.parent ? '' : item.id + '/'; //没有父节点，说明是根节点。
+        var id = item.id;
+
+        if (item.parent) { //没有父节点，说明是根节点。
+            id += '/';
+        }
+
         var dest = id + options.name;
 
 

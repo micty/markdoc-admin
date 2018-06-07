@@ -6,7 +6,7 @@ KISP.panel('/FileList/Preview', function (require, module, panel) {
     var MarkDoc = module.require('MarkDoc');
 
     var current = {}; //外面传进来的数据。
-    var width = 776;
+    var width = 638;
 
 
     panel.on('init', function () {

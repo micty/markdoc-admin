@@ -39,23 +39,28 @@ KISP.view('/SideMenus', function (require, module, view) {
                 Tree.move(item, step);
             },
 
-            'code': {
-                'mode': function () {
+
+            'mode': {
+                'guide': function () {
+                    Tree.open('root');
+                },
+                'code': function () {
                     var groups = Tree.get();
                     var json = meta.json;
 
                     json.groups = groups;
                     return json;
                 },
-                'change': function (json) {
-                    meta.json = json || { groups: [], };
+            },
 
-                    Tree.render({
-                        'list': meta.json.groups,
-                        'file': meta.file,
-                        'open': false,
-                    });
-                },
+            'code-change': function (json) {
+                meta.json = json || { groups: [], };
+
+                Tree.render({
+                    'list': meta.json.groups,
+                    'file': meta.file,
+                    'open': false,
+                });
             },
             'save': function () {
                 var file = Main.getFile();

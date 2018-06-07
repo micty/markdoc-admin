@@ -13,7 +13,6 @@ KISP.panel('/TopMenus/Main/Code', function (require, module, panel) {
                 Preview.scroll(info);
             },
             'change': function (content) {
-               
                 Preview.render(content);
 
                 var json = JSON.parse(content);

@@ -14,7 +14,7 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
     * 迭代表单所有的 input 字段。
     */
     function each(fn) {
-        var inputs = panel.$.find('input').toArray();
+        var inputs = panel.$.find('input[type="text"]').toArray();
 
         inputs.forEach(function (input) {
             var value = input.value;
@@ -44,7 +44,12 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
     }
 
 
-
+    /**
+    * 设置图标。
+    */
+    function setIcon(value) {
+        panel.$.find('[data-id="icon"]').get(0).className = value;
+    }
 
     panel.on('init', function () {
         //添加二级菜单。
@@ -59,6 +64,21 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
             }]);
         });
 
+        //两个事件都要绑定。
+        //input 是为了在输入过程中触发； change 是在失去焦点后触发。
+        panel.$.on('input', 'input[type="text"]', function () {
+            var value = this.value;
+            if (value) { //避免跟 change 一起触发而弹两次 alert。
+                panel.fire('change');
+            }
+
+        });
+
+        panel.$.on('change', 'input[type="text"]', function () {
+            panel.fire('change');
+        });
+
+
 
         panel.$.on('input', 'input[name="file"]', function () {
             var input = this;
@@ -70,6 +90,23 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
             var url = a.innerText;
 
             panel.fire('file', [url]);
+
+        });
+
+
+        panel.$.on('input', 'input[name="icon"]', function () {
+            setIcon(this.value);
+        });
+
+        panel.$.on('click', '[data-id="icon"]', function () {
+
+            var icon = panel.$.find('[data-id="icon"]').get(0).className;
+            icon = icon.split(' ')[1];
+            icon = icon.split('-').slice(1);
+            icon = icon.join('-');
+            var url = 'https://fontawesome.com/icons/' + icon;
+            console.log(icon)
+            window.open(url);
 
         });
 
@@ -89,9 +126,25 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
         panel.$.toggleClass('edit-level-1', level == 1);
         panel.$.toggleClass('level-2', level == 2);
 
+
+        if (level == 1 && item.id) {
+            var fold = data.fold || false;
+            var chk = '[name="fold"][value="' + fold + '"]';
+
+            chk = panel.$.find(chk).get(0);
+            chk.checked = true;
+        }
+
+
         each(function (input, name, value) {
-            input.value = isAdd ? '' : data[name] || '';
+            value = input.value = isAdd ? '' : data[name] || '';
+
+            if (name == 'icon') {
+                setIcon(value);
+            }
         });
+
+
 
         setUrl(item);
        
@@ -114,6 +167,12 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
 
             var data = {};
             var valid = true; //先假设全部字段都合法。
+            var level = current.level;
+            var id = current.id;
+
+            if (level == 1) {
+                data.fold = panel.$.find('[name="fold"]:checked').val() === 'true';
+            }
 
             each(function (input, name, value) {
                 if (!valid) { //只要有一个不合法，则不需要再检测后面的。
@@ -137,7 +196,7 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
    
 
             return !valid ? null : {
-                'id': current.level == 0 ? '' : current.id, //根节点的，只能新建。
+                'id': level == 0 ? '' : id, //根节点的，只能新建。
                 'name': data.name,
                 'data': data,
             };
@@ -156,7 +215,7 @@ KISP.panel('/SideMenus/Main/Guide/Form', function (require, module, panel) {
         },
 
         /**
-        * 清空表单所有字段。
+        * 
         */
         check: function (checked) {
             panel.$.toggleClass('more', checked);

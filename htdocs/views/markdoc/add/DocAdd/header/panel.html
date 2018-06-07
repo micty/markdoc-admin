@@ -12,13 +12,15 @@
         <li data-cmd="editor=ol" class="icon" title="有序列表"><i class="fa fa-list-ol"></i></li>
         <li data-cmd="editor=ul" class="icon" title="无序列表"><i class="fa fa-list-ul"></i></li>
         <li data-id="table" class="icon" title="插入表格"><i class="fas fa-table"></i></li>
+        <li data-cmd="crlf" data-type="on" class="icon on" title="自动换行"><i class="fas fa-level-down-alt"></i></li>
+        <li data-cmd="format" class="icon format" title="格式化"><i class="fab fa-foursquare"></i></li>
 
         <li class="right">
             <ul>
-                <li data-cmd="fullscreen" class="icon" title="全屏"><i class="fa fa-tv"></i></li>
+                <li data-cmd="fullscreen" data-type="on" class="icon" title="全屏"><i class="fa fa-tv"></i></li>
                 <li data-cmd="themes" class="icon" title="编辑器主题"><i class="fab fa-windows"></i></li>
                 <li data-cmd="new" class="icon" title="新建文档"><i class="fa fa-plus"></i></li>
-                <li data-cmd="column" class="icon" title="切换分组显示"><i class="fa fa-columns"></i></li>
+                <li data-cmd="column" data-type="on" class="icon" title="切换分组显示"><i class="fa fa-columns"></i></li>
             </ul>
         </li>
     </ul>
@@ -29,10 +31,17 @@
         </li>
         <li class="right">
             <ul>
-                <li data-id="outline" class="icon" title="内容目录"><i class="fas fa-list"></i></li>
                 <li data-cmd="save" class="save" title="保存 Ctrl+S">
                     <i class="fa fa-file-alt"></i>保存
                 </li>
+                <li data-id="saved" class="saved" title="文档已保存">
+                    <i class="fas fa-check"></i><span>已保存 [14:35:29]</span>
+                </li>
+                <li data-id="demo" class="icon demo" title="在展示页面查看效果">
+                    <i class="fas fa-desktop"></i>效果
+                </li>
+                <li data-id="outline" class="icon" title="内容目录"><i class="fas fa-list"></i></li>
+
             </ul>
         </li>
     </ul>

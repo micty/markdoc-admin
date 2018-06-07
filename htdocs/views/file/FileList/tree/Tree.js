@@ -43,17 +43,28 @@ KISP.panel('/FileList/Tree', function (require, module, panel) {
             },
         });
 
-        var width = 400;
+       
+
+    });
+
+    panel.on('init', function () {
+        var width = 300;
 
 
         Resizer.on({
-
-
             'change': function (dx) {
+                console.log(dx);
+
                 var w = width + dx;
 
-                panel.$.width(w);
+                if (w < 220) {
+                    panel.$.width(220);
+                    return;
+                }
 
+
+
+                panel.$.width(w);
                 panel.fire('resize', 'change', [dx]);
             },
 
@@ -62,7 +73,6 @@ KISP.panel('/FileList/Tree', function (require, module, panel) {
                 panel.fire('resize', 'stop');
             },
         });
-
     });
 
 

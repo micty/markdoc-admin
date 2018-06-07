@@ -23,7 +23,9 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
         var dirs = dir$dirs[dir];
 
         var list = dirs.map(function (item) {
-            var sdir = dir ? dir + '/' + item : item;
+            var sdir = dir + '/' + item;
+            sdir = sdir.replace(/\/+/g, '/'); //把多个 `/` 合并成一个。
+
             var list = make(options, sdir); //递归。
             var files = dir$files[sdir];
 
@@ -80,20 +82,22 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
         * 把 JSON 数据转成树节点列表，用于展示成菜单树。
         */
         toTree: function (options) {
-            var root = '';
+            var root = '/';
             var list = make(options, root);
+
 
             //加上根目录的文件列表。
             var files = options.dir$files[root];
 
             files = files.map(function (file) {
+                var id = root + file;
 
                 return {
                     'name': file,
-                    'id': file,
+                    'id': id,
                     'data': {
                         'type': 'file',
-                        'name': file,
+                        'name': id,
                         'parent': root,
                     },
                 };
@@ -107,12 +111,12 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
             return [
                 {
                     'name': '$',
-                    'id': 'root',
+                    'id': root,
                     'open': true,
                     'foldable': false,
                     'data': {
                         'type': 'dir',
-                        'name': '',
+                        'name': root,
                     },
                     'list': list,
                 },

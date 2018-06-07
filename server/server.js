@@ -44,15 +44,15 @@ launch(function (require, module, exports) {
             'Access-Control-Allow-Origin': '*',
         });
 
-        var valid =
-            req.url.startsWith('/User.login?') ||
-            req.url.startsWith('/upload') ||
-            req.url.startsWith('/download') ||
-            Session.check(req, res);
+        //var valid =
+        //    req.url.startsWith('/User.login?') ||
+        //    req.url.startsWith('/upload') ||
+        //    req.url.startsWith('/download') ||
+        //    Session.check(req, res);
 
-        if (!valid) {
-            return;
-        }
+        //if (!valid) {
+        //    return;
+        //}
 
         next();
     });

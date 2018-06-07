@@ -18,13 +18,16 @@ define('/SideMenus/API', function (require, module, exports) {
         mask: 0,
     });
 
-
+    //新文件。
     function newFile() {
   
         emitter.fire('success', 'get', [{
             file: '',
             mode: 'new',
             json: {
+                file: '',
+                logo: '',
+                mutex: false,
                 groups: [],
             },
         }]);

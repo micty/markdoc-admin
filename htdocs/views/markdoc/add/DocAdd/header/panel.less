@@ -57,7 +57,7 @@
             li {
                 display: inline-block;
                 margin-top: 2px;
-                margin-left: 20px;
+                margin-left: 10px;
 
                 &.title {
                     margin-left: 8px;
@@ -82,6 +82,12 @@
                         &:focus {
                             background-color: #fff7e6;
                         }
+
+                        &.on {
+                            background: #FF5722;
+                            color: #fff;
+                            font-weight: normal;
+                        }
                     }
                 }
 
@@ -91,13 +97,18 @@
 
                     .icon {
                         cursor: pointer;
+                        color: #b0bdc7;
 
                         &:hover {
-                            color: #61a7e5;
+                            color: #607D8B;
                         }
                     }
 
-                    .save {
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    .save{
                         cursor: pointer;
                         padding: 0 14px;
                         font-size: 14px;
@@ -114,16 +125,58 @@
                         &:active {
                             background: #f18702;
                         }
+                    }
+
+                    .saved {
+                        padding: 0 14px;
+                        font-size: 14px;
+                        height: 30px;
+                        border-radius: 4px;
+                        line-height: 30px;
+                        color: #8BC34A;
+                        border-radius: 0;
+                        display: none;
 
                         i {
                             margin-right: 5px;
                         }
                     }
+
+                    .demo {
+                        display: none;
+                    }
                 }
             }
         }
 
+        .icon.on{
+            color: #00BCD4;
 
+            &:hover{
+                color: #00BCD4 !important;
+            }
+        }
+
+        .icon.format{
+            display: none;
+        }
+
+        &.json{
+            .icon.format{
+                display: inline-block;
+            }
+        }
+
+        &.saved {
+            .save {
+                display: none;
+            }
+
+            .saved,
+            .demo {
+                display: inline-block !important;
+            }
+        }
 
         .dialog-table {
             position: absolute;

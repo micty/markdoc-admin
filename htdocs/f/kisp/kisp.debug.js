@@ -2,7 +2,7 @@
 * pc - KISP JavaScript Library
 * name: pc 
 * version: 0.0.1
-* build: 2018-04-16 09:29:05
+* build: 2018-04-20 10:23:57
 * files: 124(122)
 *    partial/begin.js
 *    base/Module.js
@@ -9302,9 +9302,10 @@ define('Template', function (require, module, exports) {
 
     var mapper = new Map();
 
-
+    /**
+    * 构造器。
+    */
     function Template(selector) {
-
         var node = $(selector).get(0); //包装、拆装，可以让入参多样化。
 
         if (!node) {
@@ -9322,6 +9323,8 @@ define('Template', function (require, module, exports) {
         var sample = node.innerHTML;
         var name$tpl = {};
         var emitter = new Emitter(this);
+        var self = this;
+
 
         tpls = Array.from(tpls).map(function (node) {
             var tpl = new Template(node);
@@ -9347,6 +9350,8 @@ define('Template', function (require, module, exports) {
                 var args = Array.from(arguments);
                 emitter.fire('process', args);
             });
+
+            tpl.parent = self; //设置父实例。
 
             return tpl;
         });
@@ -9376,18 +9381,11 @@ define('Template', function (require, module, exports) {
             },
         };
 
-       
-
-        //Object.assign(this, {
-        //    meta: meta,
-        //});
-
-
-
         mapper.set(this, meta);
 
         Object.assign(this, {
             'id': $String.random(),
+            'parent': null,
             'meta': meta,
         });
 
@@ -9401,6 +9399,8 @@ define('Template', function (require, module, exports) {
         constructor: Template,
 
         id: '',
+
+        parent: null,
 
         get: function (key) {
             var meta = mapper.get(this);

@@ -37,6 +37,10 @@
                     tr.url {
                         display: table-row;
                     }
+
+                    tr.fold {
+                        display: none;
+                    }
                 }
                 /*常规下隐藏【添加二级菜单项】按钮*/
                 div.more {
@@ -120,7 +124,7 @@
                         }
                     }
 
-                    input {
+                    input[type="text"] {
                         width: 100%;
                         border: navajowhite;
                         height: 100%;
@@ -148,6 +152,33 @@
 
                             &:hover {
                                 color: red;
+                            }
+                        }
+                    }
+
+                    tr.icon {
+                        td.input {
+                            position: relative;
+                        }
+
+                        i {
+                            font-size: 20px;
+                            position: absolute;
+                            top: 5px;
+                            right: 10px;
+                            color: #9E9E9E;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: #03A9F4;
+                            }
+                        }
+
+                        a {
+                            color: #03A9F4;
+
+                            &:hover {
+                                color: #FF5722;
                             }
                         }
                     }

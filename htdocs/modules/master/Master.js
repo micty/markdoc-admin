@@ -40,8 +40,8 @@ KISP.panel('/Master', function (require, module, panel) {
                 });
             },
 
-            'toggle': function () {
-                panel.$.toggleClass('hide');
+            'toggle': function (visible) {
+                panel.$.toggleClass('hide', !visible);
             },
 
         });

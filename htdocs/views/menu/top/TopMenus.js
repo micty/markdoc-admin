@@ -26,18 +26,21 @@ KISP.view('/TopMenus', function (require, module, view) {
             'move': function (item, step) {
                 Tree.move(item, step);
             },
-
-            'code': {
-                'mode': function () {
+            'mode': {
+                'guide': function () {
+                    Tree.open('root');
+                },
+                'code': function () {
                     var list = Tree.get();
                     return list;
                 },
-                'change': function (list) {
-                    Tree.render({
-                        'list': list,
-                        'open': false,
-                    });
-                },
+            },
+
+            'code-change': function (list) {
+                Tree.render({
+                    'list': list,
+                    'open': false,
+                });
             },
             'save': function () {
                 var list = Tree.get();

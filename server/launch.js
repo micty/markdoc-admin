@@ -1,5 +1,5 @@
 ﻿
-var $ = require('./f/defineJS');
+var $ = require('defineJS');
 var _require = require;             //node.js 原生的 require，备份一下。
 
 

@@ -12,11 +12,14 @@ KISP.view('/DocAdd', function (require, module, view) {
     var Outline = module.require('Outline');
 
 
+    var content = Storage.get();
+
     var meta = {
-        content: '',        //内容。
-        ext: '.md',         //当前请求后台的文件信息，如果有。
+        content: content,   //内容。
+        ext: '.md',         //当前请求后台的文件信息，如果有。 如果没有，则默认为 `.md`。
         changed: false,     //自读取或保存以来，是否已发生修改。
         mode: 'new',        //模式。 编辑或新增，即 `edit` 或 `new`。
+        id: '',             //文件 id，如果有。
     }; 
 
 
@@ -58,7 +61,18 @@ KISP.view('/DocAdd', function (require, module, view) {
                 Editor.call(cmd);
             },
             'outline': function () {
-                Outline.show();
+                Outline.toggle();
+            },
+            'demo': function (file) {
+                view.fire('demo', [file]);
+            },
+            'crlf': function (on) {
+                Editor.set('lineWrapping', on)
+            },
+            'format': function () {
+                console.log(meta);
+                meta.content = Preview.$.find('code').text();
+                Editor.render(meta);
             },
         });
 
@@ -71,6 +85,7 @@ KISP.view('/DocAdd', function (require, module, view) {
                 if (content != meta.content) {
                     meta.content = content;
                     meta.changed = true;
+                    Header.saved(false);
                     Storage.set(content);
                 }
 
@@ -107,14 +122,18 @@ KISP.view('/DocAdd', function (require, module, view) {
                 Header.render({
                     'mode': 'edit',
                     'id': data.name, //其实就是文件 id。
+                    'ext': data.ext,
                 });
 
-                meta.ext = data.ext;
+                meta.ext = data.ext;//#1
 
-                Editor.render(data); //会触发 Editor.content 事件。 该行代码要在上下这两行代码之间。
+                Editor.render(data); //会触发 Editor.content 事件。 该行代码要在#1和#2这两行代码之间。
+                
+ 
+                Header.saved(null); 
 
+                meta.mode = 'edit';//#2
                 meta.changed = false;
-                meta.mode = 'edit';
             },
 
             'save': function (data) {
@@ -126,13 +145,15 @@ KISP.view('/DocAdd', function (require, module, view) {
                     return;
                 }
 
-
                 meta.mode = 'edit';
 
                 Header.render({
                     'mode': 'edit',
                     'id': data.name,
+                    'ext': meta.ext,
                 });
+
+                Header.saved(true);
             },
         });
     });
@@ -141,24 +162,20 @@ KISP.view('/DocAdd', function (require, module, view) {
     /**
     * 渲染内容。
     * 处理的优先级如下：
-    *
-    *   1, 来源于某个文件时。
+    *   //1, 来源于某个文件时。
     *   options = {
-    *       id: '',         //必选。 文件 id。
+    *       id: '', //必选。 文件 id。
     *   };
-    *
-    *   2, 来源于具体内容时。
+    *   //2, 来源于具体内容时。
     *   options = {
     *       content: '',    //必选。 内容。
     *       ext: '',        //可选。 内容类型。
     *   };
-    *
-    *   3, 来源于 storage 时。
+    *   //3, 来源于 storage 时。
     *   options = {
     *       storage: true,
     *   };
-    *
-    *   4, 来源于自身垢 readme 文件时。
+    *   //4, 来源于自身的 readme 文件时。
     *   options = {
     *       readme: true,
     *   };
@@ -171,11 +188,11 @@ KISP.view('/DocAdd', function (require, module, view) {
         Editor.render(meta);;
         Themes.render(1);
 
-
         if (id) {
-            return Change.load(meta.changed, function () {
+            Change.load(meta.changed, function () {
                 API.read(id);
             });
+            return;
         }
 
 
@@ -184,11 +201,14 @@ KISP.view('/DocAdd', function (require, module, view) {
                 opt.storage ? Storage.get() :
                 opt.readme ? Editor.getReadme() : '';
 
-        Change.load(meta.changed, function () {
+        var changed = meta.changed && content != meta.content;
+
+        Change.load(changed, function () {
             meta.ext = opt.ext || '.md';
             meta.content = content;
             meta.changed = true;
             meta.mode = 'new';
+            Header.saved(false);
 
             Header.render();
             Editor.render(meta);

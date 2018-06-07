@@ -13,7 +13,7 @@ KISP.panel('/TopMenus/Main/Header/Tabs', function (require, module, panel) {
     ];
 
     var tabs = null;
-
+    var fromRender = false;
 
 
     panel.on('init', function () {
@@ -26,7 +26,8 @@ KISP.panel('/TopMenus/Main/Header/Tabs', function (require, module, panel) {
 
         tabs.on('change', function (item, index) {
             item = list[index];
-            panel.fire('cmd', [item.cmd]);
+            panel.fire('cmd', [item.cmd, fromRender]);
+            fromRender = false; //重置。
         });
 
         panel.$.on('click', '[data-index]', function () {
@@ -57,6 +58,7 @@ KISP.panel('/TopMenus/Main/Header/Tabs', function (require, module, panel) {
         });
 
 
+        fromRender = true;
         tabs.active(index);
 
     });

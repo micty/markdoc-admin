@@ -127,6 +127,10 @@ define('/DocAdd/Editor/CMD', function (require, module, exports) {
             });
 
             editor.replaceSelections(values, list);
+
+            if (values.length < 2) {
+                editor.focus();
+            }
             
         },
 

@@ -39,6 +39,25 @@
                             <td><input name="name" required type="text" data-name="名称" /></td>
                             <td class="desc"><span class="required">*</span>菜单项的名称</td>
                         </tr>
+                        <tr class="icon">
+                            <th>图标</th>
+                            <td class="input">
+                                <input name="icon" type="text" title="支持几千个 fontawesom 图标，如: fa fa-tv" />
+                                <i data-id="icon" class="" title="点击打开图标详情页"></i>
+                            </td>
+                            <td class="desc">
+                                支持 <a href="https://fontawesome.com/icons" target="_blank" title="前往 fontawesome 官网查看图标列表">fontawesome </a>图标
+                            </td>
+                        </tr>
+
+                        <tr class="fold">
+                            <th>状态</th>
+                            <td>
+                                <label><input name="fold" type="radio" value="false" checked="checked" />展开</label>
+                                <label><input name="fold" type="radio" value="true" />折叠</label>
+                            </td>
+                            <td class="desc"><span class="required">*</span>菜单组的展开或折叠状态</td>
+                        </tr>
 
                         <tr class="file">
                             <th>文件</th>

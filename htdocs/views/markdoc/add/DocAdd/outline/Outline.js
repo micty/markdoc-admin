@@ -38,12 +38,17 @@ KISP.panel('/DocAdd/Outline', function (require, module, panel) {
 
         outline.render();
 
+
+        panel.$.on('click', '[data-cmd="close"]', function (event) {
+            panel.hide();
+        });
+
     });
 
 
 
     panel.on('show', function () {
-        mask.show();
+        //mask.show();
     });
 
 
