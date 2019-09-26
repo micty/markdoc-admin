@@ -4,7 +4,7 @@ define('/Login/API', function (require, module, exports) {
     var KISP = require('KISP');
     var API = require('API');
     var Emitter = KISP.require('Emitter');
-    var MD5 = KISP.require('MD5');
+    var MD5 = module.require('MD5');
 
     var emitter = new Emitter();
     var loading = null;

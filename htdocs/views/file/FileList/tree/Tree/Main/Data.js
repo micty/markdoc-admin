@@ -11,14 +11,14 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
     /**
     * 根据给定的目录名，递归搜索子目录和文件列表，组装成符合菜单树的数据结构。
     *   dir: '',            //要组装的目录名称。
-    *   options = {
+    *   opt = {
     *       dir$files: {},  //某个目录对应的文件列表（仅当前层级，不包括子目录的）。
     *       dir$dirs: {},   //某个目录对应的子目录列表（仅当前层级，不包括子目录的）。
     *   };
     */
-    function make(options, dir) {
-        var dir$files = options.dir$files;
-        var dir$dirs = options.dir$dirs;
+    function make(opt, dir) {
+        var dir$files = opt.dir$files;
+        var dir$dirs = opt.dir$dirs;
 
         var dirs = dir$dirs[dir];
 
@@ -26,7 +26,7 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
             var sdir = dir + '/' + item;
             sdir = sdir.replace(/\/+/g, '/'); //把多个 `/` 合并成一个。
 
-            var list = make(options, sdir); //递归。
+            var list = make(opt, sdir); //递归。
             var files = dir$files[sdir];
 
             files = files.map(function (file) {
@@ -81,13 +81,13 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
         /**
         * 把 JSON 数据转成树节点列表，用于展示成菜单树。
         */
-        toTree: function (options) {
+        toTree: function (opt) {
             var root = '/';
-            var list = make(options, root);
+            var list = make(opt, root);
 
 
             //加上根目录的文件列表。
-            var files = options.dir$files[root];
+            var files = opt.dir$files[root];
 
             files = files.map(function (file) {
                 var id = root + file;
@@ -105,8 +105,9 @@ define('/FileList/Tree/Main/Data', function (require, module, exports) {
 
             list = [...list, ...files];
 
-            //如 options.root = '../../markdoc/htdocs/data'; 则 name = 'data';
-            var name = options.root.split('/').slice(-1)[0]; //取最后一个目录名。 暂时没用到。
+            ////取最后一个目录名。 暂时没用到。
+            ////如 opt.root = '../../markdoc/htdocs/data'; 则 name = 'data';
+            //var name = opt.root.split('/').slice(-1)[0]; 
 
             return [
                 {

@@ -30,6 +30,8 @@ define('Outline/Template', function (require, module, exports) {
                     '': function (item, index) {
                         var level = item.level;
                         var tabs = level - 1;
+                        var children = item.children || [];
+
 
                         //创建一个指定长度的数组。
                         tabs = $String.random(tabs).split('');
@@ -45,10 +47,12 @@ define('Outline/Template', function (require, module, exports) {
                             'level': level,
                             'tabs': tabs,
                             'text': item.text,
+                            'opened': children.length > 0 ? 'opened' : '',
+                            'folder-title': children.length > 0 ? '点击收起子级' : '',
                         };
                     },
 
-                    'tab': function (item) {
+                    'tab': function (item, index) {
                         return {};
                     },
                 },

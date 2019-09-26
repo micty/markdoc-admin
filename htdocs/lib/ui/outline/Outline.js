@@ -74,6 +74,7 @@ define('Outline', function (require, module, exports) {
         *   ];
         */
         render: function (list) {
+            
             var meta = mapper.get(this);
 
             meta.$ = $(meta.container);
@@ -90,6 +91,37 @@ define('Outline', function (require, module, exports) {
         * 调用该方法之前，可以不必先调用 render()，这样可以仅获得生成的 html，以便在业务层手动处理。
         */
         fill: function (list) {
+
+            //建立起父子关系。
+            list.forEach(function (item, index) {
+                item.parent = null; //先统一假设父节点为空。
+
+                var level = item.level;
+
+                if (level == 1) { //最顶级的，即 h1，不存在父节点。
+                    return;
+                }
+
+
+                //再往回沿路搜索比当前节点的级别低的节点。
+                //往回过程中，第一个级别低的节点即为父节点。
+                for (var i = index - 1; i >= 0; i--) {
+                    var parent = list[i];
+
+                    if (level > parent.level) {
+                        item.parent = parent;
+
+                        parent.children = parent.children || [];
+                        parent.children.push(item);
+
+                        return;
+                    }
+                }
+
+            });
+
+
+
             var meta = mapper.get(this);
             var html = meta.tpl.fill({ 'list': list, });
 

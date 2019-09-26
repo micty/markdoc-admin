@@ -88,13 +88,13 @@ KISP.panel('/FileList/Tree/Main', function (require, module, panel) {
 
     /**
     * 渲染。
-    *   options = {
+    *   opt = {
     *       dir$dirs: {},   //某个目录对应的子目录列表（仅当前层级，不包括子目录的）。
     *       dir$files: {},  //某个目录对应的文件列表（仅当前层级，不包括子目录的）。
     *   };
     */
-    panel.on('render', function (options) {
-        var list = Data.toTree(options);
+    panel.on('render', function (opt) {
+        var list = Data.toTree(opt);
         console.log(list);
 
         meta.item = null;

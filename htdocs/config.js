@@ -24,20 +24,12 @@
             url: 'http://120.76.123.129:8089/',
             ext: '',
         },
+      
         'App': {
-            animated: false,
-        },
-        'App/Nav': {
-            hash: false,
+            name: 'markdoc-admin-20190924-kisp',
         },
 
-        'LocalStorage': {
-            name: 'markdoc-admin',
-        },
-        'SessionStorage': {
-            name: 'markdoc-admin',
-        },
-
+      
         'Proxy': {
             base: 'api/',
         },
@@ -54,7 +46,8 @@
 
 
 
-    /**weber.debug.begin*/ //------------------------------------------------------------------------>
+    /**weber.debug.begin*/
+    //------------------------------------------------------------------------>
 
     // 开发过程中用到的配置，正式发布后可去掉
 
@@ -67,7 +60,7 @@
 
     KISP.config({  // KISP 内部模块所需要的默认配置
         'API': {
-            url: 'http://localhost:8089/',
+            //url: 'http://localhost:8089/',
 
             //在开发阶段，为了防止后台过快的返回数据而显示让某些需要显示
             //"数据加载中"的效果不明显， 这里强行加上一个随机延迟时间，

@@ -1,132 +1,132 @@
 /*
-* pc - KISP JavaScript Library
+* KISP JavaScript Library
 * name: pc 
-* version: 0.0.1
-* build: 2018-04-20 10:23:57
-* files: 124(122)
+* version: 8.2.0
+* build time: 2019-09-24 10:09:47
+* concat md5: D2080A4AF82F28DEB471F2951F9B36CD
+* source files: 123(121)
 *    partial/begin.js
 *    base/Module.js
 *    base/ModuleManager.js
 *    base/InnerModules.js
+*    $/Array.js
+*    $/Date.js
+*    $/String.js
+*    $/Emitter.js
+*    $/Object.js
+*    $/Tree.js
+*    $/Escape.js
+*    $/Fn.js
+*    $/Math.js
+*    $/Hash.js
+*    $/Query.js
+*    $/JSON.js
+*    $/Script.js
+*    $/StyleSheet.js
+*    $/Tasks.js
 *    core/KISP.js
 *    core/Defaults.js
 *    core/Config.js
-*    $/Object.js
-*    $/Array.js
+*    core/Data.js
 *    browser/Router.js
 *    api/Proxy.js
-*    defaults/common/api/Proxy.js
-*    $/Fn.js
-*    $/Math.js
-*    $/Script.js
-*    $/String.js
-*    $/JSON.js
+*    data/defaults/common/api/Proxy.js
 *    browser/Url.js
-*    defaults/common/excore/Url.js
+*    data/defaults/common/Url.js
 *    api/Proxy/Url.js
-*    $/Query.js
-*    browser/App.js
-*    defaults/common/browser/App.js
-*    browser/Loader.js
-*    defaults/common/excore/Loader.js
-*    $/StyleSheet.js
-*    browser/Loader/Url.js
-*    core/Module.js
-*    defaults/common/core/Module.js
-*    $/Tasks.js
-*    $/Emitter.js
-*    $/Tree.js
-*    browser/Package.js
-*    defaults/common/browser/Package.js
-*    ui/Loading.js
-*    defaults/common/ui/Loading.js
-*    config/pc/Loading.js
-*    excore/RandomId.js
-*    ui/Style.js
-*    ui/Mask.js
-*    defaults/common/ui/Mask.js
-*    config/pc/Mask.js
-*    ui/Mask/Sample.html.js
-*    ui/Mask/Style.js
-*    ui/Loading/Sample.js
-*    ui/Loading/Style.js
-*    ui/Loading/Presettings.js
-*    browser/Package/Loader.js
-*    browser/App/Nav.js
-*    defaults/common/browser/App/Nav.js
-*    browser/Navigator.js
-*    $/Hash.js
-*    ui/Alert.js
-*    defaults/common/ui/Alert.js
-*    config/pc/Alert.js
-*    ui/Alert/Dialog.js
-*    ui/Dialog.js
-*    defaults/common/ui/Dialog.js
-*    config/pc/Dialog.js
-*    excore/Mapper.js
-*    ui/Dialog/Sample.js
-*    ui/Dialog/Style.js
-*    ui/Dialog/Renderer.js
-*    mobile/Scroller.js
-*    lib/IScroll.js
-*    mobile/Scroller/pull.js
-*    ui/Alert/Sample.html.js
-*    ui/Confirm.js
-*    defaults/common/ui/Confirm.js
+*    browser/app/App.js
+*    data/defaults/common/App.js
+*    data/config/pc/App.js
+*    core/OuterModule.js
+*    data/defaults/common/OuterModule.js
 *    lib/$.js
-*    ui/View.js
-*    defaults/common/ui/View.js
-*    ui/Panel.js
-*    defaults/common/ui/Panel.js
-*    ui/Template.js
-*    defaults/common/ui/Template.js
-*    api/SSH.API.js
-*    defaults/common/api/SSH.API.js
-*    api/SSH.js
-*    defaults/common/api/SSH.js
+*    browser/app/App/Navigator.js
+*    browser/navigator/Navigator.js
+*    data/defaults/common/Navigator.js
+*    browser/navigator/Navigator/Back.js
+*    browser/navigator/Navigator/Meta.js
+*    browser/navigator/Navigator/Hash.js
+*    browser/navigator/Navigator/Infos.js
+*    browser/navigator/Navigator/Router.js
+*    browser/navigator/Navigator/Storage.js
+*    browser/storage/SessionStorage.js
+*    data/defaults/common/SessionStorage.js
+*    browser/storage/Storage.js
+*    third/CircularJSON.js
+*    browser/storage/LocalStorage.js
+*    data/defaults/common/LocalStorage.js
+*    browser/app/App/Navigator/Views.js
+*    browser/package/Package.js
+*    data/defaults/common/Package.js
+*    ui/loading/Loading.js
+*    data/defaults/common/Loading.js
+*    core/Style.js
+*    ui/loading/Loading/Sample.js
+*    ui/loading/Loading/Style.js
+*    ui/loading/Loading/Meta.js
+*    core/RandomId.js
+*    ui/loading/Loading/Masker.js
+*    ui/mask/Mask.js
+*    data/defaults/common/Mask.js
+*    data/config/pc/Mask.js
+*    ui/mask/Mask/Sample.html.js
+*    ui/mask/Mask/Style.js
+*    ui/mask/Mask/Meta.js
+*    ui/loading/Loading/Presettings.js
+*    core/Session.js
+*    data/defaults/common/Session.js
+*    browser/package/Package/All.js
+*    browser/package/Package/Loader.js
+*    ui/view/View.js
+*    data/defaults/common/View.js
+*    data/config/pc/View.js
+*    ui/panel/Panel.js
+*    data/defaults/common/Panel.js
+*    ui/template/Template.js
+*    third/HTMLParser.js
+*    ui/template/Template/Meta.js
+*    ui/template/Template/Parser.js
+*    ui/template/Template/Parser/Templates.js
+*    ui/template/Template/Sample.js
+*    ui/template/Template/Child.js
+*    core/Mapper.js
+*    ui/panel/Panel/Meta.js
+*    ui/panel/Panel/Container.js
+*    ui/panel/Panel/Params.js
+*    ui/alert/Alert.js
+*    data/defaults/common/Alert.js
+*    data/config/pc/Alert.js
+*    ui/alert/Alert/Dialog.js
+*    ui/dialog/Dialog.js
+*    data/defaults/common/Dialog.js
+*    data/config/pc/Dialog.js
+*    ui/dialog/Dialog/Style.js
+*    ui/dialog/Dialog/Meta.js
+*    ui/dialog/Dialog/Masker.js
+*    ui/dialog/Dialog/Events.js
+*    ui/dialog/Dialog/Template.js
+*    ui/dialog/Dialog/Template/Sample.html.js
+*    ui/alert/Alert/Dialog/Height.js
+*    ui/alert/Alert/Sample.html.js
+*    ui/confirm/Confirm.js
+*    data/defaults/common/Confirm.js
 *    api/API.js
-*    defaults/common/api/API.js
+*    data/defaults/common/api/API.js
 *    api/API/Ajax.js
-*    api/SSH/Server.js
-*    defaults/common/api/SSH/Server.js
-*    $/Date.js
-*    browser/SessionStorage.js
-*    defaults/common/browser/SessionStorage.js
-*    browser/Storage.js
-*    browser/LocalStorage.js
-*    defaults/common/browser/LocalStorage.js
-*    crypto/MD5.js
-*    api/SSH/Server/Config.js
-*    defaults/common/api/SSH/Server/Config.js
-*    api/SSH/Ajax.js
-*    api/SSH.API/Ajax.js
-*    ui/Toast.js
-*    defaults/common/ui/Toast.js
-*    ui/Toast/Renderer.js
-*    ui/Toast/Sample.js
-*    ui/Toast/Style.js
-*    third/CloudHome.js
-*    third/CloudHome.API.js
-*    defaults/common/third-party/CloudHome.API.js
-*    third/CloudHome.Title.js
-*    third/CloudHome/Native.js
-*    ui/Tabs.js
-*    defaults/common/ui/Tabs.js
-*    config/pc/Tabs.js
-*    ui/Tabs/Helper.js
-*    ui/NoData.js
-*    defaults/common/ui/NoData.js
-*    ui/NoData/Renderer.js
-*    ui/NoData/Sample.html.js
-*    ui/NoData/Style.js
-*    third/ImageReader.js
-*    defaults/common/third-party/ImageReader.js
-*    third/ImageReader/Renderer.js
-*    $/Escape.js
-*    mobile/NumberPad/Sample.html.js
-*    ui/Dialog/Sample/iOS.html.js
-*    ui/Loading/Sample/iOS.html.js
-*    ui/Toast/Sample/font-awesome.html.js
+*    ui/tabs/Tabs.js
+*    data/defaults/common/Tabs.js
+*    data/config/pc/Tabs.js
+*    ui/tabs/Tabs/Events.js
+*    ui/tabs/Tabs/Meta.js
+*    ui/toast/Toast.js
+*    data/defaults/common/Toast.js
+*    ui/toast/Toast/Sample.html.js
+*    ui/toast/Toast/Style.js
+*    ui/toast/Toast/Meta.js
+*    ui/toast/Toast/Masker.js
+*    mobile/scroller/Scroller/pulldown/Pulldown/Indicator/Sample.html.js
+*    mobile/scroller/Scroller/pullup/Pullup/Indicator/Sample.html.js
+*    ui/loading/Loading/Sample/IOS.html.js
 *    partial/end.js
 */
 
@@ -168,91 +168,141 @@
 ) {
 
 
+
 /**
-* 用于工厂函数 
-*   factory(require, module, exports) { }
-* 中的第二个参数 `module` 的构造器。
+* 用于工厂函数中的第二个参数 `module` 的构造器。
+* 工厂函数原型为: factory(require, module, exports) { }
 */
 var Module = (function () {
 
     var mapper = new Map();
 
-    function Module(config) {
 
-        var id = config.id;
-        var module = config.module;
+
+    /**
+    * 构造器。
+    *   id: '',     //模块 id，`Users/List/API`。
+    *   config = {
+    *       seperator: '',  //分隔符，如 `/`。
+    *       mm: null,       //模块管理器 ModuleManager 的实例。
+    *       emitter: null,  //事件驱动器实例。
+    *
+    *       //会扩展到 this 的成员。
+    *       exports: {},    //导出对象。
+    *       parent: null,   //父模块。 也是 Module 实例。
+    *   };
+    *   
+    */
+    function Module(id, config) {
         var seperator = config.seperator;
+        var names = id.split(seperator);    //全部名称的数组。
+        var name = names.slice(-1)[0];      //短名称，如 `API`。
         var parent = config.parent;
 
+        if (parent) {
+            //在一个模块的工厂函数里：
+            //防止通过 module.parent.require(...) 来加载它的兄弟模块。
+            //仅允许通过 module.require(...) 来加载自己的直接子模块。
+            //如当前模块为 `Users/List/API`，它的父模块则为 `Users/List`，
+            //假如它还有个兄弟(同级)模块 `Users/List/Loading`，
+            //则不允许 `API` 模块通过它的父模块来加载同级模块 `Loading`。
+            //parent.require = function (name) {
+            //    throw new Error(`禁止通过父模块来加载同级模块：模块 ${id} 尝试加载同级模块 ${name}。`);
+            //};
 
-        //暴露给外部的属性。
-        Object.assign(this, {
-            'id': id,
-            'name': id.split(seperator).slice(-1)[0],   //短名称。
-            'seperator': seperator,
-            'exports': config.exports,
-            'count': module.count,
-            'parent': parent ? parent.mod : null,
-        });
+            parent = Object.create(parent, {
+                require: {
+                    value: function (name) {
+                        throw new Error(`禁止通过父模块来加载同级模块：模块 ${id} 尝试加载同级模块 ${name}。`);
+                    },
+                },
+            });
+        }
 
 
         //内部方法使用的字段。
-        //安全起见，不使用暴露的那份，防止调用方恶意去改。
+        //安全起见，不使用暴露给外面的的那份，防止调用方恶意去改。
         var meta = {
-            'id': id,
-            'seperator': seperator,
-            'emitter': module.emitter,
-            'mm': config.mm,
+            'id': id,                   //模块 id，`Users/List/API`。
+            'seperator': seperator,     //上下级模块名称的分隔符，如 `/`。
+            'emitter': config.emitter,  //事件驱动器。 可以为空。
+            'mm': config.mm,            //所属的模块管理器。
+            'this': this,               //方便访问自己。
         };
 
         mapper.set(this, meta);
+
+
+
+        //暴露给外部使用的属性。
+        Object.assign(this, {
+            'id': id,
+            'name': name,
+            'names': names,
+            'seperator': seperator,
+
+            //扩展到 this 的成员。
+            'exports': config.exports,  //模块的导出对象。
+            'parent': parent,           //父模块。
+        });
     }
+
+    
 
     //实例方法。
     Module.prototype = {
         constructor: Module,
 
-        /**
-        * 加载当前模块指定名称的直接下级模块。
-        * @param {string} name 直接下级模块的短名称。
-        */
-        require: function (name) {
-            var meta = mapper.get(this);
-            var seperator = meta.seperator;
-
-            if (name.includes(seperator)) {
-                throw new Error('不允许跨级加载模块: ' + name);
-            }
-
-            var full = meta.id + seperator + name;
-            var M = meta.mm.require(full);
-            return M;
-        },
+        id: '',         //模块的 id，如 `Users/List/API`。
+        name: '',       //模块的(短)名称，如 `API`。
+        seperator: '',  //模块 id 中的分隔符，如 `/`。 
+        exports: null,  //模块的导出对象。
+        parent: null,   //父模块。
 
         /**
         * 在当前模块上绑定事件。
         */
-        on: function () {
+        on: function (...args) {
             var meta = mapper.get(this);
             var emitter = meta.emitter;
 
-            emitter && emitter.on(...arguments);
+            emitter && emitter.on(...args);
         },
 
         /**
-        * 在首次 require 指定直接子模块时，绑定该模块上指定的事件。
+        * 加载直接子模块。
+        * 即工厂函数 factory(require, module, exports) {} 中的第二个参数要用到的方法如：
+        *   var Helper = module.require('Helper');
+        * @param {string} name 直接下级模块的短名称。
+        *   注意：短名称中不允许包含分隔符，如 `/`。
+        */
+        require: function (name) {
+            var meta = mapper.get(this);
+            var seperator = meta.seperator;
+            var id = meta.id + seperator + name;    //完整名称，如 `Users/List/API/Helper`。
+
+            if (name.includes(seperator)) {
+                throw new Error(`模块 ${meta.id} 不允许跨级加载模块: ${id}`);
+            }
+
+           
+            //允许模块管理器跨级加载模块。
+            var exports = meta.mm.require(id, true); 
+
+            return exports;
+        },
+
+        /**
+        * 在首次 require 子模块时，绑定该子模块上的事件。
+        * 已重载 bind(name$events);    //批量绑定多个子模块对应的多个事件。
+        * 已重载 bind(name, events);   //单个绑定指定子模块对应的多个事件。
+        * @param {string} name (直接)子模块的短名称。
+        * @param {object} events 由事件名称作为键，处理函数作为值组成的键值对对象。
         */
         bind: function (name, events) {
-            var self = this;
-            var name$events = {};
-
-            if (typeof name == 'string') {   //单个绑定。
-                name$events[name] = events;
-            }
-            else { // name 为 {}， 多个模块的批量绑定。
-                name$events = name;
-            }
-
+            //把单个绑定和批量绑定统一形式。
+            var name$events = typeof name == 'object' ? name : { [name]: events, };
+            var meta = mapper.get(this);
 
             Object.keys(name$events).forEach(function (name) {
                 var events = name$events[name];
@@ -261,78 +311,33 @@ var Module = (function () {
                     M.on(events);
                 };
 
-                self.on('require', name, fn);
+                //当前模块加载子模块时触发。
+                //如当前模块为 `Users/List/API`，子模块为 `Helper`，
+                //在加载该子模块时，绑定 `Helper` 的抛出来的事件。
+                meta.this.on('require', name, fn);
             });
-            
 
         },
 
-        /**
-        * 异步加载指定的直接子模块并执行回调函数。
-        * 该方法会先尝试用同步方式加载子模块，如果成功则直接调用回调函数；否则使用异步方式加载。
-        * 一旦加载成功，在第二次及以后都会使用同步方式。
-        * @param {string} name 要加载的子模块名称。
-        * @param {string|Object} [container] 加载到的子模块的 html 内容需要附加到的容器(jQuery选择器)。
-        *   只有指定了该参数，并且加载到的 html 内容不为空才会附加到容器。
-        * @param {function} fn 加载成功后要执行的回调函数。
-        *   该函数会接收一个参数: 加载到的子模块实例。
-        */
-        load: function (name, container, fn) {
 
-            //重载 load(name, fn);
-            if (typeof container == 'function') {
-                fn = container;
-                container = null;
-            }
-
-            var M = this.require(name);
-            if (M) {
-                fn && fn(M);
-                return;
-            }
-
-            var self = this;
-            var meta = mapper.get(this);
-            var full = meta.id + meta.seperator + name;
-
-            var Package = InnerModules.require('Package');
-
-
-            Package.load(full, function (pack) {
-
-                var item = pack['html'];
-                if (container && item && item.content) {
-                    var $ = InnerModules.require('$');
-                    $(container).append(item.content);
-                }
-
-
-                var M = self.require(name);
-
-                if (!M) {
-                    throw new Error('不存在名为 ' + name + ' 的子模块');
-                }
-
-                fn && fn(M);
-
-            });
-        },
 
         /**
-        * 加载指定的子模块并调用 render 方法，可向其传递一些参数。
+        * 加载指定的子模块并调用 render() 方法，可向其传递一些参数。
         * @param {string} name 要加载的子模块名称。
         * @return {Object} 返回加载到的子模块实例。
         */
-        render: function (name, arg0, arg1, argN) {
-            var args = [].slice.call(arguments, 1);
+        render: function (name, ...args) {
             var M = this.require(name);
+
             if (!M) {
-                throw new Error('不存在名为 ' + name + ' 的子模块。');
+                throw new Error(`模块 ${meta.id} 不存在名为 ${name} 的直接子模块`);
             }
 
-            M.render.apply(M, args);
+            M.render(...args);
             return M;
         },
+
+
 
     };
 
@@ -341,94 +346,113 @@ var Module = (function () {
 
 })();
 
+
 /**
-* CMD 模块管理器类。
+* 树型结构的 CMD 模块管理器类。
+* 主要实现模块的定义 (define) 和加载 (require) 功能。
 * @class
+* @name ModuleManager
 */
 var ModuleManager = (function (Module) {
 
     var mapper = new Map();
 
-
-    //构造器。
-    function ModuleManager(config) {
-
-        var self = this;
-
-        config = Object.assign({
-            seperator: '/',
-            repeated: false,
-            cross: false,
-            Emitter: null,
-
-            //用于 factory(require, module, exports){ } 中的第一个参数 `require`，加载公共模块。
-            require: function (id) {
-                return self.require(id, !meta.cross);
-            },
-
-        }, config);
+    //默认配置。
+    var defaults = {
+        seperator: '/',     //模块 id 内的名称分隔符，如 `Users/List/API`。
+        cross: false,       //是否允许跨级加载模块。
+        repeated: false,    //是否允许重复定义同一个 id 的模块。
+        Emitter: null,      //事件驱动器类。
+    };
 
 
-        var require = config.require;
 
-        //提供快捷方式去加载并 new 一个指定模块构造器的实例。
-        require.new = function (id) {
-            var M = require(id);
-            if (typeof M != 'function') {
-                return null;
-            }
+    /**
+    * 构造器。
+    *   options = {
+    *       seperator: '/',     //模块 id 内的名称分隔符，如 `Users/List/API` 中的 `/`。
+    *       cross: false,       //是否允许跨级加载模块。
+    *       repeated: false,    //是否允许重复定义同一个 id 的模块。
+    *       Emitter: null,      //事件驱动器类。
+    *   };
+    */
+    function ModuleManager(options) {
 
-            var args = [].slice.call(arguments, 1);
-            args = [null].concat(args);
-            return new (M.bind.apply(M, args));
-        };
-        
-
+        var config = Object.assign({}, defaults, options);
         var Emitter = config.Emitter;
         var emitter = Emitter ? new Emitter(this) : null;
 
         var meta = {
             'id$module': {},
-            'seperator': config.seperator,  //父子模块命名中的分隔符，如 `User/Login/API`。
-            'repeated': config.repeated,    //是否允许重复定义模块。
+            'seperator': config.seperator,  //父子模块命名中的分隔符，如 `User/List/API`。
             'cross': config.cross,          //是否允许跨级加载模块。
-            'require': config.require,      //自定义加载公共模块的方法。
-            'Emitter': Emitter,             //事件管理器构造器。
-            'emitter': emitter,             //用于加载全部模块时触发相应的事件管理器实例。
+            'repeated': config.repeated,    //是否允许重复定义模块。
+            'emitter': emitter,             //当前 `模块管理器` 的全局事件管理器。
+            'Emitter': Emitter,             //事件管理器构造器。 用于 define() 中，以便针对每个模块创建它私有的 emitter。
+            'this': this,                   //方便内部访问 this 对象。
+
+          
+            /**
+            * 用于给工厂函数加载公共模块。
+            * 同时限制为仅允许加载公共模块。
+            * 即 factory(require, module, exports){ } 中的第一个参数 `require`。
+            */
+            'require': function (id) {
+                return meta.this.require(id);
+            },
+
+            /**
+            * 内部使用的，触发全局事件。
+            */
+            'fire': function () {
+                emitter && emitter.fire(...arguments);
+            },
+
+            /**
+            * 内部使用的，获取指定 id 对应的父模块对象。
+            * 如 `User/List/API` 的父模块 id 为 ``User/List`。
+            */
+            'getParent': function (id) {
+                var seperator = meta.seperator;
+                var names = id.split(seperator);
+
+                //顶级模块。
+                if (names.length == 1) {
+                    return null;
+                }
+
+                //如 `Users/List`
+                var pid = names.slice(0, -1).join(seperator);
+
+                return meta.id$module[pid] || null;
+            },
+
         };
+
 
         mapper.set(this, meta);
 
 
-        //监听子级模块的首次加载事件。
-        this.on('require', function (id, mod, exports) {
-            var id$module = meta.id$module;
+        //全局地监听每个模块的首次加载事件。
+        this.on('require', function (id, module, exports) {
+
+            //触发被加载模块的首次加载事件。
+            module.fire('require', [exports]);
+
 
             //触发本级模块的事件。
-            var module = id$module[id];
-            var emitter = module.emitter;
-            emitter && emitter.fire('require', [exports]);
-
-            //说明是直接导出对象。
-            if (!mod) {
-                return;
-            }
-
-            var name = mod.name;    //短名称。
-
-            //顶级模块。
-            if (name == id) {
-                return;
-            }
-
-            //子级模块。
             //取它的父模块的事件管理器。
-            var module = id$module[mod.parent.id];
-            var emitter = module.emitter;
-            emitter && emitter.fire('require', name, [exports]);
+            var parent = module.parent;
+           
+            if (parent) {
+                parent.fire('require', module.name, [exports]);
+            }
 
         });
+
     }
+
+
 
 
     //实例方法
@@ -436,131 +460,179 @@ var ModuleManager = (function (Module) {
         constructor: ModuleManager,
 
         /**
-        * 定义指定名称的模块。
-        * @param {string} id 模块的名称。
-        * @param {Object|function} factory 模块的导出函数或对象。
+        * 判断指定的模块是否已定义。
         */
-        define: function (id, factory) {
+        has: function (id) {
             var meta = mapper.get(this);
             var id$module = meta.id$module;
-            var repeated = meta.repeated;
 
-            if (!repeated && id$module[id]) {
-                throw new Error('配置设定了不允许定义重复的模块: 已存在名为 "' + id + '" 的模块');
+            return id$module.hasOwnProperty(id);
+        },
+
+        /**
+        * 定义一个模块。
+        * @param {string} id 模块的名称。
+        * @param {function|Object|Array} factory 模块的工厂函数或导出对象。
+        *   工厂函数原型为 factory(require, module, exports) { }
+        */
+        define: function (id, factory) {
+            if (typeof id != 'string') {
+                throw new Error(`参数 id 的类型必须为 string，当前为: ${typeof id}`);
             }
 
+            var meta = mapper.get(this);
+            var id$module = meta.id$module;
+
+            if (!meta.repeated && id$module[id]) {
+                throw new Error(`配置设定了不允许定义重复的模块: 已存在名为 ${id} 的模块`);
+            }
 
             var Emitter = meta.Emitter;
-            var emitter = Emitter ? new Emitter(this) : null;
-            if (emitter) {
-                emitter.id = 'emitter-' + id;
-            }
+            var emitter = Emitter ? new Emitter() : null;
+            var name = id.split(meta.seperator).slice(-1)[0];      //取最项一项作为短名称，如 `API`。
 
             id$module[id] = {
-                'factory': factory, //工厂函数或导出对象
-                'exports': null,    //这个值在 require 后可能会给改写
-                'required': false,  //指示是否已经 require 过
-                'count': 0,         //require 的次数统计
-                'mod': null,        //用来存放 require 时产生的中间结果
-                'emitter': emitter, //
+                'id': id,           //全名称，如 `Users/List/API`。
+                'name': name,       //短名称，如 `API`。 如果 name == id，则说明是顶级模块，即不含有 `/`。
+                'factory': factory, //原始的工厂函数或导出对象。
+                'emitter': emitter, //用于工厂函数第二个参数 `module` 的事件驱动器。
+
+                //以下的在 require() 后肯定会给改写。
+                'parent': null,     //父级对象。 如果为空，则说明是顶级模块。
+                'required': false,  //指示是否已经 require 过。
+                'count': 0,         //require 的次数统计。
+
+                //以下的在 require() 后可能会给改写。
+                'exports': null,    //最终的导出对象。 要么是 factory 本身，要么是 factory 运行后的结果。
+                'mod': null,        //工厂函数第二个参数 `module`。 如果工厂函数是一个直接导出对象，则它为空。
+
+                //触发当前模块级别的事件。
+                'fire': function () {
+                    emitter && emitter.fire(...arguments);
+                },
             };
+
+
         },
 
         /**
         * 加载指定的模块。
         * @param {string} id 模块的名称。
-        * @param {boolean} noCross 是否禁用跨级调用。 
-        *   当指定为 true 时，则禁用跨级调用。 否则，默认允许跨级调用。
+        * @param {boolean} cross 是否允许跨级加载模块。
+        *   如果不指定，则根据创建实例时指定的 cross 来决定。
         * @return 返回指定的模块的导出对象。
         */
-        require: function (id, noCross) {
+        require: function (id, cross) {
             if (typeof id != 'string') {
-                throw new Error('参数 id 的类型必须为 string: ' + (typeof id));
+                throw new Error(`参数 id 的类型必须为 string，当前为: ${typeof id}`);
             }
 
             var meta = mapper.get(this);
             var seperator = meta.seperator;
 
-            if (noCross && id.includes(seperator)) {
-                throw new Error('参数明确指定了不允许跨级加载模块: ' + id);
+
+            //未指定，则使用创建实例时的配置。
+            if (cross === undefined) {
+                cross = meta.cross;
             }
 
+           
+            if (!cross && id.includes(seperator)) {
+                throw new Error(`参数指定了或配置设定了不允许跨级加载模块: ${id}`);
+            }
 
-            var id$module = meta.id$module;
-            var module = id$module[id];
-            if (!module) { //不存在该模块
+            //不存在该模块。
+            if (!this.has(id)) {
                 return;
             }
 
+            var id$module = meta.id$module;
+            var module = id$module[id];
+
+            //加载次数累计。
             module.count++;
+
 
             //已经加载过了。
             if (module.required) {
                 return module.exports;
             }
 
-
+            //==============================================================================
             //首次加载。
-            var emitter = meta.emitter;
             module.required = true; //更改标志，指示已经 require 过一次。
 
+            
             var factory = module.factory;
-            if (typeof factory != 'function') { //非工厂函数，则直接导出
+            var parent = module.parent = meta.getParent(id);
+
+
+            //非工厂函数，则直接导出。
+            if (typeof factory != 'function') { 
                 module.exports = factory;
-                emitter && emitter.fire('require', [id, null, factory]);
+                meta.fire('require', [id, module, factory]);
+
                 return factory;
             }
 
-
-            //factory 是个工厂函数
-            var self = this;
+            //--------------------------------------------------------------------------------
+            //factory 是个工厂函数。
             var exports = {};
 
-            var parent = null;
-            var names = id.split(seperator);
-
-            if (names.length > 1) {
-                var parentId = names.slice(0, -1).join(seperator);
-                parent = id$module[parentId];
-            }
-
-
-
-            var mod = module.mod = new Module({
-                'id': id,
+     
+            //mod 就是工厂函数 factory(require, module, exports) 中的第二个参数啦。
+            var mod = module.mod = new Module(id, {
                 'seperator': seperator,
-                'exports': exports,
-                'module': module,
-                'parent': parent,
                 'mm': this,
+                'emitter': module.emitter,
+
+                //会扩展到 mod 的属性。
+                'exports': exports,                     //模块的导出对象。
+                'parent': parent ? parent.mod : null,   //父模块实例。
             });
+
 
 
             //调用工厂函数获得导出对象。
             exports = factory(meta.require, mod, exports);
 
-            if (exports === undefined) {    //没有通过 return 来返回值，
-                exports = mod.exports;      //则要导出的值只能在 mod.exports 里
+            //没有通过 return 来返回值，则要导出的值只能在 mod.exports 里。
+            if (exports === undefined) { 
+                exports = mod.exports;
             }
 
             module.exports = exports;
-            emitter && emitter.fire('require', [id, mod, exports]);
+
+            //这条，给提供业务层提供方便。
+            //即使业务层是通过 return 来返回导出对象，
+            //导出对象各成员函数之间依然可以通过 `module.exports.xx` 来引用其它的成员。
+            mod.exports = exports;
+
+            meta.fire('require', [id, module, exports]);
+
             return exports;
         },
 
-        on: function (name, fn) {
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
             var meta = mapper.get(this);
             var emitter = meta.emitter;
-            var args = Array.from(arguments);
-            emitter && emitter.on(args);
-        },
 
+            emitter && emitter.on(...args);
+        },
 
         /**
         * 销毁本实例。
         */
         destroy: function () {
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+
+            emitter && emitter.destroy();
             mapper.delete(this);
+
         },
     };
 
@@ -570,874 +642,104 @@ var ModuleManager = (function (Module) {
 })(Module);
 
 
-//内部使用的模块管理器。
+
+/**
+* KISP 内部使用的模块管理器。
+*/
 var InnerModules = (function (ModuleManager) {
 
     //内部使用的模块管理器。
     var mm = new ModuleManager({
-        cross: true,    //用于跨级加载，如配置文件。
+        cross: true,       //内部的，要允许跨级加载模块。 用于在一步到位加载某个模块的默念配置，如 `SSH/Server.defaults`
     });
 
+    //记录要对外暴露的模块。
     var id$exposed = {};
 
 
     return {
-        define: mm.define.bind(mm),
-        require: mm.require.bind(mm),
+        'has': mm.has.bind(mm),
+        'define': mm.define.bind(mm),       //本文件的底部即用到。
+        'require': mm.require.bind(mm),     //在 `partial/end.js` 中用到。
 
         /**
         * 绑定到指定模块的指定方法。
-        * @param {string} id 模块的名称(id)。
-        * @param {string} name 模块的方法名称。
+        * @param {string} id 模块的 id。
+        * @param {string} name 要绑定的模块方法的名称。
         * @param {Object|boolean} context 绑定的方法执行时的上下文，即 this 变量的指向。
             如果传入 true，则表示当前要绑定的模块本身。
         * @return {function} 返回绑定后的方法。
         */
         bind: function (id, name, context) {
-            return function () {
+
+            return function (...args) {
                 var M = mm.require(id);
-                var args = Array.from(arguments);
+                var fn = M[name];
 
-                context = context === true ? M : context;
-                context = context || null;
+                if (typeof fn != 'function') {
+                    throw new Error(`要绑定的模块 ${id} 中不存在名为 ${name} 的方法或函数。`);
+                }
 
-                return M[name].apply(context, args);
+                context = context === true ? M : context || null;
+
+                return fn.call(context, ...args);
             };
         },
 
 
+        /**
+        * 获取或设置模块的暴露状态。
+        * 已重载 expose([]); //批量设置指定的模块列表为暴露状态。
+        * 已重载 expose({}); //批量设置暴露状态。
+        * 已重载 expose(id, exposed); //单个设置暴露状态。
+        * 已重载 expose(id); //获取单个的暴露状态。
+        */
         expose: function (id, exposed) {
 
+            //重载 expose([]); 
             //批量 set 为 true。
             if (Array.isArray(id)) {
-                id.forEach(function (id) {
+                var ids = id;
+
+                ids.forEach(function (id) {
                     id$exposed[id] = true;
                 });
 
                 return;
             }
 
+
+            //重载 expose({});
             //批量 set 为指定的 {}。
             if (typeof id == 'object') {
                 var obj = id;
 
                 Object.keys(obj).forEach(function (id) {
-                    id$exposed[id] = obj[id];
+                    id$exposed[id] = !!obj[id];
                 });
+
                 return;
             }
 
+            //重载 expose(id, exposed);
             //单个 set。
             if (arguments.length == 2) {
-                return id$exposed[id] = exposed;
+                id$exposed[id] = !!exposed;
+                return;
             }
 
+            //重载 expose(id);
             //单个 get。
+            id$exposed[id];
 
-            return true; //test...........
-
-            return id$exposed[id];
         },
-
     };
 
 })(ModuleManager);
 
-var define = InnerModules.define;    //内部使用的 define。
+//内部使用的 define。
+var define = InnerModules.define;    
 
-
-
-/**
-* KISP 框架命名空间
-* @namespace
-* @name KISP
-*/
-define('KISP', function (require, module, exports) {
-
-    var cfg = null; //for data
-
-
-    module.exports = exports = /**@lends KISP*/ {
-
-        /**
-        * 名称。 (由 packer 自动插入)
-        */
-        name: 'pc',
-
-        /**
-        * 版本号。 (由 packer 自动插入)
-        */
-        version: '0.0.1',
-
-        /**
-        * 类型号。 (由 packer 自动插入)
-        * 值为 'debug' 或 'min'。
-        */
-        edition: /**{edition*/'debug'/**edition}*/,
-
-
-        /**
-        * 加载 KISP 框架内公开的模块。
-        * @param {string} id 模块的名称(id)。
-        * @return {Object} 返回模块的导出对象。
-        * @example
-        *   var API = KISP.require('API');    
-        */
-        require: function (id) {
-            return InnerModules.expose(id) ? require(id) : null;
-        },
-
-
-        /**
-        * 加载 KISP 框架内公开的模块，并创建它的一个实例。
-        * @param {string} id 模块的名称(id)
-        * @param {Object} config 要创建实例时的配置参数。
-        * @return {Object} 返回该模块所创建的实例。
-        * @example
-        *   var api = KISP.create('API', {});  
-        *   //相当于
-        *   var API = KISP.require('API');
-        *   var api = new API({});
-        */
-        create: require.new,
-
-
-
-        /**
-        * 获取或设置 KISP 内部模块的默认配置。
-        * @function
-        * @example
-        *   KISP.config({});    
-        */
-        config: InnerModules.bind('Defaults', 'config'),
-
-        /**
-       * 给上层业务端提供存取配置数据的方法。
-       * 已重载成 get 和 set 两种方式。 
-       * 字符串中的 {~} 表示站头的根地址；{@} 表示使用的文件版本 debug 或 min。
-       * @param {string} name 要存储的数据的名称。
-       * @param value 要存储的数据的值，可以是任何类型。
-       *   当不提供此参数时，则为 get 操作；否则为 set 操作。
-       */
-        data: InnerModules.bind('Defaults', 'data'),
-
-
-        route: InnerModules.bind('Router', 'set'),
-
-        /**
-        * 响应一个代理请求。
-        * 相当于 Proxy.response() 的别名。
-        * @function
-        * @example
-        *   KISP.proxy({
-                code: 200,
-                msg: 'ok',
-                data: {},
-            });    
-        */
-        proxy: InnerModules.bind('Proxy', 'response'),
-
-        /**
-        * 初始化执行环境，并启动应用程序。
-        * 该方法会预先定义一些公共模块，然后定义一个匿名模块并启动它。
-        * @param {function} factory 工厂函数，即启动函数。
-        */
-        launch: InnerModules.bind('App', 'launch'),
-
-        /**
-        * 弹出 alert 虚拟窗口。
-        * @param {string|Object} text 要显示的消息文本。
-            如果指定为一个对象，则先调用 JSON.string(text, null, 4) 得到字符串再进行显示。
-        */
-        alert: InnerModules.bind('Alert', 'show'),
-
-
-        /**
-        * 弹出 confirm 虚拟窗口。
-        * @param {string} text 要显示的消息文本。
-        * @param {function} 点击确定按钮后要执行的回调函数。
-        */
-        confirm: InnerModules.bind('Confirm', 'show'),
-
-        /**
-        * 用 KISP 标准的方法定义一个 View 视图实例。
-        */
-        view: InnerModules.bind('View', 'define'),
-
-        /**
-        * 用 KISP 标准的方法定义一个 Panel 面板实例。
-        */
-        panel: InnerModules.bind('Panel', 'define'),
-        
-    };
-});
-
-/**
-* KISP 内部模块使用的默认配置管理器。
-* @namespace
-* @name Defaults
-*/
-define('Defaults', function (require, module, exports) {
-
-    var $Object = require('Object');
-
-    var cfg = null;     //
-    var data = null;    //
-    var name$used = {}; // { 模块名: 已经使用了默认配置 }
-
-
-
-    //使用默认配置
-    function use(name) {
-        if (name$used[name]) {
-            return;
-        }
-
-        var defaults = require(name + '.defaults');
-        var config = require(name + '.config');
-        var data = $Object.extendDeeply({}, defaults, config);
-
-        cfg = cfg || require.new('Config');
-        cfg.set(name, data);
-
-        name$used[name] = true;
-    }
-
-
-
-
-    module.exports = exports = /**@lends Defaults*/ {
-
-        set: function (name, config) {
-
-            if (typeof name == 'object') {
-                //批量设置: set({...})
-                $Object.each(name, function (name, config) {
-                    use(name);
-                    cfg.set(name, config);
-                });
-            }
-            else {
-                //单个设置 set(name, config)
-                use(name);
-                cfg.set(name, config);
-            }
-        },
-
-        get: function (name) {
-            use(name);
-            return cfg.get(name);
-        },
-
-
-        clone: function (name, target, target1, targetN) {
-
-            var config = exports.get(name);
-
-            var args = [].slice.call(arguments, 1);
-            args = [{}, config].concat(args);
-
-            return $Object.extendDeeply.apply(null, args);
-        },
-
-        /**
-        * 获取或设置 KISP 内部模块的默认配置。
-        * @function
-        * @example
-        *   KISP.config({});    
-        */
-        config: function (name, value) {
-
-            //get(name)
-            if (arguments.length == 1 && typeof name == 'string') {
-                return exports.get(name);
-            }
-
-            //set
-            exports.set(name, value);
-        },
-
-
-        /**
-       * 给上层业务端提供存取配置数据的方法。
-       * 已重载成 get 和 set 两种方式。 
-       * 字符串中的 {~} 表示站头的根地址；{@} 表示使用的文件版本 debug 或 min。
-       * @param {string} name 要存储的数据的名称。
-       * @param value 要存储的数据的值，可以是任何类型。
-       *   当不提供此参数时，则为 get 操作；否则为 set 操作。
-       */
-        data: function (name, value) {
-
-            data = data || require.new('Config');
-
-            //get(name)
-            if (arguments.length == 1 && typeof name == 'string') {
-                return data.get(name);
-            }
-
-            //set
-            data.set(name, value);
-        },
-    };
-
-});
-
-/**
-* 配置工具类。
-* @class
-* @name Config
-*/
-define('Config', function (require, module,  exports) {
-
-    var $Object = require('Object');
-    var mapper = new Map();
-
-
-    /**
-    * 构造器。
-    */
-    function Config() {
-        var meta = {
-            'name$data': {},
-        };
-
-        mapper.set(this, meta);
-    }
-
-
-    //实例方法
-    Config.prototype = /**@lends Config#*/ {
-        constructor: Config,
-
-        /**
-        * 设置指定模块的默认配置。
-        * 已重载 set({...})，因此可以批量设置。
-        * @param {string} name 要设置的模块的名称。
-        * @param {Object} data 要设置的默认配置对象。
-        */
-        set: function (name, data) {
-
-            var meta = mapper.get(this);
-            var name$data = meta.name$data;
-
-            //批量设置: set({...})
-            if (typeof name == 'object') {
-                $Object.each(name, function (name, data) {
-                    setItem(name, data);
-                });
-            }
-            else {
-                //单个设置 set(name, data)
-                setItem(name, data);
-            }
-            
-
-            //内部共用方法，设置单个模块的默认配置对象。
-            function setItem(name, data) {
-
-                //首次设置
-                if (!(name in name$data)) {
-                    name$data[name] = data;
-                    return;
-                }
-
-                var old = name$data[name];
-
-                if ($Object.isPlain(old)) { //纯对象
-                    $Object.extendDeeply(old, data); //则合并
-                }
-                else { //其他的，则重设
-                    name$data[name] = data;
-                }
-            }
-
-        },
-
-
-
-        /**
-        * 获取指定模块名称的默认配置。
-        * @param {string|object} name 要获取的模块的名称。
-        * @return {Object} 返回该模块的默认配置对象。
-        */
-        get: function (name) {
-            var meta = mapper.get(this);
-            var name$data = meta.name$data;
-            var data = name$data[name];
-            return data;
-        },
-
-        /**
-        * 获取并克隆指定模块名称的默认配置。
-        * @param {string} name 要获取的模块的名称。
-        * @param {Object} [target] 需要合并的对象。
-        *   如果需要提供额外的合并成员，可指定此参数。
-        * @return {Object} 返回该模块的默认配置对象的克隆版本。
-        */
-        clone: function (name, target, target1, targetN) {
-            var data = this.get(name);
-
-            var args = [].slice.call(arguments, 1);
-            args = [{}, data].concat(args);
-
-            return $Object.extendDeeply.apply(null, args);
-
-        },
-
-    };
-
-
-    return Config;
-});
-
-
-/**
-* 对象工具
-* @namespace
-* @name Object
-*/
-define('Object', function (require, module, exports) {
-
-
-
-    module.exports = exports = /**@lends Object */ {
-
-        extend: Object.assign,
-
-        /**
-        * 用多个对象深度扩展一个对象。
-        */
-        extendDeeply: function (target, obj1, obj2) {
-
-            var isPlain = exports.isPlain;
-
-
-            function copy(A, B) {
-                A = A || {};
-
-                for (var key in B) {
-                    var target = B[key];
-                    var source = A[key];
-
-                    if (isPlain(target)) {
-                        if (isPlain(source)) {
-                            source = copy({}, source);
-                        }
-                        else {
-                            source = {};
-                        }
-
-                        target = copy(source, target);
-                    }
-               
-                    A[key] = target;
-                }
-
-                return A;
-            }
-
-
-            //针对最常用的情况作优化
-            if (obj1 && typeof obj1 == 'object') {
-                target = copy(target, obj1);
-            }
-
-            if (obj2 && typeof obj2 == 'object') {
-                target = copy(target, obj2);
-            }
-
-            var startIndex = 3;
-            var len = arguments.length;
-            if (startIndex >= len) { //已处理完所有参数
-                return target;
-            }
-
-            //更多的情况
-            for (var i = startIndex; i < len; i++) {
-                var objI = arguments[i];
-                target = copy(target, objI);
-            }
-
-            return target;
-
-        },
-
-        /**
-        * 检测对象是否是空对象(不包含任何属性)。
-        * 该方法既检测对象本身的属性，也检测从原型继承的属性(因此没有使用 hasOwnProperty )。
-        * 该实现为 jQuery 的版本。
-        * @param {Object} obj 要进行检测的对象，可以是任何类型
-        * @return {boolean} 一个检测结果，如果为空对象则返回 true；否则返回 false
-        * @example
-            $Object.isEmpty({});      //true
-            
-            function Person(){ }
-            Person.prototype.name = 'abc';
-            var p = new Person();
-            $Object.isEmpty( p );   //false
-        */
-        isEmpty: function (obj) {
-            for (var name in obj) {
-                return false;
-            }
-
-            return true;
-        },
-
-        /**
-        * 检测一个对象是否是纯粹的对象（通过 "{}" 或者 "new Object" 创建的）。
-        * 该实现为 jQuery 的版本。
-        * @param {Object} obj 要进行检测的对象，可以是任何类型
-        * @return {boolean} 一个检测结果，如果为纯粹的对象则返回 true；否则返回 false
-        * @example
-            $Object.isPlain( {} );             //true
-            $Object.isPlain( {a: 1, b: {} } );  //true
-            
-            function Person(){ }
-            var p = new Person();
-            $Object.isPlain( p );   //false
-        */
-        isPlain: function (obj) {
-            if (!obj || typeof obj != 'object' /*|| obj.nodeType || exports.isWindow(obj) */) {
-                return false;
-            }
-
-            var hasOwnProperty = Object.prototype.hasOwnProperty;
-            var constructor = obj.constructor;
-
-            try {
-                // Not own constructor property must be Object
-                if (constructor &&
-                    !hasOwnProperty.call(obj, "constructor") &&
-                    !hasOwnProperty.call(constructor.prototype, "isPrototypeOf")) {
-                    return false;
-                }
-            }
-            catch (e) {
-                // IE8,9 Will throw exceptions on certain host objects #9897
-                return false;
-            }
-
-            // Own properties are enumerated firstly, so to speed up,
-            // if last one is own, then all properties are own.
-            var key;
-            for (key in obj) {
-            }
-
-            return key === undefined || hasOwnProperty.call(obj, key);
-        },
-
-
-
-        /**
-        * 把一个对象的键/值对深层次地扁平化成一个数组。
-        * @param {Object} obj 要进行线性化的纯对象。
-        * @return {Array} 返回一个线性化表示的一维数组。
-        *   数组的每项都为一个 { keys: [], value: ... } 的结构。
-        * @example
-            var list = $Object.flat({
-	            name: {
-	                a: 1,
-                    b: 2,
-                    c: {
-	                    aa: 11,
-                        bb: 22
-                    }
-                },
-                tag: {
-	                a: 'a0',
-                    b: 'b0'
-                },
-                id: 1000
-            });
-            console.dir(list);
-            //得到: 
-            [
-                { keys: ['name', 'a'], value: 1 },
-                { keys: ['name', 'b'], value: 2 },
-                { keys: ['name', 'c', 'aa'], value: 11 },
-                { keys: ['name', 'c', 'bb'], value: 22 },
-                { keys: ['tag', 'a'], value: 'a0' },
-                { keys: ['tag', 'b'], value: 'b0' },
-                { keys: ['id'], value: 1000 },
-            ]
-        */
-        flat: function (obj) {
-
-            var isPlain = exports.isPlain;
-
-            var list = [];
-            if (!obj || !isPlain(obj)) {
-                return list;
-            }
-
-
-            var keys = [];
-
-            /**
-            * @inner
-            * 内部使用的迭代函数。
-            * @param {Object} obj 要进行迭代的对象。
-            * @param {number} level 用来跟踪当前迭代键值所处的层次深度，辅助用的。
-            */
-            function each(obj, level) {
-
-                for (var key in obj) {
-
-                    var value = obj[key];
-
-                    keys = keys.slice(0, level);
-                    keys.push(key);
-
-                    if (isPlain(value)) {   //还是一个纯对象
-                        each(value, level + 1);     //递归处理
-                        continue;
-                    }
-
-                    //叶子结点
-                    list.push({
-                        'keys': keys,
-                        'value': value
-                    });
-                }
-            }
-
-            each(obj, 0);
-
-            return list;
-
-        },
-
-        /**
-        * 对一个对象进行迭代。
-        * 该方法可以代替 for in 的语句。
-        * 只有在回调函数中明确返回 false 才停止循环。
-        * @param {Object} obj 要进行迭代处理的对象
-        * @param {function} fn 要进行迭代处理的回调函数，该函数中会接收到当前对象迭代的到 key 和 value 作为参数
-        * @param {boolean} [isDeep=false] 
-            指示是否要进行深层次的迭代，如果是，请指定 true；
-            否则请指定 false 或不指定。默认为 false，即浅迭代
-        * @example
-            var obj = {
-                a: 1, 
-                b: 2, 
-                c: {
-                    A: 11, 
-                    B: 22
-                } 
-            };
-
-            $Object.each(obj, function(key, value) {
-                console.log(key, ': ', value);
-            }, true);
-        输出：
-            a: 1,
-            b: 2,
-            c: { A: 11, B: 22},
-            A: 11,
-            B: 22
-        */
-        each: function (obj, fn, isDeep) {
-
-            var each = arguments.callee;
-
-            for (var key in obj) {
-                var value = obj[key];
-
-                // 只有在 fn 中明确返回 false 才停止循环
-                if (fn(key, value) === false) {
-                    break;
-                }
-
-                //指定了深迭代，并且当前 value 为非 null 的对象
-                if (isDeep === true && value && typeof value == 'object') {
-                    each(value, fn, true); //递归
-                }
-
-            }
-        },
-
-        /**
-        * 对象映射转换器，返回一个新的对象。
-        * @param {Object} obj 要进行迭代处理的对象
-        * @param {function} fn 要进行迭代处理的回调函数，该函数中会接收到当前对象迭代的到 key 和 value 作为参数
-        * @param {boolean} [isDeep=false] 指示是否要进行深层次的迭代。
-            如果是，请指定 true；
-            否则请指定 false 或不指定。
-            默认为 false，即浅迭代
-        * @return {Object} 返回一个新的对象，key 仍为原来的 key，value 由回调函数得到
-        * @example
-            var obj = {a: 1, b: 2, c: {A: 11, B: 22} };
-            var obj2 = $Object.map(obj, function(key, value) {
-                return value * 100;
-            }, true);
-            console.dir(obj2);
-        结果：
-            obj2 = {a: 100, b: 200, c: {A: 1100, B: 2200}};
-        */
-        map: function (obj, fn, isDeep) {
-            var map = arguments.callee; //引用自身，用于递归
-            var isPlain = exports.isPlain;
-
-            var target = {};
-
-            for (var key in obj) {
-                var value = obj[key];
-
-                if (isDeep && isPlain(value)) { //指定了深迭代，并且当前 value 为纯对象
-                    target[key] = map(value, fn, isDeep); //递归
-                }
-                else {
-                    target[key] = fn(key, value);
-                }
-            }
-
-            return target;
-        },
-
-
-
-
-        
-        /**
-        * 用指定的键和值组合生成一个对象，支持批量操作。
-        * @param {string|number|boolean|Array} key 生成对象所用的键。
-            当是数组时，表示批量操作，格式必须是二元组。
-        * @param value 生成对象所用的值。
-        * @return {Object} 返回一个生成后的对象。
-        * @example
-    
-            //单个操作
-            var obj = $Object.make('a', 1);
-            console.dir(obj); //得到 obj = { a: 1 };
-    
-            //批量操作
-            var obj = $Object.make( 
-                ['a', 1], 
-                ['b', 2], 
-                ['c', 3]
-            );
-            console.dir(obj); //得到 obj = { a: 1, b: 2, c: 3};
-        */
-        make: function (key, value) {
-
-
-            var obj = {};
-
-            if (Array.isArray(key)) {
-                Array.from(arguments).forEach(function (pair, index) {
-                    obj[pair[0]] = pair[1];
-                });
-            }
-            else {
-                obj[key] = value;
-            }
-
-            return obj;
-        },
-
-
-        /**
-        * 对一个对象进行成员过滤，返回一个过滤后的新对象。
-        * 该方法可以以某个模板对指定对象进行成员拷贝。
-        * @param {Object} src 要进行拷贝的对象，即数据来源。
-        * @param {Array|Object|string} samples 要拷贝的成员列表(模板)。
-        * @return {Object} 返回一个过滤后的新对象。
-        * @example
-            var src = {
-                a: 100,
-                b: 200,
-                c: 300,
-                d: 400
-            };
-    
-            var samples = {
-                a: 1,
-                b: 2
-            };
-    
-            //或 samples = ['a', 'b'];
-    
-            var obj = $Object.filter(src, samples);
-            console.dir(obj); //得到 obj = { a: 100, b: 200 }; 只保留 samples 中指定的成员，其他的去掉.
-        */
-        filter: function (src, samples) {
-
-            var $Array = require('Array');
-
-            var obj = {};
-
-            if (Array.isArray(samples)) {
-                samples.forEach(function (key, index) {
-                    if (key in src) {
-                        obj[key] = src[key];
-                    }
-                });
-            }
-            else if (exports.isPlain(samples)) {
-                exports.each(samples, function (key, value) {
-
-                    if (key in src) {
-                        obj[key] = src[key];
-                    }
-                });
-            }
-            else if (typeof samples == 'string') {
-                var key = samples;
-                if (key in src) {
-                    obj[key] = src[key];
-                }
-
-            }
-            else {
-                throw new Error('无法识别参数 samples 的类型');
-            }
-
-
-            return obj;
-        },
-
-        /**
-        * 删除对象中指定的成员，返回一个新对象。
-        * 指定的成员可以以单个的方式指定，也可以以数组的方式指定(批量)。
-        * @param {Object} obj 要进行处理的对象。
-        * @param {String|Array|Object} keys 要删除的成员名称，可以是单个，也可以是批量。
-        * @return {Object} 返回一个被删除相应成员后的新对象。
-        * @example
-            var obj = {
-                a: 1, 
-                b: 2, 
-                c: 3
-            };
-    
-            var o = $Object.remove(obj, ['a', 'c']); //移除成员 a 和 c 
-            console.dir(o); //得到 o = { b: 2 };
-    
-            o = $Object.remove(obj, {a: 1, b: 2});
-            console.dir(o); //得到 o = { c: 3 };
-        */
-        remove: function (obj, keys) {
-            var target = Object.assign({}, obj); //浅拷贝一份
-
-            if (typeof keys == 'string') {
-                delete target[keys];
-            }
-            else if (Array.isArray(keys)) {
-                for (var i = 0, len = keys.length; i < len; i++) {
-                    delete target[keys[i]];
-                }
-            }
-            else {
-                for (var key in keys) {
-                    delete target[key];
-                }
-            }
-
-            return target;
-        },
-    };
-
-});
 
 
 
@@ -1449,7 +751,7 @@ define('Object', function (require, module, exports) {
 define('Array', function (require, module, exports) {
 
 
-    module.exports = exports = /**@lends Array*/ {
+    return exports = /**@lends Array*/ {
 
 
         /**
@@ -1468,10 +770,10 @@ define('Array', function (require, module, exports) {
             }, true);
         */
         each: function (array, fn, isDeep) {
-
             var each = arguments.callee; //引用自身，用于递归
+            var len = array.length;
 
-            for (var i = 0, len = array.length; i < len; i++) {
+            for (var i = 0; i < len; i++) {
 
                 var item = array[i];
 
@@ -1503,12 +805,12 @@ define('Array', function (require, module, exports) {
         * @return {Array} 返回一个转换后的新数组。
         */
         map: function (array, fn, isDeep) {
-
             var map = arguments.callee; //引用自身，用于递归
+            var len = array.length;
             var a = [];
             var value;
 
-            for (var i = 0, len = array.length; i < len; i++) {
+            for (var i = 0; i < len; i++) {
                 var item = array[i];
 
                 if (isDeep && (item instanceof Array)) {
@@ -1710,6 +1012,9 @@ define('Array', function (require, module, exports) {
 
         /**
         * 产生一个区间为 [start, end) 的半开区间的数组。
+        * 已重载 pad(start, end, step, fn);
+        * 已重载 pad(start, end, fn);
+        * 已重载 pad(start, end);
         * @param {number} start 半开区间的开始值。
         * @param {number} end 半开区间的结束值。
         * @param {number} [step=1] 填充的步长，默认值为 1。可以指定为负数。
@@ -1717,10 +1022,10 @@ define('Array', function (require, module, exports) {
         * @return {Array} 返回一个递增（减）的数组。
         *   当 start 与 end 相等时，返回一个空数组。
         * @example
-            $Array.pad(2, 5); //产生一个从2到5的数组，步长为1，结果为[2, 3, 4, 5]
+            $Array.pad(2, 5); //产生一个从 2 到 5 的数组，步长为1，结果为[2, 3, 4]
             $Array.pad(1, 9, 2); //产生一个从1到9的数组，步长为2，结果为[1, 3, 5, 7]
             $Array.pad(5, 2, -1); //产生一个从5到2的数组，步长为-1，结果为[5, 4, 3]
-            //得到 [10, 20, 30]
+            //得到 [10, 20]
             $Array.pad(1, 3, function (item, index) {
                 return item * 10;
             });
@@ -1730,7 +1035,8 @@ define('Array', function (require, module, exports) {
                 return [];
             }
 
-            if (typeof step == 'function') { // 重载 pad(start, end, fn)
+            // 重载 pad(start, end, fn)
+            if (typeof step == 'function') { 
                 fn = step;
                 step = 1;
             }
@@ -1763,9454 +1069,6 @@ define('Array', function (require, module, exports) {
 
     };
 
-});
-/**
-* 路由
-* @namespace
-* @name Router
-*/
-define('Router', function (require, module, exports) {
-
-    var name$fn = {};
-
-    return {
-
-        'set': function (name, fn) {
-            if (name$fn[name]) {
-                throw new Error('重复定义路由器: ' + name);
-            }
-
-            name$fn[name] = fn;
-        },
-
-        'get': function (require, module, nav) {
-
-            var all = {};
-
-            for (var name in name$fn) {
-                var fn = name$fn[name];
-
-                if (typeof fn == 'function') {
-                    fn = fn(require, module, nav);
-                }
-
-                all[name] = fn;
-            }
-
-            return all;
-        },
-    };
-
-   
-
-});
-
-
-/**
-* 把请求后台接口代理到本地的工具类。
-* @namespace
-* @name Proxy
-*/
-define('Proxy', function (require, module,  exports) {
-
-    var Defaults = require('Defaults');
-    var Fn = require('Fn');
-    
-    var current = null;     //当前请求到的代理文件的响应结果 factory
-
-
-
-    //模拟一个网络的随机延迟时间去执行一个回调函数
-    function delay(fn) {
-
-        var defaults = Defaults.get(module.id); //默认配置
-        var delay = defaults.delay;
-        var args = [].slice.call(arguments, 1); //提取 fn 后面的参数
-
-        Fn.delay(delay, fn, args);
-
-    }
-
-
-
-
-    /**
-    * 加载指定的 js 代理文件。
-    * 注意：加载完 js 代理文件后，会先执行 js 代理文件的逻辑，再触发 onload 事件。
-    * 经过试验发现，并发加载多个 js 文件，也会严格地按上述顺序对应的进行。
-    */
-    function loadJS(file, config) {
-
-        var Url = module.require('Url');
-        var url = Url.get(file);
-
-        var Script = require('Script');
-        Script.load(url, function () {
-
-            var factory = current;
-            current = null;
-
-            if (typeof factory == 'function') {
-                factory = factory(config.data, config);
-            }
-
-            done(factory, config);
-
-        });
-    }
-
-    /**
-    * 加载指定的 json 代理文件。
-    */
-    function loadJSON(file, config) {
-
-        var Url = module.require('Url');
-        var url = Url.get(file);
-
-        var xhr = new XMLHttpRequest();
-        xhr.open('get', url, true);
-
-        xhr.onreadystatechange = function () {
-
-            if (xhr.readyState != 4) {
-                return;
-            }
-
-            if (xhr.status != 200) {
-                delay(config.error);
-                return;
-            }
-
-            var JSON = require('JSON');
-            var json = JSON.parse(xhr.responseText);
-            done(json, config);
-        };
-
-        xhr.send(null);
-    }
-
-
-    //加载完成后，根据状态分发事件。
-    function done(json, config) {
-        if (!json) {
-            delay(config.error);
-            return;
-        }
-
-        var successCode = config.successCode;
-        var field = config.field;
-        var code = json[field.code];
-
-        if (code == successCode) { // 成功
-            var data = json[field.data] || {};
-            delay(config.success, data, json);
-        }
-        else { //失败
-            var msg = json[field.msg] || '';
-            delay(config.fail, code, msg, json);
-        }
-    }
-
-
-
-
-    module.exports = exports = /**@lends Proxy*/ {
-
-        /**
-        * 发起代理请求。
-        * @param {string} file 代理响应的文件地址。
-        * @param {Object} config 配置对象。
-        */
-        request: function (file, config) {
-     
-            var Url = require('Url');
-
-            if (Url.isExt(file, '.js')) { // 映射的响应是一个 js 文件
-                loadJS(file, config);
-                return;
-            }
-
-            if (Url.isExt(file, '.json')) {
-                loadJSON(file, config);
-                return;
-            }
-
-            throw new Error('不支持参数 file 的文件类型: ' + file);
-        },
-
-        /**
-        * 响应代理请求。
-        * 可以生成很复杂的动态数据，并根据提交的参数进行处理，具有真正模拟后台逻辑的能力。
-        * 该方法仅用在代理响应文件中，且在调用之前必须先调用 request 方法。
-        * 已重载 response(json)的情况。
-        * @param {function|Object} factory 响应的处理函数或 json 对象。
-        *   当传进来的 factory 为处理函数时，该函数会接收到两个参数：factory(data, config)。 其中：
-        *   data 为发起 get 或 post 请求时最终的 data 字段；
-        *   config 为发起 get 或 post 请求时全部的配置字段。
-        */
-        response: function (factory) {
-
-            //var type = typeof factory;
-            //var isValid = type == 'function' || type == 'object' && factory;
-
-            //if (!isValid) {
-            //    throw new Error('参数 factory 只能是函数或非空对象');
-            //}
-                
-            current = factory;
-        },
-
-    };
-});
-/**
-* Proxy 模块的默认配置
-* @name Proxy.defaults
-*/
-define('Proxy.defaults', /**@lends Proxy.defaults*/ {
-    /**
-    * 加载代理响应文件的起始位置(或目录)。
-    */
-    base: '',
-
-    /**
-    * 为模拟真实网络环境而随机延迟的时间。
-    * 格式为 { min: 500, max: 3000 }。
-    * 当指定为 false 时，则禁用延迟。
-    */
-    delay: {
-        /**
-        * 随机延迟的最小毫秒数。
-        */
-        min: 500,
-        /**
-        * 随机延迟的最大毫秒数。
-        */
-        max: 3000
-    },
-});
-
-
-
-/**
-* 函数工具类
-* @namespace
-* @name Fn
-*/
-define('Fn', function (require, module, exports) {
-
-    module.exports = exports = /**@lends Fn*/ {
-
-        /**
-        * 用一个的随机延迟时间去执行一个回调函数，并传递一些参数。
-        * @param {Object} delay 延迟配置对象。
-            如 {min: 500, max: 2000}，当不需要延迟时，则应为 null。
-        * @param {function} fn 要延迟执行的函数。
-        * @param {Array} [args] 要传递的参数数组。
-        * @return {number} 返回 setTimeout 的结果。
-        *   如果没有启用延迟，则不返回值。
-        */
-        delay: function (delay, fn, args) {
-            if (!fn) {
-                return;
-            }
-
-
-            if (delay === false || delay == null) { //不启用延迟
-                fn.apply(null, args);
-                return;
-            }
-
-            var $Math = require('Math');
-
-            var timeout = typeof delay == 'number' ? delay :
-                    $Math.randomInt(delay.min, delay.max);
-
-            return setTimeout(function () {
-                fn.apply(null, args);
-
-            }, timeout);
-        },
-
-        
-    };
-
-});
-
-/**
-* 数学工具类
-* @namespace
-* @name Math
-*/
-define('Math', function (require, module, exports) {
-
-    module.exports = exports = /**@lends Math*/ {
-
-        /**
-        * 产生指定闭区间的随机整数。
-        * @param {number} [minValue=0] 闭区间的左端值。
-            当只指定一个参数时，minValue 默认为 0；
-        * @param {number} [maxValue] 闭区间的右端值。
-        * @return 返回一个整数。<br />
-            当不指定任何参数时，则用 Math.random() 产生一个已移除了小数点的随机整数。
-        * @example
-            $Math.randomInt(100, 200); //产生一个区间为 [100, 200] 的随机整数。
-            $Math.randomInt(100); //产生一个区间为 [0, 200] 的随机整数。
-            $Math.randomInt(); //产生一个随机整数。
-        */
-        randomInt: function (minValue, maxValue) {
-
-            var len = arguments.length;
-
-            if (len == 0) { //重载 Math.randomInt()
-                //先称除小数点，再去掉所有前导的 0，最后转为 number
-                return Number(String(Math.random()).replace('.', '').replace(/^0*/g, ''));
-            }
-
-            if (len == 1) { //重载 Math.randomInt(maxValue)
-                maxValue = minValue;    
-                minValue = 0;
-            }
-
-            var count = maxValue - minValue + 1;
-            return Math.floor(Math.random() * count + minValue);
-        },
-
-        /**
-        * 圆形求模方法。
-        * 即用圆形链表的方式滑动一个数，返回一个新的数。
-        * 即可正可负的双方向求模。
-        * 可指定圆形链表的长度(size) 和滑动的步长(step)，滑动步长的正负号指示了滑动方向
-        */
-        slide: function (index, size, step) {
-            step = step || 1; //步长默认为1
-
-            index += step;
-            if (index >= 0) {
-                return index % size;
-            }
-
-            return (size - (Math.abs(index) % size)) % size;
-        },
-
-        /**
-        * 下一个求模数
-        */
-        next: function (index, size) {
-            return exports.slide(index, size, 1);
-        },
-
-        /**
-        * 上一个求模数
-        */
-        previous: function (index, size, step) {
-            return exports.slide(index, size, -1);
-        },
-
-
-        /**
-        * 把一个含有百分号的字符串解析成等值的小数。
-        * @param {string} v 要解析的参数。
-            期望得到 string 类型，实际可传任何类型。
-        * @return {Number} 返回一个小数。
-            只有参数是字符串，并且去掉前后空格后以百分号结尾才会进行转换；否则直接返回参数。
-            如果解析失败，则返回 NaN。
-        */
-        parsePercent: function (v) {
-            if (typeof v != 'string') {
-                return v;
-            }
-
-            var s = v.trim();
-
-            if (s.slide(-1) != '%') {
-                return v;
-            }
-
-            return parseFloat(s) / 100;
-           
-        }
-
-    };
-
-});
-
-/**
-* Script 脚本工具
-* @namespace
-* @name Script
-*/
-define('Script', function (require, module, exports) {
-
-    var $String = require('String');
-    var $Object = require('Object');
-
-    var defaults = {
-        url: '',
-        id: '',
-        charset: 'utf-8',
-        document: window.document,
-        onload: null
-    };
-
-
-    /**
-    * 加载单个
-    * @inner
-    */
-    function loadItem(url, charset, document, onload) {
-
-        var id;
-
-        if (typeof url == 'object') { //传入的是一个 {} 
-            var config = url;
-
-            id = config.id;
-            url = config.url;
-            charset = config.charset;
-            document = config.document;
-            onload = config.onload;
-        }
-
-
-        var script = document.createElement('script');
-
-        if (onload) { //指定了回调函数，则设置它
-            if (script.readyState) { //IE
-                /**@ignore*/
-                script.onreadystatechange = function () {
-
-                    var readyState = script.readyState;
-
-                    if (readyState == 'loaded' || readyState == 'complete') {
-                        script.onreadystatechange = null; //避免重复执行回调
-                        onload();
-                    }
-                };
-            }
-            else { //标准
-                script.onload = onload;
-            }
-
-        }
-
-        script.src = url;
-
-        if (charset) {
-            script.charset = charset;
-        }
-
-        if (id) {
-            script.id = id;
-        }
-
-        document.head.appendChild(script);
-    }
-
-    /**
-    * 顺序加载批量
-    * @inner
-    */
-    function loadList(urls, charset, document, fn) {
-
-        if (urls.length == 0) {
-            fn && fn();
-            return;
-        }
-
-
-
-        var index = 0;
-
-        (function () {
-
-            var next = arguments.callee;
-            var url = urls[index];
-
-            loadItem(url, charset, document, function () {
-                index++;
-
-                if (index < urls.length) {
-                    next();
-                }
-                else {
-                    fn && fn();
-                }
-            });
-
-        })();
-
-
-    }
-
-
-
-
-    
-
-    module.exports = exports = /**@lends Script*/ {
-
-        /**
-        * 跨浏览器动态加载 JS 文件，并在加载完成后执行指定的回调函数。
-        * @param {string|Array} params.url 
-            要加载的 JS 文件的 url 地址，如果要批量加载，则为一个地址数组。
-        * @param {string} [params.charset="utf-8"] 
-            要加载的 JS 文件的字符编码，默认为 utf-8。
-        * @param {Document} [params.document=window.document] 
-            要加载的 JS 文件的上下文环境的 document，默认为当前窗口的 document 对象。
-        * @param {function} [params.onload] 
-            加载成功后的回调函数。
-        * @example
-            Script.load({
-                url: 'a.js',
-                charset: 'utf-8',
-                document: document,
-                id: 'myScript',
-                onload: function (){ }
-            });
-
-            Script.load('a.js', 'utf-8', document, function(){});
-            Script.load('a.js', 'utf-8', function(){});
-            Script.load('a.js', document, function(){});
-            Script.load('a.js', function(){});
-
-            //批量加载
-            Script.load(['a.js', 'b.js'], function(){});
-        */
-        load: function (params) {
-
-
-            var obj = Object.assign({}, defaults); //复制一份
-
-            //注意，params 有可能是个数组，不能用 typeof 为 'object'
-            if ($Object.isPlain(params)) { //纯对象 {}
-                Object.assign(obj, params);
-            }
-            else {
-                obj.url = params;
-
-                switch (typeof arguments[1]) {
-                    case 'string':
-                        obj.charset = arguments[1];
-                        break;
-                    case 'object':
-                        obj.document = arguments[1];
-                        break;
-                    case 'function':
-                        obj.onload = arguments[1];
-                        break;
-                }
-
-                switch (typeof arguments[2]) {
-                    case 'object':
-                        obj.document = arguments[2];
-                        break;
-                    case 'function':
-                        obj.onload = arguments[2];
-                        break;
-                }
-
-                if (arguments[3]) {
-                    obj.onload = arguments[3];
-                }
-            }
-
-            var url = obj.url;
-
-            if (typeof url == 'string') {
-                loadItem(obj);
-            }
-            else if (url instanceof Array) {
-                loadList(url, obj.charset, obj.document, obj.onload);
-            }
-            else {
-                throw new Error('参数 params.url 必须为 string 或 string 的数组');
-            }
-
-        },
-
-
-    };
-
-});
-
-
-
-
-/**
-* 字符串工具类。
-* @namespace
-* @name String
-*/
-define('String', function (require, module, exports) {
-
-    module.exports = exports = /**@lends String */ {
-
-        /**
-        * 用指定的值去填充一个字符串。
-        * 当不指定字符串的填充标记时，则默认为 {}。
-        * @param {String} string 要进行格式填充的字符串模板。
-        * @param {Object} obj 要填充的键值对的对象。
-        * @return 返回一个用值去填充后的字符串。
-        * @example
-            $String.format('{id}{type}', {id: 1, type: 'app'});
-            $String.format('{2}{0}{1}', 'a', 'b', 'c');
-        */
-        format: function (string, obj) {
-            var s = string;
-            var replaceAll = exports.replaceAll;
-
-            if (typeof obj == 'object') {
-                for (var key in obj) {
-                    var value = obj[key];
-
-                    if (Array.isArray(value)) {
-                        value = value.join('');
-                    }
-
-                    s = replaceAll(s, '{' + key + '}', value);
-                }
-            }
-            else {
-                var args = [].slice.call(arguments, 1);
-                for (var i = 0, len = args.length; i < len; i++) {
-                    var value = args[i];
-
-                    if (Array.isArray(value)) {
-                        value = value.join('');
-                    }
-
-                    s = replaceAll(s, '{' + i + '}', value);
-                }
-            }
-
-            return s;
-        },
-
-
-
-        /**
-        * 对字符串进行全局替换。
-        * @param {String} target 要进行替换的目标字符串。
-        * @param {String} src 要进行替换的子串，旧值。
-        * @param {String} dest 要进行替换的新子串，新值。
-        * @return {String} 返回一个替换后的字符串。
-        * @example
-            $String.replaceAll('abcdeabc', 'bc', 'BC') //结果为 aBCdeBC
-        */
-        replaceAll: function (target, src, dest) {
-            return target.split(src).join(dest);
-        },
-
-
-        /**
-        * 对字符串进行区间内的替换。
-        * 该方法会把整个区间替换成新的字符串，包括区间标记。
-        * @param {String} string 要进行替换的目标字符串。
-        * @param {String} startTag 区间的开始标记。
-        * @param {String} endTag 区间的结束标记
-        * @param {String} newString 要进行替换的新子串，新值。
-        * @return {String} 返回一个替换后的字符串。<br />
-        *   当不存在开始标记或结束标记时，都会不进行任何处理而直接返回原字符串。
-        * @example
-            $String.replaceBetween('hello #--world--# this is #--good--#', '#--', '--#', 'javascript') 
-            //结果为 'hello javascript this is javascript'
-        */
-        replaceBetween: function (string, startTag, endTag, newString) {
-            var startIndex = string.indexOf(startTag);
-            if (startIndex < 0) {
-                return string;
-            }
-
-            //从开始标记之后位置的开始算起
-            var endIndex = string.indexOf(endTag, startIndex + startTag.length);
-            if (endIndex < 0) {
-                return string;
-            }
-
-            var prefix = string.slice(0, startIndex);
-            var suffix = string.slice(endIndex + endTag.length);
-
-            return prefix + newString + suffix;
-        },
-
-
-        /**
-        * 右对齐此实例中的字符，在左边用指定的 Unicode 字符填充以达到指定的总长度。
-        * 当指定的总长度小实际长度时，将从右边开始算起，做截断处理，以达到指定的总长度。
-        * @param {String} string 要进行填充对齐的字符串。
-        * @param {Number} totalWidth 填充后要达到的总长度。
-        * @param {String} paddingChar 用来填充的模板字符串。
-        * @return {String} 返回一个经过填充对齐后的新字符串。
-        * @example
-            $String.padLeft('1234', 6, '0'); //结果为 '001234'，右对齐，从左边填充 '0'
-            $String.padLeft('1234', 2, '0'); //结果为 '34'，右对齐，从左边开始截断
-        */
-        padLeft: function (string, totalWidth, paddingChar) {
-            string = String(string); //转成字符串
-
-            var len = string.length;
-            if (totalWidth <= len) { //需要的长度短于实际长度，做截断处理
-                return string.substr(-totalWidth); //从后面算起
-            }
-
-            paddingChar = paddingChar || ' ';
-
-            var arr = [];
-            arr.length = totalWidth - len + 1;
-
-            return arr.join(paddingChar) + string;
-        },
-
-
-        /**
-        * 左对齐此字符串中的字符，在右边用指定的 Unicode 字符填充以达到指定的总长度。
-        * 当指定的总长度小实际长度时，将从左边开始算起，做截断处理，以达到指定的总长度。
-        * @param {String} string 要进行填充对齐的字符串。
-        * @param {Number} totalWidth 填充后要达到的总长度。
-        * @param {String} paddingChar 用来填充的模板字符串。
-        * @return {String} 返回一个经过填充对齐后的新字符串。
-        * @example
-            $String.padLeft('1234', 6, '0'); //结果为 '123400'，左对齐，从右边填充 '0'
-            $String.padLeft('1234', 2, '0'); //结果为 '12'，左对齐，从右边开始截断
-        */
-        padRight: function (string, totalWidth, paddingChar) {
-            string = String(string); //转成字符串
-
-            var len = string.length;
-            if (len >= totalWidth) {
-                return string.substring(0, totalWidth);
-            }
-
-            paddingChar = paddingChar || ' ';
-
-            var arr = [];
-            arr.length = totalWidth - len + 1;
-
-
-            return string + arr.join(paddingChar);
-        },
-
-        /**
-        * 获取位于两个标记子串之间的子字符串。
-        * @param {String} string 要进行获取的大串。
-        * @param {String} beginTag 区间的开始标记。
-        * @param {String} endTag 区间的结束标记。
-        * @return {String} 返回一个子字符串。当获取不能结果时，统一返回空字符串。
-        * @example
-            $String.between('abc{!hello!} world', '{!', '!}'); //结果为 'hello' 
-        */
-        between: function (string, beginTag, endTag) {
-            var startIndex = string.indexOf(beginTag);
-            if (startIndex < 0) {
-                return '';
-            }
-
-            startIndex += beginTag.length;
-
-            var endIndex = string.indexOf(endTag, startIndex);
-            if (endIndex < 0) {
-                return '';
-            }
-
-            return string.substr(startIndex, endIndex - startIndex);
-        },
-
-        /**
-        * 产生指定格式或长度的随机字符串。
-        * @param {string|int} [formater=12] 随机字符串的格式，或者长度（默认为12个字符）。
-            格式中的每个随机字符用 'x' 来占位，如 'xxxx-1x2x-xx'
-        * @return {string} 返回一个指定长度的随机字符串。
-        * @example
-            $String.random();      //返回一个 12 位的随机字符串
-            $String.random(64);    //返回一个 64 位的随机字符串
-            $String.random('xxxx-你好xx-xx'); //类似 'A3EA-你好B4-DC'
-        */
-        random: function (formater) {
-            if (formater === undefined) {
-                formater = 12;
-            }
-
-            //如果传入的是数字，则生成一个指定长度的格式字符串 'xxxxx...'
-            if (typeof formater == 'number') {
-                var size = formater + 1;
-                if (size < 0) {
-                    size = 0;
-                }
-                formater = [];
-                formater.length = size;
-                formater = formater.join('x');
-            }
-
-            return formater.replace(/x/g, function (c) {
-                var r = Math.random() * 16 | 0;
-                return r.toString(16);
-            }).toUpperCase();
-        },
-
-
-        //---------------转换部分 -----------------------------------------------------
-
-        /**
-        * 把一个字符串转成骆驼命名法。。
-        * 如 'font-size' 转成 'fontSize'。
-        * @param {String} string 要进行转换的字符串。
-        * @return 返回一个骆驼命名法的新字符串。
-        * @example
-            $String.toCamelCase('background-item-color') //结果为 'backgroundItemColor'
-        */
-        toCamelCase: function (string) {
-            var rmsPrefix = /^-ms-/;
-            var rdashAlpha = /-([a-z]|[0-9])/ig;
-
-            return string.replace(rmsPrefix, 'ms-').replace(rdashAlpha, function (all, letter) {
-                return letter.toString().toUpperCase();
-            });
-
-            /* 下面的是 mootool 的实现
-            return string.replace(/-\D/g, function(match) {
-                return match.charAt(1).toUpperCase();
-            });
-            */
-        },
-
-        /**
-        * 把一个字符串转成短线连接法。
-        * 如 fontSize 转成 font-size
-        * @param {String} string 要进行转换的字符串。
-        * @return 返回一个用短线连接起来的新字符串。
-        * @example
-            $String.toHyphenate('backgroundItemColor') //结果为 'background-item-color'
-        */
-        toHyphenate: function (string) {
-            return string.replace(/[A-Z]/g, function (match) {
-                return ('-' + match.charAt(0).toLowerCase());
-            });
-        },
-
-        /**
-        * 把一个字符串转成 UTF8 编码。
-        * @param {String} string 要进行编码的字符串。
-        * @return {String} 返回一个 UTF8 编码的新字符串。
-        * @example
-            $String.toUtf8('你好'); //结果为 ''
-        */
-        toUtf8: function (string) {
-
-            var $Array = require('Array');
-            var a = [];
-
-            $Array.each(string.split(''), function (ch, index) {
-                var code = ch.charCodeAt(0);
-                if (code < 0x80) {
-                    a.push(code);
-                }
-                else if (code < 0x800) {
-                    a.push(((code & 0x7C0) >> 6) | 0xC0);
-                    a.push((code & 0x3F) | 0x80);
-                }
-                else {
-                    a.push(((code & 0xF000) >> 12) | 0xE0);
-                    a.push(((code & 0x0FC0) >> 6) | 0x80);
-                    a.push(((code & 0x3F)) | 0x80);
-                }
-            });
-
-            return '%' + $Array.keep(a, function (item, index) {
-                return item.toString(16);
-            }).join('%');
-        },
-
-
-        /**
-        * 把一个字符串转成等价的值。
-        * 主要是把字符串形式的 0|1|true|false|null|undefined|NaN 转成原来的数据值。
-        * 当参数不是字符串或不是上述值之一时，则直接返回该参数，不作转换。
-        * @param {Object} value 要进行转换的值，可以是任何类型。
-        * @return {Object} 返回一个等价的值。
-        * @example
-            $String.toValue('NaN') //NaN
-            $String.toValue('null') //null
-            $String.toValue('true') //true
-            $String.toValue('false') //false
-            $String.toValue({}) //不作转换，直接原样返回
-        */
-        toValue: function (value) {
-            if (typeof value != 'string') { //拦截非字符串类型的参数
-                return value;
-            }
-
-            var maps = {
-                //'0': 0,
-                //'1': 1,
-                'true': true,
-                'false': false,
-                'null': null,
-                'undefined': undefined,
-                'NaN': NaN
-            };
-
-            return value in maps ? maps[value] : value;
-
-        },
-
-        //---------------分裂和提取部分 -----------------------------------------------------
-
-        /**
-        * 对一个字符串进行多层次分裂，返回一个多维数组。
-        * @param {String} string 要进行分裂的字符串。
-        * @param {Array} separators 分隔符列表数组。
-        * @return {Array} 返回一个多维数组，该数组的维数，跟指定的分隔符 separators 的长度一致。
-        * @example
-            var string = 'a=1&b=2|a=100&b=200;a=111&b=222|a=10000&b=20000';
-            var separators = [';', '|', '&', '='];
-            var a = $String.split(string, separators);
-            //结果 a 为
-            a = 
-            [                           // ';' 分裂的结果
-                [                       // '|'分裂的结果
-                    [                   // '&'分裂的结果
-                        ['a', '1'],     // '='分裂的结果
-                        ['b', '2']
-                    ],
-                    [
-                        ['a', '100'],
-                        ['b', '200']
-                    ]
-                ],
-                [
-                    [
-                        ['a', '111'],
-                        ['b', '222']
-                    ],
-                    [
-                        ['a', '10000'],
-                        ['b', '20000']
-                    ]
-                ]
-            ];
-        * 
-        */
-        split: function (string, separators) {
-
-            var $Array = require('Array');
-
-            var list = String(string).split(separators[0]);
-
-            for (var i = 1, len = separators.length; i < len; i++) {
-                list = fn(list, separators[i], i);
-            }
-
-            return list;
-
-
-            //一个内部方法
-            function fn(list, separator, dimension) {
-                dimension--;
-
-                return $Array.map(list, function (item, index) {
-
-                    return dimension == 0 ?
-                            String(item).split(separator) :
-                            fn(item, separator, dimension); //递归
-                });
-            }
-
-
-        },
-
-
-       
-
-      
-        /**
-        * 对一个字符串进行多层级模板解析，返回一个带有多个子名称的模板。
-        * @param {string} text 要进行解析的模板字符串。
-        * @param {Array} tags 多层级模板中使用的标记。
-        * @return {Object} 返回一个带有多个子名称的模板。
-        */
-        getTemplates: function (text, tags) {
-
-            var item0 = tags[0];
-
-            //缓存一下，以提高 for 中的性能
-            var between = exports.between;
-            var replaceBetween = exports.replaceBetween;
-
-
-            var samples = {};
-
-            //先处理最外层，把大字符串提取出来。 因为内层的可能在总字符串 text 中同名
-            var s = between(text, item0.begin, item0.end);
-
-            //倒序处理子模板。 注意: 最外层的不在里面处理
-            tags = tags.slice(1).reverse();
-
-            tags.forEach(function (item, index) {
-
-                var name = item.name || index;
-                var begin = item.begin;
-                var end = item.end;
-
-                var fn = item.fn;
-
-                var sample = between(s, begin, end);
-
-                if ('outer' in item) { //指定了 outer
-                    s = replaceBetween(s, begin, end, item.outer);
-                }
-
-                if (fn) { //指定了处理函数
-                    sample = fn(sample, item);
-                }
-
-                samples[name] = sample;
-
-            });
-
-            var fn = item0.fn;
-            if (fn) { //指定了处理函数
-                s = fn(s, item0);
-            }
-
-            samples[item0.name] = s; //所有的子模板处理完后，就是最外层的结果
-
-            return samples;
-
-        },
-
-        /**
-        * 获取一个字符串的字节长度。
-        * 普通字符的字节长度为 1；中文等字符的字节长度为 2。
-        * @param {string} s 要进行解析的字符串。
-        * @return {Number} 返回参数字符串的字节长度。
-        */
-        getByteLength: function (s) {
-            if (!s) {
-                return 0;
-            }
-
-            return s.toString().replace(/[\u0100-\uffff]/g, '  ').length;
-        },
-
-
-    };
-
-
-
-
-});
-
-
-
-
-
-
-
-/**
-* JSON 工具类
-* @class
-* @name JSON
-*/
-define('JSON', function (require, module,  exports) {
-
-    var JSON = window.JSON;
-
-    module.exports = exports = /**@lends JSON*/ {
-
-
-        /**
-        * 把一个 JSON 字符串数据解析成对象。
-        */
-        parse: function (content) {
-
-            try {
-                var obj = JSON.parse(content);
-                return obj;
-            }
-            catch (ex) {
-                console.warn('使用原生的 JSON.parse() 方法无法解析:', content);
-            }
-
-
-            try {
-                //这种方法是 jQuery 的实现，有问题。
-                //content = content.replace(/^(\r\n)+/g, ' ');
-                //return (new Function('return ' + content))();
-
-                //下面这方法安全、可靠些。
-                //包装多一层匿名立即执行函数。
-                var js = [
-                    'return (function () { ',
-                    '   var obj = ' + content + ';', //因为 return 的换行问题，这里用一个 obj 变量再返回 obj 会安全很多。
-                    '   return obj;',
-                    '})();',
-
-                ].join('\r\n');
-
-                var fn = new Function(js);
-                var obj = fn();
-
-                return obj;
-            }
-            catch (ex) {
-                console.warn('使用 new Function() 方法无法解析:', content);
-            }
-
-            return null;
-
-        },
-
-        /**
-        * 把一个对象解析成 JSON 字符串。
-        */
-        stringify: function () {
-            return JSON.stringify(...arguments);
-        },
-    };
-
-});
-
-
-
-
-/**
-* 当前页面的 Url 工具类
-* @namespace
-* @name Url
-*/
-define('Url', function (require, module, exports) {
-
- 
-    var $String = require('String');
-
-    var root = '';  //网站的根地址。
-    var url = '';   //kisp.debug.js 或 kisp.min.js 文件所在的地址。
-    var dir = '';   //kisp.debug.js 或 kisp.min.js 文件所在的目录。
-
-
-
-    module.exports = exports = /**@lends Url*/ {
-
-        /**
-        * 获取当前 web 站点的根目录。
-        */
-        root: function () {
-            if (root) {
-                return root;
-            }
-
-            var Defaults = require('Defaults');
-            var defaults = Defaults.get(module.id); //默认配置
-            root = defaults.root;
-
-            if (typeof root == 'function') {
-                root = root();
-            }
-
-            //确保以 '/' 结尾。
-            if (root.slice(-1) != '/') {
-                root += '/';
-            }
-
-            return root;
-        },
-
-        /**
-        * 获取 KISP 框架文件所对应的 url 地址目录。
-        */
-        dir: function () {
-            if (dir) {
-                return dir;
-            }
-
-            var url = exports.get();
-            dir = url.split('/').slice(0, -1).join('/') + '/';
-            return dir;
-        },
-
-        /**
-        * 获取 KISP 框架文件所对应的 url 地址。
-        */
-        get: function () {
-            if (url) {
-                return url;
-            }
-
-
-            var KISP = require('KISP');
-            var Defaults = require('Defaults');
-            var defaults = Defaults.get(module.id); //默认配置
-            var id = defaults.id;
-            var script = null;
-
-            if (id) {
-                script = document.getElementById(id);
-            }
-
-            if (!script) {
-                var file = 'kisp.' + KISP.edition + '.js';
-                var list = document.querySelectorAll('script');
-
-                script = Array.from(list).find(function (script) {
-                    var src = script.src.split('?')[0];
-                    return src.endsWith(file);
-                });
-            }
-
-            url = script.src.split('?')[0];
-            return url;
-
-        },
-
-        /**
-        * 获取 url 的主体部分，即去掉 query 和 hash 后的部分。
-        */
-        main: function (url) {
-            url = url.split('#')[0];
-            url = url.split('?')[0];
-
-            return url;
-        },
-
-
-        /**
-       * 检查给定的 url 是否为完整的 url。
-       * 即是否以 'http://' 或 'https://' 开头。
-       * @param {string} url 要检查的 url。
-       */
-        isFull: function (url) {
-            if (typeof url != 'string') {
-                return false;
-            }
-
-            return url.startsWith('http://') ||
-                url.startsWith('https://');
-        },
-
-
-        /**
-        * 检测指定的 url 是否为特定的扩展名类型的文件。
-        * @param {string} url 要检测的文件名。
-        * @param {string} ext 要检测的扩展名，以 "." 开始。
-        * @return {boolean} 如果该文件名以指定的扩展名结尾，则返回 true；否则返回 false。
-        * @example 
-            Url.is('a/b/c/login.JSON', '.json'); //返回 true
-        */
-        isExt: function (url, ext) {
-
-            if (typeof url != 'string' || typeof ext != 'string') {
-                return false;
-            }
-
-            url = exports.main(url);
-
-            return url.slice(0 - ext.length).toLowerCase() == ext.toLowerCase();
-        },
-
-
-
-
-        resolve: function (baseUrl /* ...urls */) {
-            var len = arguments.length;
-            if (len == 0) {
-                throw new Error('resolveUrl requires at least one argument; got none.');
-            }
-
-            var base = document.createElement('base');
-            base.href = baseUrl;
-
-            if (len == 1) {
-                return base.href;
-            }
-
-
-            var head = document.head;
-            head.insertBefore(base, head.firstChild);
-
-            var url = '';
-            var a = document.createElement('a');
-            
-
-            for (var i = 1; i < len; i++) {
-                a.href = arguments[i];
-                url = a.href;
-                base.href = url;
-            }
-
-            head.removeChild(base);
-
-            return url;
-        }
-        
-    };
-
-});
-
-/**
-* Url 模块的默认配置。
-* @name Url.defaults
-*/
-define('Url.defaults',  {
-
-    //注意：这里取当前页面的路径作为根地址，只适用于当前页面在根目录的情况。
-    //IE10 及以下 location.origin 不存在
-    root: location.protocol + '//' + location.host +
-            location.pathname.split('/').slice(0, -1).join('/') + '/',
-
-    id: 'script-KISP',
-
-});
-
-/**
-*
-*/
-define('Proxy/Url', function (require, module, exports) {
-
- 
-    var Defaults = require('Defaults');
-    var Query = require('Query');
-    var Url = require('Url');
-
-
-    function get(url) {
-
-        //绝对地址
-        if (Url.isFull(url)) {
-            return url;
-        }
-            
-
-        //相对地址
-
-        var defaults = Defaults.get(module.parent.id); //默认配置
-        var base = defaults.base;
-
-        if (Url.isFull(base)) {
-            return base + url;
-        }
-
-
-        var root = Url.root();
-        if (url.slice(0, 1) != '/') {
-            root = root + base;
-        }
-
-        return root + url;
-    }
-
-
-
-
-
-    return {
-        'get': function (url) {
-            url = get(url);
-
-            //增加随机查询字符串，确保拿到最新的
-            return Query.random(url); 
-        },
-    };
-
-
-});
-
-/**
-* Query 工具类
-* @namespace
-* @name Query
-*/
-define('Query', function (require, module, exports) {
-
-    var $Object = require('Object');
-
-
-    module.exports = exports = /**@lends Query */ {
-
-
-        /**
-        * 把 url 中的查询字符串解析为等价结构的 Object 对象。
-        * @param {string} url 要进行解析的查询字符串。
-        * @param {boolean} [isShallow=false] 指示是否使用浅层次进行解析。
-            当显式指定 isShallow 参数为 true 时，则使用浅层次来解析(只解析一层，不进行递归解析)；
-            否则(默认)使用深层次解析。
-        * @param {boolean} [isCompatible=false] 指示是否使用兼容模式进行解码。
-            当指定 isCompatible 参数为 true 时，将使用 unescape 来编码；
-            否则(默认)使用 decodeURIComponent。
-        * @return {Object} 返回一个包含键值对的 Object 对象。
-            当参数 url 非法时，返回空对象 {}。
-        * @example
-            var url = 'a=1&b=2&c=A%3D100%26B%3D200';
-            var obj = Query.parse(url);
-        得到 obj = {a: 1, b:2, c: {A: 100, B: 200}};
-        */
-        parse: function (url, isShallow, isCompatible) {
-
-            if (!url || typeof url != 'string') {
-                return {}; //这里不要返回 null，免得外部调用出错
-            }
-
-            var $String = require('String');
-
-            var decode = isCompatible ? unescape : decodeURIComponent;  //解码方法，默认用后者
-            var isDeep = !isShallow;    //深层次解析，为了语义上更好理解，换个名称
-            var toValue = $String.toValue; //缓存一下方法，以提高循环中的性能
-
-
-            var obj = {};
-
-            url.split('&').map(function (item) {
-                var pair = item.split('=');
-                var name = decode(pair[0]);
-                var value = pair[1];
-
-                if (pair.length > 1) {
-                    value = decode(value);
-
-                    //深层次解析
-                    if (isDeep && value.indexOf('=') > 0) { //还出现=号，说明还需要进一层次解码
-                        value = exports.parse(value); //递归调用
-                    }
-                    else { //处理一下字符串类型的 0|1|true|false|null|undefined|NaN
-                        value = toValue(value); //还原常用的数据类型
-                    }
-                }
-
-                var existed = name in obj;
-
-                if (!existed) {
-                    obj[name] = value;
-                    return;
-                }
-
-
-                //支持重复名称，如果有则放到一个数组里。
-                var old = obj[name];
-
-                if (old instanceof Array) {
-                    old.push(value);
-                }
-                else {
-                    obj[name] = [old, value];
-                }
-
-            });
-
-
-
-            return obj;
-        },
-
-        /**
-        * 把一个对象编码成等价结构的 url 查询字符串。
-        * @param {Object} obj 要进行编码的对象
-        * @param {boolean} [isCompatible=false] 
-            指定是否要使用兼容模式进行编码。
-            当需要使用 escape 进行编码时，请指定 true；
-            否则要使用 encodeURIComponent 进行编码，请指定 false 或不指定。
-        * @return {string} 返回一个经过编码的 url 查询字符串
-        * @example
-            var obj = {
-                a: 1,
-                b: 2,
-                c: { A: 100, B: 200 },
-                d: null,
-                e: undefined,
-                f: ['a', 'b', 'c']
-            };
-            var s = Query.stringify(obj);
-            console.log(s); 
-            //结果 a=1&b=2&c=A%3D100%26B%3D200&d=null&e=undefined&f=%5Ba%2C%20b%5D
-        */
-        stringify: function (obj, isCompatible) {
-
-            if (obj == null) {     // null 或 undefined
-                return String(obj);
-            }
-
-            switch (typeof obj) {
-                case 'string':
-                case 'number':
-                case 'boolean':
-                    return obj;
-            }
-
-            if (obj instanceof String || obj instanceof Number || obj instanceof Boolean || obj instanceof Date) {
-                return obj.valueOf();
-            }
-
-            if (Array.isArray(obj)) {
-                return '[' + obj.join(', ') + ']';
-            }
-
-            var encode = isCompatible ? escape : encodeURIComponent;
-            var pairs = [];
-
-
-
-            $Object.each(obj, function (key, value) {
-                key = encode(key);
-
-                if (value === undefined) {
-                    pairs.push(key);
-                    return;
-                }
-
-                value = exports.stringify(value);
-                value = encode(value);
-
-                pairs.push(key + '=' + value);
-
-            });
-
-
-            return pairs.join('&');
-
-        },
-
-
-        /**
-        * 获取指定 url 的查询字符串中指定的键所对应的值。
-        * 已重载 get(url, key, ignoreCase);
-        * 已重载 get(location, key, ignoreCase);
-        * 已重载 get(window, key, ignoreCase);
-        * @param {string} url 要进行获取的 url 字符串。
-        * @param {string} [key] 要检索的键。
-        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写。 默认区分大小写。
-            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
-            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
-        * @retun {string|Object|undefined} 返回一个查询字符串值。
-            当不指定参数 key 时，则获取全部查询字符串，返回一个等价的 Object 对象。
-            当指定参数 key 为一个空字符串，则获取全部查询字符串，返回一个 string 类型值。
-        * @example
-            Query.get('http://test.com?a=1&b=2#hash', 'a');  //返回 '1'
-            Query.get('http://test.com?a=1&b=2#hash', 'c');  //返回 undefined
-            Query.get('http://test.com?a=1&A=2#hash', 'A');  //返回 2
-            Query.get('http://test.com?a=1&b=2#hash', 'A', true);//返回 1
-            Query.get('http://test.com?a=1&b=2#hash', '');   //返回 'a=1&b=2'
-            Query.get('http://test.com?a=1&b=2#hash');       //返回 {a: '1', b: '2'}
-            Query.get('http://test.com?a=&b=');              //返回 {a: '', b: ''}
-            Query.get('http://test.com?a&b');                //返回 {a: '', b: ''}
-            Query.get('http://test.com?a', 'a');             //返回 ''
-        */
-        get: function (url, key, ignoreCase) {
-
-            //重载 get(location, key, ignoreCase)
-            //重载 get(window, key, ignoreCase)
-            if (typeof url == 'object') {
-                url = ('href' in url) ? url.href :  //location
-                    url.location.href;              //window
-            }
-
-            var beginIndex = url.indexOf('?');
-            if (beginIndex < 0) { //不存在查询字符串
-                return;
-            }
-
-            var endIndex = url.indexOf('#');
-            if (endIndex < 0) {
-                endIndex = url.length;
-            }
-
-            var qs = url.slice(beginIndex + 1, endIndex);
-            if (key === '') { //获取全部查询字符串的 string 类型
-                return decodeURIComponent(qs);
-            }
-
-
-            var obj = exports.parse(qs);
-
-            if (key === undefined) { //未指定键，获取整个 Object 对象
-                return obj;
-            }
-
-            if (!ignoreCase || key in obj) { //区分大小写或有完全匹配的键
-                return obj[key];
-            }
-
-            //以下是不区分大小写
-            key = key.toString().toLowerCase();
-
-            for (var name in obj) {
-                if (name.toLowerCase() == key) {
-                    return obj[name];
-                }
-            }
-
-        },
-
-
-
-        /**
-        * 给指定的 url 添加一个查询字符串。
-        * 注意，该方法会保留之前的查询字符串，并且覆盖同名的查询字符串。
-        * @param {string} url 组装前的 url。
-        * @param {string|Object} key 要添加的查询字符串的键。
-            当传入一个 Object 对象时，会对键值对进行递归组合编码成查询字符串。
-        * @param {string} [value] 要添加的查询字符串的值。
-        * @retun {string} 返回组装后的新的 url。
-        * @example
-            //返回 'http://test.com?a=1&b=2&c=3#hash'
-            Query.add('http://test.com?a=1&b=2#hash', 'c', 3);  
-            
-            //返回 'http://test.com?a=3&b=2&d=4#hash'
-            Query.add('http://test.com?a=1&b=2#hash', {a: 3, d: 4});  
-        */
-        add: function (url, key, value) {
-
-
-            var qs = exports.get(url) || {}; //先取出原来的
-
-            if (typeof key == 'object') {
-                Object.assign(qs, key);
-            }
-            else {
-                qs[key] = value;
-            }
-
-
-            //过滤掉值为 null 的项
-            var obj = {};
-
-            for (var key in qs) {
-                var value = qs[key];
-
-                if (value === null) {
-                    continue;
-                }
-                else {
-                    obj[key] = value;
-                }
-
-            }
-
-            return exports.set(url, obj);
-
-
-        },
-
-
-        /**
-        * 给指定的 url 添加一个随机查询字符串。
-        * 注意，该方法会保留之前的查询字符串，并且添加一个键名为随机字符串而值为空字符串的查询字符串。
-        * @param {string} url 组装前的 url。
-        * @param {number} [len] 随机键的长度。
-        * @retun {string} 返回组装后的新的 url。
-        * @example
-            //返回值类似 'http://test.com?a=1&b=2&7A8CEBAFC6B4=#hash'
-            Query.random('http://test.com?a=1&b=2#hash');  
-            
-            //返回值类似 'http://test.com?a=1&b=2&7A8CE=#hash' 
-            Query.random('http://test.com?a=1&b=2#hash', 5); //随机键的长度为 5
-    
-        */
-        random: function (url, len) {
-            var $String = require('String');
-            var key = $String.random(len);
-            return exports.add(url, key, undefined);
-        },
-
-
-
-        /**
-        * 把指定的 url 和查询字符串组装成一个新的 url。
-        * 注意，该方法会删除之前的查询字符串。
-        * @param {string} url 组装前的 url。
-        * @param {string|Object} key 要设置的查询字符串的键。
-            当传入一个 Object 对象时，会对键值对进行递归组合编码成查询字符串。
-        * @param {string} [value] 要添加的查询字符串的值。
-        * @retun {string} 返回组装后的新的 url。
-        * @example
-            //返回 'http://test.com?c=3#hash'
-            Query.set('http://test.com?a=1&b=2#hash', 'c', 3);  
-            
-            //返回 'http://test.com?a=3&d=4#hash'
-            Query.set('http://test.com?a=1&b=2#hash', {a: 3, d: 4});  
-        */
-        set: function (url, key, value) {
-
-            var location = null;
-
-            if (typeof url == 'object') {
-                if ('href' in url) {    
-                    location = url;         //location
-                }
-                else {      
-                    location = url.location; //window
-                }
-                url = location.href;
-            }
-
-
-            var type = typeof key;
-            var isValueType = (/^(string|number|boolean)$/).test(type);
-
-            var qs = '';
-
-            //set(url, qs);
-            if (arguments.length == 2 && isValueType) { 
-                qs = encodeURIComponent(key);
-            }
-            else {
-                var obj = type == 'object' ? key : $Object.make(key, value);
-                qs = exports.stringify(obj);
-            }
-
-
-
-            var hasQuery = url.indexOf('?') > -1;
-            var hasHash = url.indexOf('#') > -1;
-            var a;
-
-            if (hasQuery && hasHash) {
-                a = url.split(/\?|#/g);
-                return a[0] + '?' + qs + '#' + a[2];
-            }
-
-            if (hasQuery) {
-                a = url.split('?');
-                return a[0] + '?' + qs;
-            }
-
-            if (hasHash) {
-                a = url.split('#');
-                return a[0] + '?' + qs + '#' + a[1];
-            }
-
-            url = url + '?' + qs;
-
-            //设置整个 location.href 会刷新
-            if (location) {
-                location.href = url;
-            }
-
-            return url;
-
-
-        },
-
-        /**
-        * 判断指定的 url 是否包含特定名称的查询字符串。
-        * @param {string} url 要检查的 url。
-        * @param {string} [key] 要提取的查询字符串的键。
-        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写，默认区分大小写。
-            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
-            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
-        * @retun {boolean} 如果 url 中包含该名称的查询字符串，则返回 true；否则返回 false。
-        * @example
-            Query.has('http://test.com?a=1&b=2#hash', 'a');  //返回 true
-            Query.has('http://test.com?a=1&b=2#hash', 'b');  //返回 true
-            Query.has('http://test.com?a=1&b=2#hash', 'c');  //返回 false
-            Query.has('http://test.com?a=1&b=2#hash', 'A', true); //返回 true
-            Query.has('http://test.com?a=1&b=2#hash');       //返回 true
-        */
-        has: function (url, key, ignoreCase) {
-
-            //重载 has(location, key, ignoreCase)
-            //重载 has(window, key, ignoreCase)
-            if (typeof url == 'object') {
-                url = ('href' in url) ? url.href :  //location
-                    url.location.href;              //window
-            }
-
-            var obj = exports.get(url); //获取全部查询字符串的 Object 形式
-
-            if (!obj) {
-                return false;
-            }
-
-            if (!key) { //不指定名称，
-                return !$Object.isEmpty(obj); //只要有数据，就为 true
-            }
-
-            if (key in obj) { //找到完全匹配的
-                return true;
-            }
-
-            if (ignoreCase) { //明确指定了忽略大小写
-
-                key = key.toString().toLowerCase();
-                for (var name in obj) {
-                    if (name.toLowerCase() == key) {
-                        return true;
-                    }
-                }
-            }
-
-            //区分大小写，但没找到
-            return false;
-
-        },
-
-        /**
-        * 对查询字符串中的值部分进行转换过滤。
-        * 如 `http://www.test.com/?a=XXX`，其中 `XXX` 就是要过滤的部分。
-        * @return {String}
-        */
-        escape: function (string) {
-            var s = String(string);
-            return escape(s).replace(/\+/g, "%2B");
-        },
-
-
-    };
-
-});
-
-
-
-/**
-* App 启动类。 
-* @class
-* @name App
-*/
-define('App', function (require, module, exports) {
-
-    var $String = require('String');
-    var Defaults = require('Defaults');
-
-    var defaults = Defaults.get(module.id);
-    var id$defined = {};
-
-
-
-    function ready(fn) {
-        var Loader = require('Loader');
-        var Module = require('Module'); //对外给页面提供的模块管理器。
-        var define = Module.define;
-
-        Loader.preload(function (ids) {
-
-            $ = window.jQuery;  //$ 是大闭包里的参数。
-
-            ids.forEach(function (id) {
-                if (id$defined[id]) {
-                    return;
-                }
-
-                define(id, function () {
-                    return window[id];
-                });
-
-                id$defined[id] = true;
-            });
-
-            if (!id$defined['$']) {
-
-                
-
-                define('$', function () {
-                    return $;
-                });
-
-                id$defined['$'] = true;
-            }
-
-            fn && fn();
-        });
-    }
-
-
-    /**
-    * 使用普通版来启动应用。
-    */
-    function normal($require, $module, nav) {
-
-        //后退时触发
-        nav.on('back', function (current, target) {
-            document.activeElement.blur(); // 关闭输入法
-            current = $module.require(current);
-            target = $module.require(target);
-            current.hide();
-            target.show();
-        });
-
-        //跳转到目标视图之前触发，先隐藏当前视图
-        nav.on('before-to', function (current, target) {
-            current = $module.require(current);
-            current.hide();
-        });
-
-        //统一绑定视图跳转动作，在调用 nav.to(...) 时会给触发
-        nav.on('to', function (name, arg0, arg1, argN) {
-            var args = [].slice.call(arguments, 1);
-            var M = $module.require(name);
-            M.render.apply(M, args);
-        });
-
-    }
-
-
-    module.exports = exports = /**@lends App#*/ {
-
-
-        /**
-        * 初始化执行环境，创建导航管理器和相应的 UI 组件，并启动应用程序。
-        * @param {function} factory 工厂函数，即启动函数。
-        */
-        launch: function (factory) {
-          
-            ready(function () {
-
-                var Module = require('Module'); //对外给页面提供的模块管理器。
-                var define = Module.define;
-                var name = defaults.name;
-
-                define(name, function ($require, $module) {
-                    var Nav = module.require('Nav');
-                    var nav = Nav.create($module);
-
-                    
-
-                        normal($require, $module, nav);   //不使用动画
-
-                    
-
-
-                    var Router = require('Router');
-                    var routers = Router.get($require, $module, nav);
-                    $module.bind(routers);
-
-                    factory && factory($require, $module, nav);
-
-                });
-
-                Module.require(name); //启动
-
-            });
-        },
-
-    };
-
-
-
-});
-
-/**
-* App 模块的默认配置
-* @name App.defaults
-*/
-define('App.defaults', /**@lends App.defaults*/ {
-    name: '',
-    animated: true,
-});
-
-
-/**
-* 第三方库文件动态加载器。
-* @namespace
-* @name Loader
-*/
-define('Loader', function (require, module, exports) {
-    
-    var Script = require('Script');
-    var StyleSheet = require('StyleSheet');
-    var Defaults = require('Defaults');
-
-    var Url = module.require('Url');
-    var defaults = Defaults.get(module.id);
-
-
-
-    return {
-
-        preload: function (fn) {
-
-            var preload = defaults.preload;
-            var urls = Url.group(preload, defaults.vars);
-
-            StyleSheet.load(urls.css, function () {
-                Script.load(urls.js, function () {
-                    var keys = Object.keys(preload);
-                    fn && fn(keys);
-                });
-            });
-
-
-        },
-
-        lazyload: function (keys, fn) {
-            var lazyload = defaults.lazyload;
-            var vars = defaults.vars;
-
-            if (!Array.isArray(keys)) {
-                keys = [keys];
-            }
-
-            var urls = [];
-
-            keys.forEach(function (key) {
-                var list = lazyload[key];
-                if (!list) {
-                    throw new Error('不存在名为 ' + key + ' 的 lazyload 配置。');
-                }
-
-                urls = urls.concat(list);
-            });
-
-            urls = Url.group(urls, vars);
-
-
-            StyleSheet.load(urls.css, function () {
-                Script.load(urls.js, function () {
-
-                    var modules = keys.map(function (key) {
-                        return window[key];
-                    });
-
-                    fn && fn.apply(null, modules);
-                });
-            });
-        },
-
-        load: function (urls, fn) {
-            urls = Url.group(urls, defaults.vars);
-
-            StyleSheet.load(urls.css, function () {
-                Script.load(urls.js, function () {
-                    fn && fn();
-                });
-            });
-        },
-
-    };
-
-});
-
-
-/**
-* Loader 模块的默认配置。
-* @name Loader.defaults
-*/
-define('Loader.defaults', function (require, module, exports) {
-
-    var KISP = require('KISP');
-    var Url = require('Url');
-
-
-    return {
-        vars: {
-            'version': KISP.version,
-            'edition': KISP.edition,
-            'dir': Url.dir(),
-            'root': Url.root(),
-        },
-
-        preload: {
-            KISP: ['{dir}kisp.{edition}.css'],
-            jQuery: ['{dir}jquery/jquery-2.1.1.{edition}.js'],
-        },
-
-        lazyload: {
-
-        },
-
-    };
-});
-
-
-
-/**
-* StyleSheet 样式类工具
-* @namespace
-* @name StyleSheet
-*/
-define('StyleSheet', function (require, module, exports) {
-
-    var iframe;
-    var iframeDoc;
-
-
-
-    var defaults = {
-        url: '',
-        id: '',
-        charset: 'utf-8',
-        document: window.document,
-        onload: null,
-    };
-
-
-
-    /**
-    * 加载单个文件。 
-    * @inner
-    */
-    function loadItem(url, charset, document, onload) {
-
-        var id;
-
-        if (typeof url == 'object') { //传入的是一个 {} 
-            var config = url;
-
-            id = config.id;
-            url = config.url;
-            charset = config.charset;
-            document = config.document;
-            onload = config.onload;
-        }
-
-
-        var link = document.createElement('link');
-
-        
-
-        if (onload) { //指定了回调函数，则设置它
-
-            if (link.readyState) { //IE
-
-                link.onreadystatechange = function () {
-
-                    var readyState = link.readyState;
-
-                    if (readyState == 'loaded' || readyState == 'complete') {
-                        link.onreadystatechange = null; //避免重复执行回调
-                        onload();
-                    }
-                };
-            }
-            else { //标准
-                link.onload = onload;
-            }
-
-        }
-
-
-        link.href = url;
-        link.rel = 'stylesheet';
-
-        if (charset) {
-            link.charset = charset;
-        }
-
-        if (id) {
-            link.id = id;
-        }
-
-      
-        document.head.appendChild(link);
-    }
-
-    /**
-    * 顺序加载批量
-    * @inner
-    */
-    function loadList(urls, charset, document, fn) {
-
-        if (urls.length == 0) {
-            fn && fn();
-            return;
-        }
-
-
-        var index = 0;
-
-        (function () {
-            var next = arguments.callee;
-            var url = urls[index];
-
-            loadItem(url, charset, document, function () {
-
-                index++;
-
-                if (index < urls.length) {
-                    next();
-                }
-                else {
-                    fn && fn();
-                }
-            });
-
-        })();
-
-
-    }
-
-
-
-
-    module.exports = exports = /**@lends Style */ {
-
-        /**
-        * 跨浏览器动态加载 JS 文件，并在加载完成后执行指定的回调函数。
-        * @memberOf MiniQuery.Script
-        * @param {string|Array} params.url 
-            要加载的 JS 文件的 url 地址，如果要批量加载，则为一个地址数组。
-        * @param {string} [params.charset="utf-8"] 
-            要加载的 JS 文件的字符编码，默认为 utf-8。
-        * @param {Document} [params.document=window.document] 
-            要加载的 JS 文件的上下文环境的 document，默认为当前窗口的 document 对象。
-        * @param {function} [params.onload] 
-            加载成功后的回调函数。
-        * @example
-            Style.load({
-                url: 'a.css',
-                charset: 'utf-8',
-                document: document,
-                id: 'myScript',
-                onload: function (){ }
-            });
-
-            Style.load('a.css', 'utf-8', document, function(){});
-            Style.load('a.css', 'utf-8', function(){});
-            Style.load('a.css', document, function(){});
-            Style.load('a.css', function(){});
-
-            //批量加载
-            Style.load(['a.css', 'b.css'], function(){});
-        */
-        load: function (params) {
-
-            var $Object = require('Object');
-
-            var obj = Object.assign({}, defaults); //复制一份
-
-            //注意，params 有可能是个数组，不能用 typeof 为 'object'
-            if ($Object.isPlain(params)) { //纯对象 {}
-                Object.assign(obj, params);
-            }
-            else {
-
-                obj.url = params;
-
-                switch (typeof arguments[1]) {
-                    case 'string':
-                        obj.charset = arguments[1];
-                        break;
-                    case 'object':
-                        obj.document = arguments[1];
-                        break;
-                    case 'function':
-                        obj.onload = arguments[1];
-                        break;
-                }
-
-                switch (typeof arguments[2]) {
-                    case 'object':
-                        obj.document = arguments[2];
-                        break;
-                    case 'function':
-                        obj.onload = arguments[2];
-                        break;
-                }
-
-                if (arguments[3]) {
-                    obj.onload = arguments[3];
-                }
-            }
-
-
-
-
-            var url = obj.url;
-
-            if (typeof url == 'string') {
-                loadItem(obj);
-            }
-            else if (url instanceof Array) {
-                loadList(url, obj.charset, obj.document, obj.onload);
-            }
-            else {
-                throw new Error('参数 params.url 必须为 string 或 string 的数组');
-            }
-        },
-
-       
-    };
-
-});
-
-
-
-/**
-* 第三方库文件动态加载器。
-* @namespace
-* @name Loader/Url
-*/
-define('Loader/Url', function (require, module, exports) {
-    
-    var $Object = require('Object');
-    var $String = require('String');
-    var Url = require('Url');
-
-    var url$loaded = {};
-
-
-    //检查指定的 url 资源是否已加载过。
-    function check(url) {
-        url = Url.resolve(url); //解析成绝对地址。
-        url = Url.main(url);    //取主体部分。
-
-        if (url$loaded[url]) {
-            return true;
-        }
-
-
-        var tag = '';
-        var key = '';
-
-        if (Url.isExt(url, '.js')) {
-            tag = 'script';
-            key = 'src';
-        }
-        else if (Url.isExt(url, '.css')) {
-            tag = 'link';
-            key = 'href';
-        }
-        else {
-            throw new Error('无法识别的 url 类型: ' + url);
-        }
-
-        var list = document.querySelectorAll(tag);
-
-        var item = Array.from(list).find(function (item) {
-            var file = item[key];
-            return Url.main(file) == url;
-        });
-
-        if (!item) {
-            return false;
-        }
-
-        url$loaded[url] = true;
-        return true;
-    }
- 
-
-
-
-    return {
-
-        //把 urls 按 css 和 js 归类。
-        group: function (data, vars) {
-
-            if (typeof data == 'string') {
-                data = [data];
-            }
-
-            //方便下面统一处理。
-            if (Array.isArray(data)) {
-                data = $Object.make('', data);
-            }
-
-            var cssUrls = [];
-            var jsUrls = [];
-
-
-
-            $Object.each(data, function (key, urls) {
-                if (!Array.isArray(urls)) {
-                    urls = [urls];
-                }
-
-                urls.forEach(function (url) {
-                    url = $String.format(url, vars);
-
-                    if (check(url)) {
-                        return;
-                    }
-
-                    if (Url.isExt(url, '.js')) {
-                        jsUrls.push(url);
-                    }
-                    else if (Url.isExt(url, '.css')) {
-                        cssUrls.push(url);
-                    }
-                    else {
-                        throw new Error('不支持该类型的 url 预加载: ' + url);
-                    }
-                });
-            });
-
-            return {
-                'css': cssUrls,
-                'js': jsUrls,
-            };
-
-        },
-
-    };
-
-});
-
-
-/**
-* 对外提供的页面级别的模块管理器。
-* @namespace
-* @name Module
-*/
-define('Module', function (require, module, exports) {
-
-    var Defaults = require('Defaults');
-    var Emitter = require('Emitter');
-
-
-    var defaults = Defaults.clone(module.id, {
-
-        'Emitter': Emitter,
-
-        //对外给业务层用于加载顶级模块。
-        //用于工厂函数 factory(require, module, exports){ } 中的第一个参数 `require`。
-        'require': function (id, fn) {
-            if (typeof id != 'string') {
-                throw new Error('参数 id 的类型必须为 string。');
-            }
-
-            var len = arguments.length;
-
-            //同步方式。
-            //require(id)
-            if (len == 1) {
-                return mm.require(id, !defaults.cross);
-            }
-
-
-            //异步方式。
-            //重载 require(id0, id1, ..., idN, fn) 的方式。
-            var args = Array.from(arguments);
-            var ids = args.slice(0, -1); //最后一个是 fn。
-            fn = args[len - 1];
-
-
-            var Package = require('Package');
-            var tasks = require.new('Tasks', ids);
-
-            tasks.on({
-                'each': function (id, index, done) {
-                    Package.load(id, function () {
-                        var M = mm.require(id, defaults.cross);
-                        done(M);
-                    });
-
-                },
-                'all': function (values) {
-                    fn && fn.apply(null, values);
-                },
-            });
-
-            tasks.parallel();
-
-        },
-
-    });
-
-
-    //对外给业务层使用的模块管理器。
-    var mm = new ModuleManager(defaults);
-
-
-    return /**@lends Module*/ {
-
-        /**
-        * 定义指定名称的模块。
-        * @function
-        * @param {string} id 模块的名称。
-        * @param {Object|function} factory 模块的导出函数或对象。
-        */
-        'define': mm.define.bind(mm),
-
-        /**
-        * 加载指定的模块。
-        * @function
-        * @param {string} id 模块的名称。
-        * @return 返回指定的模块。
-        */
-        'require': mm.require.bind(mm),
-    };
-
-});
-
-/**
-* Module 模块的默认配置
-* @name Module.defaults
-*/
-define('Module.defaults', /**@lends Module.defaults*/ {
-    seperator: '/',     //私有模块的分隔符
-    cross: false,       //不允许跨级调用
-    repeated: false,    //不允许重复定义同名的模块
-});
-
-
-
-/**
-* 多任务处理工具类。
-* @namesapce
-* @name Tasks
-*/
-define('Tasks', function (require, module,  exports) {
-
-    var Emitter = require('Emitter');
-    var mapper = new Map();
-
-
-    function Tasks(list) {
-        var meta = {
-            'emitter': new Emitter(this),
-            'list': list,
-        };
-
-        mapper.set(this, meta);
-    }
-
-
-    Tasks.prototype = {
-        constructor: Tasks,
-
-
-        parallel: function () {
-            var meta = mapper.get(this);
-            var list = meta.list;
-            var emitter = meta.emitter;
-            var len = list.length;
-
-            if (len == 0) {
-                emitter.fire('all', []);
-                return;
-            }
-
-            var values = new Array(len);
-            var dones = new Array(len);
-            var count = len;
-
-            list.forEach(function (item, index) {
-
-                //done(index) 是异步调用，要多一层闭包。
-                (function (index) { 
-                    
-                    emitter.fire('each', [item, index, function (value) {
-
-                        values[index] = value; //需要收集的值，由调用者传入。
-                        dones[index] = true;
-                        count--;
-
-                        //单纯记录计数不够安全，因为调用者可能会恶意多次调用 done()。
-                        if (count > 0) { //性能优化
-                            return;
-                        }
-
-                        //安全起见，检查每项的完成状态
-                        for (var i = 0; i < len; i++) {
-                            if (!dones[i]) {
-                                return;
-                            }
-                        }
-
-                        //至此，全部项都已完成。
-                        emitter.fire('all', [values]);
-
-                    }]);
-
-                })(index);
-            });
-
-
-
-        },
-
-        serial: function () {
-            var meta = mapper.get(this);
-            var list = meta.list;
-            var emitter = meta.emitter;
-            var len = list.length;
-
-            if (len == 0) {
-                emitter.fire('all', []);
-                return;
-            }
-
-
-            var values = new Array(len);
-
-
-            function process(index) {
-                var item = list[index];
-
-                emitter.fire('each', [item, index, function (value) {
-                    values[index] = value; //需要收集的值，由调用者传入。
-                    index++;
-
-                    if (index < len) {
-                        process(index);
-                    }
-                    else {
-                        emitter.fire('all', [values]);
-                    }
-                }]);
-            }
-
-            process(0);
-
-        },
-
-        on: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var args = Array.from(arguments);
-            emitter.on(args);
-        },
-
-    };
-
-
-
-    Object.assign(Tasks, {
-
-
-    });
-
-
-    return Tasks;
-
-
-
-
-
-    //var tasks = new Tasks([]);
-
-    //tasks.on('each', function (item, index, done) {
-
-    //});
-
-    //tasks.on('all', function (values) {
-
-    //});
-
-
-    //tasks.parallel();
-
-
-
-});
-
-/**
-* 自定义多级事件类。
-* @class
-* @name Emitter
-*/
-define('Emitter', function (require, module, exports) {
-    var $Object = require('Object');
-    var Tree = require('Tree');
-
-    var mapper = new Map();
-
-
-    /**
-    * 构造器。
-    * @param {Object} [context=null] 事件处理函数中的 this 上下文对象。
-    *   如果不指定，则默认为 null。
-    */
-    function Emitter(context) {
-
-        var meta = {
-            'context': context,
-            'tree': new Tree(),
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-    //实例方法
-    Emitter.prototype = /**@lends Emitter.prototype */ {
-        constructor: Emitter,
-
-        /**
-        * 绑定指定名称的事件处理函数。
-        * 已重载 on({...});
-        * 已重载 on(name0, name1, ..., nameN, {...});
-        * 已重载 on(name0, name1, ..., nameN, fn);
-        * 已重载 on(args); 主要是为了方便调用方快速重绑定自己的 on() 方法。
-        * 已重载 on(names, fn); 把多个事件名称绑定到同一个回调函数。
-        * @param {string} name 要绑定的事件名称。
-        * @param {function} fn 事件处理函数。 
-            在处理函数内部， this 指向构造器参数 context 对象。
-        * @example
-            var emitter = new Emitter();
-            emitter.on('click', function () {});
-        */
-        on: function (name, fn) {
-
-            //重载 on([]); 分两种情况。
-            if (Array.isArray(name)) {
-                if (fn) { //重载 on(names, fn); 把多个事件名称绑定到同一个回调函数。
-                    name.map(function (name) {
-                        this.on(name, fn);
-                    }, this);
-                }
-                else {  //重载 on(args); 主要是为了方便调用方快速重绑定自己的 on() 方法。
-                    this.on(...name);
-                }
-
-                return;
-            }
-
-
-            var meta = mapper.get(this);
-            var tree = meta.tree;
-            var args = Array.from(arguments);
-
-            //重载 on(name0, name1, ..., nameN, {...}) 的情况。
-            //先尝试找到 {} 所在的位置。
-            var index = args.findIndex(function (item, index) {
-                return typeof item == 'object';
-            });
-
-            if (index >= 0) {
-                var obj = args[index];              //{} 部分。
-                var names = args.slice(0, index);   //前缀部分 [name0, name1, ..., nameN]。
-                var list = $Object.flat(obj);       //{} 部分扁平化。
-
-                list.forEach(function (item, index) {
-                    var keys = names.concat(item.keys); //完整路径。
-
-                    var node = tree.get(keys) || {
-                        'list': [],         //本节点的回调列表。
-                        'count': 0,         //本节点触发的次数计数。
-                    };
-
-                    node.list.push(item.value);
-                    tree.set(keys, node);
-                });
-
-                return;
-            }
-
-
-            //重载 on(name0, name1, ..., nameN, fn) 的情况。
-            //尝试找到回调函数 fn 所在的位置。
-            var index = args.findIndex(function (item, index) {
-                return typeof item == 'function';
-            });
-
-            if (index < 0) {
-                throw new Error('参数中必须指定一个回调函数');
-            }
-
-            fn = args[index]; //回调函数
-
-            var names = args.slice(0, index); //前面的都当作是名称
-
-            //过滤掉空串。
-            names = names.filter(function (key) {
-                return !!key;
-            });
-
-            var node = tree.get(names) || {
-                'list': [],         //本节点的回调列表。
-                'count': 0,         //本节点触发的次数计数。
-                'enabled': true,    //当为 false 时，表示本节点的回调被禁用。
-                'spreaded': true,   //当为 false 时，表示子节点的回调被禁用。
-            };
-
-            node.list.push(fn);
-            tree.set(names, node);
-        },
-
-
-
-        /**
-        * 解除绑定指定名称的事件处理函数。
-        * 已重载 off() 的情况。
-        * 已重载 off(name0, name1, ..., nameN, {...}) 的情况。
-        * 已重载 off(name0, name1, ..., nameN, fn) 的情况。
-        * 已重载 off(name0, name1, ..., nameN) 的情况。
-        * @param {string} [name] 要解除绑定的事件名称。
-            如果不指定该参数，则移除所有的事件。
-            如果指定了该参数，其类型必须为 string，否则会抛出异常。
-        * @param {function} [fn] 要解除绑定事件处理函数。
-            如果不指定，则移除 name 所关联的所有事件。
-        */
-        off: function (name, fn) {
-            var meta = mapper.get(this);
-            var tree = meta.tree;
-            var args = Array.from(arguments);
-
-            //未指定事件名，则移除所有的事件。
-            if (args.length == 0) {
-                tree.clear();
-                return;
-            }
-
-            //多名称情况: off(name0, name1, ..., nameN, {});
-            //先尝试找到 {} 所在的位置。
-            var index = args.findIndex(function (item, index) {
-                return typeof item == 'object';
-            });
-
-            if (index >= 0) {
-                var obj = args[index];              //{} 对象。
-                var names = args.slice(0, index);   //前缀部分 [name0, name1, ..., nameN]。
-                var list = $Object.flat(obj);       //{} 对象部分扁平化。
-
-                list.forEach(function (item, index) {
-                    var keys = names.concat(item.keys); //完整路径。
-                    var node = tree.get(keys);          //该路径对应的节点。
-                    
-                    //不存在该路径对应的节点。
-                    if (!node) {
-                        return;
-                    }
-
-                    //存在该路径对应的节点，但事件列表为空。
-                    var list = node.list;
-                    if (!list || !list.length) {
-                        return;
-                    }
-
-                    var fn = item.value;
-                    node.list = list.filter(function (item) {
-                        return item !== fn;
-                    });
-                });
-                return;
-            }
-
-
-            //重载 off(name0, name1, ..., nameN, fn) 的情况。
-            //先尝试找到回调函数所在的位置。
-            var index = args.findIndex(function (item, index) {
-                return typeof item == 'function';
-            });
-
-            //未指定处理函数，则假定在边界之外。
-            if (index < 0) {
-                index = args.length;
-            }
-
-            fn = args[index]; //回调函数。
-
-            var names = args.slice(0, index); //前面的都当作是名称。
-            var node = tree.get(names);
-
-            //不存在该路径对应的节点。
-            if (!node) {
-                return;
-            }
-
-            //存在该路径对应的节点，但事件列表为空。
-            var list = node.list;
-            if (!list || !list.length) {
-                return;
-            }
-
-            if (fn) {
-                node.list = list.filter(function (item, index) {
-                    return item !== fn;
-                });
-            }
-            else { //未指定处理函数，则清空列表
-                list.length = 0;
-            }
-
-        },
-
-
-
-        /**
-        * 已重载。
-        * 触发指定名称的事件，并可向事件处理函数传递一些参数。
-        * @return {Array} 返回所有事件处理函数的返回值所组成的一个数组。
-        * @example
-            var emitter = new Emitter();
-            emitter.on('click', 'name', function (a, b) {
-                console.log(a, b);
-            });
-            emitter.fire('click', 'name', [100, 200]);
-        */
-        fire: function (name, params) {
-            var meta = mapper.get(this);
-            var tree = meta.tree;
-            var context = meta.context;
-            var args = Array.from(arguments);
-
-            var index = args.findIndex(function (item, index) {
-                return Array.isArray(item);
-            });
-
-            if (index < 0) {
-                index = args.length;
-            }
-
-            var names = args.slice(0, index);
-            var node = tree.get(names);
-            var returns = [];
-
-            if (!node) { //不存在该事件名对应的节点。
-                return returns;
-            }
-
-            params = args[index] || [];
-            node.count++;
-
-            node.list.forEach(function (fn, index) {
-                //让 fn 内的 this 指向 context，并收集返回值。
-                var value = fn.apply(context, params);
-                returns.push(value);
-            });
-
-            return returns;
-
-        },
-
-        /**
-        * 设置指定的属性为指定的值。
-        * 如可以在触发事件前动态改变 context 值。
-        */
-        set: function (key, value) {
-            var meta = mapper.get(this);
-
-            switch (key) {
-                case 'context':
-                    meta[key] = value;
-                    break;
-
-                default:
-                    throw new Error('不支持设置属性: ' + key);
-            }
-
-        },
-
-
-        /**
-        * 销毁本实例对象。
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            meta.tree.destroy();
-            mapper.delete(this);
-        },
-
-
-    };
-
-    
-    return Emitter;
-
-});
-/**
-* 树形结构的存储类。
-* @class
-* @name Tree
-*/
-define('Tree', function (require, module, exports) {
-
-    var mapper = new Map();
-
-
-    /**
-    * 构造器。
-    */
-    function Tree() {
-
-        var meta = {
-            'key$node': {},
-            'count': 0,
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-    //获取指定节点下指定路径的节点
-    function getNode(key$node, keys) {
-
-        var lastIndex = keys.length - 1;
-
-        for (var index = 0; index <= lastIndex; index++) {
-
-            var key = keys[index];
-            var node = key$node[key];
-
-            if (!node || index == lastIndex) { //不存在了，或是最后一项了
-                return node || null;
-            }
-
-            key$node = node.key$node; //准备下一轮迭代
-        }
-    }
-
-
-    //实例方法
-    Tree.prototype = /**@lends Tree.prototype */{
-        constructor: Tree,
-
-        /**
-        * 设置指定节点上的值。
-        * 如果不存在该节点，则先创建，然后存储值到上面；否则直接改写原来的值为指定的值。
-        * 已重载 set(key0, key1, ..., keyN, value) 的情况。
-        * @param {Array} keys 节点路径数组。
-        * @param value 要设置的值。
-        * @example
-            tree.set(['path', 'to'], 123);
-            tree.set('path', 'to', 123); //跟上面的等价
-        */
-        set: function (keys, value) {
-            //重载 set(key0, key1, ..., keyN, value) 的情况。
-            if (!Array.isArray(keys)) {
-                var args = Array.from(arguments);
-                keys = args.slice(0, -1);
-
-                
-                value = args.slice(-1)[0];  //参数中的最后一个即为 value
-            }
-
-            //过滤掉空串。
-            keys = keys.filter(function (key) {
-                return !!String(key);
-            });
-
-            if (!keys.length) {
-                throw new Error('过滤后的节点 key 为空数组。');
-            }
-
-
-
-            var meta = mapper.get(this);
-            var key$node = meta.key$node;
-            var lastIndex = keys.length - 1;
-            var node = null;
-           
-
-            keys.forEach(function (key, index) {
-                node = key$node[key];
-
-                if (!node) {
-                    meta.count++;
-
-                    node = key$node[key] = {
-                        'key$node': {},         //子节点的容器对象。
-                        'parent': key$node,     //指向父节点，方便后续处理。
-                        'key': key,             //当前的 key，方便后续处理。
-                        //'value': undefined,     //会有一个这样的字段，但先不创建。
-                    };
-                }
-
-                if (index < lastIndex) {
-                    key$node = node.key$node; //准备下一轮迭代
-                }
-                else { //最后一项
-                    node.value = value;
-                }
-            });
-
-            
-        },
-
-
-
-        /**
-        * 获取指定路径的节点上的值。
-        * @return 返回该节点上的值。 如果不存在该节点，则返回 undefined。
-        * @example
-            tree.get('path', 'to'); //获取路径为 'path' -> 'to' 的节点上存储的值。
-        */
-        get: function (keys) {
-            //重载 get(key0, key1, ..., keyN) 的情况
-            if (!(Array.isArray(keys))) {
-                keys = Array.from(arguments);
-            }
-
-            //过滤掉空串。
-            keys = keys.filter(function (key) {
-                return !!String(key);
-            });
-
-            if (!keys.length) {
-                throw new Error('过滤后的节点 key 为空数组。');
-            }
-
-
-
-            var meta = mapper.get(this);
-            var key$node = meta.key$node;
-
-            var node = getNode(key$node, keys);
-            return node ? node.value : undefined;
-        },
-
-
-
-        /**
-        * 清空全部节点及数据。
-        */
-        clear: function () {
-            var meta = mapper.get(this);
-            meta.key$node = {};
-            meta.count = 0;
-        },
-
-        /**
-        * 删除指定节点上的值。
-        */
-        remove: function (keys) {
-
-            //重载 remove(key0, key1, ..., keyN) 的情况
-            if (!(Array.isArray(keys))) {
-                keys = [...arguments];
-            }
-
-            //过滤掉空串。
-            keys = keys.filter(function (key) {
-                return !!String(key);
-            });
-
-            if (!keys.length) {
-                throw new Error('过滤后的节点 key 为空数组。');
-            }
-
-            var meta = mapper.get(this);
-            var key$node = meta.key$node;
-            var node = getNode(key$node, keys);
-
-            if (!node) { //不存在该节点
-                return;
-            }
-
-
-            var $Object = require('Object');
-            var obj = node.key$node;                //子节点
-
-            if (!obj || $Object.isEmpty(obj)) {    //不存在子节点
-                meta.count--;
-                delete node.parent[node.key];       //删除整个节点自身，节省内存
-            }
-            else {
-                delete node.value; //删除值
-            }
-        },
-
-        /**
-        * 销毁。
-        */
-        destroy: function () {
-            mapper.delete(this);
-        },
-
-    };
-
-
-    return Tree;
-
-
-});
-
-
-
-
-
-
-
-
-
-/**
-* 包资源加载器。
-* @namespace
-* @name Package
-*/
-define('Package', function (require, module, exports) {
-
-    var Defaults = require('Defaults');
-    var Loader = module.require('Loader');
-
-    var defaults = Defaults.clone(module.id);
-    var packages = null;    //所有需要异步加载的包的总配置。
-    var loading = null;     //加载中 Loading 的实例。
-    var name$pack = {};     //分包加载成功后的结果缓存。
-
-
-
-
-    //加载总的包文件。
-    function get(name, fn) {
-
-        if (packages) {
-            fn && fn(packages[name]);
-            return;
-        }
-
-        //说明不存在总配置文件。
-        if (packages === false) {
-            fn && fn();
-            return;
-        }
-
-
-        //首次加载总的 json 文件。
-
-        var Query = require('Query');
-        var Url = require('Url');
-
-        var url = Url.root() + defaults.url;
-        var query = defaults.query;
-
-        if (typeof query == 'string') {
-            query = Query.parse(query);
-        }
-
-        if (query) {
-            url = Query.add(url, query);
-        }
-
-        if (defaults.random) {
-            url = Query.random(url, 4);
-        }
-       
-
-        $.ajax({
-            type: 'get',
-            dataType: 'json',
-            url: url,
-
-            error: function () {
-                packages = false;   //显示指定为 false，表示已尝试加载过了。
-                fn && fn();
-            },
-
-            success: function (json) {
-                packages = json;
-                fn && fn(json[name]);
-            },
-        });
-
-    }
-
-
-    
-
-
-
-    return /**@lends Package*/{
-
-        /**
-        * 加载指定名称的包资源，并在加载完成后执行一个回调。
-        * @param {string} name 包资源的名称。
-        * @param {function} fn 加载完成后要执行的回调。
-            该回调函数会接收到一个包资源的数据对象。
-        */
-        load: function (name, fn) {
-
-            //优化使用内存中的缓存。
-            var pack = name$pack[name];
-            if (pack || pack === null) {
-                fn && fn(pack);
-                return;
-            }
-
-
-            var load = defaults.load || {};
-            var begin = load.begin;
-            var end = load.end;
-
-            if (begin) {
-                loading = begin(require, loading);
-            }
-
-
-            get(name, function (data) {
-
-                //不存在该配置节点。
-                if (!data) {
-                    name$pack[name] = null; //显式填充一个值，用于下次再加载时直接使用。
-                    end && end(require, loading);
-
-                    fn && fn();
-                    return;
-                }
-
-
-                //首次加载，找到对应的配置节点，加载它所指定的资源文件。
-                Loader.load(data, function (pack) {
-
-                    name$pack[name] = pack;
-                    end && end(require, loading);
-
-                    fn && fn(pack);
-
-                });
-
-            });
-
-        },
-    };
-
-
-
-});
-
-/**
-* Package 模块的默认配置
-* @name Package.defaults
-*/
-define('Package.defaults', /**@lends Package.defaults*/ {
-
-
-    /**
-    * 总包的 url 地址，相对于网站的根地址。
-    */
-    url: 'packages/all.json',
-
-    /**
-    * 是否在总包的 url 地址上加上随机 query 串以刷新缓存。
-    */
-    random: true,
-
-    /**
-    * 总包 url 地址的 query 部分，应该由自动化工具写入相应的 MD5 值。
-    * 如果指定，则带在 url 的 query 部分。
-    */
-    query: null,
-
-    /**
-    * 加载总包或分包时的进度提示。
-    */
-    load: {
-        /**
-        * 开始加载时总包或分包时的提示函数。
-        * @param {function} require 用于加载 KISP 内部模板的 require 方法。
-        * @param {Object} loading 上一次创建出来的 Loading 实例。
-        */
-        begin: function (require, loading) {
-            if (!loading) {
-                var Loading = require('Loading');
-                loading = new Loading();
-            }
-            
-            loading.show();
-            return loading;
-        },
-
-        /**
-        * 结束加载时总包或分包时的提示函数。
-        * @param {function} require 用于加载 KISP 内部模板的 require 方法。
-        * @param {Object} loading 上一次创建出来的 Loading 实例。
-        */
-        end: function (require, loading) {
-            loading.hide();
-        },
-    },
-
-});
-
-
-/**
-* 加载中提示组件
-* @class
-* @name Loading
-*/
-define('Loading', function (require, module, exports) {
-
-    var $String = require('String');
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var RandomId = require('RandomId');
-
-    //子模块
-    var Sample = module.require('Sample');
-    var Style = module.require('Style');
-    var Presettings = module.require('Presettings');
-
-    var mapper = new Map();
-
-
-
-    function render(style) {
-
-        var meta = mapper.get(this);
-
-        var id = meta.id;
-        var sample = meta.sample;
-
-        var Style = require('Style');
-
-        var html = $String.format(sample, {
-            'id': id,
-            'text-id': meta.textId,
-            'text': meta.text,
-            'style': Style.stringify(style),
-            'cssClass': meta.cssClass,
-        });
-
-        var container = meta.container;
-        if (meta.append) {
-            $(container).append(html);
-        }
-        else {
-            $(container).prepend(html);
-        }
-
-        var div = document.getElementById(id);
-        meta.div = div;
-
-        return div;
-
-    }
-
-
-   
-
-    /**
-    * 构造器。
-    * @constructor
-    */
-    function Loading(config) {
-
-    
-        var presetting = config ? Presettings[config.presetting] : null;
-        config = Defaults.clone(module.id, presetting, config);
-
-
-        var emitter = new Emitter(this);
-
-        var cssClass = config.cssClass;
-        if (cssClass instanceof Array) {
-            cssClass = cssClass.join(' ');
-        }
-
-        var text = config.text;
-        if (!text && text !== 0) { // 0 除外
-            cssClass += ' NoText'; //注意，前面要有个空格
-        }
-
-        //向后兼容。
-        cssClass = cssClass.split(' ').map(function (item, index) {
-            if (item == 'same-line') {
-                console.warn('类名 "same-line" 已过时，请使用 "SameLine"');
-                return 'SameLine';
-            }
-
-            return item;
-        }).join(' ');
-
-
-        var prefix = config.prefix;
-        var suffix = config.suffix;
-
-        var meta = {
-            'id': RandomId.get(prefix, suffix),
-            'textId': RandomId.get(prefix, 'text-', suffix),
-            'container': config.container,
-            'prepend': config.prepend,
-            'div': null,
-            'sample': Sample.get(config.sample), //加载相应的 HTML 模板
-            'text': text,
-            'emitter': emitter,
-            'mask': config.mask,
-            'masker': null, // Mask 的实例，重复使用
-            'style': Style.get(config),
-            'showTime': 0, //开始显示时的时间点
-            'cssClass': cssClass,
-            'append': config.append,
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-    //实例方法
-    Loading.prototype = /**@lends Loading#*/ {
-        constructor: Loading,
-
-        /**
-       * 渲染本组件。
-       * 该方法会创建 DOM 节点，并且绑定事件，但没有调用 show()。
-       */
-        render: function () {
-            
-        },
-
-        /**
-        * 显示本组件。
-        */
-        show: function (text, config) {
-
-
-            if (typeof text == 'object') { //重载 show(config)
-                config = text;
-                text = config.text;
-            }
-
-            config = config || {};
-
-
-            var meta = mapper.get(this);
-            var div = meta.div;
-            var style = Style.get(meta.style, config);
-
-
-            if (!div) { //首次 render
-                div = render.call(this, style);
-            }
-            
-
-            //在高版本的 iOS 上，样式必须重新设置，否则 background、top、bottom 
-            // 的样式会不生效，至今也没有查出原因
-            //else if(config) { //只有指定了 config，才有可能指定 style
-            //  $(div).css(style);
-            //}
-
-            //用下面这种，相当于重复设置，但可以避免上述问题!!!
-            $(div).css(style);
-
-            var Mask = require('Mask');
-            var mask = Mask.filter(meta.mask, config.mask);
-            var masker = meta.masker;
-
-            //指定了启用 mask 层
-            if (mask) {
-                if (!masker) {
-                    masker = meta.masker = new Mask({
-                        'container': meta.container,
-                    });
-                }
-
-                masker.show(mask);
-            }
-            else {
-                if (masker) { //之前已经创建了，并且可能是显示的。
-                    masker.hide();
-                }
-            }
-
-
-            if (text !== undefined && text != meta.text) {
-                document.getElementById(meta.textId).innerHTML = text;
-                meta.text = text;
-            }
-
-            meta.showTime = Date.now(); //记录开始显示的时间点
-
-            $(div).show();
-            meta.emitter.fire('show');
-
-
-            var duration = config.duration;
-            if (duration) {
-                var self = this;
-                setTimeout(function () {
-                    self.hide();
-                }, duration);
-            }
-
-        },
-
-        /**
-        * 隐藏本组件。
-        * @param {number} [lastTime] 需要持续显示的时间。
-        */
-        hide: function (lastTime) {
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-            
-            if (!lastTime) { //未指定要持续显示的时间，则立即隐藏
-                hide();
-                return;
-            }
-
-            var now = Date.now();
-            var showTime = meta.showTime;
-
-            var useTime = now - showTime;       //已经显示的时间
-            var leftTime = lastTime - useTime;  //剩余时间
-
-            if (leftTime > 0) {
-                setTimeout(hide, leftTime);
-            }
-            else { //立即隐藏
-                hide();
-            }
-
-            //内部方法
-            function hide() {
-                var masker = meta.masker;
-                if (masker) {
-                    masker.hide();
-                }
-                meta.showTime = 0;
-                $(div).hide();
-                meta.emitter.fire('hide');
-            }
-
-        },
-
-        /**
-        * 移除本组件对应的 DOM 节点。
-        */
-        remove: function () {
-
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-
-
-            var masker = meta.masker;
-            if (masker) {
-                masker.remove();
-            }
-
-            //reset
-            meta.div = null;
-            meta.masker = null;
-            meta.hasBind = false;
-
-            $(div).off();
-
-            document.body.removeChild(div);
-            meta.emitter.fire('remove');
-
-        },
-
-        set: function (key, value) {
-            var meta = mapper.get(this);
-
-            switch (key) {
-                case 'text':
-                    meta.text = value;
-                    $('#' + meta.textId).html(value);
-                    break;
-
-                default:
-                    throw new Error('暂不支持设置名为` ' + key +  '` 的属性。');
-            }
-
-        },
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-        },
-
-        /**
-        * 销毁本组件
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            this.remove();
-            emitter.destroy();
-
-            mapper.remove(this);
-        },
-
-    };
-
-    return Loading;
-
-});
-
-/**
-* Loading 模块的默认配置
-* @name Loading.defaults
-*/
-define('Loading.defaults', /**@lends Loading.defaults*/ {
-    
-    /**
-    * 生成的 id 的前缀。
-    */
-    prefix: 'KISP-Loading-',
-
-    /**
-    * 生成的 id 的随机后缀的长度。
-    */
-    suffix: 4,
-
-    /**
-    * 加载中时要显示的文本。
-    */
-    text: '处理中...',
-
-    /**
-    * 是否启用 mask 层。
-    */
-    mask: false,
-
-    /**
-    * 组件用到的 html 模板。
-    * 默认为 'iOS'。 业务层不需要关注该字段。
-    */
-    sample: 'iOS',
-
-    /**
-    * 组件用到的 css 类名。
-    */
-    cssClass: '',
-
-    /**
-    * 组件添加到的容器。
-    * 默认为 document.body。
-    */
-    container: document.body,
-
-    /**
-    * 把组件添加到容器的方式，是否使用追加的方式。
-    * 默认用 prepend 的方式。
-    */
-    append: false,
-
-    //默认样式
-    'background': 'rgba(0, 0, 0, 0.7)',
-    'border-radius': 10,
-    'bottom': 'initial',
-    'color': '#fff',
-    'font-size': '15px',
-    'height': 102,
-    'left': '50%',
-    'right': 'initial',
-    'top': '50%',
-    'width': 120,
-
-    /**
-    * 组件的 css 样式 z-index 值。
-    */
-    'z-index': 1024,
-});
-
-/**
-* Loading 模块的默认配置
-* @name Loading.config
-*/
-define('Loading.config', /**@lends Loading.config*/ {
-    //PC 端的用 fixed定位。
-    position: 'fixed',
-});
-
-
-/**
-* RandomId 工具类
-* @name RandomId
-*/
-define('RandomId', function (require, module, exports) {
-
-    var $String = require('String');
-
-    module.exports = exports = /**@lends RandomId*/ {
-
-        /**
-        * 
-        */
-        get: function (item0, item1, item2, itemN) {
-
-            var list = Array.from(arguments);
-
-            list = list.map(function (item, index) {
-
-                if (typeof item == 'number') {
-                    return $String.random(item).toLowerCase();
-                }
-
-                return item;
-            });
-
-            return list.join('');
-        },
-
-        
-    };
-
-});
-
-
-
-/**
-* Style 工具类
-* @class
-* @name Style
-*/
-define('Style', function (require, module,  exports) {
-
-    var $Object = require('Object');
-
-
-    //内部函数
-    function getPixel(v) {
-
-        var type = typeof v;
-
-        if (type == 'number' || (/^\d+$/g).test(v)) { //数字或字符串形式的数字
-            return v + 'px';
-        }
-
-        return v;
-    }
-
-
-   
-
-
-    var pix_fields = [
-        'border',
-        'border-radius',
-        'border-bottom-width',
-        'border-left-width',
-        'border-right-width',
-        'border-top-width',
-        'border-width',
-        'bottom',
-        'font-size',
-        'height',
-        'left',
-        'letter-spacing',
-        'line-height',
-        'margin',
-        'margin-bottom',
-        'margin-left',
-        'margin-right',
-        'margin-top',
-        'padding',
-        'padding-bottom',
-        'padding-left',
-        'padding-right',
-        'padding-top',
-        'right',
-        'top',
-        'width',
-    ];
-
-
-
-
-
-
-    module.exports = exports = /**@lends Style*/ {
-
-        /**
-        * 像素化。
-        */
-        pixelize: function (style, key) {
-
-            //重载 getPixel(value) 
-            if (typeof style != 'object') {
-                return getPixel(style);
-            }
-
-
-            // 批量操作: pixelize(style, keys);
-            if (key instanceof Array) {
-
-                key.forEach(function (key, index) {
-
-                    var value = style[key];
-                    if (value == null) { // null|undefined
-                        return; //continue
-                    }
-
-                    style[key] = getPixel(value);
-                });
-            }
-            else { //单个操作
-                var value = style[key];
-                if (value != null) { // null|undefined
-                    style[key] = getPixel(value);
-                }
-            }
-
-            return style;
-        },
-
-        checkUnit: function (value, unit) {
-            return typeof value == 'string' &&
-                value.slice(0 - unit.length) == unit;
-        },
-
-
-        filter: function (items, keys) {
-
-            //重载 filter(obj, keys)
-            if (!Array.isArray(items)) {
-                items = [items];
-            }
-
-            var list = items.map(function (item, index) {
-                if (!item || typeof item != 'object') {
-                    return null;
-                }
-
-                item = $Object.filter(item, keys);
-                return item;
-            });
-
-            //合并多个到一个新的 {}
-            list = [{}].concat(list);
-
-            var style = Object.assign.apply(null, list);
-            style = exports.pixelize(style, pix_fields);
-
-            return style;
-        },
-
-
-        parse: function (style) {
-
-
-        },
-
-        stringify: function (style, replacer, spaces) {
-
-            if (!style) {
-                return '';
-            }
-
-            if (typeof replacer == 'number') { //重载 stringify(style, spaces);
-                spaces = replacer;
-                replacer = null;
-            }
-
-            var a = [];
-
-            $Object.each(style, function (key, value) {
-                
-                value = replacer ? replacer(key, value) : value;
-
-                if (value === undefined) { //扔掉值为 undefined 的项
-                    return; // continue;
-                }
-
-                var s = key + ': ' + value;
-                if (spaces) {
-                    s = new Array(spaces + 1).join(' ') + s; //产生前导空格
-                }
-
-                a.push(s);
-
-            });
-
-            if (a.length == 0) {
-                return '';
-            }
-
-
-            return spaces ? a.join(';\n') + ';\n' :
-                a.join(';') + ';';
-        },
-
-
-        parsePercent: function (percent, total) {
-
-            percent = parseInt(percent) / 100;
-            return percent * total + 'px';
-
-        },
-
-
-    };
-
-
-
-   
-});
-
-
-
-/**
-* 遮罩层
-* @class
-* @name Mask
-*/
-define('Mask', function (require, module, exports) {
-
-    var Emitter = require('Emitter');
-    var $String = require('String');
-    var Defaults = require('Defaults');
-    var RandomId = require('RandomId');
-
-    var Sample = module.require('Sample');
-    var Style = module.require('Style');
-
-
-    var mapper = new Map();
-
-
-    /**
-    * 构造器。
-    * @constructor
-    */
-    function Mask(config) {
-
-
-        config = Defaults.clone(module.id, config);
-
-        var prefix = config.prefix;
-        var suffix = config.suffix;
-
-        var emitter = new Emitter(this);
-
-        var meta = {
-            'id': RandomId.get(prefix, suffix),
-            'div': null, //jQuery 包装对象
-            'sample': Sample,
-            'volatile': config.volatile,
-            'emitter': emitter,
-            'style': Style.get(config),
-            'showTime': 0, //开始显示时的时间点
-            'container': config.container,
-            'duration': config.duration,
-            'append': config.append,
-            'eventName': config.eventName,
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-    Mask.prototype = /**@lends Mask#*/ {
-        constructor: Mask,
-
-        /**
-        * $(div) 的快捷方式。
-        */
-        $: null,
-
-        /**
-        * 渲染本组件。
-        * 该方法会创建 DOM 节点，并且绑定事件，但没有调用 show()。
-        */
-        render: function () {
-            var meta = mapper.get(this);
-
-            //已经渲染过了
-            if (meta.div) {
-                return;
-            }
-
-            //首次渲染
-            var id = meta.id;
-            var sample = meta.sample;
-            var eventName = meta.eventName;
-
-            var html = $String.format(sample, {
-                'id': id,
-            });
-
-
-            var container = $(meta.container);
-            if (meta.append) {
-                container.append(html);
-            }
-            else {
-                container.prepend(html);
-            }
-
-            var div = meta.div = $('#' + id);
-
-            //暴露一个 jQuery 对象给外面使用。 但为了安全起见，内部不使用这个对象。
-            this.$ = div;
-
-            var style = Style.get(meta.style);
-            div.css(style);
-
-     
-
-            if (meta.volatile) { //指定了易消失，即点击 mask 层就隐藏
-
-                var self = this;
-
-                var fn = function () {
-                    var confirmed = self.hide();
-                    if (confirmed === false) {
-                        return;
-                    }
-
-                    //先备份原来的 opacity
-                    var opacity = div.css('opacity');
-
-                    //显示一个完全透明的层 200ms，防止点透。
-                    //并且禁用事件，避免触发 show 事件。
-                    self.show({
-                        opacity: 0,
-                        quiet: true,
-                    });
-
-                    setTimeout(function () {
-                        div.css('opacity', opacity).hide();
-                    }, 200);
-                };
-
-
-                if (eventName == 'touch') {
-                    div.touch(fn);
-                }
-                else {
-                    div.on(eventName, fn);
-                }
-            }
-
-
-        },
-
-        /**
-        * 显示遮罩层。
-        */
-        show: function (config) {
-
-            //重载 show(duration);
-            if (typeof config == 'number') { 
-                config = { 'duration': config, };
-            }
-
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            this.render();
-
-            var div = meta.div;
-            var quiet = false;  //是否禁用事件。
-
-            if (config) {
-
-                var style = Style.get(meta.style, config);
-                div.css(style);
-                quiet = config.quiet;
-            }
-
-            meta.showTime = new Date(); //记录开始显示的时间点
-            div.show();
-
-            if (!quiet) {
-                emitter.fire('show');
-            }
-
-
-            var duration = config && ('duration' in config) ?
-                    config.duration :
-                    meta.duration;
-
-            if (duration) {
-                var self = this;
-
-                setTimeout(function () {
-                    self.hide();
-                }, duration);
-            }
-
-        },
-
-        /**
-        * 隐藏遮罩层。
-        * @param {number} [lastTime] 需要持续显示的时间。
-        */
-        hide: function (lastTime) {
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-
-            if (!lastTime) {
-                return hide();
-            }
-
-
-            var now = new Date();
-            var showTime = meta.showTime;
-
-            var useTime = now - showTime;
-            var leftTime = lastTime - useTime;
-
-            if (leftTime > 0) {
-                setTimeout(hide, leftTime);
-            }
-
-
-
-            function hide() {
-                var values = meta.emitter.fire('hide');
-                var confirmed = values.slice(-1)[0];
-
-                if (confirmed === false) {
-                    return false;
-                }
-
-                meta.showTime = 0;
-                div.hide();
-            }
-
-        },
-
-        /**
-        * 移除遮罩层。
-        */
-        remove: function () {
-
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-
-            //reset
-            meta.div = null;
-
-            div.off();
-
-            div = div.get(0); //拆除 jQuery 包装。
-            div.parentNode.removeChild(div);
-            meta.emitter.fire('remove');
-
-        },
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-        },
-
-        /**
-        * 销毁本组件
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-
-            this.remove();
-
-            meta.emitter.destroy();
-
-            mapper.delete(this);
-        },
-
-    };
-
-
-    //静态方法
-    Object.assign(Mask, /**@lends Mask*/{
-
-        filter: function (defaults, config) {
-
-            if (typeof defaults == 'number') { //透明度
-                defaults = { 'opacity': defaults };
-            }
-
-            if (typeof config == 'number') { //透明度
-                config = { 'opacity': config };
-            }
-
-
-            var type = typeof defaults;
-
-            if (type == 'object' && typeof config == 'object') {
-                return Object.assign({}, defaults, config);
-            }
-
-            //禁用 mask
-            if (config === false) {
-                return null;
-            }
-
-            //显式指定使用 mask，如果 defaults 没有，则显式分配一个
-            if (config === true) {
-                return !defaults || type != 'object' ? {} : defaults;
-            }
-
-
-            //未指定，则使用默认配置指定的，有或没有
-            if (config === undefined) {
-                return type == 'object' ? defaults :
-                    defaults ? {} : null;
-            }
-
-            return typeof config == 'object' ? config :
-                config ? {} : null;
-        },
-
-    });
-
-    return Mask;
-
-});
-
-/**
-* Mask 模块的默认配置
-* @name Mask.defaults
-*/
-define('Mask.defaults', /**@lends Mask.defaults*/ {
-    
-    /**
-    * 生成的 id 的前缀。
-    */
-    prefix: 'KISP-Mask-',
-
-    /**
-    * 生成的 id 的随机后缀的长度。
-    */
-    suffix: 4,
-
-    /**
-    * 指定是否易消失，即点击 mask 层就是否隐藏/移除。
-    * 可取值为: true|false|"hide"|"remove"，默认为 false，即不易消失。
-    */
-    volatile: false,
-
-    /**
-    * 组件添加到的容器。
-    * 默认为 document.body。
-    */
-    container: document.body,
-
-    /**
-    * 把组件添加到容器的方式，是否使用追加的方式。
-    * 默认用 prepend 的方式。
-    */
-    append: false,
-
-    /**
-    * 点击时需要用到的事件名。
-    */
-    eventName: '',
-
-    /**
-    * 需要持续显示的毫秒数。
-    * 指定为 0 或不指定则表示一直显示。
-    */
-    duration: 0,
-
-    /**
-    * 组件的 css 样式 z-index 值。
-    */
-    'top': 0,
-
-    /**
-    * 组件的 css 样式 bottom 值。
-    */
-    'bottom': 0,
-
-    /**
-    * 组件的 css 样式 opacity 值。
-    */
-    'opacity': 0.5,
-
-    /**
-    * 组件的 css 样式 background 值。
-    */
-    'background': '#000',
-
-    /**
-    * 组件的 css 样式 z-index 值。
-    */
-    'z-index': 1024,
-});
-
-/**
-* Mask 模块的默认配置
-* @name Mask.config
-*/
-define('Mask.config', /**@lends Mask.config*/ {
-    
-    
-    //PC 端的用 fixed 定位。
-    position: 'fixed',
-
-    /**
-    * 点击时需要用到的事件名。
-    */
-    eventName: 'click',
-
-});
-
-/*
-* Mask/Sample
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/ui/Mask/Sample.html
-*/
-define('Mask/Sample', [
-    '<div id="{id}" class="KISP Mask" style="display: none;"></div>',
-].join('\n'));
-
-/**
-*
-*/
-define('Mask/Style', function (require, module, exports) {
-    
-    var Style = require('Style');
-    
-
-    function getMargin(v) {
-
-        var type = typeof v;
-
-        if (type == 'number') {
-            return (0 - v / 2) + 'px';
-        }
-
-        if (type == 'string' && v.slice(-2) == 'px') {
-            v = parseInt(v);
-            return (0 - v / 2) + 'px';
-        }
-
-        return '0px';
-    }
-
-
-
-    function get(item0, item1, itemN) {
-
-        var list = [].slice.call(arguments);
-
-        var style = Style.filter(list, [
-            'opacity',
-            'top',
-            'bottom',
-            'background',
-            'z-index',
-            'position',
-        ]);
-
-
-        return style;
-
-    }
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-*
-*/
-define('Loading/Sample', function (require, module, exports) {
-    
-    var name$sample = {};
-
-
-    function get(name) {
-        var sample = name$sample[name];
-        if (sample) {
-            return sample;
-        }
-
-        sample = module.require(name);
-        name$sample[name] = sample;
-        return sample;
-    }
-
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-* 
-*/
-define('Loading/Style', function (require, module, exports) {
-
-    var Style = require('Style');
-    
-
-    function getMargin(v) {
-
-        var type = typeof v;
-
-        if (type == 'number') {
-            return (0 - v / 2) + 'px';
-        }
-
-        if (type == 'string' && v.slice(-2) == 'px') {
-            v = parseInt(v);
-            return (0 - v / 2) + 'px';
-        }
-
-        return '0px';
-    }
-
-
-
-    function get(item0, item1, itemN) {
-
-        var list = [].slice.call(arguments);
-
-        var style = Style.filter(list, [
-            'background',
-            'border-radius',
-            'bottom',
-            'color',
-            'font-size',
-            'height',
-            'left',
-            'margin-top',
-            'right',
-            'top',
-            'width',
-            'z-index',
-            'position',
-        ]);
-
-        ////优先使用 bottom 而非 top
-        //if (style['bottom'] != 'initial') {
-        //    style['top'] = 'initial';
-        //}
-
-        ////优先使用 right 而非 left
-        //if (style['right'] != 'initial') {
-        //    style['left'] = 'initial';
-        //}
-
-        //根据宽度计算 margin-left，使用居中
-        style['margin-left'] = getMargin(style.width);
-
-        if (style['margin-top'] === undefined) { //未指定
-            style['margin-top'] = getMargin(style.height);
-        }
-
-
-
-
-        return style;
-
-
-    }
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-* Loading 的预设配置。
-*/
-define('Loading/Presettings', {
-
-    fullscreen: {
-        width: '100%',
-        height: '100%',
-        top: 0,
-        left: 0,
-        bottom: 0,
-        right: 0,
-        'font-size': 15,
-        'margin-top': 0,
-        'margin-left': 0,
-        'margin-right': 0,
-        'margin-bottom': 0,
-        'border-radius': 0,
-    },
-
-    'scroller.pulldown': {
-        sample: 'iOS',
-        cssClass: 'SameLine',
-        text: '加载中...',
-        background: 'none',
-        color: '#000',
-        height: 26,
-        width: '100%',
-        left: 0,
-        top: 0,
-        bottom: 'initial',
-        right: 'initial',
-        'font-size': 15,
-        'margin-top': 0,
-        'border-radius': 0,
-    },
-
-    'scroller.pullup': {
-        sample: 'iOS',
-        cssClass: 'SameLine',
-        text: '加载中...',
-        background: 'none',
-        color: '#000',
-        height: 26,
-        width: '100%',
-        top: 'initial',
-        right: 'initial',
-        left: 0,
-        bottom: 0,
-        'font-size': 15,
-        'margin-top': 0,
-        'border-radius': 0,
-    },
-
-    
-
-});
-
-
-define('Package/Loader', function (require, module, exports) {
-
-
-    var $Object = require('Object');
-
-
-    var loader = {
-        'css': loadCss,
-        'html': loadHtml,
-        'js': loadJs,
-    };
-
-    function loadCss(url, fn) {
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-
-        link.onload = function () {
-            fn && fn();
-        };
-
-        link.onerror = function () {
-            throw new Error('css 文件加载失败: ' + url);
-        };
-
-        link.href = url;
-        document.head.appendChild(link);
-    }
-
-    function loadHtml(url, fn) {
-
-        $.ajax({
-            type: 'get',
-            url: url,
-            dataType: 'html',
-            cache: true,            //不需要加随机数。
-            error: function (ajax, msg, error) {
-                throw error;
-            },
-            success: function (content, msg, ajax) {
-                fn && fn(content);
-            },
-        });
-    }
-
-    function loadJs(url, fn) {
-        $.ajax({
-            type: 'get',
-            url: url,
-            dataType: 'script',
-            cache: true,            //不需要加随机数。
-            error: function (ajax, msg, error) {
-                throw error;
-            },
-            success: function (content, msg, ajax) {
-                fn && fn(content);
-            },
-        });
-    }
-
-
-
-    function checkReady(obj, fn) {
-
-        for (var type in obj) {
-            var item = obj[type];
-
-            if (!item.ready) {
-                return;
-            }
-        }
-    
-        fn && fn(obj);
-    }
-
-
-    
-    
-
-
-
-    return {
-
-        /**
-        * 并行的去加载全部资源。
-        */
-        'load': function (data, fn) {
-
-            var obj = {};
-            var Url = require('Url');
-            var root = Url.root();
-
-            $Object.each(loader, function (type, load) {
-                var url = data[type];
-                if (!url) {
-                    return;
-                }
-          
-                
-                url = root + url;
-
-                obj[type] = {
-                    'url': url,
-                    'ready': false,
-                    'content': '',
-                };
-            });
-
-
-
-            //并行去加载。
-            $Object.each(obj, function (type, item) {
-
-                var url = item.url;
-                var load = loader[type]; //对应的 load 方法。
-
-                load(url, function (content) {
-
-                    item.ready = true;
-                    item.content = content || '';
-
-                    checkReady(obj, fn);
-                });
-            });
-
-        },
-    };
-
-
-
-});
-
-
-/**
-*
-*/
-define('App/Nav', function (require, module, exports) {
-
-    var Navigator = require('Navigator');
-    var $String = require('String');
-    var Defaults = require('Defaults');
-    var Emitter = require('Emitter');
-
-
-    function create($module) {
-
-        var defaults = Defaults.clone(module.id);
-
-        var nav = new Navigator({
-            'hash': defaults.hash,
-        });
-
-        var emitter = new Emitter(nav);
-
-
-        //重写
-        var to = nav.to;
-        var on = nav.on;
-
-        nav.to = function (name, arg0, argN) {
-            var args = Array.from(arguments);
-
-            //已加载过，或者是同步方式存在的。
-            var M = $module.require(name);
-            if (M) {
-                to.apply(nav, args);
-                return;
-            }
-
-
-            //尝试以异步方式去加载。
-            var Package = require('Package');
-
-            Package.load(name, function (pack) {
-                if (!pack) {
-                    emitter.fire('404', args);
-                    throw new Error('不存在名为 ' + name + ' 的分包配置数据。');
-                }
-
-                var item = pack['html'];
-                if (item) {
-                    $(defaults.container).append(item.content);
-                }
-
-                var M = $module.require(name);
-                if (!M) {
-                    emitter.fire('404', args);
-                    throw new Error('不存在名为 ' + name + ' 的视图');
-                }
-
-                to.apply(nav, args);
-            });
-        };
-
-
-        nav.on = function (name, fn) {
-            if (name == '404') {
-                emitter.on(name, fn);
-                return;
-            }
-
-            var args = Array.from(arguments);
-            on.apply(nav, args);
-        };
-
-
-        return nav;
-    }
-
-
-
-
-    return {
-        'create': create,
-    };
-
-
-
-});
-
-/**
-* App/Nav 模块的默认配置
-* @name Nav.defaults
-*/
-define('App/Nav.defaults', function (require, module, exports) {
-
-    var $String = require('String');
-
-    return /**@lends App/Nav.defaults*/ {
-
-        /**
-        * 以异步方式加载到的 html 要附加到的容器。
-        * 仅针对独立打包的情况。
-        */
-        container: 'body',
-
-
-        hash: function (current) {
-            //为了让 url 中的 hash 可读性更好，有助于快速定位到相应的视图模块。
-            return current + '-' + $String.random(4);
-        },
-    }
-
-});
-
-/**
-* 状态导航器
-* @class
-* @name Navigator
-*/
-define('Navigator', function (require, module,  exports) {
-
-    var $String = require('String');
-    var Emitter = require('Emitter');
-    var Hash = require('Hash');
-
-    var mapper = new Map();
-
-
-    /**
-    * 创建一个视图导航管理器。
-    * @param {Object} config，配置参数对象，其中字段：
-    * @param {function} [config.hash]  hash 的生成规则。
-
-    */
-    function Navigator(config) {
-
-        var emitter = new Emitter(this);
-        var self = this;
-        var hash = config.hash;
-
-        var meta = {
-            'emitter': emitter,
-            'statcks': [],
-            'quiet': false,
-            'hash': hash,
-        };
-
-        mapper.set(this, meta);
-
-
-        //则监听 hash 的变化
-        hash && Hash.onchange(window, function (hash, old) {
-            if (meta.quiet) { //说明是 to() 方法中引起的 hash 变化或刻意不想引起，忽略。
-                meta.quiet = false;     
-            }
-            else {
-                self.back();
-            }
-        });
-
-    }
-
-    //实例方法
-    Navigator.prototype = /**@lends Navigator#*/ {
-        constructor: Navigator,
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = Array.from(arguments);
-            emitter.on.apply(emitter, args);
-        },
-
-
-        /**
-        * 跳转到指定的视图，并传递一些参数。
-        */
-        to: function (target, argN) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var statcks = meta.statcks;
-            var args = Array.from(arguments);
-            var current = statcks.slice(-1)[0]; //取得最后一个
-
-            if (current) {
-                emitter.fire('before-to', [current, target]); //总事件
-            }
-
-            statcks.push(target);
-            emitter.fire('to', args);   //触发总的事件
-            meta.quiet = true;          //前进时会导致 hash 发生变化，设置此标志告诉到 hash-change 事件
-
-            var hash = meta.hash;
-
-            if (typeof hash == 'function') {
-                hash = hash.call(this, target);
-            }
-
-            if (hash) {
-                Hash.set(window, hash);
-            }
-           
-        },
-
-
-        /**
-        * 后退。
-        * 已重载 back(false)，即只后退一步，并且不触发事件。 
-        * 默认是触发事件的。
-        * 采用不触发事件模式，是为了适应某些场景。
-        * @param {Number} count 要后退的步数。 
-            默认为 1，如果要一次性后退 n 步，请指定一个大于 0 的整型。
-        */
-        back: function (count) {
-
-            var fireEvent = true;
-
-            if (count === false) { //重载 back(false)，不触发事件。
-                fireEvent = false;
-            }
-
-            count = count || 1;
-
-            if (count < 0) {
-                throw new Error('要后退的步数必须大于 0');
-            }
-
-            var meta = mapper.get(this);
-            var statcks = meta.statcks;
-            var currentIndex = statcks.length - 1;      //当前视图在最后一项
-            var targetIndex = currentIndex - count;     //目标视图索引
-
-            if (targetIndex < 0 ) {
-                return; //直接忽略，不抛出异常。 因为实际场景中，用户可能会一直后退。
-            }
-
-
-            var current = statcks[currentIndex];
-            var target = statcks[targetIndex];
-
-            statcks.splice(targetIndex + 1); //删除目标视图后面的
-
-            if (fireEvent) {
-                var emitter = meta.emitter;
-                emitter.fire('back', [current, target]);
-            }
-
-            return target; //把当前视图返回去，业务层可能会用到。
-        },
-
-
-        /**
-        * 获取堆栈历史中指定索引值的视图。
-        * @param {Number} index 要获取的视图的索引值。
-        *   从 0 开始，如果指定为0或正数，则从左边开始获取。
-        *   如果指定为负数，则从右边开始获取。
-        *   因为当此视图为 -1，倒数第二个为 -2，依次类推。
-        */
-        get: function (index) {
-            var meta = mapper.get(this);
-            var statcks = meta.statcks;
-            var len = statcks.length;
-
-            if (index < 0) {
-                index = index + len;
-            }
-
-            return statcks[index];
-        },
-
-    };
-
-
-
-    return Navigator;
-
-});
-
-
-
-/**
-* Hash 工具类
-* @namespace
-* @name Hash
-*/
-define('Hash', function (require, module, exports) {
-
-    var $Object = require('Object');
-
-    var emitter = null; //绑定指定 window 的 hashchange 事件。
-    var mapper = null;  //用来记录某个 window 是否已绑定了 hashchange 事件。
-
-
-    module.exports = exports = /**@lends Hash */ {
-
-        /**
-        * 获取指定 url 的 hash 中指定的键所对应的值。
-        * @param {string} url 要进行获取的 url 字符串。
-        * @param {string} [key] 要检索的键。
-        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写。 默认区分大小写。
-            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
-            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
-        * @retun {string|Object|undefined} 返回一个查询字符串值。
-            当不指定参数 key 时，则获取全部 hash 值，对其进行 unescape 解码，
-            然后返回一个等价的 Object 对象。
-            当指定参数 key 为一个空字符串，则获取全部 hash (不解码)，返回一个 string 类型值。
-        * @example
-            Hash.get('http://test.com?query#a%3D1%26b%3D2', 'a');  //返回 '1'
-            Hash.get('http://test.com?query#a%3D1%26b%3D2', 'c');  //返回 undefined
-            Hash.get('http://test.com?query#a%3D1%26A%3D2', 'A');  //返回 2
-            Hash.get('http://test.com?query#a%3D1%26b%3D2', 'A', true);//返回 1
-            Hash.get('http://test.com?query#a%3D1%26b%3D2', '');   //返回 'a%3D1%26b%3D2'
-            Hash.get('http://test.com?query#a%3D1%26b%3D2');       //返回 {a: '1', b: '2'}
-            Hash.get('http://test.com?query#a%3D%26b%3D');         //返回 {a: '', b: ''}
-            Hash.get('http://test.com??query#a%26b');              //返回 {a: '', b: ''}
-            Hash.get('http://test.com?query#a', 'a');              //返回 ''
-        */
-        get: function (url, key, ignoreCase) {
-
-            //重载 get(location, key, ignoreCase)
-            //重载 get(window, key, ignoreCase)
-            if (typeof url == 'object') {
-                url = ('href' in url) ? url.href :  //location
-                    url.location.href;              //window
-            }
-
-
-            var beginIndex = url.indexOf('#');
-            if (beginIndex < 0) { //不存在查询字符串
-                return;
-            }
-
-            var endIndex = url.length;
-
-            var hash = url.slice(beginIndex + 1, endIndex);
-            hash = unescape(hash); //解码
-
-            if (key === '') { //获取全部 hash 的 string 类型
-                return hash;
-            }
-
-            
-
-            var Query = require('Query');
-            var obj = Query.parse(hash);
-
-            if (key === undefined) { //未指定键，获取整个 Object 对象
-                return obj;
-            }
-
-            if (!ignoreCase || key in obj) { //区分大小写或有完全匹配的键
-                return obj[key];
-            }
-
-
-            //以下是不区分大小写
-            key = key.toString().toLowerCase();
-
-            for (var name in obj) {
-                if (name.toLowerCase() == key) {
-                    return obj[name];
-                }
-            }
-        },
-        /**
-        * 把指定的 hash 设置到指定的 url 上。
-        * 该方法会对 hash 进行 escape 编码，再设置到 url 上，以避免 hash 破坏原有的 url。
-        * 同时原有的 hash 会移除掉而替换成新的。
-        * @param {string} url 要设置的 url 字符串。
-        * @param {string|number|boolean|Object} key 要设置的 hash 的键。
-            当传入一个 Object 对象时，会对键值对进行递归编码成查询字符串， 然后用 escape 编码来设置 hash 。
-            当传入的是一个 string|number|boolean 类型，并且不传入第三个参数， 则直接用 escape 编码来设置 hash 。
-        * @param {string} [value] 要添加的 hash 的值。
-        * @retun {string} 返回组装后的新的 url 字符串。
-        * @example
-            //返回 'http://test.com?#a%3D1'
-            Hash.set('http://test.com', 'a', 1);  
-            
-            //返回 'http://test.com?query#a%3D3%26d%3D4'
-            Hash.set('http://test.com?query#a%3D1%26b%3D2', {a: 3, d: 4});  
-    
-            //返回 'http://test.com?query#a%3D3%26d%3D4'
-            Hash.set('http://test.com?query#a%3D1%26b%3D2', 'a=3&b=4'); 
-            
-        */
-        set: function (url, key, value) {
-
-            var location = null;
-
-            if (typeof url == 'object') {
-                if ('href' in url) {
-                    location = url;         //location
-                }
-                else {
-                    location = url.location; //window
-                }
-                url = location.href;
-            }
-
-
-
-            var type = typeof key;
-            var isValueType = (/^(string|number|boolean)$/).test(type);
-
-
-            var hash = '';
-
-            if (arguments.length == 2 && isValueType) {
-                hash = String(key);
-            }
-            else {
-                var Query = require('Query');
-                var obj = type == 'object' ? key : $Object.make(key, value);
-                hash = Query.stringify(obj);
-            }
-
-
-            hash = escape(hash); //要进行编码，避免破坏原有的 url
-
-            var index = url.lastIndexOf('#');
-            if (index > -1) {
-                url = url.slice(0, index);
-            }
-
-            url = url + '#' + hash;
-
-            if (location) {
-                location.hash = hash; //不要设置整个 location.href，否则会刷新
-            }
-
-            return url;
-
-        },
-
-
-
-        /**
-        * 判断指定的 url 是否包含特定名称的 hash。
-        * @param {string} url 要检查的 url。
-        * @param {string} [key] 要提取的查询字符串的键。
-        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写，默认区分大小写。
-            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
-            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
-        * @retun {boolean} 如果 url 中包含该名称的查询字符串，则返回 true；否则返回 false。
-        * @example
-            Hash.has('http://test.com?a=1&b=2#hash', 'a');  //返回 true
-            Hash.has('http://test.com?a=1&b=2#hash', 'b');  //返回 true
-            Hash.has('http://test.com?a=1&b=2#hash', 'c');  //返回 false
-            Hash.has('http://test.com?a=1&b=2#hash', 'A', true); //返回 true
-            Hash.has('http://test.com?a=1&b=2#hash');       //返回 true
-        */
-        has: function (url, key, ignoreCase) {
-
-            //重载 has(location, key, ignoreCase)
-            //重载 has(window, key, ignoreCase)
-            if (typeof url == 'object') {
-                url = ('href' in url) ? url.href :  //location
-                    url.location.href;              //window
-            }
-
-
-            var obj = exports.get(url); //获取全部 hash 字符串的 Object 形式
-
-            if (!obj) {
-                return false;
-            }
-
-
-            if (!key) { //不指定名称，
-                return !$Object.isEmpty(obj); //只要有数据，就为 true
-            }
-
-            if (key in obj) { //找到完全匹配的
-                return true;
-            }
-
-
-            if (ignoreCase) { //明确指定了忽略大小写
-
-                key = key.toString().toLowerCase();
-
-                for (var name in obj) {
-                    if (name.toLowerCase() == key) {
-                        return true;
-                    }
-                }
-            }
-
-            //区分大小写，但没找到
-            return false;
-
-        },
-
-
-        /**
-        * 监听指定窗口 url 的 hash 变化，并触发一个回调函数。
-        * @param {Window} window 要监听的 window 窗口。
-        * @param {function} fn 当监听窗口的 hash 发生变化时，要触发的回调函数。
-        *   该回调函数会接收到两个参数：newHash 和 oldHash，当前的 hash 值和旧的 hash 值。
-        *   注意，newHash 和 oldHash 都去掉了 '#' 号而直接保留 hash 值。
-        *   如果 oldHash 不存在，则为 null。
-        *   该回调函数内部的 this 指向监听的窗口。
-        * @param {boolean} [immediate=false] 指示初始时当窗口中存在 hash 时是否要立即执行回调函数。
-            初始时当窗口中存在 hash 时，如果要立即执行回调函数，请指定该参数为 true；
-            否则不指定或指定为 false。
-        * @example
-            Hash.onchange(top, function (newHash, oldHash) {
-                console.log('new hash: ' + newHash);
-                console.log('old hash: ' + oldHash);
-                console.log(this === top); //true
-            });
-        */
-        onchange: function (window, fn, immediate) {
-
-            if (!emitter) { //首次绑定
-                var Emitter = require('Emitter');
-                emitter = new Emitter();
-            }
-
-            emitter.on('change', fn);
-
-            var location = window.location;
-            var hash = exports.get(window, '');
-
-            if (hash && immediate) { //如果有 hash，并且指定了要立即触发，则立即触发
-                fn.call(window, hash, null); //不要用 fire，因为可能会影响之前绑定的
-            }
-
-            if (!mapper) { //首次绑定
-                mapper = new Map();
-            }
-
-            if (mapper.get(window)) { // window 所对应的窗口已绑定 hashchange
-                return;
-            }
-
-            // window 所对应的窗口首次绑定 hashchange
-            window.onhashchange = function () {
-                var oldHash = hash;
-                hash = exports.get(window, '');
-                emitter.fire('change', [hash, oldHash]);
-            };
-
-            mapper.set(window, true);
-        },
-
-    };
-
-});
-
-
-/**
-* alert 对话框
-* @namespace
-* @name Alert
-* @private
-*/
-define('Alert', function (require, module, exports) {
-
-    var $String = require('String');
-    var Dialog = module.require('Dialog');
-
-
-
-    /**
-    * 显示一个 alert 对话框。 
-    * 支持多次调用，会将多次调用加进队列，在显示完上一次后进行下一次的显示。
-    */
-    function show(text, text1, textN, fn) {
-
-        //重载 get(obj); 以方便程序员调试查看 json 对象。
-        if (typeof text == 'object') {
-            var Sample = module.require('Sample');
-            text = JSON.stringify(text, null, 4);
-            text = $String.format(Sample, { 'text': text, });
-        }
-
-        var args = [].slice.call(arguments, 1);
-
-        //在参数列表中找到的第一个函数当作是回调函数，并忽略后面的参数。
-        var index = args.findIndex(function (item, index) {
-            return typeof item == 'function';
-        });
-
-        if (index >= 0) { //找到回调函数
-            fn = args[index];
-            args = args.slice(0, index); //回调函数前面的都当作是要显示的文本
-        }
-        else {
-            fn = null;
-        }
-
-        args = [text].concat(args);
-        text = $String.format.apply(null, args);
-
-
-
-        Dialog.add(text, fn);
-    }
-
-
-
-
-    return {
-        show: show,
-    };
-
-});
-
-/**
-* Alert 模块的默认配置
-* @name Alert.defaults
-*/
-define('Alert.defaults', /**@lends Alert.defaults*/ {
-    button: '确定',
-    volatile: false,
-    mask: true,
-    autoClosed: true,
-    width: '80%',
-    'z-index': 99999,
-
-});
-
-/**
-* Alert 模块的默认配置
-* @name Alert.config
-*/
-define('Alert.config', /**@lends Alert.config*/ {
-    width: 450,
-
-});
-
-define('Alert/Dialog', function (require, module, exports) {
-
-    var $String = require('String');
-    var Defaults = require('Defaults');
-
-    var dialog = null;
-    var visible = false;
-    var list = [];
-    var activeElement = null;   //上次获得焦点的元素。
-    var showFrom = 13;          //记录一下是否由于按下回车键导致的显示。
-
-    //创建对话框
-    function create() {
-
-        var config = Defaults.clone('Alert');
-
-        var Dialog = require('Dialog');
-        var dialog = new Dialog({
-            'cssClass': 'Alert',
-            'volatile': config.volatile,
-            'mask': config.mask,
-            'autoClosed': config.autoClosed,
-            'width': config.width,
-            'z-index': config['z-index'],
-            'buttons': [
-               {
-                   name: 'ok',
-                   text: config.button,
-               },
-            ],
-        });
-
-
-        dialog.on('button', 'ok', function () {
-            var fn = dialog.data('fn');
-            fn && fn();
-        });
-
-
-        dialog.on({
-            'show': function () {
-                visible = true;
-
-                showFrom = showFrom == 13 ? 'enter' : '';
-                activeElement = document.activeElement;
-                activeElement.blur();
-            },
-
-            'hide': function () {
-                visible = false;
-                var obj = list.shift();
-                if (obj) {
-                    render(obj.text, obj.fn);
-                }
-
-                //activeElement && activeElement.focus();
-                activeElement = null;
-                showFrom = '';
-            },
-        });
-
-        //响应回车键
-        $(document).on({
-            'keydown': function (event) {
-                showFrom = event.keyCode;
-            },
-            'keyup': function (event) {
-
-                var invalid =
-                        event.keyCode != 13 ||  //不是回车键。
-                        !visible ||             //已是隐藏，避免再次触发。
-                        showFrom == 'enter';    //由于之前按下回车键导致的显示。
-
-                if (invalid) {
-                    return;
-                }
-
-                dialog.hide();
-
-                var fn = dialog.data('fn');
-                fn && fn();
-            },
-        });
-
-
-
-        return dialog;
-
-    }
-
-
-
-
-
-
-    //根据文本来计算高度，大概值，并不要求很准确。
-    function getHeightByLength(text) {
-
-        text = String(text);
-        var len = $String.getByteLength(text);
-        var h = Math.max(len, 125);
-        var max = document.documentElement.clientHeight;
-
-        if (h >= max * 0.8) {
-            h = '80%';
-        }
-
-        return h;
-    }
-
-    //根据文本来计算高度，大概值，并不要求很准确。
-    function getHeightByLines(text) {
-
-        text = String(text);
-        var lines = text.split('\n');
-        //debugger
-        var h = lines.length * 25 + 60;
-        var max = document.documentElement.clientHeight;
-
-        if (h >= max * 0.8) {
-            h = '80%';
-        }
-
-        return h;
-    }
-
-    function getHeight(text) {
-        var h0 = getHeightByLength(text);
-        var h1 = getHeightByLines(text);
-        var h = Math.max(h0, h1);
-        return h;
-
-    }
-
-
-    function render(text, fn) {
-
-        var height = getHeight(text);
-
-        dialog = dialog || create();
-
-        dialog.data('fn', fn);
-        dialog.set('text', text);
-        dialog.set('height', height);
-
-        dialog.show();
-
-    }
-
-
-    function add(text, fn) {
-
-        //首次显示，或之前显示的已经给隐藏了，立即显示出来。
-        if (!visible) {
-            render(text, fn);
-            return;
-        }
-
-        //已经是显示的，加到队列里进行排队。
-        list.push({
-            'text': text,
-            'fn': fn,
-        });
-    }
-
-
-    //add(0, function () { });
-    //add(1, function () { });
-    //add(2, function () { });
-
-
-    return {
-        add: add,
-    };
-
-});
-/**
-* 对话框组件
-* @class
-* @name Dialog
-*/
-define('Dialog', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var RandomId = require('RandomId');
-
-    //子模块
-    var Sample = module.require('Sample');
-    var Style = module.require('Style');
-    var Renderer = module.require('Renderer');
-
-    var mapper = require('Mapper');
-
-
-    /**
-    * 构造器。
-    * @constructor
-    */
-    function Dialog(config) {
-
-        config = Defaults.clone(module.id, config);
-
-        var emitter = new Emitter(this);
-
-        var cssClass = config.cssClass;
-        if (cssClass instanceof Array) {
-            cssClass = cssClass.join(' ');
-        }
-
-        var buttons = config.buttons;
-        var eventName = config.eventName;
-
-        var prefix = config.prefix;
-        var suffix = config.suffix;
-
-        var meta = {
-            'id': RandomId.get(prefix, suffix),
-            'articleId': RandomId.get(prefix, 'article-', suffix),
-            'contentId': RandomId.get(prefix, 'content-', suffix),
-            'footerId': RandomId.get(prefix, 'footer-', suffix),
-            'div': null,
-            'scrollable': config.scrollable,
-            'scroller': null,
-            'scrollerConfig': config['scroller'],
-            'eventName': eventName,
-            'title': config.title,
-            'text': config.text,
-            'buttons': buttons,
-            'samples': Sample.get(config.sample),//加载相应的 HTML 模板
-            'emitter': emitter,
-            'mask': config.mask,
-            'masker': null,                     // Mask 的实例，重复使用
-            'layer': null,                      //用来防止点透用的透明层，
-            'cssClass': cssClass,
-            'style': Style.get(config),
-            'autoClosed': config.autoClosed,    //点击任何一个按钮后是否自动关闭组件
-            'visible': false,                   //记录当前组件是否已显示
-            'volatile': config.volatile,
-            'zIndex': config['z-index'],        //生成透明层时要用到
-            'data': {},                         //供 this.data() 方法使用
-            'stopHide': false,                  //避免 masker 和 self 的 hide 死循环。
-            'width': config.width,
-            'height': config.height,
-
-        };
-
-        mapper.set(this, meta);
-
-
-        //预绑定事件
-        if (buttons && buttons.length > 0) {
-            buttons.forEach(function (item, index) {
-                var fn = item.fn;
-                if (!fn) {
-                    return;
-                }
-
-                var name = item.name || String(index);
-                //这两个已废弃，建议使用 #2
-                emitter.on(eventName, 'button', name, fn);
-
-                //#2 建议使用
-                emitter.on('button', name, fn);
-            });
-        }
-
-        //当宽度或高度指定了百分比，需要监听窗口的大小变化，以使组件大小相适应
-       
-        $(window).on('resize', function () {
-            var style = $Object.filter(meta, ['width', 'height']);
-            style = Style.get(style);
-
-            $(meta.div).css(style);
-        });
-
-        
-    }
-
-
-    //实例方法
-    Dialog.prototype = /**@lends Dialog#*/ {
-        constructor: Dialog,
-
-        /**
-        * $(container) 的快捷方式。
-        */
-        $: null,
-
-        /**
-        * 渲染本组件。
-        * 该方法会创建 DOM 节点，并且绑定事件，但没有调用 show()。
-        */
-        render: function () {
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            //已经渲染过了
-            if (div) {
-                return;
-            }
-
-            div = meta.div = Renderer.render(meta, this);
-            $(div).hide(); //先隐藏
-
-            var Mask = require('Mask');
-            var zIndex = meta.zIndex;
-
-            meta.masker = new Mask({
-                'z-index': zIndex - 1,
-                'volatile': meta.volatile,
-            });
-
-            meta.masker.on('show', function () {
-                meta.stopHide = false; //重置，避免多次调用 dialog.show() 后的 masker 层无法隐藏。
-            });
-
-            if (meta.volatile) {
-                var self = this;
-                meta.masker.on('hide', function () {
-                    if (meta.stopHide) {
-                        meta.stopHide = false;
-                    }
-                    else {
-                        meta.stopHide = true;
-                        self.hide();
-                    }
-                });
-            }
-
-            //防止点透
-            meta.layer = new Mask({
-                opacity: 0,
-                'z-index': zIndex + 1,
-            });
-        },
-
-        /**
-        * 显示本组件。
-        */
-        show: function (mask) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            this.render();
-
-
-            var Mask = require('Mask');
-            mask = Mask.filter(meta.mask, mask);
-
-            //指定了启用 mask 层
-            if (mask) {
-                meta.masker.show(mask);
-            }
-            else {
-                masker.hide();
-            }
-
-            meta.layer.show({ duration: 200 });
-
-            //这个不能放在 setTimeout 里，因为外面可能已经调用了 set('height') 等改变了
-            $(meta.div).css(meta.style);
-
-
-            //这里要用异步稍微延迟一下，不然会跟 layer 的 show 几乎是同时的
-            setTimeout(function () {
-                $(meta.div).show();
-               
-            }, 0);
-
-            //事件触发不能延迟，否则可能会导致业务层绑定的 show 事件也延迟，带会一系列问题。
-            meta.visible = true;
-            emitter && emitter.fire('show'); //外面可能已经调用了 destroy() 而导致 emitter 不可用。
-        },
-
-        /**
-        * 隐藏本组件。
-        * @param {number} [lastTime] 需要持续显示的时间。
-        */
-        hide: function () {
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div || !meta.visible) {
-                return;
-            }
-
-            var masker = meta.masker;
-            if (masker) {
-                if (meta.stopHide) {
-                    meta.stopHide = false;
-                }
-                else {
-                    meta.stopHide = true;
-                    masker.hide();
-                }
-            }
-
-            $(div).hide();
-            meta.visible = false;
-            meta.emitter.fire('hide');
-
-        },
-
-        /**
-        * 移除本组件对应的 DOM 节点。
-        */
-        remove: function () {
-
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-
-
-            var masker = meta.masker;
-            if (masker) {
-                masker.remove();
-            }
-
-            var layer = meta.layer;
-            if (layer) {
-                layer.remove();
-            }
-
-            //reset
-            meta.div = null;
-            meta.masker = null;
-            meta.layer = null;
-            meta.visible = false;
-
-            $(div).off();
-
-            div.parentNode.removeChild(div);
-            meta.emitter.fire('remove');
-
-        },
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-        },
-
-        /**
-        * 销毁本组件
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            if (!meta) {
-                throw new Error('该实例已给销毁，无法再次调用 destroy 方法。');
-            }
-
-            var emitter = meta.emitter;
-            var scroller = meta.scroller;
-
-            this.remove();
-            emitter.destroy();
-            scroller && scroller.destroy(); //在 PC 端为 null
-
-            mapper.delete(this);
-        },
-
-        /**
-        * 设置指定的属性。
-        * @param {string} name 要设置的属性的名称。 目前支持的字段有： 
-            'text',
-            'height',
-            'width',
-        * @param value 要设置的属性的值，可以是任何类型。
-        */
-        set: function (name, value) {
-
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-
-            this.render();
-
-            switch (name) {
-                case 'text':
-                    $('#' + meta.contentId).html(value);
-                    scroller && scroller.refresh(200);
-                    break;
-
-                case 'height':
-                case 'width':
-                    var obj = {};
-                    obj[name] = meta[name] = value;
-                    obj = Style.get(obj);
-                    Object.assign(meta.style, obj); //回写，避免调用 show 时又给重置
-                    $(meta.div).css(obj);
-                    scroller && scroller.refresh(300);
-                    break;
-
-                default:
-                    throw new Error('目前不支持设置属性: ' + name);
-            }
-
-
-        },
-
-        /**
-        * 获取或设置自定义数据。 
-        * 已重载 data()、 data(key)、data(obj)、data(key, value)。
-        * 在跨函数中传递数据时会比较方便。
-        * @param {string|Object} key 要获取或设置的数据的名称(键)。
-            当指定为一个纯对象 {} 时，则表示批量设置。
-            当指定为字符串或可以转为字符串的类型时，则表示获取指定名称的数据。
-        * @param value 要设置的数据的值。 只有显式提供该参数，才表示设置。
-        * @return 返回获取到的或设置进来的值。
-        */
-        data: function (key, value) {
-            var meta = mapper.get(this);
-            var data = meta.data;
-
-            var len = arguments.length;
-            if (len == 0) { //获取全部
-                return data;
-            }
-
-            //重载 data(obj); 批量设置
-            if ($Object.isPlain(key)) {
-                Object.assign(data, key);
-                return key;
-            }
-
-            //get(key)
-            if (len == 1) {
-                return data[key];
-            }
-
-            //set(key, value)
-            data[key] = value;
-            return value;
-
-        },
-
-
-    };
-
-    return Dialog;
-
-});
-
-/**
-* Dialog 模块的默认配置
-* @name Dialog.defaults
-*/
-define('Dialog.defaults', /**@lends Dialog.defaults*/ {
-
-    /**
-    * 生成的 id 的前缀。
-    */
-    prefix: 'KISP-Dialog-',
-
-    /**
-    * 生成的 id 的随机后缀的长度。
-    */
-    suffix: 4,
-
-    /**
-    * 是否启用 mask 层。
-    */
-    mask: true,
-
-    /**
-    * 点击按钮后是否自动关闭组件。
-    * 可取值为: true|false，默认为 true，即自动关闭。
-    */
-    autoClosed: true,
-
-    /**
-    * 指定是否易消失，即点击 mask 层就是否隐藏/移除。
-    * 可取值为: true|false，默认为不易消失。
-    */
-    volatile: false,
-
-    /**
-    * 组件的标题文本。
-    */
-    title: '',
-
-    /**
-    * 组件的内容文本。
-    */
-    text: '',
-
-    /**
-    * 组件的 css 样式 z-index 值。
-    */
-    'z-index': 1024,
-
-    /**
-    * 组件用到的 html 模板。
-    * 默认为 'iOS'。 业务层不需要关注该字段。
-    */
-    sample: 'iOS',
-
-    /**
-    * 组件用到的 css 类名。
-    */
-    cssClass: '',
-
-    /**
-    * 点击按钮时需要用到的事件名。
-    */
-    eventName: '',
-
-    /**
-    * 组件宽度。
-    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
-    */
-    width: '80%',
-
-    /**
-    * 组件高度。
-    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
-    */
-    height: '50%',
-
-    /**
-    * 按钮数组。
-    */
-    buttons: [],
-
-
-});
-
-/**
-* Dialog 模块的默认配置
-* @name Dialog.config
-*/
-define('Dialog.config', /**@lends Dialog.config*/ {
-
-
-    /**
-    * 内容区是否可滚动。
-    * PC 端用不可滚动。
-    */
-    scrollable: false,
-
-    /**
-    * 针对滚动器的配置。
-    * PC 端。
-    */
-    scroller: null,
-
-    /**
-    * 点击按钮时需要用到的事件名。
-    * PC 端。
-    */
-    eventName: 'click',
-
-    //PC 端的用 fixed定位。
-    position: 'fixed',
-
-    width: 600,
-
-
-});
-
-
-/**
-* 针对有继承关系的类提供同一个的 mapper 实例容器。
-* @namespace
-* @name Mapper
-*/
-define('Mapper', function (require, module, exports) {
-    var mapper = new Map();
-    return mapper;
-
-});
-
-
-define('Dialog/Sample', function (require, module, exports) {
-    
-    var $String = require('String');
-
-    //去掉多余的换行和空格
-    function trim(s) {
-        return s.replace(/\n|\r|\r\n/g, ' ')
-                .replace(/\s+/g, ' ');
-    }
-
-
-    function get(name) {
-
-        var sample = module.require(name);
-        var samples = $String.getTemplates(sample, [
-            {
-                name: 'div',
-                begin: '#--div.begin--#',
-                end: '#--div.end--#',
-                fn: trim,
-            },
-            {
-                name: 'header',
-                begin: '#--header.begin--#',
-                end: '#--header.end--#',
-                outer: '{header}',
-                fn: trim,
-            },
-            {
-                name: 'footer',
-                begin: '#--footer.begin--#',
-                end: '#--footer.end--#',
-                outer: '{footer}',
-                fn: trim,
-            },
-            {
-                name: 'button',
-                begin: '#--button.begin--#',
-                end: '#--button.end--#',
-                outer: '{buttons}',
-                fn: trim,
-            },
-        ]);
-
-        return samples;
-    }
-
-
-
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-* 
-*/
-define('Dialog/Style', function (require, module, exports) {
-
-    var Style = require('Style');
-    
-
-    function getMargin(v) {
-
-        var type = typeof v;
-
-        if (type == 'number') {
-            return (0 - v / 2) + 'px';
-        }
-
-        if (type == 'string' && v.slice(-2) == 'px') {
-            v = parseInt(v);
-            return (0 - v / 2) + 'px';
-        }
-
-    }
-
-
-
-    function get(config) {
-
-        var style = Style.filter(config, [
-            'background',
-            'border',
-            'border-radius',
-            'height',
-            'width',
-            'z-index',
-            'position',
-        ]);
-
-        if ('width' in style) {
-            var width = style.width;
-
-            if (typeof width != 'number') {
-                var maxWidth = document.documentElement.clientWidth;
-                if (Style.checkUnit(width, '%')) {
-                    style.width = Style.parsePercent(width, maxWidth);
-                }
-                else if (!width) {
-                    style.width = maxWidth * 0.8 + 'px';
-                }
-            }
-        }
-
-
-        if ('height' in style) {
-            var height = style.height;
-
-            if (typeof height != 'number') {
-                var maxHeight = document.documentElement.clientHeight;
-                if (Style.checkUnit(height, '%')) {
-                    style.height = Style.parsePercent(height, maxHeight);
-                }
-                else if (!height) {
-                    style.height = maxHeight * 0.8 + 'px';
-                }
-            }
-        }
-
-       
-        
-
-        
-
-        //根据宽度计算 margin-left 和 margin-top，使其居中
-
-        var v = getMargin(style.width);
-        if (v) {
-            style['margin-left'] = v;
-        }
-
-        v = getMargin(style.height);
-        if (v) {
-            style['margin-top'] = v;
-        }
-
-        return style;
-
-
-    }
-
-
-
-
-    
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-*
-*/
-define('Dialog/Renderer', function (require, module, exports) {
-
-    var $String = require('String');
-    var Style = require('Style');
-    
-
-    function getStyle(item) {
-
-        if (!item) {
-            return '';
-        }
-
-        var style = Style.filter(item, [
-            'border-bottom',
-            'color',
-            'font-size',
-            'font-weight',
-            'width',
-        ]);
-
-        style = Style.stringify(style);
-        return style;
-    }
-
-    
-
-
-    function render(meta, dialog) {
-
-        var buttons = meta.buttons || [];
-        var emitter = meta.emitter;
-        var id = meta.id;
-        var articleId = meta.articleId;
-        var footerId = meta.footerId;
-        var style = meta.style;
-        var samples = meta.samples;
-
-
-
-        var title = meta.title;
-
-        //标准化成一个 object
-        if (title && typeof title != 'object') {
-            title = { 'text': title || '', };
-        }
- 
-
-        var html = $String.format(samples['div'], {
-            'id': id,
-            'article-id': articleId,
-            'content-id': meta.contentId,
-            'cssClass': meta.cssClass,
-            'style': Style.stringify(style),
-            'text': meta.text,
-            'text-height': parseInt(style.height) - 44 * 2 - 2,
-            'no-header': title ? '' : 'no-header',              //针对无标题时
-            'no-footer': buttons.length > 0 ? '' : 'no-footer', //针对无按钮时
-
-            'header': (function (title) {
-                if (!title) {
-                    return '';
-                }
-
-                return $String.format(samples['header'], {
-                    'style': getStyle(title),
-                    'title': title.text,
-                });
-
-            })(title),
-
-            'footer': (function (buttons) {
-                var count = buttons.length;
-                if (!count) {
-                    return '';
-                }
-
-                return $String.format(samples['footer'], {
-                    'id': footerId,
-                    'count': count,
-                    'buttons': buttons.map(function (item, index) {
-
-                        if (typeof item == 'string') {
-                            buttons[index] = item = {
-                                'text': item,
-                            };
-                        }
-
-                        return $String.format(samples['button'], {
-                            'index': index,
-                            'text': item.text,
-                            'style': getStyle(item),
-                        });
-
-                    }).join(''),
-                });
-
-            })(buttons),
-        });
-
-
-        $(document.body).prepend(html);
-
-
-
-        var eventName = meta.eventName;
-
-        var article = $('#' + articleId);
-
-        if (eventName == 'touch') {
-            article.touch(function () {
-                emitter.fire('touch-main');
-            });
-        }
-        else {
-            article.on(eventName, function () {
-                emitter.fire(eventName + '-main');
-            });
-        }
-
-        //指定了可滚动
-        if (meta.scrollable) {
-            var Scroller = require('Scroller');
-            var scroller = new Scroller(article.get(0), meta.scrollerConfig);
-            meta.scroller = scroller;
-        }
-
-
-
-        //底部按钮组
-        var footer = $('#' + footerId);
-        if (buttons.length > 0) { //有按钮时才绑定
-
-            if (eventName == 'touch') { //移动端的，特殊处理
-                footer.touch('[data-index]', fn, 'pressed');
-            }
-            else { // PC 端
-                footer.on(eventName, '[data-index]', fn);
-
-                footer.on('mousedown', '[data-index]', function (event) {
-                    var button = this;
-                    $(button).addClass('pressed');
-                });
-
-
-                footer.on('mouseup mouseout', '[data-index]', function (event) {
-
-                    var button = this;
-                    $(button).removeClass('pressed');
-                });
-            }
-
-            function fn(event) {
-                var button = this;
-                var index = +button.getAttribute('data-index');
-                var item = buttons[index];
-                var name = item.name || String(index);
-
-
-                //这两个已废弃，建议使用 #2
-                emitter.fire('click', 'button', name, [item, index]);
-                emitter.fire('click', 'button', [item, index]);
-
-                //#2 建议使用
-                emitter.fire('button', name, [item, index]);
-                emitter.fire('button', [item, index]);
-
-                // item.autoClosed 优先级高于 meta.autoClosed
-                var autoClosed = item.autoClosed;
-                if (autoClosed === undefined) {
-                    autoClosed = meta.autoClosed;
-                }
-
-                if (autoClosed) {
-                    dialog.hide();
-                }
-
-            }
-        }
-        
-
-        var div = document.getElementById(id);
-
-        //暴露一个 jQuery 对象给外面使用。 但为了安全起见，内部不使用这个对象。
-        dialog.$ = $(div);
-
-        return div;
-
-    }
-
-
-    return {
-
-        render: render,
-    };
-
-});
-
-
-/**
-* 移动端滚动器。
-* 对 iScroll 组件的进一步封装。
-* @class
-* @name Scroller
-*/
-define('Scroller', function (require, module,  exports) {
-    
-    var Emitter = require('Emitter');
-    var $Object = require('Object');
-    var Defaults = require('Defaults');
-    var Style = require('Style');
-
-    var mapper = new Map();
-
-
-
-
-    //阻止原生的 touchmove 事件
-    document.addEventListener('touchmove', function (e) {
-        e.preventDefault();
-    }, {
-        passive: false,
-    });
-
-
-    /**
-    * 滚动器构造函数。
-    */
-    function Scroller(el, config) {
-
-        //重载 Scroller(config)
-        if ($Object.isPlain(el)) {
-            config = el;
-            el = config.el;
-        }
-
-
-        config = Defaults.clone(module.id, config);
-
-        //过滤出 iScroll 的所用到的字段
-        var obj = $Object.filter(config, [
-            'scrollbars',
-            'shrinkScrollbars',
-            'preventDefault',
-            'probeType',
-        ]);
-        
-
-        var IScroll = require('IScroll');
-        var scroller = new IScroll(el, obj);
-
-
-        var style = Style.filter(config, [
-            'top',
-            'left',
-            'right',
-            'bottom',
-            'width',
-        ]);
-
-
-        $(el).addClass('KISP Scroller').css(style);
-
-
-        var emitter = new Emitter(this);
-
-        //jQuery 包装后的滚动条的数组。
-        var indicators = scroller.indicators || [];
-
-        indicators = indicators.map(function (item, index) {
-            item = $(item.indicator);
-            item.hide();
-            return item;
-        });
-
-
-        var meta = {
-            'emitter': emitter,
-            'scroller': scroller,
-            'enabled': config.enabled,
-            'indicators': indicators,
-            'pulldown': {},
-            'pullup': {},
-            'hasBindPull': false, //是否已绑定 pull 中要用到的事件
-            'el': el,
-
-        };
-
-        mapper.set(this, meta);
-
-        
-        //判断是否有滚动条。
-        function hasScrollBar() {
-            var hasX = scroller.hasHorizontalScroll;
-            var hasY = scroller.hasVerticalScroll;
-            var len = indicators.length;
-
-            return (len == 1 && (hasX || hasY)) ||
-                (len == 2 && (hasX && hasY));
-        }
-
-
-        scroller.on('scroll', function () {
-            if (!this.hasVerticalScroll) {
-                this._translate(0, (this.distY * 0.5) >> 0);
-            }
-        });
-
-        var timeoutId = null;
-        var isScrolling = false;
-
-        //按下并开始滚动时触发
-        scroller.on('scrollStart', function () {
-            isScrolling = true;
-            clearTimeout(timeoutId);
-            if (!hasScrollBar()) {
-                return;
-            }
-
-            indicators.forEach(function (item, index) {
-                item.css('opacity', 1); // for zepto
-                item.show();
-            });
-        });
-
-        scroller.on('scrollEnd', function () {
-            isScrolling = false;
-
-            //当第一个 scrollEnd 中的 fadeOut 还没执行完就又开始第二个 beforeScrollStart 时，
-            //就会有时间先后的竞争关系。 这会导致第二个 beforeScrollStart 中的 show 失效
-            timeoutId = setTimeout(function () {
-                if (!hasScrollBar()) {
-                    return;
-                }
-
-                indicators.forEach(function (item, index) {
-                    //在 zepto 中没有 fadeOut 方法，因此是补充实现的
-                    item.fadeOut('fast', function () {
-                        if (isScrolling) {
-                            item.css('opacity', 1); // for zepto
-                            item.show();
-                        }
-                    });
-                });
-            }, 100);
-        });
-
-
-
-        if (!config.enabled) {
-            this.disable();
-        }
-    }
-
-
-    //实例方法
-    Scroller.prototype = /**@lends Scroller#*/ {
-        constructor: Scroller,
-
-        /**
-        * 监听事件。
-        */
-        on: function (name, fn) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var scroller = meta.scroller;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-
-        },
-
-        /**
-        * 刷新。
-        */
-        refresh: function (delay) {
-
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-            var indicators = meta.indicators;
-            var args = [].slice.call(arguments, 1);
-
-            var Fn = require('Fn');
-
-            Fn.delay(delay, function () {
-                scroller.refresh.apply(scroller, args);
-
-                //隐藏全部滚动条
-                indicators.forEach(function (item, index) {
-                    item.hide();
-                });
-            });
-            
-
-        },
-
-        /**
-        * 重置。
-        */
-        reset: function () {
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-            scroller.isWaitingForManualReset = false;
-            scroller.resetPosition(scroller.options.bounceTime);
-        },
-
-        /**
-        * 监控下拉动作。
-        * @param {number} min 开始时的 y 值。
-        * @param {number} max 结束时的 y 值。
-        */
-        pulldown: function (min, max) {
-            var meta = mapper.get(this);
-            meta.pulldown = {
-                'min': min,
-                'max': max,
-            };
-
-            if (!meta.hasBindPull) {
-                var pull = module.require('pull');
-                pull(meta);
-                meta.hasBindPull = true;
-            }
-
-        },
-
-
-        /**
-        * 监控上拉动作。
-        * @param {number} min 开始时的 y 值。
-        * @param {number} max 结束时的 y 值。
-        */
-        pullup: function (min, max) {
-
-            var meta = mapper.get(this);
-
-            meta.pullup = {
-                'min': min,
-                'max': max,
-            };
-
-            if (!meta.hasBindPull) {
-                var pull = module.require('pull');
-                pull(meta);
-                meta.hasBindPull = true;
-            }
-        },
-
-        /**
-        * 滚动到距离顶部的指定位置。
-        * @param {number} y 相对于顶部的距离。
-        */
-        to: function (y) {
-
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-            var options = scroller.options;
-
-            scroller.scrollTo(0, y, options.bounceTime, options.bounceEasing);
-        },
-
-        /**
-        * 滚动到距离底部的指定位置。
-        * @param {number} y 相对于底部的距离。
-        */
-        toBottom: function (y) {
-
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-            var options = scroller.options;
-            var maxScrollY = scroller.maxScrollY;
-
-            y = maxScrollY - y;
-
-            scroller.scrollTo(0, y, options.bounceTime, options.bounceEasing);
-        },
-
-        /**
-        * 启用本组件。
-        */
-        enable: function () {
-            var meta = mapper.get(this);
-            meta.enabled = true;
-
-            var scroller = meta.scroller;
-            scroller.enable();
-        },
-
-        /**
-        * 禁用本组件。
-        */
-        disable: function () {
-            var meta = mapper.get(this);
-            meta.enabled = false;
-
-            var scroller = meta.scroller;
-            scroller.disable();
-        },
-
-        /**
-        * 切换启用或禁用。
-        * @param {boolean} [needEnabled] 显示指定是否启用。 
-            如果不指定则根据组件的当前状态进行切换。
-        */
-        toggleEnable: function (needEnabled) {
-            var meta = mapper.get(this);
-            var enabled = meta.enabled;
-
-            if (arguments.length == 0) { //重载 toggleEnable()
-
-                if (enabled) {
-                    this.disable();
-                }
-                else {
-                    this.enable();
-                }
-
-            }
-            else { //toggleEnable(needEnabled)
-
-                if (enabled && !needEnabled) {
-                    this.disable();
-                }
-                else if (!enabled && needEnabled) {
-                    this.enable();
-                }
-            }
-        },
-
-
-        /**
-        * 销毁本实例对象。
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-
-            var scroller = meta.scroller;
-            scroller.destroy();
-
-            var emitter = meta.emitter;
-            emitter.destroy();
-
-            mapper.remove(this);
-        },
-
-        /**
-        * 获取原生 scroller 实例的属性值。
-        * @param {string} key 要获取的属性名称。
-        * @return 返回原生 scroller 实例指定的属性值。
-        */
-        get: function (key) {
-
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-
-            return scroller[key];
-        },
-
-        /**
-        * 调用原生 scroller 实例的方法(call 方式)。
-        * @param {string} name 要调用的方法名称。
-        * @param arg0 要传递的第一个参数。
-        * @param arg1 要传递的第二个参数。
-        */
-        invoke: function (name, arg0, arg1) {
-
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-            var args = [].slice.call(arguments, 1);
-
-            return scroller[name].apply(scroller, args);
-        },
-
-
-    };
-
-
-    return Scroller;
-
-
-});
-
-
-
-
-define('IScroll', function (require, module, exports) {
-
-    return window.IScroll || null;
-
-});
-
-/**
-* 监听下拉或上拉动作。
-*/
-define('Scroller/pull', function (require, module,  exports) {
-
-    return function (meta) {
-
-        //state 采用 3 bit 来表示 2-1-0，最多只有一个位为 1， 因此有 000、001、010、100 四种情况。
-        //即对应的值为 0、1、2、4，采用与操作即可判断第几位为 1，这样可提高 scroll 中函数的性能。
-        var state = 0;
-
-        var isUp = false;
-        var name = 'pulldown';
-        var min = 0;
-        var max = 0;
-
-        var emitter = meta.emitter;
-        var scroller = meta.scroller;
-
-        scroller.on('scrollStart', function () {
-            state = 0;
-
-            var directionY = this.directionY;
-            var distY = this.distY;
-
-            //当 directionY 为 0 时，判断 distY; 
-            //否则直接判断 directionY，1: 下拉;  -1: 下拉
-            isUp = directionY == 0 ? distY < 0 : directionY > 0;
-
-            name = isUp ? 'pullup' : 'pulldown';
-            this.isWaitingForManualReset = false;
-
-            //根据拉动的方向，重新设置正确的环境变量
-            if (isUp) {
-                // 上拉时 maxScrollY 可能发生了变化，比如上拉加载更多，
-                // 填充了更多的数据，需要重新计算
-                var maxScrollY = scroller.maxScrollY; //负值
-                var pullup = meta.pullup;
-                min = pullup.min - maxScrollY; //正值
-                max = pullup.max - maxScrollY; //正值
-            }
-            else {
-                var pulldown = meta.pulldown;
-                min = pulldown.min; //正值
-                max = pulldown.max; //正值
-            }
-            
-        });
-
-
-        //该事件会给频繁触发，要注意性能控制
-        scroller.on('scroll', function () {
-
-            var y = this.y;
-
-            if (isUp) {
-                y = -y; //取成正值，容易理解
-            }
-
-            if (y < min) {  //( , min)
-                if ((state & 1) == 0) {     // xx0
-                    state = 1;              // 001
-                    emitter.fire(name, 'start');
-                }
-            }
-            else if (min <= y && y < max) { //[min, max]
-                if ((state & 2) == 0) {     // x0x
-                    state = 2;              // 010
-                    emitter.fire(name, 'enter');
-                }
-            }
-            else if (y >= max) { // [max, )
-                if ((state & 4) == 0) {     // 0xx
-                    state = 4;              // 100
-                    emitter.fire(name, 'reach');
-                }
-            }
-        });
-
-        scroller.on('beforeScrollEnd', function () {
-
-            if ((state & 4) == 4) { // 1xx
-                this.isWaitingForManualReset = true;
-                emitter.fire(name, 'release');
-            }
-            else {
-                emitter.fire(name, 'start');
-            }
-        });
-
-    };
-
-
-});
-
-
-/*
-* Alert/Sample
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/ui/Alert/Sample.html
-*/
-define('Alert/Sample', [
-    '<pre class="JSON">{text}</pre>',
-].join('\n'));
-/**
-* 简单的 confirm 弹出层对话框。
-* @namespace
-* @name Confirm
-*/
-define('Confirm', function (require, module, exports) {
-    var Defaults = require('Defaults');
-    var Dialog = require('Dialog');
-    var $ = require('$');
-
-
-    return {
-        'show': function (text, fn) {
-            var config = Defaults.clone(module.id);
-            var dialog = new Dialog(config);
-            var activeElement = null; //上次获得焦点的元素。
-
-            fn && dialog.on('button', 'ok', fn);
-
-      
-
-            dialog.on('show', function () {
-                activeElement = document.activeElement;
-                activeElement.blur(); //让原获得焦点的元素失焦。
-
-                dialog.$.find('footer button').get(0).focus();
-
-            });
-
-            dialog.on('hide', function () {
-                dialog.destroy();
-
-                activeElement && activeElement.focus();
-                activeElement = null;
-            });
-          
-
-
-            dialog.set('text', text);
-            dialog.show();
-        },
-    };
-
-
-
-});
-
-/**
-* Confirm 模块的默认配置
-* @name Confirm.defaults
-*/
-define('Confirm.defaults', /**@lends Confirm.defaults*/ {
-
-    /**
-    * 组件高度。
-    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
-    */
-    height: 140,
-    cssClass: 'Confirm',
-    autoClose: true,
-    'z-index': 99999,
-    buttons: [
-        { text: '确定', name: 'ok', color: 'red', },
-        { text: '取消', },
-    ],
-
-
-});
-
-
-
-define('$', function (require, module, exports) {
-
-    return window.jQuery || null;
-
-});
-/**
-* 视图组件
-* @class
-* @name View
-*/
-define('View', function (require, module, exports) {
-
-    var $String = require('String');
-    var $Object = require('Object');
-    var Module = require('Module');
-    var Defaults = require('Defaults');
-
-    var defaults = Defaults.get(module.id);
-
-    /**
-    * 构造器。
-    * @constructor
-    */
-    function View(container, config) {
-
-        config = Defaults.clone(module.id, config);
-        config = $Object.remove(config, ['container']); // container 是静态属性。
-
-        var Panel = require('Panel');
-        var panel = new Panel(container, config);
-
-        var background = config.background;
-        if (background) {
-            panel.$.css('background', background);
-        }
-
-        return panel;
-
-    }
-
-
-
-    return Object.assign(View, {
-
-        /**
-        * 提供一种按标准方法定义视图的方式。
-        */
-        define: function (id, factory) {
-
-            Module.define(id, function (require, module, exports) {
-
-                var container = $String.format(defaults.container, { 'id': id });
-                var view = new View(container);
-
-                exports = factory(require, module, view);
-                exports = view.wrap(exports);
-
-                return exports;
-            });
-
-        },
-    });
-
-
-});
-
-/**
-* View 模块的默认配置
-* @name View.defaults
-*/
-define('View.defaults', /**@lends View.defaults*/ {
-    background: false, //禁用背景色。
-    container: '[data-view="{id}"]',
-});
-
-/**
-* 面板组件
-* @class
-* @name Panel
-*/
-define('Panel', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var $String = require('String');
-    var Module = require('Module');
-
-
-    var defaults = Defaults.get(module.id);
-    var mapper = new Map();
-
-    /**
-    * 构造器。
-    * @constructor
-    */
-    function Panel(container, config) {
-        //重载 { 'container': container, ... }
-        if ($Object.isPlain(container)) {
-            config = container;
-            container = config['container'];
-            delete config['container'];
-        }
-
-        config = Defaults.clone(module.id, config);
-
-
-        var meta = {
-            'emitter': new Emitter(this),   //内部使用的事件管理器。
-            '$emitter': new Emitter(),      //供外部用的事件管理器。
-            'rendered': false,              //是否已渲染过。
-            'show': config.show,            //是否在组件 render 后自动调用 show() 方法以进行显示。
-            'cssClass': config.cssClass,    //
-            'visible': false,               //当前组件是否可见。
-            'byRender': false,              //记录 show 事件是否由 render() 触发的。
-            'tpl': null,                    //模板填充的 Template 实例。
-            '$': $(container),              //
-            'panel': null,                  //缓存调用 this.wrap() 后的返回结果。
-            'this': this,
-        };
-
-        mapper.set(this, meta);
-
-        //暴露一个 jQuery 对象给外面使用。 
-        //但为了安全起见，内部不使用这个对象。
-        this.$ = meta.$;
-
-        
-        //关联的容器节点发了移动，重新绑定。
-        //在给对话框中填内容时会用到。
-        meta.$.on('DOMNodeRemovedFromDocument', function () {
-            //console.log(meta.$.selector);
-            var selector = meta.$.selector;
-
-            if (typeof selector == 'string') {
-                meta.this.set('$', selector);
-            }
-        });
-
-    }
-
-
-    //实例方法
-    Panel.prototype = /**@lends Panel#*/ {
-        constructor: Panel,
-
-        /**
-        * $(container) 的快捷方式。
-        */
-        $: null,
-
-        /**
-        * 显示本组件。
-        */
-        show: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments);
-            meta.$.show.apply(meta.$, args);
-
-            meta.visible = true;
-
-            var byRender = meta.byRender;
-            meta.byRender = false; //重置
-
-            emitter.fire('show', [byRender]);
-
-        },
-
-        /**
-        * 隐藏本组件。
-        */
-        hide: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments);
-            meta.$.hide.apply(meta.$, args);
-
-            meta.visible = false;
-            emitter.fire('hide');
-
-        },
-
-        /**
-        * 切换显示或隐藏本组件。
-        */
-        toggle: function (needShow) {
-            var meta = mapper.get(this);
-            var visible = meta.visible;
-
-            if (arguments.length == 0) { //重载 toggle()
-                if (visible) {
-                    this.hide();
-                }
-                else {
-                    this.show();
-                }
-            }
-            else {
-                if (visible && !needShow) {
-                    this.hide();
-                }
-                else if (!visible && needShow) {
-                    this.show();
-                }
-            }
-
-            //返回更改后的可见状态。
-            return meta.visible;
-
-        },
-
-        /**
-        * 设置模板填充的规则，为模板填充进行预处理。
-        */
-        template: function (process) {
-            var meta = mapper.get(this);
-            var tpl = meta.tpl;
-
-            if (!tpl) {
-                var Template = require('Template');
-                tpl = meta.tpl = new Template(meta.$);
-            }
-
-            if (process) {
-                var args = Array.from(arguments);
-                tpl.process.apply(tpl, args);
-            }
-
-            //返回给外面，可能要用到。
-            //通过 panel.template() 即可取得 tpl。
-            return tpl;
-        },
-
-
-        /**
-        * 对本组件进行模板填充。
-        * @param {Object|Array} 要填充的数据，可以是对象或数组。
-        * @param {function} [fn] 当要填充的数据是一个数组时，需要进行迭代转换的处理函数。
-        *   调用该函数，可以把一个数组转换成一个新的数组。
-        */
-        fill: function (data, fn) {
-
-            this.template(); //确保 meta.tpl 存在
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var tpl = meta.tpl;
-
-            tpl.render(data, fn);
-
-            var values = emitter.fire('fill', [data]);
-            return values;
-        },
-
-
-        /**
-        * 渲染。
-        */
-        render: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var cssClass = meta.cssClass;
-            var args = Array.from(arguments);
-
-            if (!meta.rendered) { //首次 render
-                emitter.fire('init', args);
-            }
-
-            emitter.fire('before-render', args);
-            meta.$.addClass(cssClass);
-
-            emitter.fire('render', args);
-            meta.rendered = true;
-
-            if (meta.show) {
-                meta.byRender = true;
-                this.show();
-            }
-
-            emitter.fire('after-render', args);
-        },
-
-        /**
-        * 刷新，会触发 refresh 事件。
-        */
-        refresh: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var args = [].slice.call(arguments);
-            var values = emitter.fire('refresh', args);
-            return values;
-
-        },
-
-        close: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var args = [].slice.call(arguments);
-            var values = emitter.fire('close', args);
-            return values;
-        },
-
-        /**
-        * 重置，会触发 reset 事件。
-        */
-        reset: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var args = [].slice.call(arguments);
-            var values = emitter.fire('reset', args);
-            return values;
-
-        },
-
-        /**
-        * 获取一个状态，该状态表示本组件是否为显示状态。
-        */
-        visible: function () {
-            var meta = mapper.get(this);
-            return meta.visible;
-        },
-
-        /**
-        * 获取一个状态，该状态表示本组件是否已渲染过。
-        */
-        rendered: function () {
-            var meta = mapper.get(this);
-            return meta.rendered;
-        },
-
-    
-
-        /**
-        * 销毁本组件
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            meta.emitter.destroy();
-            meta.$emitter.destroy();
-            meta.$.off();
-
-            mapper.delete(this);
-        },
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            meta.emitter.on(...arguments);
-        },
-
-        /**
-        * 解除绑定事件。
-        */
-        off: function (name, fn) {
-            var meta = mapper.get(this);
-            meta.emitter.off(...arguments);
-        },
-
-        /**
-        * 触发外部的事件。
-        */
-        fire: function (name, args) {
-            var meta = mapper.get(this);
-            var $emitter = meta.$emitter;
-            var args = [].slice.call(arguments, 0);
-            var values = $emitter.fire.apply($emitter, args);
-
-            return values;
-        },
-
-
-        /**
-        * 包装一个新对象，使其拥有当前实例的部分成员和新对象的成员。
-        * @param {Object} [obj] 要需要包装的对象。 
-            如果不指定，则只包装当前实例对象。
-        * @return {Object} 返回一个由当前实例的部分成员和要包装对象的成员组成的新对象。
-        * @example
-            var panel = KISP.create('Panel');
-            var obj = panel.wrap();
-            obj.show();
-
-            var obj1 = panel.wrap({ a: 100 });
-            console.log(obj1.a);
-        */
-        wrap: function (obj) {
-            var meta = mapper.get(this);
-            var panel = meta.panel;
-
-            if (panel) {
-                return panel;
-            }
-
-
-            panel = {
-                //重写 on，让事件绑定到外部的事件管理器上，
-                //而不是 this 内部使用的 emitter。
-                'on': meta.$emitter.on.bind(meta.$emitter),
-                'off': meta.$emitter.off.bind(meta.$emitter),
-            };
-
-            //忽略的成员。
-            var ignores = new Set([
-                'constructor',
-                'fire',
-                'on',
-                'off',
-                'wrap',
-            ]);
-
-
-            for (var key in this) {
-                if (ignores.has(key)) {
-                    continue;
-                }
-
-                var value = this[key];
-
-                //实例方法静态化
-                if (typeof value == 'function') {
-                    value = value.bind(this); 
-                }
-
-                panel[key] = value;
-            }
-
-            panel = meta.panel = obj ? Object.assign(panel, obj) : panel;
-            return panel;
-        },
-
-        /**
-        * 传播指定模块的事件列表。
-        */
-        propagate: function (M, names) {
-            var meta = mapper.get(this);
-
-            names.forEach(function (name) {
-
-                M.on(name, function () {
-                    var args = Array.from(arguments);
-                    meta.this.fire(name, args);
-                });
-            });
-
-
-
-        },
-
-        /**
-        * 设置指定的属性。
-        * 已重载批量设置的情况 set(obj);
-        * @param {string} key 要设置的属性的名称。 目前支持的字段有： 
-            'show', 'cssClass',
-        * @param value 要设置的属性的值，可以是任何类型。
-        */
-        set: function (key, value) {
-
-            //重载 set({...}); 批量设置的情况。
-            if ($Object.isPlain(key)) {
-              
-                $Object.each(key, function (key, value) {
-                    meta.this.set(key, value);
-                });
-                return;
-            }
-
-            var meta = mapper.get(this);
-
-            switch (key) {
-                case 'show':
-                case 'cssClass':
-
-                //提供一个重置的机会，以便可以再次触发 init。 
-                //这是高级用法，针对特殊场景。
-                //背景：在 set('$') 更新容器后，原 init 事件中绑定的逻辑，
-                //如果用到了 panel.$.on() 之类的，则会失效，
-                //因此在 set('$') 后再调一下 set('rendered', false)，可以让 init 事件有机会再次触发。
-                case 'rendered': 
-
-                    meta[key] = value;
-                    break;
-
-                //更新容器。
-                case '$':
-                case 'container':
-                    value = value || meta.$.selector;
-
-                    //先解除绑定事件。
-                    if (meta.$) {
-                        meta.$.off();
-                    }
-
-                    this.$ = meta.$ = $(value);
-
-                    //同时更新导出对象的 $ 字段。
-                    var panel = meta.panel;
-                    if (panel) {
-                        panel.$ = meta.$;
-                    }
-                    break;
-
-                default:
-                    throw new Error('目前不支持设置属性: ' + key);
-            }
-
-        },
-
-
-
-    };
-
-    return Object.assign(Panel, {
-
-        /**
-        * 提供一种按标准方法定义面板的方式。
-        */
-        define: function (id, factory) {
-
-            Module.define(id, function (require, module, exports) {
-
-                var container = $String.format(defaults.container, { 'id': id });
-                var panel = new Panel(container);
-
-                exports = factory(require, module, panel);
-                exports = panel.wrap(exports);
-
-                return exports;
-            });
-
-        },
-    });
-
-});
-
-/**
-* Panel 模块的默认配置
-* @name Panel.defaults
-*/
-define('Panel.defaults', /**@lends Panel.defaults*/ {
-    container: '[data-panel="{id}"]',
-
-    /**
-    * 是否在组件 render 后自动调用 show() 方法以进行显示。
-    */
-    show: true,
-
-    /**
-    * 组件用到的 css 类名。
-    */
-    cssClass: '',
-
-});
-
-
-/**
-* 模板填充类。
-*/
-define('Template', function (require, module, exports) {
-    var $String = require('String');
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-
-    var mapper = new Map();
-
-    /**
-    * 构造器。
-    */
-    function Template(selector) {
-        var node = $(selector).get(0); //包装、拆装，可以让入参多样化。
-
-        if (!node) {
-            if (selector instanceof $) {
-                selector = selector.selector;
-            }
-
-            throw new Error('不存在节点: ' + selector);
-        }
-
-        var isTPL = node.tagName.toLowerCase() == 'template'; //判断是否为 <template> 模板节点。
-        var name = isTPL ? node.getAttribute('name') : '';
-        var el = isTPL ? node.content : node;
-        var tpls = el.querySelectorAll('template'); //下级实例列表。
-        var sample = node.innerHTML;
-        var name$tpl = {};
-        var emitter = new Emitter(this);
-        var self = this;
-
-
-        tpls = Array.from(tpls).map(function (node) {
-            var tpl = new Template(node);
-            var name = tpl.get('name');
-
-            if (name$tpl[name]) {
-                throw new Error('同一级下已存在名为 `' + name + '` 的模板。');
-            }
-
-            name$tpl[name] = tpl;
-
-            //顺便替换掉子模板在父模板中的内容。
-            var outerHTML = tpl.get('outerHTML');
-            var placeholder = tpl.get('placeholder');
-
-            if (placeholder) {
-                placeholder = '{' + placeholder + '}';
-            }
-
-            sample = sample.replace(outerHTML, placeholder);
-
-            tpl.on('process', function () {
-                var args = Array.from(arguments);
-                emitter.fire('process', args);
-            });
-
-            tpl.parent = self; //设置父实例。
-
-            return tpl;
-        });
-
-        if (sample.includes('<!--') &&
-            sample.includes('-->')) {
-            sample = $String.between(sample, '<!--', '-->');
-        }
-
-        var placeholder = node.getAttribute('placeholder');
-
-        var meta = {
-            'name': name || '',
-            'placeholder': placeholder || '',
-            'innerHTML': node.innerHTML,
-            'outerHTML': node.outerHTML,
-            'sample': sample,               //
-            'name$tpl': name$tpl,           //命名的下级实例映射，方便按名称读取。
-            'tpls': tpls,                   //下级实例列表。
-            'node': isTPL ? null : node,    //为了能及时释放子模板中对应的 <template> 节点实例，这里只记录顶级模板节点。
-            'emitter': emitter,
-            'this': this,
-
-            //默认处理函数。
-            'process': function (data) {
-                return data;
-            },
-        };
-
-        mapper.set(this, meta);
-
-        Object.assign(this, {
-            'id': $String.random(),
-            'parent': null,
-            'meta': meta,
-        });
-
-    }
-
-
-
-
-
-    Template.prototype = {
-        constructor: Template,
-
-        id: '',
-
-        parent: null,
-
-        get: function (key) {
-            var meta = mapper.get(this);
-            return meta[key];
-        },
-
-        /**
-        * 获取指定名称(或由多个名称组成的路径)节点所对应的下级 Template 实例。
-        */
-        template: function (name) {
-            var tpl = this;
-            var names = Array.isArray(name) ? name : Array.from(arguments);
-
-            names.map(function (name) {
-                var name$tpl = tpl.get('name$tpl');
-                tpl = name$tpl[name];
-            });
-
-            return tpl;
-        },
-
-        /**
-        * 获取指定名称(或由多个名称组成的路径)节点所对应的下级 sample 模板。
-        */
-        sample: function (name) {
-            var tpl = this.template(...arguments);
-            var sample = tpl.get('sample');
-            return sample;
-        },
-
-
-        /**
-        * 对当前模板进行填充，并用填充后的 html 字符串渲染当前节点。
-        */
-        render: function (data, process) {
-            if (process) {
-                this.process(process);
-            }
-
-            var meta = mapper.get(this);
-            var node = meta.node;
-            var html = this.fill(data);
-
-            if (node) {
-                node.innerHTML = html;
-            }
-
-            return html;
-        },
-
-        /**
-        * 对当前模板及子模板(如果有)进行填充。
-        * 已重载 fill(data);
-        * 已重载 fill(data0, data1, ..., dataN);
-        * 已重载 fill(name0, name1, ..., nameN, data, data1, ..., dataN);
-        * @return {string} 返回填充后的 html 字符串。
-        */
-        fill: function (data) {
-            //重载 fill(name0, name1, ..., nameN, data, data1, ..., dataN);
-            //即一步到位填充指定路径的子模板。
-            //找出 data 在参数列表中所在的位置。
-            var args = Array.from(arguments);
-
-            var index = args.findIndex(function (item) {
-                return Array.isArray(item) || $Object.isPlain(item);
-            });
-
-            if (index > 0) {
-                var names = args.slice(0, index);   //子模板名称列表，[name0, name1, ..., nameN]
-                var tpl = this.template(names);
-
-                if (!tpl) {
-                    throw new Error('不存在路径为 ' + names.join('.') + ' 的模板节点，请检查 html 模板树。');
-                }
-
-                var params = args.slice(index); // [data, data1, ..., dataN]
-                var html = tpl.fill(...params);
-
-                return html;
-            }
-           
-            if (index < 0) {
-                throw new Error('填充模板时必须指定数据为一个数组或纯对象。');
-            }
-
-      
-            
-            var meta = mapper.get(this);
-
-
-            //这里不要缓存 sampel，应该实时去获取 meta.sample，
-            //因为它可能在 process 函数中给使用者调用了 this.fix() 更改了。
-            //var sample = meta.sample; !!!
-
-            var params = args.slice(1); //余下的参数。
-
-            //单个纯对象形式。
-            if (!Array.isArray(data)) {
-                meta.emitter.fire('process', args);
-                data = meta.process.apply(meta.this, args); //调用处理器获得填充数据。
-
-
-                //处理器已直接返回 html 内容，则不需要用模板去填充。
-                if (typeof data == 'string') { 
-                    return data;
-                }
-
-                var html = $String.format(meta.sample, data);
-                return html;
-            }
-
-            //传进来的是一个数组，则迭代每一项去填充。
-            var htmls = data.map(function (item, index) {
-                var args = [item, index, ...params];
-                meta.emitter.fire('process', args);
-
-                var data = meta.process.apply(meta.this, args);
-
-
-                //处理器已直接返回 html 内容，则不需要用模板去填充。
-                if (typeof data == 'string') { 
-                    return data;
-                }
-
-                if (!data) {
-                    return ''; //这里要返回空串。
-                }
-
-                var html = $String.format(meta.sample, data);
-                return html;
-            });
-
-            return htmls.join('');
-        },
-
-        /**
-        * 设置模板填充的处理规则。
-        */
-        process: function (process) {
-            var meta = mapper.get(this);
-
-            //重载 process(fn); 设置当前实例的 process 处理函数。
-            if (typeof process == 'function') {
-                meta.process = process;
-                return;
-            }
-
-            //查找处理器所在的位置。
-            var args = Array.from(arguments);
-            var index = args.findIndex(function (item) {
-                return typeof item == 'function' || $Object.isPlain(item);
-            });
-
-            if (index < 0) {
-                throw new Error('模板节点 `' + meta.name + '` 缺少处理器。');
-            }
-
-
-            //前面存在前缀名称，则跟后面的处理器合并为一个完整对象，方便后续统一处理。
-            //如 process('A', 'B', process); 则合并为 { A: { B: process } };
-            if (index > 0) {
-                process = {};
-
-                var keys = args.slice(0, index);
-                var item = args[index];
-                var maxIndex = index - 1; //判断是否为最后一个
-
-                keys.map(function (key, no) {
-                    process[key] = no < maxIndex ? {} : item;
-                });
-            }
-
-
-
-            var name$tpl = meta.name$tpl;
-
-            $Object.each(process, function (name, process) {
-                if (!name) { // 空键节点
-                    meta.process = process;
-                    return;
-                }
-
-                var tpl = name$tpl[name];
-
-                if (!tpl) {
-                    console.warn('不存在模板节点: `' + name + '`');
-                    return;
-                }
-
-                tpl.process(process);
-            });
-
-        },
-
-        /**
-        * 修正模板中指定的占位符。
-        * 因为模板中的 html 给 DOM 解析和处理后，没有等号的占位符属性会给替换成有空值的属性值。
-        * 如 `<img {test} />` 经过 DOM 解析后会变成 `<img {test}="" />`，这并不是我们想要的结果。
-        * 因此我们需要手动修正以替换回我们写模板时的结果。
-        */
-        fix: function (keys) {
-            var meta = mapper.get(this);
-            var sample = meta.sample;
-
-            keys = Array.isArray(keys) ? keys : [keys];
-
-            keys.map(function (key) {
-                var target = '{' + key + '}';
-                var old = target + '=""';
-                sample = sample.split(old).join(target);
-            });
-
-            meta.sample = sample;
-        },
-
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var args = Array.from(arguments);
-            emitter.on(args);
-        },
-
-        destroy: function () {
-            var meta = mapper.get(this);
-            if (!meta) {
-                return;
-            }
-
-            var emitter = meta.emitter;
-            var tpls = meta.tpls;
-
-            tpls.map(function (tpl) {
-                tpl.destroy();
-            });
-
-            emitter.destroy();
-            mapper.delete(this);
-
-        },
-    };
-
-
-    //静态方法。
-    return Object.assign(Template, {
-
-        fill: function (node, data, process) {
-            var tpl = mapper.get(node);
-
-            if (!tpl) {
-                tpl = new Template(node);
-                mapper.set(node, tpl);
-            }
-           
-            tpl.render(data, process);
-        },
-
-        parse: function (html) {
-
-            var tpl = document.createElement('template');
-            tpl.innerHTML = html;
-
-            tpl = new Template(tpl);
-            return tpl;
-
-        },
-    });
-
-
-
-});
-
-/**
-* Template 模块的默认配置
-* @name Template.defaults
-*/
-define('Template.defaults', /**@lends Template.defaults*/ {
-
-    /**
-    * 模板最外层的标记。
-    */
-    root: {
-        /**
-        * 模板最外层的起始标记。
-        */
-        begin: '<!--',
-
-        /**
-        * 模板最外层的结束标记。
-        */
-        end: '-->',
-    },
-
-    /**
-    * 子模板的标记。
-    */
-    item: {
-        /**
-        * 子模板的起始标记。
-        */
-        begin: '#--{name}.begin--#',
-
-        /**
-        * 子模板的结束标记。
-        */
-        end: '#--{name}.end--#',
-    },
-
-    /**
-    * 生成子模板的随机占位串的长度。
-    * 业务层不需要关注该属性。
-    */
-    outer: 64,
-
-});
-
-
-/**
-* SSH.API 类
-* @class
-* @name SSH.API
-* @augments SSH
-*/
-define('SSH.API', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var SSH = require('SSH');
-
-    var Fn = require('Fn');
-
-    var mapper = require('Mapper');     //用于容纳所有 SSHAPI 实例的 meta 数据
-    var $emitter = new Emitter(SSHAPI); //针对类的，而不是实例的。
-
-    /**
-    * SSHAPI 构造器。
-    * @param {string} name 后台接口的名称。 简短名称，且不包括后缀。
-    * @param {Object} [config] 配置对象。
-    */
-    function SSHAPI(name, config) {
-
-        name = name || '';
-        config = Defaults.clone(module.id, config);
-
-        var prefix = config.prefix;
-        var emitter = new Emitter(this);
-        var successCode = config.successCode;
-
-        var proxy = config.proxy;
-        //支持简写，代理的文件名跟 API 的名称一致。
-        switch (proxy) {
-            case true:
-                proxy = name + '.js';
-                break;
-            case '.json':
-            case '.js':
-                proxy = name + proxy;
-                break;
-        }
-
-
-        //过滤出属于 SSH 的配置成员
-        //这里使用过滤 + 复制的方式进行成员选取。
-        var ssh = Object.assign($Object.filter(config, [
-            'prefix',
-            'eid',
-            'openid',
-            'serialize',
-            'timeout',
-
-            //可选的
-            'appid',
-            'netid',
-            'pubacckey',
-            'timestamp',
-            'nonce',
-            'pubaccid',
-
-
-
-        ]), {
-            'proxy': proxy,
-        });
-
-
-        var ajax = {
-            'name': name,
-            'successCode': successCode,
-            'field': config.field,
-            'data': config.data,
-
-            'ssh': Object.assign(ssh, config.ssh), //再合并针对 ssh 的
-
-            success: function (data, json, xhr) { //成功
-                fireEvent('success', [data, json, xhr]);
-            },
-
-            fail: function (code, msg, json, xhr) { //失败
-                fireEvent('fail', [code, msg, json, xhr]);
-            },
-
-            error: function (code, msg, json, xhr) { //错误
-
-                //为了让业务层能知道 SSH 层发生了 fail，通过判断 json 是否为空即可。
-                //当 http 协议层连接错误，则 code, msg, json 三个参数都为 undefined。
-                msg = msg || config.msg;
-
-                fireEvent('error', [code, msg, json, xhr]);
-            },
-
-            timeout: function (xhr) {
-                fireEvent('timeout', [xhr]);
-            },
-
-            abort: function () {
-                emitter.fire('abort');
-            },
-
-            //存在多个产品实例 (netid) 时触发。
-            servers: function (list) {
-                //触发类的事件，而不是实例的。
-                $emitter.fire('servers', [list]);
-            },
-        };
-
-
-        var meta = {
-            'ajax': ajax,
-            'status': '',
-            'args': [],
-            'emitter': emitter,
-            'ssh': null,            //缓存创建出来的 ssh 对象。
-            'fireEvent': fireEvent, //这里要设置进去，因为继续了 API 的关系。
-        };
-
-        mapper.set(this, meta);
-
-
-
-
-        //内部共用函数
-        function fireEvent(status, args, emitter) {
-
-            meta.ssh = null;    //请求已完成，针对 abort() 方法。
-
-            status = meta.status = status || meta.status;
-            args = meta.args = args || meta.args;
-            emitter = emitter || meta.emitter;
-
-
-            emitter.fire('response', args); //最先触发
-
-            //进一步触发具体 code 对应的事件
-            if (status == 'success') {
-                emitter.fire('code', successCode, args);
-            }
-            else if (status == 'fail') {
-                emitter.fire('code', args[0], args.slice(1)); //错误码不在参数里
-            }
-
-            var xhr = args.slice(-1)[0]; //args[args.length - 1]
-            if (xhr) { //在 Proxy 的响应中 xhr 为 null
-                emitter.fire('status', xhr.status, args);
-            }
-
-            emitter.fire(status, args); //触发命名的分类事件，如 success、fail、error
-            emitter.fire('done', args); //触发总事件
-
-        }
-
-    }
-
-
-    //实例方法
-    SSHAPI.prototype = Object.assign(new SSH(), /**@lends SSH.API#*/ {
-
-        constructor: SSHAPI,
-
-        //避免调到父类的 get 方法，显式地抛出异常有助于发现错误。
-        get: function () {
-            throw new Error(module.id + ' 不支持 get 方式的请求');
-        },
-
-        /**
-        * 发起网络 post 请求。
-        * 请求完成后会最先触发相应的事件。
-        * @param {Object} [data] POST 请求的数据对象。
-        * @return {SSHAPI} 返回当前 SSHAPI 的实例 this，因此进一步可用于链式调用。
-        */
-        post: function (data) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var ajax = meta.ajax;
-
-            var obj = Object.assign({}, ajax, {
-                'data': data || ajax.data || {},
-            });
-
-            emitter.fire('request', ['post', obj.data]);
-
-            var Ajax = module.require('Ajax');
-            meta.ssh = Ajax.post(obj);
-
-            return this;
-
-        },
-
-        /**
-        * 取消当前已发起但未完成的请求。
-        * 只有已发起了请求但未完成，才会执行取消操作，并会触发 abort 事件。
-        */
-        abort: function () {
-            var meta = mapper.get(this);
-            var ssh = meta.ssh;
-            if (!ssh) {
-                return;
-            }
-
-            ssh.abort();
-        },
-    });
-
-
-
-
-    //静态成员
-    return Object.assign(SSHAPI, { /**@lends SSHAPI*/
-
-        /**
-        * 当存在多个产品实例(NetID)时，设置需要使用的项。
-        */
-        'setServer': function (item) {
-            SSH.setServer(item);
-        },
-
-        'on': $emitter.on.bind($emitter),
-    });
-
-});
-
-
-/**
-* SSH.API 模块的默认配置
-* @name SSH.API.defaults
-*/
-define('SSH.API.defaults', /**@lends SSH.API.defaults*/ {
-    
-    //解析 SSH 返回的 json 中的字段
-
-    /**
-    * 成功的状态码。 
-    * 只有状态码为该值是才表示成功，其它的均表示失败。
-    */
-    successCode: 200,
-
-    /**
-    * 字段映射。
-    */
-    field: {
-        /**
-        * 状态码。
-        */
-        code: 'Result',
-        /**
-        * 消息。
-        */
-        msg: 'ErrMsg',
-        /**
-        * 主体数据。
-        */
-        data: 'Data',
-    },
-
-    // SSH 需要用到的。
-    //下面这些字段在使用时会优先级会高于 SSH 节点中的
-
-    /**
-    * 代理配置。
-    */
-    proxy: null,
-
-    /**
-    * 接口名称中的前缀部分。
-    * 主要针对一个轻应用中有公共前缀部分的批量接口，设置了公共前缀部分，后续的调用只用后部分简短名称即可。
-    */
-    prefix: '',
-
-    /**
-    * 请求超时的最大值(毫秒)。
-    * 0 表示由浏览器控制，代码层面不控制。
-    */
-    timeout: 0,
-
-    //必选的
-
-    /**
-    * 企业号。 必选。
-    */
-    eid: '',
-
-    /**
-    * openid。 必选。
-    */
-    openid: '',
-
-    //可选的
-
-    /**
-    * appid。 可选的。
-    */
-    appid: '',
-
-    /**
-    * netid。 可选的。
-    */
-    netid: '',
-
-    /**
-    * pubacckey。 可选的。
-    */
-    pubacckey: '',
-
-    /**
-    * timestamp。 可选的。
-    */
-    timestamp: '',
-
-    /**
-    * nonce。 可选的。
-    */
-    nonce: '',
-
-    /**
-    * pubaccid。 可选的。
-    */
-    pubaccid: '',
-
-    /**
-    * 要发送的数据。 可选的。
-    */
-    data: null,
-
-    /**
-    * 当 http 协议层发送错误时的默认错误消息文本。
-    */
-    msg: '网络繁忙，请稍候再试',
-});
-
-
-/**
-* SSH 类。
-* @class
-* @name SSH
-* @augments API
-*/
-define('SSH', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var API = require('API');
-
-    var mapper = require('Mapper'); //这里要用有继承关系的 Mapper
-
-    /**
-    * SSH 构造器。
-    * @param {string} name 后台接口的名称。 
-        简短名称，且不包括后缀。
-    * @param {Object} [config] 配置对象。
-    */
-    function SSH(name, config) {
-
-        name = name || '';
-        config = Defaults.clone(module.id, config);
-
-        var emitter = new Emitter(this);
-        var successCode = config.successCode;
-        var proxy = config.proxy;
-
-        //先过滤出(已存在的)指定成员。
-        var ajax = $Object.filter(config, [
-            'ext',
-            'successCode',
-            'field',
-
-            'prefix',
-            'serialize',
-            'timeout',
-
-            //必选的
-            'eid',
-            'openid',
-
-            //可选的
-            'appid',
-            'netid',
-            'pubacckey',
-            'timestamp',
-            'nonce',
-            'pubaccid',
-            'data',
-
-            //临时方案，给新版授权使用。
-            'url',
-            'form',
-
-        ]);
-
-        //再复制。 
-        ajax = Object.assign(ajax, {
-            'name': name,
-            'proxy': proxy,
-
-
-
-            success: function (data, json, xhr) { //成功
-                fireEvent('success', [data, json, xhr]);
-            },
-
-            fail: function (code, msg, json, xhr) { //失败
-                fireEvent('fail', [code, msg, json, xhr]);
-            },
-
-            error: function (xhr) { //错误
-                fireEvent('error', [xhr]);
-            },
-
-            //timeout字段已用来设置时间了，这里换个名称。
-            ontimeout: function (xhr) {
-                fireEvent('timeout', [xhr]);
-            },
-
-            abort: function () {
-                emitter.fire('abort');
-            },
-
-        });
-
-
-
-        var meta = {
-            'ajax': ajax,
-            'console': config.console,
-            'status': '',
-            'args': [],
-            'emitter': emitter,
-            'api': null,            //缓存创建出来的 api 对象。
-            'fireEvent': fireEvent, //这里要设置进去，因为继续了 API 的关系。
-        };
-
-        mapper.set(this, meta);
-
-
-        //内部共用函数
-        function fireEvent(status, args, emitter) {
-
-            meta.api = null; //请求已完成，针对 abort() 方法。
-
-            status = meta.status = status || meta.status;
-            args = meta.args = args || meta.args;
-            emitter = emitter || meta.emitter;
-
-            emitter.fire('response', args); //最先触发
-
-
-            //进一步触发具体 code 对应的事件
-            if (status == 'success') {
-                emitter.fire('code', successCode, args);
-            }
-            else if (status == 'fail') {
-                emitter.fire('code', args[0], args.slice(1)); //错误码不在参数里
-            }
-
-            var xhr = args.slice(-1)[0]; //args[args.length - 1]
-            if (xhr) { //在 Proxy 的响应中 xhr 为 null
-                emitter.fire('status', xhr.status, args);
-            }
-
-            emitter.fire(status, args); //触发命名的分类事件，如 success、fail、error
-            emitter.fire('done', args); //触发总事件
-
-        }
-
-    }
-
-    //实例方法
-    SSH.prototype = Object.assign(new API(), /**@lends SSH#*/ {
-
-        constructor: SSH,
-
-        /**
-        * 发起网络 POST 请求。
-        * 请求完成后会最先触发相应的事件。
-        * @param {Object} [data] POST 请求的数据对象。
-        * @param {Object} [query] 查询字符串的数据对象。
-        *   该数据会给序列化成查询字符串，并且通过 form-data 发送出去。
-        * @return {SSH} 返回当前 SSH 的实例 this，因此进一步可用于链式调用。
-        */
-        post: function (data) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var ajax = meta.ajax;
- 
-            emitter.fire('request', ['post', data || ajax.data]);
-
-
-            var Server = module.require('Server');
-
-
-            Server.get({
-                data: {
-                    'eid': ajax.eid,
-                    'appid': ajax.appid,
-                    'netid': ajax.netid,
-                },
-                success: function (server) { //成功
-
-                    var obj = Object.assign({}, ajax, {
-                        'data': data || ajax.data,
-
-                        //来自 Server 的
-                        'secret': server['secret'],
-                        'version': server['version'],
-                        'fromTag': server['fromTag'],
-                        'url': server['url'],
-                        'netid': server['netid'],
-                    });
-
-
-                    //临时方案，给新版授权使用。
-                    if (ajax.url) {
-                        obj.url = ajax.url;
-                    }
-
-
-                    //为了便于查看调用的 API 名称和 CustData 而打印到控制台。
-                    if (meta.console) {
-                        //var fullname = ajax.prefix + ajax.name; //api 的完整名称
-                        //console.log(fullname, obj.data);
-
-                        var msg = '%c' + ajax.prefix + '%c' + ajax.name;
-                        var s0 = 'color:#61a7e5;';
-                        //var s1 = 'color:#138df9;font-weight:bold;';
-                        var s1 = 'color:#138df9;';
-
-                        console.log(msg, s0, s1, obj.data);
-                    }
-
-                    var Ajax = module.require('Ajax');
-                    meta.api = Ajax.post(obj);
-
-                },
-                fail: function (code, msg, json, xhr) {
-
-                    if (code == 302) { //存在多个 netid
-                        var list = json['NetIDList'] || [];
-                        emitter.fire('servers', [list, json, xhr]);
-                        return;
-                    }
-
-                    var fail = ajax.fail;
-                    fail && fail(code, msg, json, xhr);
-                },
-
-                error: ajax.error,
-
-            });
-
-
-            return this;
-
-        },
-
-        /**
-        * 取消当前已发起但未完成的请求。
-        * 只有已发起了请求但未完成，才会执行取消操作，并会触发 abort 事件。
-        */
-        abort: function () {
-            var meta = mapper.get(this);
-            var api = meta.api;
-            if (!api) {
-                return;
-            }
-
-            api.abort();
-        },
-
-    });
-
-    //静态成员
-    return Object.assign(SSH, { /**@lends SSH*/
-
-        /**
-        * 当存在多个产品实例(NetID)时，设置需要使用的项。
-        */
-        'setServer': function (item) {
-            var Server = module.require('Server');
-            Server.set(item);
-        },
-    });
-
-
-
-
-});
-
-
-/**
-* SSH 模块的默认配置
-* @name SSH.defaults
-*/
-define('SSH.defaults', /**@lends SSH.defaults*/ {
-
-    /**
-    * API 接口 Url 的后缀部分。
-    * 针对那些如 '.do'、'.aspx' 等有后缀名的接口比较实用。
-    * 这里固定为空字符串，业务层不需要关注该字段。
-    */
-    ext: '',
-
-    /**
-    * 成功的状态码。 
-    * 只有状态码为该值是才表示成功，其它的均表示失败。
-    */
-    successCode: 200,
-
-    /**
-    * 字段映射。
-    */
-    field: {
-        /**
-        * 状态码。
-        */
-        code: 'Result',
-        /**
-        * 消息。
-        */
-        msg: 'ErrMsg',
-        /**
-        * 主体数据。
-        */
-        data: 'DataJson',
-    },
-
-    /**
-    * 代理配置。
-    */
-    proxy: null,
-
-    /**
-    * 接口名称中的前缀部分。
-    * 主要针对一个轻应用中有公共前缀部分的批量接口，设置了公共前缀部分，后续的调用只用后部分简短名称即可。
-    */
-    prefix: '',
-
-    //必选的
-
-    /**
-    * 企业号。 必选。
-    */
-    eid: '',
-
-    /**
-    * openid。 必选。
-    */
-    openid: '',
-
-    //可选的
-
-    /**
-    * appid。 可选的。
-    */
-    appid: '',
-
-    /**
-    * netid。 可选的。
-    */
-    netid: '',
-
-    /**
-    * pubacckey。 可选的。
-    */
-    pubacckey: '',
-
-    /**
-    * timestamp。 可选的。
-    */
-    timestamp: '',
-
-    /**
-    * nonce。 可选的。
-    */
-    nonce: '',
-
-    /**
-    * pubaccid。 可选的。
-    */
-    pubaccid: '',
-
-    /**
-    * 要发送的数据。 可选的。
-    */
-    data: null,
-
-    /**
-    * 是否用 console 把 CustData 打印出来。
-    * 由于 CustData 给编码了成字符串，为了便于查看原始对象结构而打印到控制台。
-    */
-    console: true,
-
-    /**
-    * 请求超时的最大值(毫秒)。
-    * 0 表示由浏览器控制，代码层面不控制。
-    */
-    timeout: 0,
-
-});
-
-
-/**
-* 后台 API 接口请求类。
-* @class
-* @name API
-*/
-define('API', function (require, module, exports) {
-
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var Fn = require('Fn');
-
-    var mapper = require('Mapper'); //这里要用有继承关系的 Mapper
-
-
-
-    /**
-    * API 构造器。
-    * @param {string} name 后台接口的名称。 简短名称，且不包括后缀。
-    * @param {Object} [config] 配置对象。
-    */
-    function API(name, config) {
-
-        //重载 API(config);
-        if (typeof name == 'object') {
-            config = name;
-            name = '';
-        }
-
-        name = name || '';
-        config = Defaults.clone(module.id, config);
-
-
-        var emitter = new Emitter(this);
-        var successCode = config.successCode;
-        var proxy = config.proxy;
-
-        //支持简写，代理的文件名跟 API 的名称一致。
-        switch (proxy) {
-            case true:
-                proxy = name + '.js';
-                break;
-            case '.json':
-            case '.js':
-                proxy = name + proxy;
-                break;
-        }
-
-
-        
-
-        //发起 ajax 请求所需要的配置对象。
-        var ajax = {
-            'name': name,
-            'data': config.data,
-            'query': config.query,
-
-            'url': config.url,
-            'prefix': config.prefix,
-            'ext': config.ext,
-            'random': config.random,
-
-            'successCode': successCode,
-            'field': config.field,
-            'proxy': proxy,
-            'serialize': config.serialize,
-            'timeout': config.timeout,
-
-            success: function (data, json, xhr) { //成功
-                fireEvent('success', [data, json, xhr]);
-            },
-
-            fail: function (code, msg, json, xhr) { //失败
-                fireEvent('fail', [code, msg, json, xhr]);
-            },
-
-            error: function (xhr) { //错误
-                if (meta.aborted) { //避免因手动调用了 abort() 而导致触发 error 事件。
-                    meta.aborted = false; //归位
-                    return;
-                }
-
-                fireEvent('error', [xhr]);
-            },
-
-            ontimeout: function (xhr) { //超时，自定义的
-                fireEvent('timeout', [xhr]);
-            },
-        };
-
-
-        var meta = {
-            'ajax': ajax,
-            'status': '',
-            'args': [],
-            'emitter': emitter,
-            'xhr': null,            //缓存创建出来的 xhr 对象。
-            'aborted': false,       //指示是否已调用了 abort()。
-            'fireEvent': fireEvent, 
-        };
-
-        mapper.set(this, meta);
-
-
-        //内部共用函数
-        function fireEvent(status, args, emitter) {
-
-            status = meta.status = status || meta.status;
-            args = meta.args = args || meta.args;
-            emitter = emitter || meta.emitter;
-
-            Fn.delay(config.delay, function () {
-
-                meta.xhr = null; //请求已完成，针对 abort() 方法。
-
-                emitter.fire('response', args); //最先触发
-
-                //进一步触发具体 code 对应的事件
-                if (status == 'success') {
-                    emitter.fire('code', successCode, args);
-                }
-                else if (status == 'fail') {
-                    emitter.fire('code', args[0], args);
-                }
-
-                var xhr = args.slice(-1)[0]; //args[args.length - 1]
-                if (xhr) { //在 Proxy 的响应中 xhr 为 null
-                    emitter.fire('status', xhr.status, args);
-                }
-
-                emitter.fire(status, args); //触发命名的分类事件，如 success|fail|error|timeout
-                emitter.fire('done', args); //触发总事件
-            });
-        }
-
-     
-    }
-
-
-
-    //实例方法
-    API.prototype = /**@lends API#*/ {
-        constructor: API,
-
-        /**
-        * 发起网络 GET 请求。
-        * 请求完成后会最先触发相应的事件。
-        * @param {Object} [data] 请求的数据对象。
-        *   该数据会给序列化成查询字符串以拼接到 url 中。
-        * @example
-            var api = new API('test');
-            api.get({ name: 'micty' });
-        */
-        get: function (data) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            meta.aborted = false; //归位
-
-            var obj = Object.assign({}, meta.ajax);
-            if (data) {
-                obj.data = data;
-            }
-
-            data = obj.data;  //这里用 obj.data
-           
-            emitter.fire('request', 'get', [data]);
-            emitter.fire('request', ['get', data]); 
-
-            
-
-            var Ajax = module.require('Ajax');
-            meta.xhr = Ajax.get(obj);
-        },
-
-        /**
-        * 发起网络 POST 请求。
-        * 请求完成后会最先触发相应的事件。
-        * @param {Object} [data] POST 请求的数据对象。
-        * @param {Object} [query] 查询字符串的数据对象。
-        *   该数据会给序列化成查询字符串，并且通过 form-data 发送出去。
-        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
-        */
-        post: function (data, query) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var ajax = meta.ajax;
-
-            meta.aborted = false; //归位
-
-            var obj = Object.assign({}, ajax, {
-                'data': data || ajax.data,
-                'query': query || ajax.query,
-            });
-
-            data = obj.data;    //这里用 obj.data
-            query = obj.query;  //这里用 obj.query
-
-            emitter.fire('request', 'post', [data, query]);
-            emitter.fire('request', ['post', data, query]);
-
-            var Ajax = module.require('Ajax');
-            meta.xhr = Ajax.post(obj);
-
-            return this;
-
-        },
-
-        /**
-        * 取消当前已发起但未完成的请求。
-        * 只有已发起了请求但未完成，才会执行取消操作，并会触发 abort 事件。
-        */
-        abort: function () {
-            var meta = mapper.get(this);
-            var xhr = meta.xhr;
-            if (!xhr) {
-                return;
-            }
-
-            meta.aborted = true;        //先设置状态
-            xhr.abort();                //会触发 ajax.error 事件。
-            meta.emitter.fire('abort'); //
-        },
-        
-
-        /**
-        * 绑定事件。
-        * 已重载 on({...}，因此支持批量绑定。
-        * @param {string} name 事件名称。
-        * @param {function} fn 回调函数。
-        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
-        */
-        on: function (name, fn) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-
-            var status = meta.status;
-
-            if (status) { //请求已完成，立即触发
-                var emt = new Emitter(this); //使用临时的事件触发器。
-                emt.on.apply(emt, args);
-                meta.fireEvent(status, meta.args, emt);
-                emt.destroy();
-            }
-
-            return this;
-
-        },
-
-       
-
-        /**
-        * 销毁本实例对象。
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            emitter.destroy();
-
-            mapper.delete(this);
-        },
-    };
-
-
-    return API;
-
-});
-
-
-/**
-* API 模块的默认配置
-* @name API.defaults
-*/
-define('API.defaults', /**@lends API.defaults*/ {
-    /**
-    * 成功的状态码。 
-    * 只有状态码为该值是才表示成功，其它的均表示失败。
-    */
-    successCode: 200,
-
-    /**
-    * 字段映射。
-    */
-    field: {
-        /**
-        * 状态码。
-        */
-        code: 'code',
-        /**
-        * 消息。
-        */
-        msg: 'msg',
-        /**
-        * 主体数据。
-        */
-        data: 'data',
-    },
-
-    /**
-    * 代理配置。
-    */
-    proxy: null,
-
-    /**
-    * 随机延迟时间，更真实模拟实际网络环境。
-    * 可指定为 false，或如 { min: 500, max: 2000 } 的格式。
-    */
-    delay: false,
-
-    /**
-    * 在 url 中增加一个随机 key，以解决缓存问题。
-    * 当指定为 false 时，则禁用。
-    */
-    random: true,
-
-    /**
-    * API 接口 Url 的主体部分。
-    */
-    url: '',
-
-    /**
-    * API 接口 Url 的前缀部分。
-    */
-    prefix: '',
-
-    /**
-    * API 接口 Url 的后缀部分。
-    * 针对那些如 '.do'、'.aspx' 等有后缀名的接口比较实用。
-    */
-    ext: '',
-
-    /**
-    * 要发送的数据。 可选的。
-    * 当发送方式为 get 时，该数据将会给序列化成查询字符串并附加到 url 查询参数中。
-    * 当发送方式为 post 时，会用在表单中。
-    */
-    data: null,
-
-    /**
-    * 要发送的查询参数，仅当发送方式为 post 时有效 (可选的)。
-    * 当发送方式为 post 时，该数据将会给序列化成查询字符串并附加到 url 查询参数中。
-    */
-    query: null,
-
-    /**
-    * 请求超时的最大值(毫秒)。
-    * 0 表示由浏览器控制，代码层面不控制。
-    */
-    timeout: 0,
-
-
-    /**
-    * 把请求时的 data 中的第一级子对象进行序列化的方法。
-    * @param {string} key 要进行处理的子对象的键。
-    * @param {Object} value 要进行处理的子对象的值对象。
-    * @return {string} 返回该子对象序列化的字符串。
-    */
-    serialize: function (key, value) {
-        var json = JSON.stringify(value);
-        return encodeURIComponent(json);
-    },
-
-});
-
-
-/**
-*
-*/
-define('API/Ajax', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var $String = require('String');
-    var Query = require('Query');
-
-    //[XMLHttpRequest 增强功能](https://technet.microsoft.com/zh-cn/office/hh673569)
-    //[XMLHttpRequest2 新技巧](http://www.html5rocks.com/zh/tutorials/file/xhr2/)
-    //[XMLHttpRequest Level 2 使用指南](http://kb.cnblogs.com/page/157047/)
-
-    /**
-    * 发起 ajax 网络请求(核心方法)。
-    * @param {string} method 网络请求的方式：'get' 或 'post'。
-    * @param {Object} config 配置对象。 其中：
-    * @param {string} config.name 后台接口的名称，会用在 url 中。
-    * @param {Object} [config.url] 请求的 url 地址。
-    * @param {Object} [config.ext] 要用在 url 中的后缀。
-    * @param {Object} [config.data] 要发送的数据。
-        该数据会给序列化成查询字符串，然后：
-        当 method 为 'get' 时，数据拼接在 url 中。
-        当 method 为 'post' 时，数据放在 form-data 表单中。
-    * @param {Object} [config.query] 要发送的查询字符串数据。
-        该字段仅在 method 为 'post' 时可用。
-    * @param {number||string} [config.successCode] 指示请求成功时的代码。
-    * @param {Object} [config.field] 响应中的映射字段。
-    * @param {function} [config.success] 请成功时的回调。
-    * @param {function} [config.fail] 请失败时的回调。
-    * @param {function} [config.error] 请错误时的回调。
-    * @return {XMLHTTPRequest} 返回 xhr 对象。
-        如果使用的是代理，则返回 null。
-    */
-    function request(method, config) {
-
-        var proxy = config.proxy;
-        if (proxy) { //使用了代理
-            var Proxy = require('Proxy');
-            Proxy.request(proxy, config);
-            return null;
-        }
-
-        //完整的 url
-        var url = [
-            config.url,
-            config.prefix,
-            config.name,
-            config.ext,
-        ].join('');
-
-
-        var data = config.data || null; // null 可能会在 xhr.send(data) 里用到
-        if (data) {
-
-            var serialize = config.serialize; //对子对象进行序列化的方法
-
-            data = $Object.map(data, function (key, value) {
-                if (typeof value == 'object' && value) { //子对象编码成 JSON 字符串
-                    return serialize(key, value);
-                }
-
-                //其他的
-                return value; //原样返回
-            });
-        }
-
-
-        if (method == 'post') {
-            var query = config.query;
-            if (query) {
-                url = Query.add(url, query);
-            }
-            if (data) {
-                data = Query.stringify(data);
-            }
-        }
-        else if (data) { // 'get'
-            url = Query.add(url, data);
-            data = null; //要发送的数据已附加到 url 参数上
-        }
-
-
-        //增加一个随机字段，以使缓存失效
-        var random = config.random;
-        if (random) {
-            random = $String.random(4);
-            url = Query.add(url, random);
-        }
-      
-
-        //同时启动超时器和发起请求，让它们去竞争。
-       
-        var isTimeout = false; //指示是否已超时
-        var tid = null;
-        var timeout = config.timeout || 0;
-
-        if (timeout > 0) {
-            tid = setTimeout(function () {
-                isTimeout = true;
-                xhr.abort(); //取消当前响应，关闭连接并且结束任何未决的网络活动。
-
-                var fn = config.ontimeout;
-                fn && fn(xhr);
-
-            }, timeout);
-        }
-
-
-        var xhr = new XMLHttpRequest();
-        xhr.open(method, url, true);
-
-        xhr.onreadystatechange = function () {
-
-            if (isTimeout || xhr.readyState != 4) {
-                return;
-            }
-
-
-            clearTimeout(tid);
-
-            var successCode = config.successCode;
-            var fnError = config.error;
-
-            if (xhr.status != 200) {
-                fnError && fnError(xhr);
-                return;
-            }
-
-            var JSON = require('JSON');
-            var json = JSON.parse(xhr.responseText);
-            if (!json) {
-                fnError && fnError(xhr);
-                return;
-            }
-
-            var field = config.field;
-
-            var code = json[field.code];
-            if (code == successCode) {
-
-                var fnSuccess = config.success;
-                var data = field.data in json ? json[field.data] : {};
-
-                fnSuccess && fnSuccess(data, json, xhr);
-            }
-            else {
-                var fnFail = config.fail;
-                fnFail && fnFail(code, json[field.msg], json, xhr);
-            }
-        };
-
-        if (method == 'post') {
-            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        }
-
-        xhr.send(data);
-
-
-        return xhr;
-    }
-
-
-
-
-
-
-    return /**@lends Ajax*/ {
-
-        get: function (config) {
-            return request('get', config);
-        },
-
-        post: function (config) {
-            return request('post', config);
-        },
-    };
-
-    
-
-});
-
-
-
-/**
-* SSH/Server
-* @class
-*/
-define('SSH/Server', function (require, module, exports) {
-
-    var $Date = require('Date');
-    var $String = require('String');
-    var Defaults = require('Defaults');
-
-    var defaults = Defaults.get(module.id);
-    var storage = null;
-    var args = null;
-
-    var current = {
-        config: null,   //缓存 `Server/Config` 中的 get() 结果。
-        server: null,   //缓存当前的 server 信息。
-    };
-
-    function getStorage() {
-
-        //已经创建过了
-        if (storage || storage === false) { 
-            return storage;
-        }
-
-
-        //首次创建
-        var cache = defaults.cache;
-        if (cache == 'session' || cache == 'local') {
-
-            //为了让自动化工具分析出依赖，这里要用完整的字符串常量作为 require() 的第一个参数。
-            var Storage = cache == 'session' ?
-                    require('SessionStorage') :
-                    require('LocalStorage');
-
-            storage = new Storage(module.id, {
-                name: 'KISP',
-            });
-        }
-        else {
-            storage = false; //这里不能用 null，以表示创建过了。
-        }
-
-
-        return storage;
-
-
-    }
-
-
-    function ajax(data, config, fnSuccess, fnFail, fnError) {
-
-        config = config || {
-            url: '',
-            secret: '',
-            key: '',
-            route: '',
-            version: '',
-            fromTag: '',
-        };
-
-        var API = require('API');
-        var MD5 = require('MD5');
-
-        var eid = data['eid'];
-        var netid = data['netid'];
-        var secret = config['secret'];
-
-        var timestamp = $Date.format(new Date(), 'yyyy-MM-dd HH:mm:ss');   //时间戳。
-        var random = $String.random(16);                                   //16位随机数。
-        var sign = MD5.encrypt(eid, secret, timestamp, random);             //签名。
-
-
-        var defaults = Defaults.clone(module.id, {
-            'url': config.url,
-            //proxy: 'server.json',
-        });
-
-        var api = new API('', defaults);
-
-        api.get({
-            'EID': eid,
-            'AppID': data['appid'],
-            'NetID': netid,
-            'AccKey': config['key'],
-            'Timestamp': timestamp,
-            'State': random,
-            'Sign': sign,
-        });
-
-
-        api.on('success', function (data, json, xhr) {
-
-            var server = current.server = {
-                'AppSecret': json['AppSecret'],
-                'ServerUrl': json['ServerUrl'],
-                'NetID': json['NetID'] || netid,
-            };
-
-            use(config, server, fnSuccess);
-
-        });
-
-        api.on('fail', function (code, msg, json, xhr) {
-            fnFail && fnFail(code, msg, json);
-        });
-
-        api.on('error', function (xhr) {
-            fnError && fnError();
-        });
-
-    }
-
-
-
-    function use(config, server, fn) {
-        var Url = require('Url');
-        var url = server['ServerUrl'] || '';
-
-        if (!Url.isFull(url)) {
-            url = 'http://' + url;
-        }
-
-        //当前真实的 netid 值，使用空字符串是为了兼容以前的写法，避免用到 undefined。
-        var netid = server['NetID'] || '';   
-
-        var data = {
-            'secret': server['AppSecret'],
-            'version': config['version'],
-            'fromTag': config['fromTag'],
-            'url': url + config['route'],   //类似 'http://120.132.144.214/Webapi/Router'
-            'netid': netid,   
-        };
-
-        args = [data];
-
-        var storage = getStorage();
-        if (storage) {
-            storage.set('args', args);
-        }
-
-        fn && fn.apply(null, args);
-    }
-
-
-
-    //
-    return {
-        /**
-        * 获取服务器信息。
-        */
-        'get': function get(options) {
-
-            var data = options.data;
-            var fnSuccess = options.success;
-            var fnFail = options.fail;
-            var fnError = options.error;
-
-            var cache = defaults.cache;
-
-            if (cache && args) { //只有启用缓存时才从内存中读取。
-                fnSuccess.apply(null, args);
-                return;
-            }
-
-            //可能页面刷新了，导致内存中的不存在，才判断 SessionStorage 或 LocalStroage 中的
-            var storage = getStorage();
-            if (storage) {
-                args = storage.get('args');
-                if (args) {
-                    fnSuccess.apply(null, args);
-                    return;
-                }
-            }
-
-
-            var Config = module.require('Config');
-            Config.get(function (config) {
-
-                if (!config) {
-                    fnError && fnError();
-                    return;
-                }
-
-                current.config = config;
-
-                var server = current.server;
-                if (server) {
-                    use(config, server, fnSuccess);
-                    return;
-                }
-
-
-                ajax(data, config, fnSuccess, fnFail, fnError);
-
-            });
-        },
-
-        /**
-        * 当存在多个 NetID 时，需要手动选择并设置所使用的项。
-        */
-        'set': function (server) {
-
-            current.server = server;
-
-            var config = current.config;
-            if (config) {
-                use(config, server);
-            }
-        },
-    };
-
-
-});
-
-
-/**
-* SSH/Server 模块的默认配置
-* @name SSH/Server.defaults
-*/
-define('SSH/Server.defaults', /**@lends SSH/Server.defaults*/ {
-    ext: '',
-    successCode: 200,
-    field: {
-        code: 'Result',
-        msg: 'ErrMsg',
-        data: 'Data',
-    },
-
-    /**
-    * 是否启用缓存。
-    * 可取的值为 false|true|'session'|'local'
-    */
-    cache: 'session',
 });
 
 
@@ -11262,7 +1120,7 @@ define('Date', function (require, module, exports) {
     }
 
 
-    module.exports = exports = /**@lends Date */ {
+    return exports = /**@lends Date */ {
 
         /**
         * 把参数 value 解析成等价的日期时间实例。
@@ -11614,2976 +1472,1434 @@ define('Date', function (require, module, exports) {
 
         /**
         * 转换成最常用的字符串格式 `yyyy-MM-dd HH:mm:ss`。
-        * 如 `2018-04-16 09:26:59`
+        * 如 `2018-04-16 09:26:59`。
+        * 已重载 stringify();          //获取当前时间的字符串格式。
+        * 已重载 stringify(datetime);  //获取指定时间的字符串格式。
         */
         stringify: function (datetime) {
+            datetime = datetime || new Date();
+
             return exports.format(datetime, 'yyyy-MM-dd HH:mm:ss');
         },
+      
     };
 
 });
 
-/**
-* 会话存储工具类
-* @class
-* @name SessionStorage
-*/
-define('SessionStorage', function (require, module, exports) {
-
-    var Storage = require('Storage');
-    var Defaults = require('Defaults');
-
-    var storage = Storage('session');
-    var mapper = new Map();
-    var skey = 'KISP.SessionStorage.B81138B047FC';
-    var name$app = storage.get(skey) || {}; //针对全部应用的
-
-
-
-    function SessionStorage(id, config) {
-
-        config = Defaults.clone(module.id, config);
-
-        var name = config.name;
-        if (!name) {
-            throw new Error('请先配置 ' + module.id + ' 模块的 name 字段');
-        }
-
-        var app = name$app[name];
-
-        if (!app) { //针对该应用的首次分配
-            app = name$app[name] = {};
-        }
-
-        var meta = {
-            'id': id,
-            'data': app[id],
-            'app': app,
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-
-    SessionStorage.prototype = {
-        constructor: SessionStorage,
-
-        /**
-        * 设置一对键值。
-        * 已重载 set(obj); 批量设置。
-        * 已重载 set(key, value); 单个设置。
-        * @param {string} key 要进行设置的键名称。
-        * @param value 要进行设置的值，可以是任何类型。
-        */
-        set: function (key, value) {
-
-            var meta = mapper.get(this);
-            var data = meta.data;
-            var app = meta.app;
-            var id = meta.id;
-
-            //针对该实例的首次分配，或者因为调用了 clear() 而给清空了
-            if (!data) {
-                data = app[id] = meta.data = {};
-            }
-
-            if (typeof key == 'object') { //重载 set({...}); 批量设置的情况
-                Object.assign(data, key);
-            }
-            else { //单个设置
-                data[key] = value;
-            }
-
-            storage.set(skey, name$app); //保存全部
-
-        },
-
-        /**
-        * 根据给定的键获取关联的值。
-        * 已重载 get() 获取全部的情况。
-        * @param {string} [key] 要进行获取的键名称。
-        * @return 返回该键所关联的值。
-        */
-        get: function (key) {
-            var meta = mapper.get(this);
-            var data = meta.data;
-
-            if (!data) {
-                return;
-            }
-
-            //重载 get(); 获取全部的情况
-            if (arguments.length == 0) {
-                return data;
-            }
-
-            return data[key];
-        },
-
-        /**
-        * 移除给定的键所关联的项。
-        * @param {string} key 要进行移除的键名称。
-        */
-        remove: function (key) {
-
-            var meta = mapper.get(this);
-            var data = meta.data;
-
-            if (!data) {
-                return;
-            }
-
-            delete data[key];
-
-            storage.set(skey, name$app); //保存全部
-
-        },
-
-        /**
-        * 清空所有项。
-        */
-        clear: function () {
-            var meta = mapper.get(this);
-            var id = meta.id;
-            var app = meta.app;
-
-            delete app[id];
-            meta.data = null;
-
-            storage.set(skey, name$app); //保存全部
-        },
-
-    };
-
-    //同时提供底层通用的静态方法。
-    return Object.assign(SessionStorage, storage);
-
-
-
-
-});
-
-
-
 
 
 /**
-* SessionStorage 模块的默认配置
-* @name SessionStorage.defaults
-*/
-define('SessionStorage.defaults', /**@lends SessionStorage.defaults*/ {
-    /**
-    * 应用的名称。
-    * 设定后即可创建与获取在该名称下的本地存储，从而避免跟其它应用的冲突。
-    */
-    name: '',
-});
-
-
-/**
-* 存储工具类。
+* 字符串工具类。
 * @namespace
-* @name Storage
+* @name String
 */
-define('Storage', function (require, module, exports) {
-
-    var type$exports = {};
-
-
-    //type 为 `session` 或 `local`
-    return function (type) {
-
-        var exports = type$exports[type];
-        if (exports) {
-            return exports;
-        }
-
-
-        var name = type + 'Storage';
-        var storage = window[name];
-        if (!storage) {
-            throw new Error('window 中不存在 ' + name + ' 存储对象。');
-        }
-
-
-        var id = 'KISP.' + name;
-        var all = storage.getItem(id) || null;
-
-        all = JSON.parse(all) || {};
-
-
-        return type$exports[type] = {
-
-            /**
-            * 设置一对键值。
-            * @param {string} key 要进行设置的键名称。
-            * @param value 要进行设置的值，可以是任何类型。
-            */
-            set: function (key, value) {
-
-                all[key] = value;
-
-                var json = JSON.stringify(all);
-                storage.setItem(id, json);
-
-            },
-
-            /**
-            * 根据给定的键获取关联的值。
-            * @param {string} key 要进行获取的键名称。
-            * @return 返回该键所关联的值。
-            */
-            get: function (key) {
-                return all[key];
-            },
-
-            /**
-            * 移除给定的键所关联的项。
-            * @param {string} key 要进行移除的键名称。
-            */
-            remove: function (key) {
-                delete all[key];
-                var json = JSON.stringify(all);
-                storage.setItem(id, json);
-            },
-
-            /**
-            * 清空所有项。
-            */
-            clear: function () {
-                all = {};
-                var json = JSON.stringify(all);
-                storage.setItem(id, json);
-            },
-
-        };
-
-    };
+define('String', function (require, module, exports) {
 
 
 
-});
-
-
-
-
-
-
-/**
-* 本地存储工具类
-* @namespace
-* @name LocalStorage
-*/
-define('LocalStorage', function (require, module, exports) {
-    var Storage = require('Storage');
-    var Defaults = require('Defaults');
-
-    var storage = Storage('local');
-    var mapper = new Map();
-    var skey = 'KISP.LocalStorage.B81138B047FC';
-    var name$app = storage.get(skey) || {}; //针对全部应用的
-
-
-
-    function LocalStorage(id, config) {
-
-        config = Defaults.clone(module.id, config);
-
-        var name = config.name;
-        if (!name) {
-            throw new Error('请先配置 ' + module.id + ' 模块的 name 字段');
-        }
-
-        var app = name$app[name];
-
-        if (!app) { //针对该应用的首次分配
-            app = name$app[name] = {};
-        }
-
-        var meta = {
-            'id': id,
-            'data': app[id],
-            'app': app,
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-
-    LocalStorage.prototype = {
-        constructor: LocalStorage,
-
+    return exports = /**@lends String */ {
         /**
-        * 设置一对键值。
-        * 已重载 set(obj) 批量设置的情况。
-        * @param {string} key 要进行设置的键名称。
-        * @param value 要进行设置的值，可以是任何类型。
+        * 产生指定格式或长度的随机字符串。
+        * @param {string|int} [formater=12] 随机字符串的格式，或者长度（默认为12个字符）。
+            格式中的每个随机字符用 'x' 来占位，如 'xxxx-1x2x-xx'
+        * @return {string} 返回一个指定长度的随机字符串。
+        * @example
+            $String.random();      //返回一个 12 位的随机字符串
+            $String.random(64);    //返回一个 64 位的随机字符串
+            $String.random('xxxx-你好xx-xx'); //类似 'A3EA-你好B4-DC'
         */
-        set: function (key, value) {
-
-            var meta = mapper.get(this);
-            var data = meta.data;
-            var app = meta.app;
-            var id = meta.id;
-
-            //针对该实例的首次分配，或者因为调用了 clear() 而给清空了
-            if (!data) {
-                data = app[id] = meta.data = {};
+        random: function (formater) {
+            if (formater === undefined) {
+                formater = 12;
             }
 
-            if (typeof key == 'object') { //重载 set({...}); 批量设置的情况
-                Object.assign(data, key);
-            }
-            else { //单个设置
-                data[key] = value;
+            //如果传入的是数字，则生成一个指定长度的格式字符串 'xxxxx...'
+            if (typeof formater == 'number') {
+
+                var size = formater + 1;
+                if (size < 0) {
+                    size = 0;
+                }
+                formater = [];
+                formater.length = size;
+                formater = formater.join('x');
             }
 
-            storage.set(skey, name$app); //保存全部
+            var value = formater.replace(/x/g, function (c) {
+                var r = Math.random() * 16 | 0;
+                return r.toString(16);
 
+            }).toUpperCase();
+
+
+            return value;
         },
 
         /**
-        * 根据给定的键获取关联的值。
-        * 已重载 get() 获取全部的情况。
-        * @param {string} [key] 要进行获取的键名称。
-        * @return 返回该键所关联的值。
+        * 用指定的值去填充一个字符串。
+        * 当不指定字符串的填充标记时，则默认为 {}。
+        * @param {String} string 要进行格式填充的字符串模板。
+        * @param {Object} obj 要填充的键值对的对象。
+        * @return 返回一个用值去填充后的字符串。
+        * @example
+            $String.format('{id}{type}', {id: 1, type: 'app'});
+            $String.format('{2}{0}{1}', 'a', 'b', 'c');
         */
-        get: function (key) {
-            var meta = mapper.get(this);
-            var data = meta.data;
+        format: function (string, obj) {
+            var s = string;
+            var replaceAll = exports.replaceAll;
 
-            if (!data) {
-                return;
+            if (typeof obj == 'object') {
+                for (var key in obj) {
+                    var value = obj[key];
+
+                    if (Array.isArray(value)) {
+                        value = value.join('');
+                    }
+
+                    s = replaceAll(s, '{' + key + '}', value);
+                }
+            }
+            else {
+                var args = [].slice.call(arguments, 1);
+                for (var i = 0, len = args.length; i < len; i++) {
+                    var value = args[i];
+
+                    if (Array.isArray(value)) {
+                        value = value.join('');
+                    }
+
+                    s = replaceAll(s, '{' + i + '}', value);
+                }
             }
 
-            //重载 get(); 获取全部的情况
-            if (arguments.length == 0) {
-                return data;
-            }
-
-            return data[key];
+            return s;
         },
+
+
 
         /**
-        * 移除给定的键所关联的项。
-        * @param {string} key 要进行移除的键名称。
+        * 对字符串进行全局替换。
+        * @param {String} target 要进行替换的目标字符串。
+        * @param {String} src 要进行替换的子串，旧值。
+        * @param {String} dest 要进行替换的新子串，新值。
+        * @return {String} 返回一个替换后的字符串。
+        * @example
+            $String.replaceAll('abcdeabc', 'bc', 'BC') //结果为 aBCdeBC
         */
-        remove: function (key) {
-
-            var meta = mapper.get(this);
-            var data = meta.data;
-
-            if (!data) {
-                return;
-            }
-
-            delete data[key];
-
-            storage.set(skey, name$app); //保存全部
-
+        replaceAll: function (target, src, dest) {
+            return target.split(src).join(dest);
         },
+
 
         /**
-        * 清空所有项。
+        * 对字符串进行区间内的替换。
+        * 该方法会把整个区间替换成新的字符串，包括区间标记。
+        * 已重载 replaceBetween(s, { beginTag, endTags, value, });
+        * @param {String} s 要进行替换的目标字符串。
+        * @param {String} beginTag 区间的开始标记。
+        * @param {String} endTag 区间的结束标记
+        * @param {String} value 要进行替换的新子串，新值。
+        * @return {String} 返回一个替换后的字符串。
+        *   当不存在开始标记或结束标记时，都会不进行任何处理而直接返回原字符串。
+        * @example
+            $String.replaceBetween('hello #--world--# this is #--good--#', '#--', '--#', 'javascript') 
+            //结果为 'hello javascript this is javascript'
         */
-        clear: function () {
-            var meta = mapper.get(this);
-            var id = meta.id;
-            var app = meta.app;
+        replaceBetween: function (s, beginTag, endTag, value) {
 
-            delete app[id];
-            meta.data = null;
-
-            storage.set(skey, name$app); //保存全部
-        },
-
-    };
-
-    //同时提供底层通用的静态方法。
-    return Object.assign(LocalStorage, storage);
-
-});
-
-
-/**
-* LocalStorage 模块的默认配置
-* @name LocalStorage.defaults
-*/
-define('LocalStorage.defaults', /**@lends LocalStorage.defaults*/ {
-    /**
-    * 应用的名称。
-    * 设定后即可创建与获取在该名称下的本地存储，从而避免跟其它应用的冲突。
-    */
-    name: '',
-});
-
-
-
-define('MD5', function (require, module,  exports) {
-
-    /*md5 生成算法*/
-    var hexcase = 0;
-    var chrsz = 8;
-
-
-    function core_md5(x, len) {
-
-        x[len >> 5] |= 0x80 << ((len) % 32);
-        x[(((len + 64) >>> 9) << 4) + 14] = len;
-
-        var a = 1732584193;
-        var b = -271733879;
-        var c = -1732584194;
-        var d = 271733878;
-
-        for (var i = 0; i < x.length; i += 16) {
-            var olda = a;
-            var oldb = b;
-            var oldc = c;
-            var oldd = d;
-
-            a = md5_ff(a, b, c, d, x[i + 0], 7, -680876936);
-            d = md5_ff(d, a, b, c, x[i + 1], 12, -389564586);
-            c = md5_ff(c, d, a, b, x[i + 2], 17, 606105819);
-            b = md5_ff(b, c, d, a, x[i + 3], 22, -1044525330);
-            a = md5_ff(a, b, c, d, x[i + 4], 7, -176418897);
-            d = md5_ff(d, a, b, c, x[i + 5], 12, 1200080426);
-            c = md5_ff(c, d, a, b, x[i + 6], 17, -1473231341);
-            b = md5_ff(b, c, d, a, x[i + 7], 22, -45705983);
-            a = md5_ff(a, b, c, d, x[i + 8], 7, 1770035416);
-            d = md5_ff(d, a, b, c, x[i + 9], 12, -1958414417);
-            c = md5_ff(c, d, a, b, x[i + 10], 17, -42063);
-            b = md5_ff(b, c, d, a, x[i + 11], 22, -1990404162);
-            a = md5_ff(a, b, c, d, x[i + 12], 7, 1804603682);
-            d = md5_ff(d, a, b, c, x[i + 13], 12, -40341101);
-            c = md5_ff(c, d, a, b, x[i + 14], 17, -1502002290);
-            b = md5_ff(b, c, d, a, x[i + 15], 22, 1236535329);
-
-            a = md5_gg(a, b, c, d, x[i + 1], 5, -165796510);
-            d = md5_gg(d, a, b, c, x[i + 6], 9, -1069501632);
-            c = md5_gg(c, d, a, b, x[i + 11], 14, 643717713);
-            b = md5_gg(b, c, d, a, x[i + 0], 20, -373897302);
-            a = md5_gg(a, b, c, d, x[i + 5], 5, -701558691);
-            d = md5_gg(d, a, b, c, x[i + 10], 9, 38016083);
-            c = md5_gg(c, d, a, b, x[i + 15], 14, -660478335);
-            b = md5_gg(b, c, d, a, x[i + 4], 20, -405537848);
-            a = md5_gg(a, b, c, d, x[i + 9], 5, 568446438);
-            d = md5_gg(d, a, b, c, x[i + 14], 9, -1019803690);
-            c = md5_gg(c, d, a, b, x[i + 3], 14, -187363961);
-            b = md5_gg(b, c, d, a, x[i + 8], 20, 1163531501);
-            a = md5_gg(a, b, c, d, x[i + 13], 5, -1444681467);
-            d = md5_gg(d, a, b, c, x[i + 2], 9, -51403784);
-            c = md5_gg(c, d, a, b, x[i + 7], 14, 1735328473);
-            b = md5_gg(b, c, d, a, x[i + 12], 20, -1926607734);
-
-            a = md5_hh(a, b, c, d, x[i + 5], 4, -378558);
-            d = md5_hh(d, a, b, c, x[i + 8], 11, -2022574463);
-            c = md5_hh(c, d, a, b, x[i + 11], 16, 1839030562);
-            b = md5_hh(b, c, d, a, x[i + 14], 23, -35309556);
-            a = md5_hh(a, b, c, d, x[i + 1], 4, -1530992060);
-            d = md5_hh(d, a, b, c, x[i + 4], 11, 1272893353);
-            c = md5_hh(c, d, a, b, x[i + 7], 16, -155497632);
-            b = md5_hh(b, c, d, a, x[i + 10], 23, -1094730640);
-            a = md5_hh(a, b, c, d, x[i + 13], 4, 681279174);
-            d = md5_hh(d, a, b, c, x[i + 0], 11, -358537222);
-            c = md5_hh(c, d, a, b, x[i + 3], 16, -722521979);
-            b = md5_hh(b, c, d, a, x[i + 6], 23, 76029189);
-            a = md5_hh(a, b, c, d, x[i + 9], 4, -640364487);
-            d = md5_hh(d, a, b, c, x[i + 12], 11, -421815835);
-            c = md5_hh(c, d, a, b, x[i + 15], 16, 530742520);
-            b = md5_hh(b, c, d, a, x[i + 2], 23, -995338651);
-
-            a = md5_ii(a, b, c, d, x[i + 0], 6, -198630844);
-            d = md5_ii(d, a, b, c, x[i + 7], 10, 1126891415);
-            c = md5_ii(c, d, a, b, x[i + 14], 15, -1416354905);
-            b = md5_ii(b, c, d, a, x[i + 5], 21, -57434055);
-            a = md5_ii(a, b, c, d, x[i + 12], 6, 1700485571);
-            d = md5_ii(d, a, b, c, x[i + 3], 10, -1894986606);
-            c = md5_ii(c, d, a, b, x[i + 10], 15, -1051523);
-            b = md5_ii(b, c, d, a, x[i + 1], 21, -2054922799);
-            a = md5_ii(a, b, c, d, x[i + 8], 6, 1873313359);
-            d = md5_ii(d, a, b, c, x[i + 15], 10, -30611744);
-            c = md5_ii(c, d, a, b, x[i + 6], 15, -1560198380);
-            b = md5_ii(b, c, d, a, x[i + 13], 21, 1309151649);
-            a = md5_ii(a, b, c, d, x[i + 4], 6, -145523070);
-            d = md5_ii(d, a, b, c, x[i + 11], 10, -1120210379);
-            c = md5_ii(c, d, a, b, x[i + 2], 15, 718787259);
-            b = md5_ii(b, c, d, a, x[i + 9], 21, -343485551);
-
-            a = safe_add(a, olda);
-            b = safe_add(b, oldb);
-            c = safe_add(c, oldc);
-            d = safe_add(d, oldd);
-        }
-        return Array(a, b, c, d);
-    }
-    function md5_cmn(q, a, b, x, s, t) {
-        return safe_add(bit_rol(safe_add(safe_add(a, q), safe_add(x, t)), s), b);
-    }
-    function md5_ff(a, b, c, d, x, s, t) {
-        return md5_cmn((b & c) | ((~b) & d), a, b, x, s, t);
-    }
-    function md5_gg(a, b, c, d, x, s, t) {
-        return md5_cmn((b & d) | (c & (~d)), a, b, x, s, t);
-    }
-    function md5_hh(a, b, c, d, x, s, t) {
-        return md5_cmn(b ^ c ^ d, a, b, x, s, t);
-    }
-    function md5_ii(a, b, c, d, x, s, t) {
-        return md5_cmn(c ^ (b | (~d)), a, b, x, s, t);
-    }
-    function safe_add(x, y) {
-        var lsw = (x & 0xFFFF) + (y & 0xFFFF);
-        var msw = (x >> 16) + (y >> 16) + (lsw >> 16);
-        return (msw << 16) | (lsw & 0xFFFF);
-    }
-    function bit_rol(num, cnt) {
-        return (num << cnt) | (num >>> (32 - cnt));
-    }
-    function str2binl(str) {
-        var bin = Array();
-        var mask = (1 << chrsz) - 1;
-        for (var i = 0; i < str.length * chrsz; i += chrsz) {
-            bin[i >> 5] |= (str.charCodeAt(i / chrsz) & mask) << (i % 32);
-        }
-        return bin;
-    }
-    function binl2hex(binarray) {
-        var hex_tab = hexcase ? "0123456789ABCDEF" : "0123456789abcdef";
-        var str = "";
-        for (var i = 0; i < binarray.length * 4; i++) {
-            str += hex_tab.charAt((binarray[i >> 2] >> ((i % 4) * 8 + 4)) & 0xF) + hex_tab.charAt((binarray[i >> 2] >> ((i % 4) * 8)) & 0xF);
-        }
-        return str;
-    }
-
-
-
-    return {
-
-        //md5加密主方法
-        encrypt: function (s) {
-
-            if (arguments.length > 1) {
-                s = [].slice.call(arguments).join('');
+            //重载 replaceBetween(s, opt);
+            if (typeof beginTag == 'object') {
+                var opt = beginTag;
+                beginTag = opt.begin;
+                endTag = opt.end;
+                value = opt.value;
             }
 
-            return binl2hex(core_md5(str2binl(s), s.length * chrsz));
-        }
 
-    };
+            if (s.indexOf(beginTag) < 0 || s.indexOf(endTag) < 0) {
+                return s;
+            }
 
-});
+            var list = s.split(beginTag).map(function (item) {
 
+                var a = item.split(endTag);
 
-/**
-*
-*/
-define('SSH/Server/Config', function (require, module, exports) {
+                if (a.length == 1) {
+                    return a[0];
+                }
 
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
+                return value + a.slice(1).join(endTag);
 
-    var json = null;
-    var storage = null;
-
-
-    function getStorage() {
-
-        if (storage !== null) { //说明已经创建过了
-            return storage;
-        }
-
-        //首次创建
-        var defaults = Defaults.get(module.id);
-        var cache = defaults.cache;
-
-
-        if (cache == 'session' || cache == 'local') {
-
-            //为了让自动化工具分析出依赖，这里要用完整的字符串常量作为 require() 的第一个参数。
-            var Storage = cache == 'session' ?
-                    require('SessionStorage') :
-                    require('LocalStorage');
-
-            storage = new Storage(module.id, {
-                name: 'KISP',
             });
 
-            return storage;
-        }
 
+            s = list.join('');
 
-        storage = false; //这里不能用 null，以表示创建过了。
-        return storage;
-
-        
-    }
-
-
-
-    function ajax(fn) {
-
-        var defaults = Defaults.get(module.id);
-        var url = defaults.url;
-
-        $.getJSON(url, function (data) {
-
-            try {
-                var host = defaults.host || data['kisplusServerS']; //优先使用用户指定的 host。
-                var path = data['kisplusAppsecret'];
-
-                json = {
-                    'version': data['ver'],
-                    'fromTag': data['fromtag'],
-                    'key': data['AccKey'],
-                    'secret': data['AccSecret'],
-                    'host': host,
-                    'path': path,
-                    'route': data['kisplusApiRouter'],
-                    'url': host + path,
-                };
-
-                var storage = getStorage();
-                if (storage) {
-                    storage.set(json);
-                }
-            }
-            catch (ex) {
-                json = null;
-            }
-
-            fn && fn(json);
-
-            if (!defaults.cache) {
-                json = null;
-            }
-
-        });
-    }
-
-
-    
-
-
-
-    return {
-
-        'get': function (fn) {
-
-            var defaults = Defaults.get(module.id);
-            var cache = defaults.cache;
-
-
-            if (cache && json) { //只有启用缓存时才从内存中读。
-                fn(json);
-                return;
-            }
-
-            var storage = getStorage();
-            if (storage) {
-                json = storage.get();
-
-                if (json) {
-                    fn(json);
-                    return;
-                }
-            }
-
-
-            ajax(fn);
+            return s;
 
         },
-    };
+
+        /**
+        * 右对齐此实例中的字符，在左边用指定的 Unicode 字符填充以达到指定的总长度。
+        * 当指定的总长度小实际长度时，将从右边开始算起，做截断处理，以达到指定的总长度。
+        * @param {String} string 要进行填充对齐的字符串。
+        * @param {Number} totalWidth 填充后要达到的总长度。
+        * @param {String} paddingChar 用来填充的模板字符串。
+        * @return {String} 返回一个经过填充对齐后的新字符串。
+        * @example
+            $String.padLeft('1234', 6, '0'); //结果为 '001234'，右对齐，从左边填充 '0'
+            $String.padLeft('1234', 2, '0'); //结果为 '34'，右对齐，从左边开始截断
+        */
+        padLeft: function (string, totalWidth, paddingChar) {
+            string = String(string); //转成字符串
+
+            var len = string.length;
+            if (totalWidth <= len) { //需要的长度短于实际长度，做截断处理
+                return string.substr(-totalWidth); //从后面算起
+            }
+
+            paddingChar = paddingChar || ' ';
+
+            var arr = [];
+            arr.length = totalWidth - len + 1;
+
+            return arr.join(paddingChar) + string;
+        },
 
 
-});
+        /**
+        * 左对齐此字符串中的字符，在右边用指定的 Unicode 字符填充以达到指定的总长度。
+        * 当指定的总长度小实际长度时，将从左边开始算起，做截断处理，以达到指定的总长度。
+        * @param {String} string 要进行填充对齐的字符串。
+        * @param {Number} totalWidth 填充后要达到的总长度。
+        * @param {String} paddingChar 用来填充的模板字符串。
+        * @return {String} 返回一个经过填充对齐后的新字符串。
+        * @example
+            $String.padLeft('1234', 6, '0'); //结果为 '123400'，左对齐，从右边填充 '0'
+            $String.padLeft('1234', 2, '0'); //结果为 '12'，左对齐，从右边开始截断
+        */
+        padRight: function (string, totalWidth, paddingChar) {
+            string = String(string); //转成字符串
+
+            var len = string.length;
+            if (len >= totalWidth) {
+                return string.substring(0, totalWidth);
+            }
+
+            paddingChar = paddingChar || ' ';
+
+            var arr = [];
+            arr.length = totalWidth - len + 1;
 
 
-/**
-* SSH/Server/Config 模块的默认配置
-* @name SSH/Server/Config.defaults
-*/
-define('SSH/Server/Config.defaults', /**@lends SSH/Server/Config.defaults*/ {
+            return string + arr.join(paddingChar);
+        },
 
-    url: 'http://mob.cmcloud.cn/kisplus/kisplusconfig.aspx?callback=?',
+        /**
+        * 获取位于两个标记子串之间的子字符串。
+        * @param {String} string 要进行获取的大串。
+        * @param {String} beginTag 区间的开始标记。
+        * @param {String} endTag 区间的结束标记。
+        * @return {String} 返回一个子字符串。当获取不能结果时，统一返回空字符串。
+        * @example
+            $String.between('abc{!hello!} world', '{!', '!}'); //结果为 'hello' 
+        */
+        between: function (string, beginTag, endTag) {
+            var startIndex = string.indexOf(beginTag);
+            if (startIndex < 0) {
+                return '';
+            }
 
-    /**
-    * 是否启用缓存。
-    * 可取的值为 false|true|'session'|'local'
-    */
-    cache: 'session',
+            startIndex += beginTag.length;
 
-    //默认使用服务器返回的(为 `http://kd.cmcloud.cn`)。
-    //如果显式指定了该值，则忽略服务器返回的。
-    host: '',
-     
+            var endIndex = string.indexOf(endTag, startIndex);
+            if (endIndex < 0) {
+                return '';
+            }
 
-});
-
-
-/**
-*
-*/
-define('SSH/Ajax', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var $Date = require('Date');
-    var $String = require('String');
-    var Query = require('Query');
-
-
-    /**
-    * 发起 ajax 网络请求(核心方法)。
-    */
-    function post(config) {
-        var MD5 = require('MD5');
-
-
-        //api 的完整名称
-        var fullname = config['prefix'] + config['name'];
-
-        var eid = config['eid'];
-        var openid = config['openid'];
-
-        var timestamp = $Date.get('yyyy-MM-dd HH:mm:ss');
-        var random = $String.random(16); //16位随机数
-
-
-        //临时方案，给新版授权使用。
-        var form = config.form || {};
-        var secret = form.secret || config.secret;
-
-        form.Openid = form.Openid || openid;
-
-        var data = {
-            'EID': eid,
-            'Openid': openid,
-            'Method': fullname,
-            'Timestamp': timestamp,
-            'Ver': config['version'],
-            'FromTag': config['fromTag'],
-            'AppID': config['appid'],
-            'NetID': config['netid'],
-
-            'IsNewJson': 'Y',
-            'IsEncrypt': 'N',
-
-            //签名，值为 md5(EID + AppSecret + Method + Timetamp + State)
-            'Sign': MD5.encrypt(eid, secret, fullname, timestamp, random),
-            'State': random,
-           
-            'CustData': config['data'],
-        };
-
-
-        //临时方案，给新版授权使用。
-        Object.assign(data, form);
-        delete data.secret;
-
-
-
-        var query = {
-            //'eid': eid,
-            //'openid': config['openid'],
-            //'pubacckey': config['pubacckey'],
-            //'timestamp': config['timestamp'],
-            //'nonce': config['nonce'],
-            //'pubaccid': config['pubaccid']
-        };
-
-
-        var API = require('API');
-
-        var defaults = $Object.filter(config, [
-            'ext',
-            'successCode',
-            'field',
-            'url',
-            'proxy',
-            'serialize',
-            'timeout',
-        ]);
-
-        //为方便抓包查看，把完整的名称放在首位。
-        defaults.url = Query.add(defaults.url, fullname);
+            return string.substr(startIndex, endIndex - startIndex);
+        },
 
 
 
 
-        //这里的 api 名称为空，因为它是固定 url 的，url 中不需要名称。
-        //如 url = 'http://120.132.144.214/Webapi/Router'
-        var api = new API('', defaults);
+        //---------------转换部分 -----------------------------------------------------
 
+        /**
+        * 把一个字符串转成骆驼命名法。。
+        * 如 'font-size' 转成 'fontSize'。
+        * @param {String} string 要进行转换的字符串。
+        * @return 返回一个骆驼命名法的新字符串。
+        * @example
+            $String.toCamelCase('background-item-color') //结果为 'backgroundItemColor'
+        */
+        toCamelCase: function (string) {
+            var rmsPrefix = /^-ms-/;
+            var rdashAlpha = /-([a-z]|[0-9])/ig;
 
-        //预绑定事件。
-        var events = $Object.filter(config, [
-            'success',
-            'fail',
-            'error',
-            'abort',
-        ]);
+            return string.replace(rmsPrefix, 'ms-').replace(rdashAlpha, function (all, letter) {
+                return letter.toString().toUpperCase();
+            });
 
-        // 'timeout' 字段已用来设置时间，这里要单独弄。
-        events['timeout'] = config.ontimeout;
-    
+            /* 下面的是 mootool 的实现
+            return string.replace(/-\D/g, function(match) {
+                return match.charAt(1).toUpperCase();
+            });
+            */
+        },
 
-        api.on(events);
+        /**
+        * 把一个字符串转成短线连接法。
+        * 如 fontSize 转成 font-size
+        * @param {String} string 要进行转换的字符串。
+        * @return 返回一个用短线连接起来的新字符串。
+        * @example
+            $String.toHyphenate('backgroundItemColor') //结果为 'background-item-color'
+        */
+        toHyphenate: function (string) {
+            return string.replace(/[A-Z]/g, function (match) {
+                return ('-' + match.charAt(0).toLowerCase());
+            });
+        },
 
-        
+        /**
+        * 把一个字符串转成 UTF8 编码。
+        * @param {String} string 要进行编码的字符串。
+        * @return {String} 返回一个 UTF8 编码的新字符串。
+        * @example
+            $String.toUtf8('你好'); //结果为 ''
+        */
+        toUtf8: function (string) {
 
+            var $Array = require('Array');
+            var a = [];
 
-        api.post(data, query);
-
-        return api;
-    }
-
-
-
-
-    return /**@lends Ajax*/ {
-        'post': post,
-    };
-
-    
-
-});
-
-
-
-/**
-*
-*/
-define('SSH.API/Ajax', function (require, module, exports) {
-
-    var $Object = require('Object');
-
-
-    /**
-    * 发起 ajax 网络请求(核心方法)。
-    */
-    function post(config) {
-        
-        var SSH = require('SSH');
-        var ssh = new SSH(config.name, config.ssh);
-
-
-        var fnSuccess = config.success;
-        var fnFail = config.fail;
-        var fnError = config.error;
-
-        var field = config.field;
-
-        ssh.on({
-            //SSH 层请求成功了
-            'success': function (json, root, xhr) { //此处 data 为 json， json 为 root
-
-                if (!json) {
-                    fnError && fnError(xhr);
+            $Array.each(string.split(''), function (ch, index) {
+                var code = ch.charCodeAt(0);
+                if (code < 0x80) {
+                    a.push(code);
                 }
-
-                var successCode = config.successCode;
-                var code = json[field.code];
-
-                if (code == successCode) {
-                    fnSuccess && fnSuccess(json[field.data] || {}, json, xhr);
+                else if (code < 0x800) {
+                    a.push(((code & 0x7C0) >> 6) | 0xC0);
+                    a.push((code & 0x3F) | 0x80);
                 }
                 else {
-                    fnFail && fnFail(code, json[field.msg], json, xhr);
+                    a.push(((code & 0xF000) >> 12) | 0xE0);
+                    a.push(((code & 0x0FC0) >> 6) | 0x80);
+                    a.push(((code & 0x3F)) | 0x80);
                 }
-            },
+            });
 
-            'fail': function (code, msg, json, xhr) {
-
-                //为了让业务层能知道 SSH 层发生了 fail，通过判断 json 是否为空即可。
-                fnError && fnError(code, msg, json, xhr); 
-            },
-
-            'error': function (xhr) {
-
-                //当 http 协议层连接错误，则 code, msg, json 三个参数都为 undefined。
-                fnError && fnError(undefined, undefined, undefined, xhr);
-            },
-
-            'timeout': config.timeout,
-            'abort': config.abort,
-            'servers': config.servers,
-        });
+            return '%' + $Array.keep(a, function (item, index) {
+                return item.toString(16);
+            }).join('%');
+        },
 
 
-        var data = config.data;
+        /**
+        * 把一个字符串转成等价的值。
+        * 主要是把字符串形式的 0|1|true|false|null|undefined|NaN 转成原来的数据值。
+        * 当参数不是字符串或不是上述值之一时，则直接返回该参数，不作转换。
+        * @param {Object} value 要进行转换的值，可以是任何类型。
+        * @return {Object} 返回一个等价的值。
+        * @example
+            $String.toValue('NaN') //NaN
+            $String.toValue('null') //null
+            $String.toValue('true') //true
+            $String.toValue('false') //false
+            $String.toValue({}) //不作转换，直接原样返回
+        */
+        toValue: function (value) {
+            if (typeof value != 'string') { //拦截非字符串类型的参数
+                return value;
+            }
 
-        ssh.post({
+            var maps = {
+                //'0': 0,
+                //'1': 1,
+                'true': true,
+                'false': false,
+                'null': null,
+                'undefined': undefined,
+                'NaN': NaN
+            };
 
-            'openid': config.ssh.openid,
+            return value in maps ? maps[value] : value;
 
-            'Result': '',
-            'ErrMsg': '',
-            'AccountDB': '',
-            'TotalPage': '',
+        },
 
-            'CurrentPage': data['pageNo'],
-            'ItemsOfPage': data['pageSize'],
+        //---------------分裂和提取部分 -----------------------------------------------------
 
-            'Data': $Object.remove(data, [
-                'pageNo',
-                'pageSize'
-            ]),
-        });
+        /**
+        * 对一个字符串进行多层次分裂，返回一个多维数组。
+        * @param {String} string 要进行分裂的字符串。
+        * @param {Array} separators 分隔符列表数组。
+        * @return {Array} 返回一个多维数组，该数组的维数，跟指定的分隔符 separators 的长度一致。
+        * @example
+            var string = 'a=1&b=2|a=100&b=200;a=111&b=222|a=10000&b=20000';
+            var separators = [';', '|', '&', '='];
+            var a = $String.split(string, separators);
+            //结果 a 为
+            a = 
+            [                           // ';' 分裂的结果
+                [                       // '|'分裂的结果
+                    [                   // '&'分裂的结果
+                        ['a', '1'],     // '='分裂的结果
+                        ['b', '2']
+                    ],
+                    [
+                        ['a', '100'],
+                        ['b', '200']
+                    ]
+                ],
+                [
+                    [
+                        ['a', '111'],
+                        ['b', '222']
+                    ],
+                    [
+                        ['a', '10000'],
+                        ['b', '20000']
+                    ]
+                ]
+            ];
+        * 
+        */
+        split: function (string, separators) {
 
-        return ssh;
-    }
+            var $Array = require('Array');
+
+            var list = String(string).split(separators[0]);
+
+            for (var i = 1, len = separators.length; i < len; i++) {
+                list = fn(list, separators[i], i);
+            }
+
+            return list;
 
 
+            //一个内部方法
+            function fn(list, separator, dimension) {
+                dimension--;
+
+                return $Array.map(list, function (item, index) {
+
+                    return dimension == 0 ?
+                            String(item).split(separator) :
+                            fn(item, separator, dimension); //递归
+                });
+            }
 
 
-    return /**@lends Ajax*/ {
-        'post': post,
+        },
+
+        /**
+        * 获取一个字符串的字节长度。
+        * 普通字符的字节长度为 1；中文等字符的字节长度为 2。
+        * @param {string} s 要进行解析的字符串。
+        * @return {Number} 返回参数字符串的字节长度。
+        */
+        getByteLength: function (s) {
+            if (!s) {
+                return 0;
+            }
+
+            return s.toString().replace(/[\u0100-\uffff]/g, '  ').length;
+        },
+
+
     };
 
-    
+
+
 
 });
 
 
 
+
+
+
+
+
 /**
-* 简易信息提示组件
+* 自定义多级事件类。
 * @class
-* @name Toast
+* @name Emitter
 */
-define('Toast', function (require, module, exports) {
-    
-
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var RandomId = require('RandomId');
-
-    //子模块
-    var Renderer = module.require('Renderer');
-    var Sample = module.require('Sample');
-    var Style = module.require('Style');
+define('Emitter', function (require, module, exports) {
+    var $Object = require('Object');
+    var Tree = require('Tree');
 
     var mapper = new Map();
-
 
 
     /**
     * 构造器。
-    * @constructor
+    * @param {Object} [context=null] 事件处理函数中的 this 上下文对象。
+    *   如果不指定，则默认为 null。
     */
-    function Toast(config) {
-
-
-        config = Defaults.clone(module.id, config);
-
-        var emitter = new Emitter(this);
-
-        var cssClass = config.cssClass;
-        if (cssClass instanceof Array) {
-            cssClass = cssClass.join(' ');
-        }
-
-        var text = config.text;
-        if (!text && text !== 0) { // 0 除外
-            cssClass += ' NoText'; //注意，前面要有个空格
-        }
-        else {
-            cssClass += ' HasText';
-        }
-
-        var icon = config.icon;
-        cssClass += icon ? ' HasIcon' : ' NoIcon';
-
-        var prefix = config.prefix;
-        var suffix = config.suffix;
+    function Emitter(context) {
 
         var meta = {
-
-            'id': RandomId.get(prefix, suffix),
-            'icon': icon,
-            'iconId': RandomId.get(prefix, 'icon-', suffix),
-            'textId': RandomId.get(prefix, 'text-', suffix),
-
-            'div': null,
-            'sample': Sample.get(config.sample), //加载相应的 HTML 模板
-            'text': text,
-            'emitter': emitter,
-            'mask': config.mask,
-            'masker': null, // Mask 的实例，重复使用
-            'style': Style.get(config),
-            'showTime': 0, //开始显示时的时间点
-            'cssClass': cssClass,
-            'duration': config.duration,
-            'container': config.container,
-            'append': config.append,
+            'context': context,
+            'tree': new Tree(),
         };
 
         mapper.set(this, meta);
 
     }
 
-
     //实例方法
-    Toast.prototype = /**@lends Toast#*/ {
-        constructor: Toast,
+    Emitter.prototype = /**@lends Emitter.prototype */ {
+        constructor: Emitter,
 
         /**
-        * 显示本组件。
-        *   config = {
-        *       mask: {},
-        *       icon: '',
-        *       duration: 0,    //持续显示的时间，单位是 ms。
-        *   };
-        */
-        show: function (text, config) {
-
-            var type = typeof text;
-            
-            if (type == 'object') { //重载 show(config)
-                config = text;
-                text = config.text;
-            }
-            
-            config = config || {};
-
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-
-            var style = Style.get(meta.style, config);
-
-            if (!div) { //首次 render
-                div = Renderer.render(meta, style);
-            }
-
-
-            $(div).css(style);
-
-            var Mask = require('Mask');
-            var mask = Mask.filter(meta.mask, config.mask);
-            var masker = meta.masker;
-
-            //指定了启用 mask 层
-            if (mask) {
-                if (!masker) {
-                    masker = new Mask();
-                    meta.masker = masker;
-                }
-                masker.show(mask);
-            }
-            else {
-                if (masker) { //之前已经创建了，并且可能是显示的。
-                    masker.hide();
-                }
-            }
-
-
-            if (text !== undefined && text != meta.text) {
-                $('#' + meta.textId).html(text);
-                meta.text = text;
-                $(div).removeClass('NoText').addClass('HasText');
-            }
-
-
-            if ('icon' in config) {
-                var icon = config.icon;
-                if (icon) {
-                    $(div).removeClass('NoIcon').addClass('HasIcon');
-
-                    if (icon != meta.icon) {
-                        $('#' + meta.iconId).removeClass('fa-' + meta.icon).addClass('fa-' + icon);
-                        meta.icon = icon;
-                    }
-                }
-                else {
-                    $(div).removeClass('HasIcon').addClass('NoIcon');
-                }
-            }
-
-
-            meta.showTime = new Date(); //记录开始显示的时间点
-
-            $(div).show();
-            meta.emitter.fire('show');
-
-            //优先使用参数中的，当不存在时，再使用 meta 的 
-            var duration = 'duration' in config ? config.duration : meta.duration;
-
-            if (duration) {
-                var self = this;
-                setTimeout(function () {
-                    self.hide();
-                }, duration);
-            }
-        },
-
-        /**
-        * 隐藏本组件。
-        * @param {number} [lastTime] 需要持续显示的时间。
-        */
-        hide: function (lastTime) {
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-
-            if (!lastTime) { //未指定要持续显示的时间，则立即隐藏
-                hide();
-                return;
-            }
-
-            var now = new Date();
-            var showTime = meta.showTime;
-
-            var useTime = now - showTime;       //已经显示的时间
-            var leftTime = lastTime - useTime;  //剩余时间
-
-            if (leftTime > 0) {
-                setTimeout(hide, leftTime);
-            }
-            else { //立即隐藏
-                hide();
-            }
-
-            //内部方法
-            function hide() {
-                var masker = meta.masker;
-                if (masker) {
-                    masker.hide();
-                }
-                meta.showTime = 0;
-       
-                $(div).hide();
-                meta.emitter.fire('hide');
-            }
-
-        },
-
-        /**
-        * 移除本组件对应的 DOM 节点。
-        */
-        remove: function () {
-
-            var meta = mapper.get(this);
-            var div = meta.div;
-
-            if (!div) {
-                return;
-            }
-
-
-            var masker = meta.masker;
-            if (masker) {
-                masker.remove();
-            }
-
-            //reset
-            meta.div = null;
-            meta.masker = null;
-            meta.hasBind = false;
-
-   
-            $(div).off();
-
-            document.body.removeChild(div);
-            meta.emitter.fire('remove');
-
-        },
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-        },
-
-        /**
-        * 销毁本组件
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            this.remove();
-            emitter.destroy();
-
-            mapper.remove(this);
-        },
-
-    };
-
-    return Toast;
-
-});
-
-/**
-* Toast 模块的默认配置
-* @name Toast.defaults
-*/
-define('Toast.defaults', /**@lends Toast.defaults*/ {
-    
-    /**
-    * 生成的 id 的前缀。
-    */
-    prefix: 'KISP-Toast-',
-
-    /**
-    * 生成的 id 的随机后缀的长度。
-    */
-    suffix: 4,
-
-    /**
-    * 提示文本。
-    */
-    text: '',
-
-    /**
-    * 组件添加到的容器。
-    * 默认为 document.body。
-    */
-    container: document.body,
-
-    /**
-    * 把组件添加到容器的方式，是否使用追加的方式。
-    * 默认用 prepend 的方式。
-    */
-    append: false,
-
-    /**
-    * 是否启用 mask 层。
-    */
-    mask: false,
-
-    /**
-    * 组件用到的 html 模板。
-    * 业务层不需要关注该字段。
-    */
-    sample: 'font-awesome',
-
-    /**
-    * 组件用到的 css 类名。
-    */
-    cssClass: '',
-
-    /**
-    * 用到的 font-awsome 的图标。
-    */
-    icon: 'check',
-
-    /**
-    * 显示的持续时间(毫秒)。
-    * 0 表示一直显示。
-    */
-    duration: 0,
-
-    //默认样式
-});
-
-
-/**
-*
-*/
-define('Toast/Renderer', function (require, module, exports) {
-
-    var $String = require('String');
-
-
-    function render(meta, style) {
-
-        var Style = require('Style');
-
-
-        var id = meta.id;
-        var sample = meta.sample;
-
-
-        var html = $String.format(sample, {
-            'id': id,
-            'icon': meta.icon,
-            'icon-id': meta.iconId,
-            'text-id': meta.textId,
-            'text': meta.text,
-            'style': Style.stringify(style),
-            'cssClass': meta.cssClass,
-        });
-
-
-        var container = meta.container;
-        if (meta.append) {
-            $(container).append(html);
-        }
-        else {
-            $(container).prepend(html);
-        }
-
-
-        var div = document.getElementById(id);
-        meta.div = div;
-
-        return div;
-
-    }
-
-    return {
-
-        render: render,
-    };
-
-});
-
-
-/**
-*
-*/
-define('Toast/Sample', function (require, module, exports) {
-    
-    var name$sample = {};
-
-
-    function get(name) {
-        var sample = name$sample[name];
-        if (sample) {
-            return sample;
-        }
-
-        sample = module.require(name);
-        name$sample[name] = sample;
-        return sample;
-    }
-
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-* 
-*/
-define('Toast/Style', function (require, module, exports) {
-
-    var Style = require('Style');
-    
-
-    function getMargin(v) {
-
-        var type = typeof v;
-
-        if (type == 'number') {
-            return (0 - v / 2) + 'px';
-        }
-
-        if (type == 'string' && v.slice(-2) == 'px') {
-            v = parseInt(v);
-            return (0 - v / 2) + 'px';
-        }
-
-    }
-
-
-
-    function get(item0, item1, itemN) {
-
-        var list = [].slice.call(arguments);
-
-        var style = Style.filter(list, [
-            'background',
-            'border-radius',
-            'bottom',
-            'color',
-            'font-size',
-            'height',
-            'left',
-            'margin-top',
-            'right',
-            'top',
-            'width',
-            'z-index',
-            'position',
-        ]);
-
-
-        //根据宽度计算 margin-left 和 margin-top，使用居中
-
-        var v = getMargin(style.width);
-        if (v) {
-            style['margin-left'] = v;
-        }
-
-        v = getMargin(style.height);
-        if (v) {
-            style['margin-top'] = v;
-        }
-
-        return style;
-
-
-    }
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-* 云之家环境相关的模块
-* @namespace
-* @name CloudHome
-*/
-define('CloudHome', function (require, module, exports) {
-
-    var Query = require('Query');
-    var Native = module.require('Native');
-
-
-    module.exports = exports = /**@lends CloudHome*/ {
-
-        invoke: Native.invoke,
-
-
-        /**
-        * 判断是否在云之家打开的。
-        * 即判断当前环境是否支持云之家的 JSBridge。
-        * @param {boolean} [strict=false] 是否使用云之家官方文档上的严格模式进行判断。
-            默认只从 url 中判断是否包含有 ticket 字段。
-            如果要使用严格模式，请指定为 true。
-        * @param {boolean} 返回一个布尔值，指示是否在云之家环境打开的。
-        */
-        check: function (strict) {
-            
-            //详见：http://open.kdweibo.com/wiki/doku.php?id=jsbridge:%E4%BA%91%E4%B9%8B%E5%AE%B6jsbridge%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3
-            //iOS：Qing/0.9.0;iPhone OS 9.1;Apple;iPhone7,1
-            //Android：Qing/0.9.0;Android4.1.1;Xiaomi;MI 2 
-
-            if (strict) {
-                var reg = /Qing\/.*;(iPhone|Android).*/;
-                return navigator.userAgent.match(reg) ? true : false;
-            }
-           
-
-            //如 ?ticket=967cada703a6ca821790f048d55f1d32
-            return !!Query.has(window, 'ticket'); //确保返回一个 bool 值。
-        },
-
-        
-        /**
-        * 关闭云之家打开的轻应用。
-        */
-        close: function () {
-            Native.invoke('close');
-        },
-
-
-        /**
-        * 分享到微信。
-        * @param {Object} config 参数配置对象。 其中：
-        * @param {string} title 标题。
-        * @param {string} content 内容。
-        * @param {string} icon 图标，base64 格式。
-        * @param {string} url 链接地址。
-        * @param {function} success 分享成功后的回调函数。
-        * @param {function} fail 分享失败后的回调函数。
-        */
-        shareWechat: function (config) {
-
-            var API = require('CloudHome.API');
-            var api = new API('socialShare');
-
-            var success = config.success;
-            if (success) {
-                api.on('success', success);
-            }
-
-            var fail = config.fail;
-            if (fail) {
-                api.on('fail', fail);
-            }
-
-
-            api.invoke({
-                'shareWay': 'wechat',
-                'shareType': 3,
-                'shareContent': {
-                    'title': config.title,
-                    'description': config.content,
-                    'thumbData': config.icon,
-                    'webpageUrl': config.url,
-                },
-            });
-        },
-
-        /**
-        * 设置页面标题。
-        * @param {string|boolean} title 要设置的标题或者显示或隐藏的开关。
-            如果不指定或指定为 true，则显示之前的标题。
-            如果指定为 false，则隐藏标题。
-            如果指定为字符串，则设置为指定的内容。
-        */
-        setTitle: function (title) {
-
-            var Title = require('CloudHome.Title');
-
-            if (title === true) {
-                Title.show();
-            }
-            else if (title === false) {
-                Title.hide();
-            }
-            else if (title  || title === '') {
-                Title.set(title);
-            }
-            else {
-                Title.show(); //显示之前的标题
-            }
-        },
-
-
-
-    };
-
-});
-
-/**
-* 云之家接口类
-* @class
-* @name CloudHome.API
-*/
-define('CloudHome.API', function (require, module, exports) {
-
-
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-    var Fn = require('Fn');
- 
-    var mapper = new Map();
-
-
-    /**
-    * API 构造器。
-    * @param {string} name 后台接口的名称。 简短名称，且不包括后缀。
-    * @param {Object} [config] 配置对象。
-    */
-    function API(name, config) {
-
-        name = name || '';
-        config = Defaults.clone(module.id, config);
-
-
-        var emitter = new Emitter(this);
-        var delay = config.delay;
-
-        var meta = {
-            'name': name,
-            'field': config.field,
-            'status': '',
-            'args': [],
-            'emitter': emitter,
-
-            fireEvent: function (status, args, emitter) {
-
-                status = meta.status = status || meta.status;
-                args = meta.args = args || meta.args;
-                emitter = emitter || meta.emitter;
-
-                Fn.delay(delay, function () {
-
-                    //触发具体 code 对应的事件
-                    if (status == 'fail') {
-                        emitter.fire('code', args[0], args);
-                    }
-
-                    emitter.fire(status, args); //触发命名的分类事件，如 success、fail、error
-                    emitter.fire('done', args); //触发总事件
-                });
-            },
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-
-    //实例方法
-    API.prototype = /**@lends CloudHome.API#*/ {
-        constructor: API,
-
-        /**
-        * 发起云之家 native 调用请求。
-        * 请求完成后会最先触发相应的事件。
-        * @param {Object} [data] 请求的数据对象。
-        *   该数据会给序列化成查询字符串以拼接到 url 中。
-        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
+        * 绑定指定名称的事件处理函数。
+        * 已重载 on({...});
+        * 已重载 on(name0, name1, ..., nameN, {...});
+        * 已重载 on(name0, name1, ..., nameN, fn);
+        * 已重载 on(args); 主要是为了方便调用方快速重绑定自己的 on() 方法。
+        * 已重载 on(names, fn); 把多个事件名称绑定到同一个回调函数。
+        * @param {string} name 要绑定的事件名称。
+        * @param {function} fn 事件处理函数。 
+            在处理函数内部， this 指向构造器参数 context 对象。
         * @example
-            var api = new API('test');
-            api.invoke({ name: 'micty' });
-        */
-        invoke: function (data) {
-
-            var meta = mapper.get(this);
-            var name = meta.name;
-            var field = meta.field;
-
-            var CloudHome = require('CloudHome');
-
-            CloudHome.invoke(name, data, function (json) {
-
-                //云之家返回的 success 字段竟然是字符串的 'true' 或 'false'
-                var isSuccess = json[field.success];
-                isSuccess = String(isSuccess).toLowerCase() == 'true';
-
-                if (isSuccess) {
-                    var data = json[field.data] || {};
-                    meta.fireEvent('success', [data, json]);
-                    return;
-                }
-
-
-                var code = json[field.code];
-                var msg = json[field.msg];
-
-                meta.fireEvent('fail', [code, msg, json]);
-
-            });
-
-            return this;
-        },
-
-
-        /**
-        * 绑定事件。
-        * 已重载 on({...}，因此支持批量绑定。
-        * @param {string} name 事件名称。
-        * @param {function} fn 回调函数。
-        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
+            var emitter = new Emitter();
+            emitter.on('click', function () {});
         */
         on: function (name, fn) {
+            //重载 on([]); 
+            //分两种情况。
+            if (Array.isArray(name)) {
+                if (fn) { //重载 on(names, fn); 把多个事件名称绑定到同一个回调函数。
+                    name.map(function (name) {
+                        this.on(name, fn);
+                    }, this);
+                }
+                else {  //重载 on(args); 主要是为了方便调用方快速重绑定自己的 on() 方法。
+                    this.on(...name);
+                }
 
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-
-            var status = meta.status;
-
-            if (status) { //请求已完成，立即触发
-                var emt = new Emitter(this); //使用临时的事件触发器。
-                emt.on.apply(emt, args);
-                meta.fireEvent(status, meta.args, emt);
-                emt.destroy();
+                return;
             }
 
-            return this;
 
+            var meta = mapper.get(this);
+            var tree = meta.tree;
+            var args = Array.from(arguments);
+
+            //重载 on(name0, name1, ..., nameN, {...}) 的情况。
+            //先尝试找到 {} 所在的位置。
+            var index = args.findIndex(function (item, index) {
+                return typeof item == 'object';
+            });
+
+            if (index >= 0) {
+                var obj = args[index];              //{} 部分。
+                var names = args.slice(0, index);   //前缀部分 [name0, name1, ..., nameN]。
+                var list = $Object.flat(obj);       //{} 部分扁平化。
+
+                list.forEach(function (item, index) {
+                    var keys = names.concat(item.keys); //完整路径。
+
+                    var node = tree.get(keys) || {
+                        'list': [],         //本节点的回调列表。
+                        'count': 0,         //本节点触发的次数计数。
+                    };
+
+                    node.list.push(item.value);
+                    tree.set(keys, node);
+                });
+
+                return;
+            }
+
+
+            //重载 on(name0, name1, ..., nameN, fn) 的情况。
+            //尝试找到回调函数 fn 所在的位置。
+            var index = args.findIndex(function (item, index) {
+                return typeof item == 'function';
+            });
+
+            if (index < 0) {
+                throw new Error('参数中必须指定一个回调函数');
+            }
+
+            fn = args[index]; //回调函数
+
+            var names = args.slice(0, index); //前面的都当作是名称
+
+            //过滤掉空串。
+            names = names.filter(function (key) {
+                return !!key;
+            });
+
+            var node = tree.get(names) || {
+                'list': [],         //本节点的回调列表。
+                'count': 0,         //本节点触发的次数计数。
+                'enabled': true,    //当为 false 时，表示本节点的回调被禁用。
+                'spreaded': true,   //当为 false 时，表示子节点的回调被禁用。
+            };
+
+            node.list.push(fn);
+            tree.set(names, node);
         },
 
+
+
         /**
-        * 解除绑定事件。
-        * 已重载 off({...}，因此支持批量解除绑定。
-        * @param {string} [name] 事件名称。
-        *   当不指定此参数时，则解除全部事件。
-        * @param {function} [fn] 要解除绑定的回调函数。
-        *   当不指定此参数时，则解除参数 name 所指定的类型的事件。
-        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
+        * 解除绑定指定名称的事件处理函数。
+        * 已重载 off() 的情况。
+        * 已重载 off(name0, name1, ..., nameN, {...}) 的情况。
+        * 已重载 off(name0, name1, ..., nameN, fn) 的情况。
+        * 已重载 off(name0, name1, ..., nameN) 的情况。
+        * @param {string} [name] 要解除绑定的事件名称。
+            如果不指定该参数，则移除所有的事件。
+            如果指定了该参数，其类型必须为 string，否则会抛出异常。
+        * @param {function} [fn] 要解除绑定事件处理函数。
+            如果不指定，则移除 name 所关联的所有事件。
         */
         off: function (name, fn) {
-
             var meta = mapper.get(this);
-            var emitter = meta.emitter;
+            var tree = meta.tree;
+            var args = Array.from(arguments);
 
-            var args = [].slice.call(arguments, 0);
-            emitter.off.apply(emitter, args);
+            //未指定事件名，则移除所有的事件。
+            if (args.length == 0) {
+                tree.clear();
+                return;
+            }
 
-            return this;
+            //多名称情况: off(name0, name1, ..., nameN, {});
+            //先尝试找到 {} 所在的位置。
+            var index = args.findIndex(function (item, index) {
+                return typeof item == 'object';
+            });
+
+            if (index >= 0) {
+                var obj = args[index];              //{} 对象。
+                var names = args.slice(0, index);   //前缀部分 [name0, name1, ..., nameN]。
+                var list = $Object.flat(obj);       //{} 对象部分扁平化。
+
+                list.forEach(function (item, index) {
+                    var keys = names.concat(item.keys); //完整路径。
+                    var node = tree.get(keys);          //该路径对应的节点。
+                    
+                    //不存在该路径对应的节点。
+                    if (!node) {
+                        return;
+                    }
+
+                    //存在该路径对应的节点，但事件列表为空。
+                    var list = node.list;
+                    if (!list || !list.length) {
+                        return;
+                    }
+
+                    var fn = item.value;
+                    node.list = list.filter(function (item) {
+                        return item !== fn;
+                    });
+                });
+                return;
+            }
+
+
+            //重载 off(name0, name1, ..., nameN, fn) 的情况。
+            //先尝试找到回调函数所在的位置。
+            var index = args.findIndex(function (item, index) {
+                return typeof item == 'function';
+            });
+
+            //未指定处理函数，则假定在边界之外。
+            if (index < 0) {
+                index = args.length;
+            }
+
+            fn = args[index]; //回调函数。
+
+            var names = args.slice(0, index); //前面的都当作是名称。
+            var node = tree.get(names);
+
+            //不存在该路径对应的节点。
+            if (!node) {
+                return;
+            }
+
+            //存在该路径对应的节点，但事件列表为空。
+            var list = node.list;
+            if (!list || !list.length) {
+                return;
+            }
+
+            if (fn) {
+                node.list = list.filter(function (item, index) {
+                    return item !== fn;
+                });
+            }
+            else { //未指定处理函数，则清空列表
+                list.length = 0;
+            }
+
         },
+
+        /**
+        * 已重载。
+        * 触发指定名称的事件，并可向事件处理函数传递一些参数。
+        * @return {Array} 返回所有事件处理函数的返回值所组成的一个数组。
+        * @example
+            var emitter = new Emitter();
+            emitter.on('click', 'name', function (a, b) {
+                console.log(a, b);
+            });
+            emitter.fire('click', 'name', [100, 200]);
+        */
+        fire: function (name, params) {
+            var meta = mapper.get(this);
+            var args = [...arguments];
+
+            //找到参数数组所在的位置。
+            var index = args.findIndex(function (item, index) {
+                return Array.isArray(item);
+            });
+
+            if (index < 0) {
+                index = args.length;
+            }
+
+            var names = args.slice(0, index);   //参数数组之前的项，都当作事件名称。
+            var node = meta.tree.get(names);    //根据名称序列获取对应的信息节点。
+
+            //不存在该事件名序列对应的节点。
+            if (!node) { 
+                return [];
+            }
+
+
+            params = args[index] || [];
+            node.count++;
+
+            //依次执行回调列表的每一项，并收集返回值。
+            return node.list.map(function (fn, index) {
+                return fn.apply(meta.context, params);  //让 fn 内部的 this 指向 context，并收集返回值。
+            });
+        },
+
+        /**
+        * 设置指定的属性为指定的值。
+        * 如可以在触发事件前动态改变 context 值。
+        */
+        set: function (key, value) {
+            var meta = mapper.get(this);
+
+            switch (key) {
+                case 'context':
+                    meta[key] = value;
+                    break;
+
+                default:
+                    throw new Error('不支持设置属性: ' + key);
+            }
+
+        },
+
 
         /**
         * 销毁本实例对象。
         */
         destroy: function () {
             var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            emitter.destroy();
-
-            mapper.remove(this);
-        },
-    };
-
-
-    return API;
-
-
-
-
-});
-
-
-/**
-* CloudHome.API 模块的默认配置
-* @name CloudHome.API.defaults
-*/
-define('CloudHome.API.defaults', /**@lends CloudHome.API.defaults*/ {
-    
-    field: {
-        success: 'success',
-        code: 'errorCode',
-        msg: 'error',
-        data: 'data',
-    },
-
-    delay: false, //格式为 { min: 500, max: 2000 }
-});
-
-
-/**
-* 云之家环境的页面标题
-* @namespace
-* @name CloudHome.Title
-*/
-define('CloudHome.Title', function (require, module, exports) {
-
-    var current = document.title;
-    var isVisible = false;
-
-    module.exports = exports = /**@lends CloudHome.Title*/ {
-
-        /**
-        * 设置页面标题。
-        */
-        set: function (title) {
-
-            current = title;
-            document.title = title;
-
-            var CloudHome = require('CloudHome');
-            CloudHome.invoke('setWebViewTitle', {
-                'title': title
-            });
-
-            isVisible = true;
-        },
-
-        /**
-        * 显示页面标题。
-        */
-        show: function () {
-            exports.set(current);
-        },
-
-        /**
-        * 隐藏页面标题。
-        */
-        hide: function () {
-            current = document.title;
-            var CloudHome = require('CloudHome');
-            CloudHome.invoke('hideWebViewTitle');
-            isVisible = false;
-        },
-
-        /**
-        * 切换显示或隐藏页面标题。
-        */
-        toggle: function (needShow) {
-            if (needShow) {
-                exports.show();
-            }
-            else {
-                exports.hide();
-            }
-        },
-
-    };
-
-});
-/**
-* 调用云之家 native 方法的模块。
-*/
-define('CloudHome/Native', function (require, module, exports) {
-
-    var cid = 0;    //回调 id 计数器，递增
-    var id$fn = {}; //回调列表
-
-
-    //该方法给云之家 native 调用，名称必须为这个
-    window.XuntongJSBridge = {
-
-        /**
-        * 处理云之家的回调。
-        * 该方法给云之家 native 调用
-        */
-        'handleMessageFromXT': function (id, json) {
-
-            var fn = id$fn[id];
-            if (!fn) {
-                return;
-            }
-
-            fn(json || {});
-        },
-    };
-
-
-
-    return /**@lends CloudHome.Native*/ {
-
-        /**
-        * 调用云之家原生接口。
-        * @param {string} name 要调用的原生接口的名称。
-        * @param {Object} [data] 要传递的数据对象。
-        * @param {function} fn 回调函数。 会接收到一个参数: json 对象
-        */
-        invoke: function (name, data, fn) {
-
-            if (typeof data == 'function') { //重载 invoke(name, fn)
-                fn = data;
-                data = null;
-            }
-
-            data = JSON.stringify(data || {});
-            data = encodeURIComponent(data);
-
-            var id = fn ? ++cid : 0;
-            if (id) {
-                id$fn[id] = fn;
-            }
-
-            var url = ['xuntong', name, id, data].join(':');
-
-            var iframe = document.createElement('iframe');
-
-            // for some reason we need to set a non-empty size for the iOS6 simulator
-            iframe.setAttribute('height', '1px');
-            iframe.setAttribute('width', '1px');
-
-            iframe.setAttribute('src', url);
-
-            document.documentElement.appendChild(iframe);
-            iframe.parentNode.removeChild(iframe);
-            iframe = null;
-
-
-        },
-    };
-
-
-});
-
-/**
-* 页签列表控件
-* @class
-* @name Tabs
-*/
-define('Tabs', function (require, module, exports) {
-
-    var Emitter = require('Emitter');
-    var $Object = require('Object');
-    var Defaults = require('Defaults');
-
-
-    //子模块
-    var Helper = module.require('Helper');
-
-    var mapper = new Map();
-
-
-    /**
-    * 构造器。
-    * @constructor
-    */
-    function Tabs(container, config) {
-
-        //重载 Tabs(config)
-        if ($Object.isPlain(container)) {
-            config = container;
-            container = config.container;
-        }
-
-        config = Defaults.clone(module.id, config);
-
-        var meta = {
-            'emitter': new Emitter(this),
-            'container': container, 
-
-            'activedIndex': -1,
-            'activedNode': null, 
-            'activedClass': config.activedClass,
-            'pressedClass': config.pressedClass,
-            'repeated': config.repeated,
-            'looped': config.looped,
-
-            'eventName': config.eventName,
-            'list': [],
-            'indexKey': config.field['index'],
-            'eventKey': config.field['event'],
-            'nodes': null,
-            'selector': config.selector,
-            'change': null, //内部记录绑定的 change 事件处理函数，用于可解除绑定
-            'old': null,
-            'tpl': null,
-        };
-
-        mapper.set(this, meta);
-
-
-        var list = config.list;
-        if (list) {
-            this.render(list);
-        }
-
-        var current = config.current;
-        if (typeof current == 'number') {
-            this.active(current);
-        }
-
-        var change = config.change;
-        if (change) {
-            this.on('change', change);
-        }
-
-    }
-
-
-
-
-    Tabs.prototype = /**@lends Tabs#*/ {
-        constructor: Tabs,
-
-        /**
-        * 设置模板填充的规则，为模板填充进行预处理。
-        */
-        template: function (process) {
-
-            var meta = mapper.get(this);
-            var tpl = meta.tpl;
-
-            if (!tpl) {
-                var Template = require('Template');
-                var container = meta.container;
-                tpl = meta.tpl = new Template(container);
-            }
-
-            if (process) {
-                var args = Array.from(arguments);
-                tpl.process.apply(tpl, args);
-            }
-
-
-        },
-
-        render: function (list, fn) {
-
-            var meta = mapper.get(this);
-            var container = meta.container;
-
-            if (list) {
-                this.template(); //确保 meta.tpl 存在
-                meta.tpl.render(list, fn);
-
-                meta.list = list;
-
-                //数据发生了变化
-                meta.nodes = null; 
-                meta.activedNode = null;
-                meta.activedIndex = -1;
-            }
-
-
-            if (!meta.change) { //首次绑定事件
-
-                var eventName = meta.eventName;
-                var selector = meta.selector;
-                var pressedClass = meta.pressedClass;
-
-                var self = this;
-
-                var change = meta.change = function (event) {
-                    var index = Helper.getIndex(meta, this);
-                    self.active(index);
-                };
-
-                
-                    $(container).on(eventName, selector, change);
-
-                
-
-                //<for:pc>
-                //console.log('for PC only');
-                //</for:pc>
-            }
-
-
-        },
-
-        /**
-        * 激活指定的项。
-        * @param {number} index 要激活的项的索引值。
-        * @param {boolean} [quiet=false] 是否使用安静模式。 
-            当指定为 true 时，则不会触发事件，这在某种场景下会用到。
-            否则会触发事件(默认情况)。
-        */
-        active: function (index, quiet) {
-
-            var meta = mapper.get(this);
-            var list = meta.list;
-
-            //重载其他情况
-            if (typeof index != 'number') {
-                index = Helper.findIndex(list, index, arguments[1]);
-            }
-
-            var activedIndex = meta.activedIndex;
-            var isSame = index == activedIndex;
-
-            //当前项已激活，并且配置指定了不允许激活重复的项
-            if (isSame && !meta.repeated) {
-                return;
-            }
-
-           
-
-            var activedNode = meta.activedNode;
-
-            if (!isSame) { //激活的项跟上次的不一样
-
-                activedIndex = meta.activedIndex = index;
-                var activedClass = meta.activedClass;
-                
-                if (activedNode) { //上次已激活过
-                    $(activedNode).removeClass(activedClass);
-                }
-
-                activedNode = meta.activedNode = Helper.getNode(meta, index);
-                $(activedNode).addClass(activedClass);
-            }
-
-            
-            var emitter = meta.emitter;
-            var item = list[index];
-
-            var current = {
-                'item': item,
-                'index': index,
-                'element': activedNode,
-                //'event': event,
-            };
-
-            var old = meta.old;
-            meta.old = current;
-
-
-            if (quiet) { //显式指定了使用安静模式，则不触发事件。
-                return;
-            }
-
-
-            var args = [item, index, current, old];
-
-            emitter.fire('before-change', args);
-            emitter.fire('change', index, args);
-
-            //触发指定的事件名
-            var eventKey = meta.eventKey;
-            if (eventKey) {
-                emitter.fire('change', String(item[eventKey]), args);
-            }
-
-            emitter.fire('change', args);
-
-
-        },
-
-        /**
-        * 激活前一项。
-        * @param {boolean} [quiet=false] 是否使用安静模式。 
-            当指定为 true 时，则不会触发事件，这在某种场景下会用到。
-            否则会触发事件(默认情况)。
-        */
-        previous: function (qiuet) {
-            var meta = mapper.get(this);
-            var list = meta.list;
-            var looped = meta.looped;
-            var index = meta.activedIndex;
-
-            if (index == 0) {
-                if (!looped) {
-                    return;
-                }
-
-                index = list.length;
-            }
-          
-            this.active(index - 1, qiuet);
-        },
-
-        /**
-        * 激活后一项。
-        * @param {boolean} [quiet=false] 是否使用安静模式。 
-            当指定为 true 时，则不会触发事件，这在某种场景下会用到。
-            否则会触发事件(默认情况)。
-        */
-        next: function (qiuet) {
-            var meta = mapper.get(this);
-            var list = meta.list;
-            var looped = meta.looped;
-            var index = meta.activedIndex;
-
-            if (index == list.length - 1) {
-                if (!looped) {
-                    return;
-                }
-
-                index = -1;
-            }
-
-            this.active(index + 1, qiuet);
-        },
-
-        /**
-        * 显示本组件。
-        */
-        show: function (config) {
-            var meta = mapper.get(this);
-            var container = meta.container;
-            $(container).show();
-
-        },
-
-        /**
-        * 隐藏本组件。
-        * @param {number} [lastTime] 需要持续显示的时间。
-        */
-        hide: function (lastTime) {
-            var meta = mapper.get(this);
-            var container = meta.container;
-            $(container).hide();
-
-        },
-
-        /**
-        * 绑定事件。
-        */
-        on: function (name, fn) {
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-        },
-
-        /**
-        * 销毁本组件
-        */
-        destroy: function () {
-            var meta = mapper.get(this);
-            
-            var emitter = meta.emitter;
-            emitter.destroy();
-
-            //移除 DOM 事件
-            var container = meta.container;
-            var eventName = meta.eventName;
-            var selector = meta.selector;
-            var change = meta.change;
-
-            $(container).off(eventName, selector, change);
-
+            meta.tree.destroy();
             mapper.delete(this);
         },
 
-        /**
-        * 获取当前实例激活的索引值。
-        */
-        getActivedIndex: function () {
-            var meta = mapper.get(this);
-            return meta.activedIndex;
-        },
-
-
-        /**
-       * 重置当前实例到初始状态。
-       */
-        reset: function () {
-
-            var meta = mapper.get(this);
-            $(meta.container).find(meta.selector).removeClass(meta.activedClass);
-
-            meta.activedIndex = -1;
-        },
-
-
-        remove: function (index) {
-
-            var meta = mapper.get(this);
-            var activedIndex = meta.activedIndex;
-
-            if (index == activedIndex) { //移除的是当前的激活项
-                this.reset();
-                return;
-            }
-
-            meta.list.splice(index, 1);
-
-            if (index < activedIndex) { //移除的是当前激活项之前的，则重新设置激活状态即可
-                activedIndex--;
-            }
-
-            this.active(activedIndex, false);
-
-        },
-    };
-
-
-
-    return Tabs;
-
-});
-
-/**
-* Tabs 模块的默认配置
-* @name Tabs.defaults
-*/
-define('Tabs.defaults', /**@lends Tabs.defaults*/ {
-    
-    /**
-    * 创建实例后首先给激的项。
-    */
-    current: null,
-
-    /**
-    * 压下去时的样式的 css 类名。
-    * 当 eventName = 'touch' 时有效。
-    */
-    pressedClass: '',
-
-    /**
-    * 项目给激活时的样式的 css 类名。
-    */
-    activedClass: '',
-
-    /**
-    * 要监听的事件名。
-    */
-    eventName: '',
-
-    /**
-    * 取得项目列表所需要用到的 jQuery 选择器。
-    * 默认取直接子节点。
-    */
-    selector: '>*',
-
-    /**
-    * 是否允许重复激活相同的项。
-    * 当指定为 true 时，方响应已给激活的项目的重新点击。
-    */
-    repeated: false,
-
-    /**
-    * 当调用 previous()、next() 激前/后一项时，是否启用循环模式。
-    * 如果启用了循环模式时，则当达到第一项或最后一项时，则会从尾或头开始。
-    */
-    looped: false,
-
-
-    /**
-    * 字段映射。
-    */
-    field: {
-        /**
-        * 从 DOM 元素中取得项目列表中指定项的 index 的自定义字段名。 
-        */
-        index: 'data-index',
-
-        /**
-        * 当触发 change 事件时，需要同时触发对应的 item 上指定的事件名。
-        * 例如当指定为 'name' 时，则在触发 change 事件时，会同时 item['name'] 对应的事件。 
-        */
-        event: '',
-    },
-});
-
-/**
-* Tabs 模块的默认配置
-* @name Tabs.config
-*/
-define('Tabs.config', /**@lends Tabs.config*/ {
-    /**
-    * 要监听的事件名。
-    */
-    eventName: 'click',
-
-});
-
-
-/**
-*
-*/
-define('Tabs/Helper', function (require, module, exports) {
-
-    
-    function getNodes(meta) {
-
-        //取得子节点列表。 
-        //每次都去取最新的列表，因为可能会动态添加了子节点。
-        var nodes = meta.nodes = $(meta.container).find(meta.selector).toArray();
-
-        return nodes;
-
-    }
-
-
-    function getIndex(meta, node) {
-
-        var key = meta.indexKey;
-        var index = node.getAttribute(key);
-
-        if (index) { //字符串的，不用担心 '0' 这样的情况
-            return +index;
-        }
-
-        //没有指定 index，则迭代搜索
-        var nodes = getNodes(meta);
-        return nodes.findIndex(function (item, index) {
-            return item === node;
-        });
-
-    }
-
-    function getNode(meta, index) {
-
-        //取得子节点列表
-        var nodes = getNodes(meta);
-        return nodes[index];
-
-    }
-
-
-    function findIndex(list, key, value) {
-        
-        var type = typeof key;
-
-        //findIndex(list, item)
-        if (type == 'object') {
-            return list.findIndex(function (item, index) {
-                return key === item;
-            });
-        }
-
-        //findIndex(list, key, value)
-        if (type == 'string') {
-            return list.findIndex(function (item, index) {
-                return item[key] === value;
-            });
-        }
-
-        //findIndex(list, fn)
-        if (type == 'function') {
-            return list.findIndex(list, key);
-        }
-        
-        throw new Error('无法识别的参数 key: ' + type);
-
-    }
-
-
-    return {
-        getIndex: getIndex,
-        getNode: getNode,
-        findIndex: findIndex,
 
     };
 
+    
+    return Emitter;
+
+});
+
+/**
+* 对象工具
+* @namespace
+* @name Object
+*/
+define('Object', function (require, module, exports) {
+
+    return exports = /**@lends Object */ {
+
+        extend: Object.assign,
+
+        /**
+        * 用多个对象深度扩展一个对象。
+        */
+        extendDeeply: function (target, obj1, obj2) {
+
+            var isPlain = exports.isPlain;
+
+
+            function copy(A, B) {
+                A = A || {};
+
+                for (var key in B) {
+                    var target = B[key];
+                    var source = A[key];
+
+                    if (isPlain(target)) {
+                        if (isPlain(source)) {
+                            source = copy({}, source);
+                        }
+                        else {
+                            source = {};
+                        }
+
+                        target = copy(source, target);
+                    }
+               
+                    A[key] = target;
+                }
+
+                return A;
+            }
+
+
+            //针对最常用的情况作优化
+            if (obj1 && typeof obj1 == 'object') {
+                target = copy(target, obj1);
+            }
+
+            if (obj2 && typeof obj2 == 'object') {
+                target = copy(target, obj2);
+            }
+
+            var startIndex = 3;
+            var len = arguments.length;
+
+            if (startIndex >= len) { //已处理完所有参数
+                return target;
+            }
+
+            //更多的情况
+            for (var i = startIndex; i < len; i++) {
+                var objI = arguments[i];
+
+                target = copy(target, objI);
+            }
+
+            return target;
+
+        },
+
+        /**
+        * 检测对象是否是空对象(不包含任何属性)。
+        * 该方法既检测对象本身的属性，也检测从原型继承的属性(因此没有使用 hasOwnProperty )。
+        * 该实现为 jQuery 的版本。
+        * @param {Object} obj 要进行检测的对象，可以是任何类型
+        * @return {boolean} 一个检测结果，如果为空对象则返回 true；否则返回 false
+        * @example
+            $Object.isEmpty({});      //true
+            
+            function Person(){ }
+            Person.prototype.name = 'abc';
+            var p = new Person();
+            $Object.isEmpty( p );   //false
+        */
+        isEmpty: function (obj) {
+            for (var name in obj) {
+                return false;
+            }
+
+            return true;
+        },
+
+        /**
+        * 检测一个对象是否是纯粹的对象（通过 "{}" 或者 "new Object" 创建的）。
+        * 该实现为 jQuery 的版本。
+        * @param {Object} obj 要进行检测的对象，可以是任何类型
+        * @return {boolean} 一个检测结果，如果为纯粹的对象则返回 true；否则返回 false
+        * @example
+            $Object.isPlain( {} );             //true
+            $Object.isPlain( {a: 1, b: {} } );  //true
+            
+            function Person(){ }
+            var p = new Person();
+            $Object.isPlain( p );   //false
+        */
+        isPlain: function (obj) {
+            if (!obj || typeof obj != 'object' /*|| obj.nodeType || exports.isWindow(obj) */) {
+                return false;
+            }
+
+            var hasOwnProperty = Object.prototype.hasOwnProperty;
+            var constructor = obj.constructor;
+
+            try {
+                // Not own constructor property must be Object
+                if (constructor &&
+                    !hasOwnProperty.call(obj, "constructor") &&
+                    !hasOwnProperty.call(constructor.prototype, "isPrototypeOf")) {
+                    return false;
+                }
+            }
+            catch (e) {
+                // IE8,9 Will throw exceptions on certain host objects #9897
+                return false;
+            }
+
+            // Own properties are enumerated firstly, so to speed up,
+            // if last one is own, then all properties are own.
+            var key;
+            for (key in obj) {
+            }
+
+            return key === undefined || hasOwnProperty.call(obj, key);
+        },
+
+        /**
+        * 把一个对象的键/值对深层次地扁平化成一个数组。
+        * @param {Object} obj 要进行线性化的纯对象。
+        * @return {Array} 返回一个线性化表示的一维数组。
+        *   数组的每项都为一个 { keys: [], value: ... } 的结构。
+        * @example
+            var list = $Object.flat({
+	            name: {
+	                a: 1,
+                    b: 2,
+                    c: {
+	                    aa: 11,
+                        bb: 22
+                    }
+                },
+                tag: {
+	                a: 'a0',
+                    b: 'b0'
+                },
+                id: 1000
+            });
+            console.dir(list);
+            //得到: 
+            [
+                { keys: ['name', 'a'], value: 1 },
+                { keys: ['name', 'b'], value: 2 },
+                { keys: ['name', 'c', 'aa'], value: 11 },
+                { keys: ['name', 'c', 'bb'], value: 22 },
+                { keys: ['tag', 'a'], value: 'a0' },
+                { keys: ['tag', 'b'], value: 'b0' },
+                { keys: ['id'], value: 1000 },
+            ]
+        */
+        flat: function (obj) {
+            var isPlain = exports.isPlain;
+
+            var list = [];
+            if (!obj || !isPlain(obj)) {
+                return list;
+            }
+
+
+            var keys = [];
+
+            /**
+            * @inner
+            * 内部使用的迭代函数。
+            * @param {Object} obj 要进行迭代的对象。
+            * @param {number} level 用来跟踪当前迭代键值所处的层次深度，辅助用的。
+            */
+            function each(obj, level) {
+
+                for (var key in obj) {
+
+                    var value = obj[key];
+
+                    keys = keys.slice(0, level);
+                    keys.push(key);
+
+                    if (isPlain(value)) {   //还是一个纯对象
+                        each(value, level + 1);     //递归处理
+                        continue;
+                    }
+
+                    //叶子结点
+                    list.push({
+                        'keys': keys,
+                        'value': value
+                    });
+                }
+            }
+
+            each(obj, 0);
+
+            return list;
+
+        },
+
+        /**
+        * 对一个对象进行迭代。
+        * 该方法可以代替 for in 的语句。
+        * 只有在回调函数中明确返回 false 才停止循环。
+        * @param {Object} obj 要进行迭代处理的对象
+        * @param {function} fn 要进行迭代处理的回调函数，该函数中会接收到当前对象迭代的到 key 和 value 作为参数
+        * @param {boolean} [isDeep=false] 
+            指示是否要进行深层次的迭代，如果是，请指定 true；
+            否则请指定 false 或不指定。默认为 false，即浅迭代
+        * @example
+            var obj = {
+                a: 1, 
+                b: 2, 
+                c: {
+                    A: 11, 
+                    B: 22
+                } 
+            };
+
+            $Object.each(obj, function(key, value) {
+                console.log(key, ': ', value);
+            }, true);
+        输出：
+            a: 1,
+            b: 2,
+            c: { A: 11, B: 22},
+            A: 11,
+            B: 22
+        */
+        each: function (obj, fn, isDeep) {
+
+            for (var key in obj) {
+                var value = obj[key];
+
+                // 只有在 fn 中明确返回 false 才停止循环
+                if (fn(key, value) === false) {
+                    break;
+                }
+
+                //指定了深迭代，并且当前 value 为非 null 的对象
+                if (isDeep === true && value && typeof value == 'object') {
+                    exports.each(value, fn, true); //递归
+                }
+
+            }
+        },
+
+        /**
+        * 对象映射转换器，返回一个新的对象。
+        * @param {Object} obj 要进行迭代处理的对象
+        * @param {function} fn 要进行迭代处理的回调函数，该函数中会接收到当前对象迭代的到 key 和 value 作为参数。
+        * @param {boolean} [isDeep=false] 指示是否要进行深层次的迭代。
+            如果是，请指定 true；
+            否则请指定 false 或不指定。
+            默认为 false，即浅迭代
+        * @return {Object} 返回一个新的对象，key 仍为原来的 key，value 由回调函数得到
+        * @example
+            var obj = { 
+                a: 1, 
+                b: 2, 
+                c: {
+                    A: 11, 
+                    B: 22,
+                },
+            };
+
+            var obj2 = $Object.map(obj, function(key, value) {
+                return value * 100;
+            }, true);
+
+            console.dir(obj2);
+        结果：
+            obj2 = {
+                a: 100, 
+                b: 200, 
+                c: {
+                    A: 1100, 
+                    B: 2200,
+                },
+            };
+        */
+        map: function (obj, fn, isDeep) {
+            var target = {};
+
+            exports.each(obj, function (key, value) {
+
+                if (isDeep && exports.isPlain(value)) { //指定了深迭代，并且当前 value 为纯对象
+                    target[key] = exports.map(value, fn, isDeep); //递归
+                }
+                else {
+                    target[key] = fn(key, value);
+                }
+
+            });
+
+            return target;
+        },
+
+        /**
+        * 用指定的多个键和单个值组合生成一个深层次的对象。
+        * 已重载 make(keys, value);        //没有显式提供一个容器对象，则内部提供一个空的。
+        * 已重载 make(obj, keys, value);   //使用指定的容器对象。
+        * 如：make(['A', 'B', 'C'], 100) => { A: { B: { C: 100, }, }, }
+        * 参数：
+        *   obj: {},    //容器对象。 如果(可以)不指定，则内部提供一个空白的全新对象。
+        *   keys: [],   //键列表。 如 ['A', 'B', 'C']。
+        *   value: any, //值。
+        */
+        make: function (obj, keys, value) {
+            //重载 make(keys, value);
+            //没有显式提供一个容器对象，则内部提供一个空的。
+            if (Array.isArray(obj)) {
+                value = keys;
+                keys = obj;
+                obj = {};
+            }
+
+            if (!obj || typeof obj != 'object') {
+                throw new Error('参数 obj 必须为一个非空的对象，以作为容器对象。');
+            }
+
+            var item = obj;
+            var maxIndex = keys.length - 1; //判断是否为最后一个。
+
+            //依次组装。
+            keys.map(function (key, index) {
+                var old = item[key];
+
+                //非最后一项，则保证创建一个 {} 作为容器。
+                //这意味着，如果原来的值不是对象，则会因为给新的 {} 覆盖而丢失。
+                if (index < maxIndex) {
+                    item = item[key] = (typeof old == 'object') ? old || {} : {};
+                }
+                else { //最后一项，直接赋值。
+                    item[key] = value;
+                }
+
+            });
+
+            return obj;
+        },
+
+        /**
+        * 对一个对象进行成员过滤，返回一个过滤后的新对象。
+        * 该方法可以以某个模板对指定对象进行成员拷贝。
+        * @param {Object} src 要进行拷贝的对象，即数据来源。
+        * @param {Array|Object|string} samples 要拷贝的成员列表(模板)。
+        * @return {Object} 返回一个过滤后的新对象。
+        * @example
+            var src = {
+                a: 100,
+                b: 200,
+                c: 300,
+                d: 400
+            };
+    
+            var samples = {
+                a: 1,
+                b: 2
+            };
+    
+            //或 samples = ['a', 'b'];
+    
+            var obj = $Object.filter(src, samples);
+            console.dir(obj); //得到 obj = { a: 100, b: 200 }; 只保留 samples 中指定的成员，其他的去掉.
+        */
+        filter: function (src, samples) {
+
+            var $Array = require('Array');
+
+            var obj = {};
+
+            if (Array.isArray(samples)) {
+                samples.forEach(function (key, index) {
+                    if (key in src) {
+                        obj[key] = src[key];
+                    }
+                });
+            }
+            else if (exports.isPlain(samples)) {
+                exports.each(samples, function (key, value) {
+
+                    if (key in src) {
+                        obj[key] = src[key];
+                    }
+                });
+            }
+            else if (typeof samples == 'string') {
+                var key = samples;
+                if (key in src) {
+                    obj[key] = src[key];
+                }
+
+            }
+            else {
+                throw new Error('无法识别参数 samples 的类型');
+            }
+
+
+            return obj;
+        },
+
+        /**
+        * 删除对象中指定的成员，返回一个新对象。
+        * 指定的成员可以以单个的方式指定，也可以以数组的方式指定(批量)。
+        * @param {Object} obj 要进行处理的对象。
+        * @param {String|Array|Object} keys 要删除的成员名称，可以是单个，也可以是批量。
+        * @return {Object} 返回一个被删除相应成员后的新对象。
+        * @example
+            var obj = {
+                a: 1, 
+                b: 2, 
+                c: 3
+            };
+    
+            var o = $Object.remove(obj, ['a', 'c']); //移除成员 a 和 c 
+            console.dir(o); //得到 o = { b: 2 };
+    
+            o = $Object.remove(obj, {a: 1, b: 2});
+            console.dir(o); //得到 o = { c: 3 };
+        */
+        remove: function (obj, keys) {
+            var target = Object.assign({}, obj); //浅拷贝一份
+
+            if (typeof keys == 'string') {
+                delete target[keys];
+            }
+            else if (Array.isArray(keys)) {
+                for (var i = 0, len = keys.length; i < len; i++) {
+                    delete target[keys[i]];
+                }
+            }
+            else {
+                for (var key in keys) {
+                    delete target[key];
+                }
+            }
+
+            return target;
+        },
+    };
+
 });
 
 
+
+
 /**
-* 无数据提示面板控件。
+* 树形结构的存储类。
 * @class
-* @name NoData
+* @name Tree
 */
-define('NoData', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-    var RandomId = require('RandomId');
-    var Defaults = require('Defaults');
-
-    var Renderer = module.require('Renderer');
-    var Sample = module.require('Sample');
-    var Style = module.require('Style');
+define('Tree', function (require, module, exports) {
 
     var mapper = new Map();
 
 
-
     /**
-    * 构造函数。
+    * 构造器。
     */
-    function NoData(container, config) {
-
-        //重载 NoData(config)
-        if ($.Object.isPlain(container)) {
-            config = container;
-        }
-        else {
-            config.container = container;
-        }
-
-
-        config = Defaults.clone(module.id, config);
-
-
-        var cssClass = config.cssClass;
-        if (cssClass instanceof Array) {
-            cssClass = cssClass.join(' ');
-        }
-
-        var prefix = config.prefix;
-        var suffix = config.suffix;
+    function Tree() {
 
         var meta = {
-            'div': null,
-            'top': config.top,
-            'bottom': config.bottom,
-            'icon': config.icon,
-            'text': config.text,
-            'emitter': new Emitter(this),
-            'container': config.container,
-            'append': config.append,
-
-            'id': RandomId.get(prefix, suffix),
-            'textId': RandomId.get(prefix, 'text-', suffix),
-            'text': config.text,
-            'cssClass': cssClass,
-            'sample': Sample,
-            'style': Style.get(config),
-            'scrollable': config.scrollable,
-            'pulldown': config.pulldown,
-            'visible': false, //组件当前是否可见
+            'key$node': {},
+            'count': 0,
         };
 
         mapper.set(this, meta);
 
+    }
+
+
+    //获取指定节点下指定路径的节点
+    function getNode(key$node, keys) {
+
+        var lastIndex = keys.length - 1;
+
+        for (var index = 0; index <= lastIndex; index++) {
+
+            var key = keys[index];
+            var node = key$node[key];
+
+            if (!node || index == lastIndex) { //不存在了，或是最后一项了
+                return node || null;
+            }
+
+            key$node = node.key$node; //准备下一轮迭代
+        }
     }
 
 
     //实例方法
-    NoData.prototype = /**@lends NoData#*/ {
-        constructor: NoData,
+    Tree.prototype = /**@lends Tree.prototype */{
+        constructor: Tree,
 
-        show: function (text) {
+        /**
+        * 设置指定节点上的值。
+        * 如果不存在该节点，则先创建，然后存储值到上面；否则直接改写原来的值为指定的值。
+        * 已重载 set(key0, key1, ..., keyN, value) 的情况。
+        * @param {Array} keys 节点路径数组。
+        * @param value 要设置的值。
+        * @example
+            tree.set(['path', 'to'], 123);
+            tree.set('path', 'to', 123); //跟上面的等价
+        */
+        set: function (keys, value) {
+            //重载 set(key0, key1, ..., keyN, value) 的情况。
+            if (!Array.isArray(keys)) {
+                var args = Array.from(arguments);
+                keys = args.slice(0, -1);
+
+                
+                value = args.slice(-1)[0];  //参数中的最后一个即为 value
+            }
+
+            //过滤掉空串。
+            keys = keys.filter(function (key) {
+                return !!String(key);
+            });
+
+            if (!keys.length) {
+                throw new Error('过滤后的节点 key 为空数组。');
+            }
+
+
 
             var meta = mapper.get(this);
-            var div = meta.div;
+            var key$node = meta.key$node;
+            var lastIndex = keys.length - 1;
+            var node = null;
+           
 
-            if (!div) { //首次 render
-                div = Renderer.render(meta, { 'text': text, });
-            }
-            else {
-                $('#' + meta.textId).html(text || meta.text);
-            }
+            keys.forEach(function (key, index) {
+                node = key$node[key];
 
-            meta.visible = true;
-            $(div).show();
-            meta.emitter.fire('show');
+                if (!node) {
+                    meta.count++;
 
+                    node = key$node[key] = {
+                        'key$node': {},         //子节点的容器对象。
+                        'parent': key$node,     //指向父节点，方便后续处理。
+                        'key': key,             //当前的 key，方便后续处理。
+                        //'value': undefined,     //会有一个这样的字段，但先不创建。
+                    };
+                }
+
+                if (index < lastIndex) {
+                    key$node = node.key$node; //准备下一轮迭代
+                }
+                else { //最后一项
+                    node.value = value;
+                }
+            });
+
+            
         },
 
-        hide: function () {
+
+
+        /**
+        * 获取指定路径的节点上的值。
+        * @return 返回该节点上的值。 如果不存在该节点，则返回 undefined。
+        * @example
+            tree.get('path', 'to'); //获取路径为 'path' -> 'to' 的节点上存储的值。
+        */
+        get: function (keys) {
+            //重载 get(key0, key1, ..., keyN) 的情况
+            if (!(Array.isArray(keys))) {
+                keys = Array.from(arguments);
+            }
+
+            //过滤掉空串。
+            keys = keys.filter(function (key) {
+                return !!String(key);
+            });
+
+            if (!keys.length) {
+                throw new Error('过滤后的节点 key 为空数组。');
+            }
+
+
 
             var meta = mapper.get(this);
-            var div = meta.div;
+            var key$node = meta.key$node;
 
-            if (!div) {
+            var node = getNode(key$node, keys);
+            return node ? node.value : undefined;
+        },
+
+
+
+        /**
+        * 清空全部节点及数据。
+        */
+        clear: function () {
+            var meta = mapper.get(this);
+            meta.key$node = {};
+            meta.count = 0;
+        },
+
+        /**
+        * 删除指定节点上的值。
+        */
+        remove: function (keys) {
+
+            //重载 remove(key0, key1, ..., keyN) 的情况
+            if (!(Array.isArray(keys))) {
+                keys = [...arguments];
+            }
+
+            //过滤掉空串。
+            keys = keys.filter(function (key) {
+                return !!String(key);
+            });
+
+            if (!keys.length) {
+                throw new Error('过滤后的节点 key 为空数组。');
+            }
+
+            var meta = mapper.get(this);
+            var key$node = meta.key$node;
+            var node = getNode(key$node, keys);
+
+            if (!node) { //不存在该节点
                 return;
             }
 
-            meta.visible = false;
-            $(div).hide();
-            meta.emitter.fire('hide');
-        },
 
-        toggle: function (needShow) {
+            var $Object = require('Object');
+            var obj = node.key$node;                //子节点
 
-            //重载 toggle( [] )，方便直接传入一个数据列表数组
-            if (needShow instanceof Array) {
-                needShow = needShow.length == 0;
-            }
-
-            var meta = mapper.get(this);
-            var visible = meta.visible;
-
-            if (arguments.length == 0) { //重载 toggle()
-                if (visible) {
-                    this.hide();
-                }
-                else {
-                    this.show();
-                }
+            if (!obj || $Object.isEmpty(obj)) {    //不存在子节点
+                meta.count--;
+                delete node.parent[node.key];       //删除整个节点自身，节省内存
             }
             else {
-                if (visible && !needShow) {
-                    this.hide();
-                }
-                else if(!visible && needShow) {
-                    this.show();
-                }
+                delete node.value; //删除值
             }
-
         },
 
-
         /**
-        * 监听事件。
-        */
-        on: function (name, fn) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-            var scroller = meta.scroller;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
-
-        },
-
-
-        /**
-        * 销毁本实例对象。
+        * 销毁。
         */
         destroy: function () {
-            var meta = mapper.get(this);
-            var scroller = meta.scroller;
-            scroller.destroy();
-
-            var emitter = meta.emitter;
-            emitter.destroy();
-
-            mapper.remove(this);
-        },
-
-        
-
-
-
-    };
-
-
-    return NoData;
-
-
-});
-
-
-/**
-* NoData 模块的默认配置
-* @name NoData.defaults
-*/
-define('NoData.defaults', /**@lends NoData.defaults*/ {
-    
-    /**
-    * 生成的 id 的前缀。
-    */
-    prefix: 'KISP-NoData-',
-
-    /**
-    * 生成的 id 的随机后缀的长度。
-    */
-    suffix: 4,
-
-    text: '暂无数据',
-
-    /**
-    * 组件用到的 css 类名。
-    */
-    cssClass: '',
-
-    /**
-    * 组件添加到的容器。
-    * 默认为 document.body。
-    */
-    container: document.body,
-
-    /**
-    * 把组件添加到容器的方式，是否使用追加的方式。
-    * 默认用 prepend 的方式。
-    */
-    append: false,
-
-    /**
-    * 是否可滚动。
-    * 当可滚动时，会创建相应的 scroller。
-    */
-    scrollable: true,
-
-    pulldown: null,
-
-    ////默认样式
-    //'bottom': 0,
-    //'top': 0,
-    //'z-index': 1024,
-});
-
-
-/**
-*
-*/
-define('NoData/Renderer', function (require, module, exports) {
-
-
-    var $String = require('String');
-    var Style = require('Style');
-
-
-    function render(meta, data) {
-
-
-        var id = meta.id;
-        var sample = meta.sample;
-        var style = meta.style;
-
-        var text = data.text || meta.text;
-
-        var html = $String.format(sample, {
-            'id': id,
-            'text-id': meta.textId,
-            'text': text,
-            'style': Style.stringify(style),
-            'cssClass': meta.cssClass,
-        });
-
-        var container = meta.container;
-
-        if (meta.append) {
-            $(container).append(html);
-        }
-        else {
-            $(container).prepend(html);
-
-        }
-
-
-        var div = document.getElementById(id);
-        meta.div = div;
-
-        if (meta.scrollable) {
-
-            var Scroller = require('Scroller');
-
-            var scroller = new Scroller(div, {
-                'top': meta.top,
-                'bottom': meta.bottom,
-            });
-
-            var pulldown = meta.pulldown;
-            if (pulldown) {
-                scroller.pulldown(pulldown);
-            }
-        }
-
-        return div;
-
-    }
-
-
-    return {
-
-        render: render,
-    };
-
-});
-
-/*
-* NoData/Sample
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/ui/NoData/Sample.html
-*/
-define('NoData/Sample', [
-    '<div id="{id}" class="KISP NoData {cssClass}" style="{style}">',
-    '    <ul>',
-    '        <li class="Icon"></li>',
-    '        <li id="{text-id}" class="Text">{text}</li>',
-    '    </ul>',
-    '</div>',
-    '',
-    '',
-].join('\n'));
-
-/**
-*/
-define('NoData/Style', function (require, module, exports) {
-    var Style = require('Style');
-    
-
-
-
-
-    function get(item0, item1, itemN) {
-
-        var list = [].slice.call(arguments);
-
-        var style = Style.filter(list, [
-            'background',
-            'bottom',
-            'color',
-            'font-size',
-            'top',
-            'z-index',
-        ]);
-
-
-        return style;
-
-    }
-
-
-    return {
-        get: get,
-    };
-
-
-});
-
-
-/**
-* 本地图片读取器。
-* 兼容浏览器端和云之家端。
-* @class
-* @name ImageReader
-*/
-define('ImageReader', function (require, module, exports) {
-
-    var $Object = require('Object');
-    var Emitter = require('Emitter');
-    var Defaults = require('Defaults');
-
-    var Renderer = module.require('Renderer');
-
-    var mapper = new Map();
-
-
-    function ImageReader(input, config) {
-
-        //重载 ImageReader(config)
-        if ($Object.isPlain(input)) {
-            config = input;
-            input = config['el'];
-            delete config['el'];
-        }
-
-        config = Defaults.clone(module.id, config);
-
-
-        var meta = {
-            'emitter': new Emitter(this),
-            'input': input,
-            'loading': config.loading,
-        };
-
-        mapper.set(this, meta);
-
-    }
-
-
-
-    ImageReader.prototype = /**@lends ImageReader*/{
-        constructor: ImageReader,
-
-        /**
-        * 渲染。
-        */
-        render: function (data) {
-
-            var meta = mapper.get(this);
-            Renderer.render(meta, data);
-        },
-
-        /**
-        * 绑定事件。
-        * 已重载 on({...}，因此支持批量绑定。
-        * @param {string} name 事件名称。
-        * @param {function} fn 回调函数。
-        */
-        on: function (name, fn) {
-
-            var meta = mapper.get(this);
-            var emitter = meta.emitter;
-
-            var args = [].slice.call(arguments, 0);
-            emitter.on.apply(emitter, args);
+            mapper.delete(this);
         },
 
     };
 
 
+    return Tree;
 
-    return ImageReader;
 
-});
-/**
-* ImageReader 模块的默认配置
-* @name ImageReader.defaults
-*/
-define('ImageReader.defaults', /**@lends ImageReader.defaults*/ {
-    loading: '读取中...',
 });
 
 
 
-define('ImageReader/Renderer', function (require, module, exports) {
-
-
-    //针对 PC 浏览端的
-    function renderPC(meta) {
-
-        var emitter = meta.emitter;
-        var loading = meta.loading;
-
-        if (loading === true) {
-            loading = KISP.create('Loading', {
-                text: '读取中...',
-            });
-        }
-        else if (typeof loading == 'string') {
-            loading = KISP.create('Loading', {
-                text: loading,
-            });
-        }
-
-
-        $(meta.input).on('change', function (event) {
-
-            var input = this; //这样是安全的，因为外面传进来的可能是一个 jQuery 选择器。
-            var img = input.files[0];
-
-            if (!img) { //第一次选择了，但第二次未选择时，为空
-                emitter.fire('cancel');
-                return;
-            }
-
-
-            var type = img.type;
-            if (type.indexOf('image/') != 0) {
-                emitter.fire('fail', [201, '所选择的文件类型不是图片', { img: img }]);
-                return;
-            }
-
-
-            var reader = new FileReader();
-
-            reader.onload = function (e) {
-
-                loading && loading.hide();
-
-                var data = e.target.result;
-                emitter.fire('success', [data]);
-            };
-
-            loading && loading.show();
-
-            reader.readAsDataURL(img);
-
-        });
-    }
 
 
 
 
 
 
-    //针对云之家内嵌浏览器端的
-    function renderCH(meta, data) {
-
-        var emitter = meta.emitter;
-
-        $(meta.input).on('click', function (event) {
-
-            event.preventDefault();
-
-            var API = require('CloudHome.API');
-            var api = new API('selectPic');
-
-            api.on('success', function (data, json) {
-
-                var ext;
-                var base64;
-
-                try {
-                    ext = data.fileExt;
-                    base64 = data.fileData.replace(/[\r\n]/g, '');
-                }
-                catch (ex) {
-                    var msg = '无法读取图片，云之家接口有问题: ' + ex.message;
-                    emitter.fire('fail', [500, msg, json]);
-                    return;
-                }
-
-
-                var image = 'data:image/' + ext + ';base64,' + base64;
-                emitter.fire('success', [image]);
-
-            });
-
-
-            api.on('fail', function (code, msg, json) {
-
-                if (code == 1) { //取消选择照片
-                    emitter.fire('cancel');
-                    return;
-                }
-
-                emitter.fire('fail', [code, msg, json]);
-            });
-
-            //data = { type: 'camera'|'photo' }; 如果不传，则表示两者都选。
-            api.invoke(data);
-
-        });
-      
-    }
-
-
-    //是否为云之家环境，只需要判断一次
-    var isCloudHome;
-
-
-    return {
-
-        render: function (meta, data) {
-
-            if (isCloudHome === undefined) { //未判断
-                var CloudHome = require('CloudHome');
-                isCloudHome = CloudHome.check();
-            }
-
-            if (isCloudHome) {
-                renderCH(meta, data);
-            }
-            else {
-                renderPC(meta);
-            }
-        },
-    };
-
-});
 
 
 /**
@@ -14593,7 +2909,7 @@ define('ImageReader/Renderer', function (require, module, exports) {
 */
 define('Escape', function (require, module, exports) {
 
-    module.exports = exports = /**@lends Escape*/ {
+    return exports = /**@lends Escape*/ {
 
         /**
         * 把用户产生的内容做转换，以便可以安全地放在 html 里展示。
@@ -14690,78 +3006,11518 @@ define('Escape', function (require, module, exports) {
 
 
 });
-/*
-* NumberPad/Sample
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/mobile/NumberPad/Sample.html
+
+
+
+/**
+* 函数工具类
+* @namespace
+* @name Fn
 */
-define('NumberPad/Sample', [
+define('Fn', function (require, module, exports) {
+
+    return /**@lends Fn*/ {
+        /**
+        * 空函数。
+        * 提供一个什么也不做、直接原样返回入参的空操作函数。
+        * 在很多场合可以用来提供给模块配置，以要求的回调函数不为空。
+        */
+        noop: function (...args) {
+            return args[0];
+        },
+
+
+        /**
+        * 用一个的随机延迟时间去执行一个回调函数，并传递一些参数。
+        * @param {Object} delay 延迟配置对象。
+            如 { min: 500, max: 2000, }，当不需要延迟时，则应为 null。
+        * @param {function} fn 要延迟执行的函数。
+        * @param {Array} [args] 要传递的参数数组。
+        * @return {number} 返回 setTimeout 的结果。
+        *   如果没有启用延迟，则不返回值。
+        */
+        delay: function (delay, fn, args) {
+            if (!fn) {
+                return;
+            }
+
+
+            if (delay === false || delay == null) { //不启用延迟
+                fn.apply(null, args);
+                return;
+            }
+
+            var $Math = require('Math');
+
+            var timeout = typeof delay == 'number' ? delay :
+                    $Math.randomInt(delay.min, delay.max);
+
+            return setTimeout(function () {
+                fn.apply(null, args);
+
+            }, timeout);
+        },
+
+        
+        
+    };
+
+});
+
+
+/**
+* 数学工具类
+* @namespace
+* @name Math
+*/
+define('Math', function (require, module, exports) {
+
+    return exports = /**@lends Math*/ {
+
+        /**
+        * 产生指定闭区间的随机整数。
+        * @param {number} [minValue=0] 闭区间的左端值。
+            当只指定一个参数时，minValue 默认为 0；
+        * @param {number} [maxValue] 闭区间的右端值。
+        * @return 返回一个整数。<br />
+            当不指定任何参数时，则用 Math.random() 产生一个已移除了小数点的随机整数。
+        * @example
+            $Math.randomInt(100, 200); //产生一个区间为 [100, 200] 的随机整数。
+            $Math.randomInt(100); //产生一个区间为 [0, 200] 的随机整数。
+            $Math.randomInt(); //产生一个随机整数。
+        */
+        randomInt: function (minValue, maxValue) {
+
+            var len = arguments.length;
+
+            if (len == 0) { //重载 Math.randomInt()
+                //先称除小数点，再去掉所有前导的 0，最后转为 number
+                return Number(String(Math.random()).replace('.', '').replace(/^0*/g, ''));
+            }
+
+            if (len == 1) { //重载 Math.randomInt(maxValue)
+                maxValue = minValue;    
+                minValue = 0;
+            }
+
+            var count = maxValue - minValue + 1;
+            return Math.floor(Math.random() * count + minValue);
+        },
+
+        /**
+        * 圆形求模方法。
+        * 即用圆形链表的方式滑动一个数，返回一个新的数。
+        * 即可正可负的双方向求模。
+        * 可指定圆形链表的长度(size) 和滑动的步长(step)，滑动步长的正负号指示了滑动方向
+        */
+        slide: function (index, size, step) {
+            step = step || 1; //步长默认为1
+
+            index += step;
+            if (index >= 0) {
+                return index % size;
+            }
+
+            return (size - (Math.abs(index) % size)) % size;
+        },
+
+        /**
+        * 下一个求模数
+        */
+        next: function (index, size) {
+            return exports.slide(index, size, 1);
+        },
+
+        /**
+        * 上一个求模数
+        */
+        previous: function (index, size, step) {
+            return exports.slide(index, size, -1);
+        },
+
+
+        /**
+        * 把一个含有百分号的字符串解析成等值的小数。
+        * @param {string} v 要解析的参数。
+            期望得到 string 类型，实际可传任何类型。
+        * @return {Number} 返回一个小数。
+            只有参数是字符串，并且去掉前后空格后以百分号结尾才会进行转换；否则直接返回参数。
+            如果解析失败，则返回 NaN。
+        */
+        parsePercent: function (v) {
+            if (typeof v != 'string') {
+                return v;
+            }
+
+            var s = v.trim();
+
+            if (s.slide(-1) != '%') {
+                return v;
+            }
+
+            return parseFloat(s) / 100;
+           
+        }
+
+    };
+
+});
+
+
+/**
+* Hash 工具类
+* @namespace
+* @name Hash
+*/
+define('Hash', function (require, module, exports) {
+    var $Object = require('Object');
+
+
+
+    return exports = /**@lends Hash */ {
+
+        /**
+        * 获取指定 url 的 hash 中指定的键所对应的值。
+        * @param {string} url 要进行获取的 url 字符串。
+        * @param {string} [key] 要检索的键。
+        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写。 默认区分大小写。
+            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
+            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
+        * @retun {string|Object|undefined} 返回一个查询字符串值。
+            当不指定参数 key 时，则获取全部 hash 值，对其进行 unescape 解码，
+            然后返回一个等价的 Object 对象。
+            当指定参数 key 为一个空字符串，则获取全部 hash (不解码)，返回一个 string 类型值。
+        * @example
+            Hash.get('http://test.com?query#a%3D1%26b%3D2', 'a');  //返回 '1'
+            Hash.get('http://test.com?query#a%3D1%26b%3D2', 'c');  //返回 undefined
+            Hash.get('http://test.com?query#a%3D1%26A%3D2', 'A');  //返回 2
+            Hash.get('http://test.com?query#a%3D1%26b%3D2', 'A', true);//返回 1
+            Hash.get('http://test.com?query#a%3D1%26b%3D2', '');   //返回 'a%3D1%26b%3D2'
+            Hash.get('http://test.com?query#a%3D1%26b%3D2');       //返回 {a: '1', b: '2'}
+            Hash.get('http://test.com?query#a%3D%26b%3D');         //返回 {a: '', b: ''}
+            Hash.get('http://test.com??query#a%26b');              //返回 {a: '', b: ''}
+            Hash.get('http://test.com?query#a', 'a');              //返回 ''
+        */
+        get: function (url, key, ignoreCase) {
+
+            //重载 get(location, key, ignoreCase)
+            //重载 get(window, key, ignoreCase)
+            if (typeof url == 'object') {
+                url = ('href' in url) ? url.href :  //location
+                    url.location.href;              //window
+            }
+
+
+            var beginIndex = url.indexOf('#');
+            if (beginIndex < 0) { //不存在查询字符串
+                return;
+            }
+
+            var endIndex = url.length;
+
+            var hash = url.slice(beginIndex + 1, endIndex);
+            hash = unescape(hash); //解码
+
+            if (key === '') { //获取全部 hash 的 string 类型
+                return hash;
+            }
+
+            
+
+            var Query = require('Query');
+            var obj = Query.parse(hash);
+
+            if (key === undefined) { //未指定键，获取整个 Object 对象
+                return obj;
+            }
+
+            if (!ignoreCase || key in obj) { //区分大小写或有完全匹配的键
+                return obj[key];
+            }
+
+
+            //以下是不区分大小写
+            key = key.toString().toLowerCase();
+
+            for (var name in obj) {
+                if (name.toLowerCase() == key) {
+                    return obj[name];
+                }
+            }
+        },
+
+        /**
+        * 把指定的 hash 设置到指定的 url 上。
+        * 该方法会对 hash 进行 escape 编码，再设置到 url 上，以避免 hash 破坏原有的 url。
+        * 同时原有的 hash 会移除掉而替换成新的。
+        * @param {string} url 要设置的 url 字符串。
+        * @param {string|number|boolean|Object} key 要设置的 hash 的键。
+            当传入一个 Object 对象时，会对键值对进行递归编码成查询字符串， 然后用 escape 编码来设置 hash 。
+            当传入的是一个 string|number|boolean 类型，并且不传入第三个参数， 则直接用 escape 编码来设置 hash 。
+        * @param {string} [value] 要添加的 hash 的值。
+        * @retun {string} 返回组装后的新的 url 字符串。
+        * @example
+            //返回 'http://test.com?#a%3D1'
+            Hash.set('http://test.com', 'a', 1);  
+            
+            //返回 'http://test.com?query#a%3D3%26d%3D4'
+            Hash.set('http://test.com?query#a%3D1%26b%3D2', {a: 3, d: 4});  
+    
+            //返回 'http://test.com?query#a%3D3%26d%3D4'
+            Hash.set('http://test.com?query#a%3D1%26b%3D2', 'a=3&b=4'); 
+            
+        */
+        set: function (url, key, value) {
+
+            var location = null;
+
+            if (typeof url == 'object') {
+                if ('href' in url) {
+                    location = url;         //location
+                }
+                else {
+                    location = url.location; //window
+                }
+                url = location.href;
+            }
+
+
+
+            var type = typeof key;
+            var isValueType = (/^(string|number|boolean)$/).test(type);
+
+
+            var hash = '';
+
+            if (arguments.length == 2 && isValueType) {
+                hash = String(key);
+            }
+            else {
+                var Query = require('Query');
+                var obj = type == 'object' ? key : $Object.make(key, value);
+                hash = Query.stringify(obj);
+            }
+
+
+            hash = escape(hash); //要进行编码，避免破坏原有的 url
+
+            var index = url.lastIndexOf('#');
+            if (index > -1) {
+                url = url.slice(0, index);
+            }
+
+            url = url + '#' + hash;
+
+            if (location) {
+                location.hash = hash; //不要设置整个 location.href，否则会刷新
+            }
+
+            return url;
+
+        },
+
+        /**
+        * 判断指定的 url 是否包含特定名称的 hash。
+        * @param {string} url 要检查的 url。
+        * @param {string} [key] 要提取的查询字符串的键。
+        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写，默认区分大小写。
+            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
+            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
+        * @retun {boolean} 如果 url 中包含该名称的查询字符串，则返回 true；否则返回 false。
+        * @example
+            Hash.has('http://test.com?a=1&b=2#hash', 'a');  //返回 true
+            Hash.has('http://test.com?a=1&b=2#hash', 'b');  //返回 true
+            Hash.has('http://test.com?a=1&b=2#hash', 'c');  //返回 false
+            Hash.has('http://test.com?a=1&b=2#hash', 'A', true); //返回 true
+            Hash.has('http://test.com?a=1&b=2#hash');       //返回 true
+        */
+        has: function (url, key, ignoreCase) {
+
+            //重载 has(location, key, ignoreCase)
+            //重载 has(window, key, ignoreCase)
+            if (typeof url == 'object') {
+                url = ('href' in url) ? url.href :  //location
+                    url.location.href;              //window
+            }
+
+
+            var obj = exports.get(url); //获取全部 hash 字符串的 Object 形式
+
+            if (!obj) {
+                return false;
+            }
+
+
+            if (!key) { //不指定名称，
+                return !$Object.isEmpty(obj); //只要有数据，就为 true
+            }
+
+            if (key in obj) { //找到完全匹配的
+                return true;
+            }
+
+
+            if (ignoreCase) { //明确指定了忽略大小写
+
+                key = key.toString().toLowerCase();
+
+                for (var name in obj) {
+                    if (name.toLowerCase() == key) {
+                        return true;
+                    }
+                }
+            }
+
+            //区分大小写，但没找到
+            return false;
+
+        },
+
+
+        /**
+        * 监听指定窗口 url 的 hash 变化，并触发一个回调函数。
+        * 已重载　onchange(window, fn);
+        * 已重载　onchange(window, immediate, fn);
+        * @param {Window} window 要监听的 window 窗口。
+        * @param {boolean} [immediate=false] 指示初始时是否要立即执行回调函数。
+            初始时如果要立即执行回调函数，请指定该参数为 true；
+            否则不指定或指定为 false。
+        * @param {function} fn 当监听窗口的 hash 发生变化时，要触发的回调函数。
+        *   该回调函数会接收到两个参数：hash 和 old，当前的 hash 值和旧的 hash 值。
+        *   注意，hash 和 old 都去掉了 '#' 号而直接保留 hash 值。
+        *   如果 old 不存在，则为 null。
+        *   该回调函数内部的 this 指向监听的窗口。
+        * @example
+            Hash.onchange(top, function (hash, old) {
+                console.log('new hash: ' + hash);
+                console.log('old hash: ' + old);
+                console.log(this === top); //true
+            });
+        */
+        onchange: function (window, immediate, fn) {
+            //重载 onchange(window, fn);
+            if (typeof immediate == 'function') {
+                fn = immediate;
+                immediate = false;
+            }
+
+
+            var hash = exports.get(window, '');
+
+
+            //指定了要立即触发，则立即触发。
+            if (immediate) {
+                fn.call(window, hash, null, immediate); 
+            }
+
+
+            $(window).on('hashchange', function () {
+                var old = hash;
+
+                hash = exports.get(window, '');
+                fn && fn(hash, old, false);
+            });
+          
+
+        },
+
+    };
+
+});
+
+
+
+
+/**
+* Query 工具类
+* @namespace
+* @name Query
+*/
+define('Query', function (require, module, exports) {
+
+    var $Object = require('Object');
+
+
+    //把指定的 url 中的查询字符串替换成目标查询字符串。 
+    //同时会保留原有的 hash 串。
+    function replace(url, qs) {
+        qs = qs || '';
+
+        if (typeof qs == 'object') {
+            qs = exports.stringify(qs);
+        }
+        
+        if (qs) {
+            qs = '?' + qs;
+        }
+
+        var hasQuery = url.includes('?');
+        var hasHash = url.includes('#');
+        var parts = [];
+
+
+        if (hasQuery && hasHash) {
+            parts = url.split(/\?|#/g);
+            return parts[0] + qs + '#' + parts[2];
+        }
+
+        if (hasQuery) {
+            parts = url.split('?');
+            return parts[0] + qs;
+        }
+
+        if (hasHash) {
+            parts = url.split('#');
+            return parts[0] + qs + '#' + parts[1];
+        }
+
+
+        return url + qs;
+    }
+
+
+
+
+    return exports = /**@lends Query */ {
+
+
+        /**
+        * 把 url 中的查询字符串解析为等价结构的 Object 对象。
+        * @param {string} url 要进行解析的查询字符串。
+        * @param {boolean} [isShallow=false] 指示是否使用浅层次进行解析。
+            当显式指定 isShallow 参数为 true 时，则使用浅层次来解析(只解析一层，不进行递归解析)；
+            否则(默认)使用深层次解析。
+        * @param {boolean} [isCompatible=false] 指示是否使用兼容模式进行解码。
+            当指定 isCompatible 参数为 true 时，将使用 unescape 来编码；
+            否则(默认)使用 decodeURIComponent。
+        * @return {Object} 返回一个包含键值对的 Object 对象。
+            当参数 url 非法时，返回空对象 {}。
+        * @example
+            var url = 'a=1&b=2&c=A%3D100%26B%3D200';
+            var obj = Query.parse(url);
+        得到 obj = {a: 1, b:2, c: {A: 100, B: 200}};
+        */
+        parse: function (url, isShallow, isCompatible) {
+
+            if (!url || typeof url != 'string') {
+                return {}; //这里不要返回 null，免得外部调用出错
+            }
+
+            var $String = require('String');
+
+            var decode = isCompatible ? unescape : decodeURIComponent;  //解码方法，默认用后者
+            var isDeep = !isShallow;    //深层次解析，为了语义上更好理解，换个名称
+            var toValue = $String.toValue; //缓存一下方法，以提高循环中的性能
+
+
+            var obj = {};
+
+            url.split('&').map(function (item) {
+                var pair = item.split('=');
+                var name = decode(pair[0]);
+                var value = pair[1];
+
+                if (pair.length > 1) {
+                    value = decode(value);
+
+                    //深层次解析
+                    if (isDeep && value.indexOf('=') > 0) { //还出现=号，说明还需要进一层次解码
+                        value = exports.parse(value); //递归调用
+                    }
+                    else { //处理一下字符串类型的 0|1|true|false|null|undefined|NaN
+                        value = toValue(value); //还原常用的数据类型
+                    }
+                }
+
+                var existed = name in obj;
+
+                if (!existed) {
+                    obj[name] = value;
+                    return;
+                }
+
+
+                //支持重复名称，如果有则放到一个数组里。
+                var old = obj[name];
+
+                if (old instanceof Array) {
+                    old.push(value);
+                }
+                else {
+                    obj[name] = [old, value];
+                }
+
+            });
+
+
+
+            return obj;
+        },
+
+        /**
+        * 把一个对象编码成等价结构的 url 查询字符串。
+        * @param {Object} obj 要进行编码的对象
+        * @param {boolean} [isCompatible=false] 
+            指定是否要使用兼容模式进行编码。
+            当需要使用 escape 进行编码时，请指定 true；
+            否则要使用 encodeURIComponent 进行编码，请指定 false 或不指定。
+        * @return {string} 返回一个经过编码的 url 查询字符串
+        * @example
+            var obj = {
+                a: 1,
+                b: 2,
+                c: { A: 100, B: 200 },
+                d: null,
+                e: undefined,
+                f: ['a', 'b', 'c']
+            };
+            var s = Query.stringify(obj);
+            console.log(s); 
+            //结果 a=1&b=2&c=A%3D100%26B%3D200&d=null&e=undefined&f=%5Ba%2C%20b%5D
+        */
+        stringify: function (obj, isCompatible) {
+
+            if (obj == null) {     // null 或 undefined
+                return String(obj);
+            }
+
+            switch (typeof obj) {
+                case 'string':
+                case 'number':
+                case 'boolean':
+                    return obj;
+            }
+
+            if (obj instanceof String || obj instanceof Number || obj instanceof Boolean || obj instanceof Date) {
+                return obj.valueOf();
+            }
+
+            if (Array.isArray(obj)) {
+                return '[' + obj.join(', ') + ']';
+            }
+
+            var encode = isCompatible ? escape : encodeURIComponent;
+            var pairs = [];
+
+
+
+            $Object.each(obj, function (key, value) {
+                key = encode(key);
+
+                if (value === undefined) {
+                    pairs.push(key);
+                    return;
+                }
+
+                value = exports.stringify(value);
+                value = encode(value);
+
+                pairs.push(key + '=' + value);
+
+            });
+
+
+            return pairs.join('&');
+
+        },
+
+
+        /**
+        * 获取指定 url 的查询字符串中指定的键所对应的值。
+        * 已重载 get(url, key, ignoreCase);
+        * 已重载 get(location, key, ignoreCase);
+        * 已重载 get(window, key, ignoreCase);
+        * @param {string} url 要进行获取的 url 字符串。
+        * @param {string} [key] 要检索的键。
+        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写。 默认区分大小写。
+            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
+            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
+        * @retun {string|Object|undefined} 返回一个查询字符串值。
+            当不指定参数 key 时，则获取全部查询字符串，返回一个等价的 Object 对象。
+            当指定参数 key 为一个空字符串，则获取全部查询字符串，返回一个 string 类型值。
+        * @example
+            Query.get('http://test.com?a=1&b=2#hash', 'a');  //返回 '1'
+            Query.get('http://test.com?a=1&b=2#hash', 'c');  //返回 undefined
+            Query.get('http://test.com?a=1&A=2#hash', 'A');  //返回 2
+            Query.get('http://test.com?a=1&b=2#hash', 'A', true);//返回 1
+            Query.get('http://test.com?a=1&b=2#hash', '');   //返回 'a=1&b=2'
+            Query.get('http://test.com?a=1&b=2#hash');       //返回 {a: '1', b: '2'}
+            Query.get('http://test.com?a=&b=');              //返回 {a: '', b: ''}
+            Query.get('http://test.com?a&b');                //返回 {a: '', b: ''}
+            Query.get('http://test.com?a', 'a');             //返回 ''
+        */
+        get: function (url, key, ignoreCase) {
+
+            //重载 get(location, key, ignoreCase)
+            //重载 get(window, key, ignoreCase)
+            if (typeof url == 'object') {
+                url = ('href' in url) ? url.href :  //location
+                    url.location.href;              //window
+            }
+
+            var beginIndex = url.indexOf('?');
+            if (beginIndex < 0) { //不存在查询字符串
+                return;
+            }
+
+            var endIndex = url.indexOf('#');
+            if (endIndex < 0) {
+                endIndex = url.length;
+            }
+
+            var qs = url.slice(beginIndex + 1, endIndex);
+            if (key === '') { //获取全部查询字符串的 string 类型
+                return decodeURIComponent(qs);
+            }
+
+
+            var obj = exports.parse(qs);
+
+            if (key === undefined) { //未指定键，获取整个 Object 对象
+                return obj;
+            }
+
+            if (!ignoreCase || key in obj) { //区分大小写或有完全匹配的键
+                return obj[key];
+            }
+
+            //以下是不区分大小写
+            key = key.toString().toLowerCase();
+
+            for (var name in obj) {
+                if (name.toLowerCase() == key) {
+                    return obj[name];
+                }
+            }
+
+        },
+
+
+
+        /**
+        * 给指定的 url 添加一个查询字符串。
+        * 注意，该方法会保留之前的查询字符串，并且覆盖同名的查询字符串。
+        * @param {string} url 组装前的 url。
+        * @param {string|Object} key 要添加的查询字符串的键。
+            当传入一个 Object 对象时，会对键值对进行递归组合编码成查询字符串。
+        * @param {string} [value] 要添加的查询字符串的值。
+        * @retun {string} 返回组装后的新的 url。
+        * @example
+            //返回 'http://test.com?a=1&b=2&c=3#hash'
+            Query.add('http://test.com?a=1&b=2#hash', 'c', 3);  
+            
+            //返回 'http://test.com?a=3&b=2&d=4#hash'
+            Query.add('http://test.com?a=1&b=2#hash', {a: 3, d: 4});  
+        */
+        add: function (url, key, value) {
+
+
+            var qs = exports.get(url) || {}; //先取出原来的
+
+            if (typeof key == 'object') {
+                Object.assign(qs, key);
+            }
+            else {
+                qs[key] = value;
+            }
+
+
+            //过滤掉值为 null 的项
+            var obj = {};
+
+            for (var key in qs) {
+                var value = qs[key];
+
+                if (value === null) {
+                    continue;
+                }
+                else {
+                    obj[key] = value;
+                }
+
+            }
+
+            return exports.set(url, obj);
+
+
+        },
+
+
+        /**
+        * 删除指定的 url 的查询字符串。
+        * 已重载 remove(url);          //删除全部查询字符串。
+        * 已重载 remove(url, key);     //删除指定键的查询字符串。
+        * 已重载 remove(window);       //删除指定 window 窗口的全部查询字符串，会导致页面刷新。
+        * 已重载 remove(window, key);  //删除指定 window 窗口的指定键查询字符串，会导致页面刷新。
+        * 已重载 remove(location);     //删除指定 location 窗口的全部查询字符串，会导致页面刷新。
+        * 已重载 remove(location, key);//删除指定 location 窗口的指定键查询字符串，会导致页面刷新。
+        */
+        remove: function (url, key) {
+            var location = null;
+
+            if (typeof url == 'object') {
+                if ('href' in url) {
+                    location = url;         //location
+                }
+                else {
+                    location = url.location; //window
+                }
+
+                url = location.href;
+            }
+
+
+            var qs = '';
+
+            if (key) {
+                qs = exports.get(url);
+                delete qs[key];
+            }
+
+            url = replace(url, qs);
+
+            //设置整个 location.href 会刷新
+            if (location) {
+                location.href = url;
+            }
+
+            return url;
+
+        },
+
+
+        /**
+        * 给指定的 url 添加一个随机查询字符串。
+        * 注意，该方法会保留之前的查询字符串，并且添加一个键名为随机字符串而值为空字符串的查询字符串。
+        * @param {string} url 组装前的 url。
+        * @param {number} [len] 随机键的长度。
+        * @retun {string} 返回组装后的新的 url。
+        * @example
+            //返回值类似 'http://test.com?a=1&b=2&7A8CEBAFC6B4=#hash'
+            Query.random('http://test.com?a=1&b=2#hash');  
+            
+            //返回值类似 'http://test.com?a=1&b=2&7A8CE=#hash' 
+            Query.random('http://test.com?a=1&b=2#hash', 5); //随机键的长度为 5
+    
+        */
+        random: function (url, len) {
+            var $String = require('String');
+            var key = $String.random(len);
+            return exports.add(url, key, undefined);
+        },
+
+
+
+        /**
+        * 把指定的 url 和查询字符串组装成一个新的 url。
+        * 注意，该方法会删除之前的查询字符串。
+        * @param {string} url 组装前的 url。
+        * @param {string|Object} key 要设置的查询字符串的键。
+            当传入一个 Object 对象时，会对键值对进行递归组合编码成查询字符串。
+        * @param {string} [value] 要添加的查询字符串的值。
+        * @retun {string} 返回组装后的新的 url。
+        * @example
+            //返回 'http://test.com?c=3#hash'
+            Query.set('http://test.com?a=1&b=2#hash', 'c', 3);  
+            
+            //返回 'http://test.com?a=3&d=4#hash'
+            Query.set('http://test.com?a=1&b=2#hash', {a: 3, d: 4});  
+        */
+        set: function (url, key, value) {
+            var location = null;
+
+            if (typeof url == 'object') {
+                if ('href' in url) {    
+                    location = url;         //location
+                }
+                else {      
+                    location = url.location; //window
+                }
+
+                url = location.href;
+            }
+
+
+            var qs = '';
+            var type = typeof key;
+            var isValueType = (/^(string|number|boolean)$/).test(type);
+
+            //set(url, qs);
+            if (arguments.length == 2 && isValueType) {
+                qs = encodeURIComponent(key);
+            }
+            else {
+                qs = type == 'object' ? key : $Object.make(key, value);
+            }
+
+
+            url = replace(url, qs);
+
+
+            //设置整个 location.href 会刷新
+            if (location) {
+                location.href = url;
+            }
+
+            return url;
+
+
+        },
+
+        /**
+        * 判断指定的 url 是否包含特定名称的查询字符串。
+        * @param {string} url 要检查的 url。
+        * @param {string} [key] 要提取的查询字符串的键。
+        * @param {boolean} [ignoreCase=false] 是否忽略参数 key 的大小写，默认区分大小写。
+            如果要忽略 key 的大小写，请指定为 true；否则不指定或指定为 false。
+            当指定为 true 时，将优先检索完全匹配的键所对应的项；若没找到然后再忽略大小写去检索。
+        * @retun {boolean} 如果 url 中包含该名称的查询字符串，则返回 true；否则返回 false。
+        * @example
+            Query.has('http://test.com?a=1&b=2#hash', 'a');  //返回 true
+            Query.has('http://test.com?a=1&b=2#hash', 'b');  //返回 true
+            Query.has('http://test.com?a=1&b=2#hash', 'c');  //返回 false
+            Query.has('http://test.com?a=1&b=2#hash', 'A', true); //返回 true
+            Query.has('http://test.com?a=1&b=2#hash');       //返回 true
+        */
+        has: function (url, key, ignoreCase) {
+
+            //重载 has(location, key, ignoreCase)
+            //重载 has(window, key, ignoreCase)
+            if (typeof url == 'object') {
+                url = ('href' in url) ? url.href :  //location
+                    url.location.href;              //window
+            }
+
+            var obj = exports.get(url); //获取全部查询字符串的 Object 形式
+
+            if (!obj) {
+                return false;
+            }
+
+            if (!key) { //不指定名称，
+                return !$Object.isEmpty(obj); //只要有数据，就为 true
+            }
+
+            if (key in obj) { //找到完全匹配的
+                return true;
+            }
+
+            if (ignoreCase) { //明确指定了忽略大小写
+
+                key = key.toString().toLowerCase();
+                for (var name in obj) {
+                    if (name.toLowerCase() == key) {
+                        return true;
+                    }
+                }
+            }
+
+            //区分大小写，但没找到
+            return false;
+
+        },
+
+        /**
+        * 对查询字符串中的值部分进行转换过滤。
+        * 如 `http://www.test.com/?a=XXX`，其中 `XXX` 就是要过滤的部分。
+        * @return {String}
+        */
+        escape: function (string) {
+            var s = String(string);
+            return escape(s).replace(/\+/g, "%2B");
+        },
+
+
+    };
+
+});
+
+
+
+
+/**
+* JSON 工具类。
+* @class
+* @name JSON
+*/
+define('JSON', function (require, module,  exports) {
+
+    var JSON = window.JSON;
+
+    return /**@lends JSON*/ {
+
+
+        /**
+        * 把一个 JSON 字符串数据解析成对象。
+        */
+        parse: function (content) {
+
+            try {
+                var obj = JSON.parse(content);
+                return obj;
+            }
+            catch (ex) {
+                console.warn('使用原生的 JSON.parse() 方法无法解析:', content);
+            }
+
+
+            try {
+                //这种方法是 jQuery 的实现，有问题。
+                //content = content.replace(/^(\r\n)+/g, ' ');
+                //return (new Function('return ' + content))();
+
+                //下面这方法安全、可靠些。
+                //包装多一层匿名立即执行函数。
+                var js = [
+                    'return (function () { ',
+                    '   var obj = ' + content + ';', //因为 return 的换行问题，这里用一个 obj 变量再返回 obj 会安全很多。
+                    '   return obj;',
+                    '})();',
+
+                ].join('\r\n');
+
+                var fn = new Function(js);
+                var obj = fn();
+
+                return obj;
+            }
+            catch (ex) {
+                console.warn('使用 new Function() 方法无法解析:', content);
+            }
+
+            return null;
+
+        },
+
+        /**
+        * 把一个对象解析成 JSON 字符串。
+        */
+        stringify: function () {
+            return JSON.stringify(...arguments);
+        },
+    };
+
+});
+
+
+
+
+/**
+* Script 脚本工具
+* @namespace
+* @name Script
+*/
+define('Script', function (require, module, exports) {
+
+    var $String = require('String');
+    var $Object = require('Object');
+
+    var defaults = {
+        url: '',
+        id: '',
+        charset: 'utf-8',
+        document: window.document,
+        onload: null
+    };
+
+
+    /**
+    * 加载单个
+    * @inner
+    */
+    function loadItem(url, charset, document, onload) {
+
+        var id;
+
+        if (typeof url == 'object') { //传入的是一个 {} 
+            var config = url;
+
+            id = config.id;
+            url = config.url;
+            charset = config.charset;
+            document = config.document;
+            onload = config.onload;
+        }
+
+
+        var script = document.createElement('script');
+
+        if (onload) { //指定了回调函数，则设置它
+            if (script.readyState) { //IE
+                /**@ignore*/
+                script.onreadystatechange = function () {
+
+                    var readyState = script.readyState;
+
+                    if (readyState == 'loaded' || readyState == 'complete') {
+                        script.onreadystatechange = null; //避免重复执行回调
+                        onload();
+                    }
+                };
+            }
+            else { //标准
+                script.onload = onload;
+            }
+
+        }
+
+        script.src = url;
+
+        if (charset) {
+            script.charset = charset;
+        }
+
+        if (id) {
+            script.id = id;
+        }
+
+        document.head.appendChild(script);
+    }
+
+    /**
+    * 顺序加载批量
+    * @inner
+    */
+    function loadList(urls, charset, document, fn) {
+
+        if (urls.length == 0) {
+            fn && fn();
+            return;
+        }
+
+
+
+        var index = 0;
+
+        (function () {
+
+            var next = arguments.callee;
+            var url = urls[index];
+
+            loadItem(url, charset, document, function () {
+                index++;
+
+                if (index < urls.length) {
+                    next();
+                }
+                else {
+                    fn && fn();
+                }
+            });
+
+        })();
+
+
+    }
+
+
+
+
+    
+
+    return exports = /**@lends Script*/ {
+
+        /**
+        * 跨浏览器动态加载 JS 文件，并在加载完成后执行指定的回调函数。
+        * @param {string|Array} params.url 
+            要加载的 JS 文件的 url 地址，如果要批量加载，则为一个地址数组。
+        * @param {string} [params.charset="utf-8"] 
+            要加载的 JS 文件的字符编码，默认为 utf-8。
+        * @param {Document} [params.document=window.document] 
+            要加载的 JS 文件的上下文环境的 document，默认为当前窗口的 document 对象。
+        * @param {function} [params.onload] 
+            加载成功后的回调函数。
+        * @example
+            Script.load({
+                url: 'a.js',
+                charset: 'utf-8',
+                document: document,
+                id: 'myScript',
+                onload: function (){ }
+            });
+
+            Script.load('a.js', 'utf-8', document, function(){});
+            Script.load('a.js', 'utf-8', function(){});
+            Script.load('a.js', document, function(){});
+            Script.load('a.js', function(){});
+
+            //批量加载
+            Script.load(['a.js', 'b.js'], function(){});
+        */
+        load: function (params) {
+
+
+            var obj = Object.assign({}, defaults); //复制一份
+
+            //注意，params 有可能是个数组，不能用 typeof 为 'object'
+            if ($Object.isPlain(params)) { //纯对象 {}
+                Object.assign(obj, params);
+            }
+            else {
+                obj.url = params;
+
+                switch (typeof arguments[1]) {
+                    case 'string':
+                        obj.charset = arguments[1];
+                        break;
+                    case 'object':
+                        obj.document = arguments[1];
+                        break;
+                    case 'function':
+                        obj.onload = arguments[1];
+                        break;
+                }
+
+                switch (typeof arguments[2]) {
+                    case 'object':
+                        obj.document = arguments[2];
+                        break;
+                    case 'function':
+                        obj.onload = arguments[2];
+                        break;
+                }
+
+                if (arguments[3]) {
+                    obj.onload = arguments[3];
+                }
+            }
+
+            var url = obj.url;
+
+            if (typeof url == 'string') {
+                loadItem(obj);
+            }
+            else if (url instanceof Array) {
+                loadList(url, obj.charset, obj.document, obj.onload);
+            }
+            else {
+                throw new Error('参数 params.url 必须为 string 或 string 的数组');
+            }
+
+        },
+
+
+    };
+
+});
+
+
+
+
+
+
+/**
+* StyleSheet 样式类工具
+* @namespace
+* @name StyleSheet
+*/
+define('StyleSheet', function (require, module, exports) {
+
+    var iframe;
+    var iframeDoc;
+
+
+
+    var defaults = {
+        url: '',
+        id: '',
+        charset: 'utf-8',
+        document: window.document,
+        onload: null,
+    };
+
+
+
+    /**
+    * 加载单个文件。 
+    * @inner
+    */
+    function loadItem(url, charset, document, onload) {
+
+        var id;
+
+        if (typeof url == 'object') { //传入的是一个 {} 
+            var config = url;
+
+            id = config.id;
+            url = config.url;
+            charset = config.charset;
+            document = config.document;
+            onload = config.onload;
+        }
+
+
+        var link = document.createElement('link');
+
+        
+
+        if (onload) { //指定了回调函数，则设置它
+
+            if (link.readyState) { //IE
+
+                link.onreadystatechange = function () {
+
+                    var readyState = link.readyState;
+
+                    if (readyState == 'loaded' || readyState == 'complete') {
+                        link.onreadystatechange = null; //避免重复执行回调
+                        onload();
+                    }
+                };
+            }
+            else { //标准
+                link.onload = onload;
+            }
+
+        }
+
+
+        link.href = url;
+        link.rel = 'stylesheet';
+
+        if (charset) {
+            link.charset = charset;
+        }
+
+        if (id) {
+            link.id = id;
+        }
+
+      
+        document.head.appendChild(link);
+    }
+
+    /**
+    * 顺序加载批量
+    * @inner
+    */
+    function loadList(urls, charset, document, fn) {
+
+        if (urls.length == 0) {
+            fn && fn();
+            return;
+        }
+
+
+        var index = 0;
+
+        (function () {
+            var next = arguments.callee;
+            var url = urls[index];
+
+            loadItem(url, charset, document, function () {
+
+                index++;
+
+                if (index < urls.length) {
+                    next();
+                }
+                else {
+                    fn && fn();
+                }
+            });
+
+        })();
+
+
+    }
+
+
+
+
+    return /**@lends Style */ {
+
+        /**
+        * 跨浏览器动态加载 JS 文件，并在加载完成后执行指定的回调函数。
+        * @memberOf MiniQuery.Script
+        * @param {string|Array} params.url 
+            要加载的 JS 文件的 url 地址，如果要批量加载，则为一个地址数组。
+        * @param {string} [params.charset="utf-8"] 
+            要加载的 JS 文件的字符编码，默认为 utf-8。
+        * @param {Document} [params.document=window.document] 
+            要加载的 JS 文件的上下文环境的 document，默认为当前窗口的 document 对象。
+        * @param {function} [params.onload] 
+            加载成功后的回调函数。
+        * @example
+            Style.load({
+                url: 'a.css',
+                charset: 'utf-8',
+                document: document,
+                id: 'myScript',
+                onload: function (){ }
+            });
+
+            Style.load('a.css', 'utf-8', document, function(){});
+            Style.load('a.css', 'utf-8', function(){});
+            Style.load('a.css', document, function(){});
+            Style.load('a.css', function(){});
+
+            //批量加载
+            Style.load(['a.css', 'b.css'], function(){});
+        */
+        load: function (params) {
+
+            var $Object = require('Object');
+
+            var obj = Object.assign({}, defaults); //复制一份
+
+            //注意，params 有可能是个数组，不能用 typeof 为 'object'
+            if ($Object.isPlain(params)) { //纯对象 {}
+                Object.assign(obj, params);
+            }
+            else {
+
+                obj.url = params;
+
+                switch (typeof arguments[1]) {
+                    case 'string':
+                        obj.charset = arguments[1];
+                        break;
+                    case 'object':
+                        obj.document = arguments[1];
+                        break;
+                    case 'function':
+                        obj.onload = arguments[1];
+                        break;
+                }
+
+                switch (typeof arguments[2]) {
+                    case 'object':
+                        obj.document = arguments[2];
+                        break;
+                    case 'function':
+                        obj.onload = arguments[2];
+                        break;
+                }
+
+                if (arguments[3]) {
+                    obj.onload = arguments[3];
+                }
+            }
+
+
+
+
+            var url = obj.url;
+
+            if (typeof url == 'string') {
+                loadItem(obj);
+            }
+            else if (url instanceof Array) {
+                loadList(url, obj.charset, obj.document, obj.onload);
+            }
+            else {
+                throw new Error('参数 params.url 必须为 string 或 string 的数组');
+            }
+        },
+
+       
+    };
+
+});
+
+
+
+
+
+/**
+* 多任务处理工具类。
+* @namesapce
+* @name Tasks
+*/
+define('Tasks', function (require, module,  exports) {
+    var Emitter = require('Emitter');
+    var mapper = new Map();
+
+    var sid$todos = {};
+
+    /**
+    * 构造器。
+    */
+    function Tasks(list) {
+        var meta = {
+            'emitter': new Emitter(this),
+            'list': list || [],
+        };
+
+        mapper.set(this, meta);
+    }
+
+
+    //实例成员。
+    Tasks.prototype = {
+        constructor: Tasks,
+
+        /**
+        * 并行处理。
+        * @param {Array} [list] 要处理的任务列表。 如果不指定，则使用构造器中的。
+        */
+        parallel: function (list) {
+            var meta = mapper.get(this);
+            list = list || meta.list;
+
+            //空的任务列表。
+            if (!list.length) {
+                meta.emitter.fire('all', [[]]); //里面要套个空数组。
+                return;
+            }
+
+            //非空的任务列表。
+            var total = list.length;        //总项数。
+            var count = total;              //待处理的项数。
+            var values = new Array(total);  //收集每项异步操作的返回值。
+            var dones = new Array(total);   //[true, undefined, true, ..., ] 记录对应的项是否已完成。
+
+            list.forEach(function (item, index) {
+                //done(index) 是异步调用，要多一层闭包。
+                (function (index) {
+                    //第三个参数是一个回调函数，即 done(value); 
+                    //由业务层调用，以通知异步操作完成。
+                    //done(value); 接受一个参数作为此项异步操作的返回值进行收集，
+                    //最后会在全部完成后一起传过去给业务层。
+                    meta.emitter.fire('each', [item, index, function (value) {
+                        values[index] = value; //需要收集的值，由调用者传入。
+                        dones[index] = true;
+                        count--;
+
+                        //计数为 0 时，不一定就全部完成了，
+                        //因为调用者可能会恶意多次调用 done() 以使计数减少到 0。
+                        //但有一点可以肯定的：只要计数不为 0，说明至少有一项未完成。
+                        if (count > 0) { //性能优化
+                            return;
+                        }
+
+                        //安全起见，检查每项的完成状态。
+                        for (var i = 0; i < total; i++) {
+                            if (!dones[i]) {
+                                return;
+                            }
+                        }
+
+                        //至此，全部项都已完成。
+                        meta.emitter.fire('all', [values]);
+                    }]);
+
+                })(index);
+
+            });
+
+
+
+        },
+
+        /**
+        * 串行处理。
+        * @param {Array} [list] 要处理的任务列表。 如果不指定，则使用构造器中的。
+        */
+        serial: function (list) {
+            var meta = mapper.get(this);
+            list = list || meta.list;
+
+
+            //空的任务列表。
+            if (!list.length) {
+                meta.emitter.fire('all', []);
+                return;
+            }
+
+            //非空的任务列表。
+            var total = list.length;        //总项数。
+            var values = new Array(total);  //收集每项异步操作的返回值。
+
+
+            function process(index) {
+                var item = list[index];
+
+                //第三个参数是一个回调函数，即 done(value); 
+                //由业务层调用，以通知异步操作完成。
+                //done(value); 接受一个参数作为此项异步操作的返回值进行收集，
+                //最后会在全部完成后一起传过去给业务层。
+                meta.emitter.fire('each', [item, index, function (value) {
+                    values[index] = value; //需要收集的值，由调用者传入。
+                    index++;
+
+                    if (index < total) {
+                        process(index);
+                    }
+                    else {
+                        meta.emitter.fire('all', [values]);
+                    }
+                }]);
+            }
+
+            process(0);
+
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+    };
+
+
+    //静态成员。
+    Object.assign(Tasks, {
+        /**
+        * 并行执行任务列表。
+        *   list: [],   //任务列表。
+        *   options: {
+        *       //处理每一项时的回调函数。 
+        *       //在异步处理完成当前项时，须手动调用参数中的 done(value) 函数以通知处理器进行处理。
+        *       each: function (item, index, done) { }, 
+        *       
+        *       //全部项完成时的回调函数。
+        *       //会接收到每一项异步完成时的回调函数传过来的值组成的数组。
+        *       all: function (values) { },
+        *   },
+        */
+        parallel: function (list, options) {
+            if (!options) {
+                return;
+            }
+
+            var tasks = new Tasks(list);
+
+            tasks.on(options);
+            tasks.parallel();
+        },
+
+        /**
+        * 串行执行任务列表。
+        *   list: [],   //任务列表。
+        *   options: {
+        *       //处理每一项时的回调函数。 
+        *       //在异步处理完成当前项时，须手动调用参数中的 done(value) 函数以通知处理器进行处理。
+        *       each: function (item, index, done) { }, 
+        *       
+        *       //全部项完成时的回调函数。
+        *       //会接收到每一项异步完成时的回调函数传过来的值组成的数组。
+        *       all: function (values) { },
+        *   },
+        */
+        serial: function (list, options) {
+            if (!options) {
+                return;
+            }
+
+            var tasks = new Tasks(list);
+
+            tasks.on(options);
+            tasks.serial();
+        },
+
+
+        /**
+        * 支持多个并发异步加载操作，实际只会加载一次。
+        * 如果在加载过程中，再发起加载请求，则会放入待办列表中，加载完成后再依次执行。
+        *   sid: '',    //异步加载的名称，以此作为区分。 同一个名称的拥有同一个待办队列。
+        *   todo: {},   //要添加的待办项，可以是任意值。
+        *   load: fn,   //实际要发起的异步加载操作函数。 异步加载函数体内必须显式调用传过去的函数，以调用异步加载完成。
+        */
+        todo: function (sid, todo, load) {
+            var todos = sid$todos[sid];
+
+            if (todos) {
+                todos.push(todo);
+                return;
+            }
+
+
+
+            todos = sid$todos[sid] = [todo];
+
+
+            load(function (each) {
+                sid$todos[sid] = null;
+
+                if (typeof each == 'function') {
+                    todos.forEach(function (todo, index) {
+                        each(todo, index);
+                    });
+                }
+
+                return todos;
+                
+            });
+
+
+        },
+
+    });
+
+
+    return Tasks;
+
+
+
+
+
+    //var tasks = new Tasks([]);
+
+    //tasks.on('each', function (item, index, done) {
+
+    //});
+
+    //tasks.on('all', function (values) {
+
+    //});
+
+
+    //tasks.parallel();
+
+
+
+});
+
+
+/**
+* KISP 框架命名空间
+* @namespace
+* @name KISP
+*/
+define('KISP', function (require, module, exports) {
+
+    return /**@lends KISP*/ {
+
+        /**
+        * 名称。 
+        * (由 packer 自动插入)
+        */
+        name: 'pc',
+
+        /**
+        * 版本号。 (由 packer 自动插入)
+        */
+        version: '8.2.0',
+
+        /**
+        * 类型号。 (由 packer 自动插入)
+        * 值为 'debug' 或 'min'。
+        */
+        edition: /**{KISP.edition*/undefined/**KISP.edition}*/,
+
+        /**
+        * concat 版本的内容对应的 md5 值。 (由 packer 自动插入)
+        * 内容不包括本字段动态生成的值部分。
+        * 与生成的头部注释中的 md5 值是一致的。
+        */
+        md5: 'D2080A4AF82F28DEB471F2951F9B36CD',
+
+        /**
+        * babel 版本号。 (由 packer 自动插入)
+        * 如果为空，则说明没有进行过 babel 转换。
+        */
+        babel: /**{KISP.babel*/''/**KISP.babel}*/,
+
+        /**
+        * KISP 对外公开可用的公共模块列表。 (由 packer 自动插入)
+        */
+        modules: [
+            'Array',
+            'Date',
+            'String',
+            'Emitter',
+            'Object',
+            'Tree',
+            'Escape',
+            'Fn',
+            'Math',
+            'Hash',
+            'Query',
+            'JSON',
+            'Script',
+            'StyleSheet',
+            'Tasks',
+            'KISP',
+            'Defaults',
+            'Config',
+            'Data',
+            'Router',
+            'Proxy',
+            'Proxy.defaults',
+            'Url',
+            'Url.defaults',
+            'App',
+            'App.defaults',
+            'App.config',
+            'OuterModule',
+            'OuterModule.defaults',
+            '$',
+            'Navigator',
+            'Navigator.defaults',
+            'SessionStorage',
+            'SessionStorage.defaults',
+            'Storage',
+            'CircularJSON',
+            'LocalStorage',
+            'LocalStorage.defaults',
+            'Package',
+            'Package.defaults',
+            'Loading',
+            'Loading.defaults',
+            'Style',
+            'RandomId',
+            'Mask',
+            'Mask.defaults',
+            'Mask.config',
+            'Session',
+            'Session.defaults',
+            'View',
+            'View.defaults',
+            'View.config',
+            'Panel',
+            'Panel.defaults',
+            'Template',
+            'HTMLParser',
+            'Mapper',
+            'Alert',
+            'Alert.defaults',
+            'Alert.config',
+            'Dialog',
+            'Dialog.defaults',
+            'Dialog.config',
+            'Confirm',
+            'Confirm.defaults',
+            'API',
+            'API.defaults',
+            'Tabs',
+            'Tabs.defaults',
+            'Tabs.config',
+            'Toast',
+            'Toast.defaults',
+        ],
+
+
+        /**
+        * 加载 KISP 框架内公开的模块。
+        * @param {string} id 模块的名称(id)。
+        * @return {Object} 返回模块的导出对象。
+        * @example
+        *   var API = KISP.require('API');    
+        */
+        require: function (id) {
+            return require(id); //暂时全部可加载。
+            //return InnerModules.expose(id) ? require(id) : null;
+        },
+
+
+        /**
+        * 加载 KISP 框架内公开的模块，并创建它的一个实例。
+        * @param {string} id 模块的名称(id)
+        * @param {Object} config 要创建实例时的配置参数。
+        * @return {Object} 返回该模块所创建的实例。
+        * @example
+        *   var api = KISP.create('API', {});  
+        *   //相当于
+        *   var API = KISP.require('API');
+        *   var api = new API({});
+        */
+        create: function (id, ...args) {
+            var M = require(id);
+            return new M(...args);
+        },
+
+
+        /**
+        * 获取或设置 KISP 内部模块的默认配置。
+        * @function
+        * @example
+        *   KISP.config({});    
+        */
+        config: InnerModules.bind('Defaults', 'config'),
+
+
+        /**
+        * 获取或设置业务层的自定义数据。
+        * 已重载 data(key); //获取指定键的数据。
+        * 已重载 data(key, value); //设置指定键的数据。
+        * 已重载 data(obj); //批量设置数据。
+        * 
+        * @param {string} key 要存储的数据的键。
+        * @param value 要存储的数据的值，可以是任何类型。
+        *   当不提供此参数时，则为 get 操作；
+        *   否则为 set 操作。
+        */
+        data: InnerModules.bind('Data', 'data'),
+
+
+        /**
+        * 设置顶级私有模块的路由。
+        */
+        route: InnerModules.bind('Router', 'set'),
+
+        /**
+        * 响应一个代理请求。
+        * 相当于 Proxy.response() 的别名。
+        * @function
+        * @example
+        *   KISP.proxy({
+                code: 200,
+                msg: 'ok',
+                data: {},
+            });    
+        */
+        proxy: InnerModules.bind('Proxy', 'response'),
+
+        /**
+        * 初始化执行环境，并启动应用程序。
+        * 该方法会预先定义一些公共模块，然后定义一个匿名模块并启动它。
+        * @param {function} factory 工厂函数，即启动函数。
+        */
+        launch: InnerModules.bind('App', 'launch'),
+      
+        /**
+        * 用 KISP 标准的方法定义一个 View 视图实例。
+        */
+        view: InnerModules.bind('View', 'define'),
+
+        /**
+        * 用 KISP 标准的方法定义一个 Panel 面板实例。
+        */
+        panel: InnerModules.bind('Panel', 'define'),
+
+        /**
+        * 加载指定名称的包资源，并在加载完成后执行一个回调。
+        * 或者加载总包文件。
+        * 已重载 load(done);       //加载总包文件。 此时回调函数接受到的数据结构为总包 json 文件中的结构。
+        * 已重载 load(name, done); //加载指定名称的分包资源。
+        */
+        load: InnerModules.bind('Package', 'load'),
+
+
+        /**
+        * 弹出 alert 虚拟窗口。
+        * @param {string|Object} text 要显示的消息文本。
+        *   如果指定为一个对象，则先调用 JSON.string(text, null, 4) 得到字符串再进行显示。
+        * @param {function} fn 点击 `确定` 按钮后要执行的回调函数。
+        */
+        alert: InnerModules.bind('Alert', 'show'),
+
+        /**
+        * 弹出 confirm 虚拟窗口。
+        * @param {string} text 要显示的消息文本。
+        * @param {function} fnOK 点击 `确定` 按钮后要执行的回调函数。
+        * @param {function} fnCancel 点击 `取消` 按钮后要执行的回调函数。
+        */
+        confirm: InnerModules.bind('Confirm', 'show'),
+
+        
+    };
+});
+
+
+/**
+* KISP 内部模块使用的默认配置管理器。
+* KISP 内部模块使用的配置，包括三个层面：
+*   1，通用的、底层的默认配置，以 `*.defaults` 命名的模块，如 `Dialog.defaults`，此类模块定义在 KISP 内部。
+*   2，针对某一环境(如移动端)的默认配置，以 `*.config` 命名的模块，如 `Dialog.config`，此类模块定义在 KISP 内部。
+*   3，业务层指定的配置，以 KISP.config() 方式手动调用的，此类调用定义在业务层，推荐写在 config.js 里。
+*
+* KISP 会把这三个配置深度合并成一个对象作为相应的模块配置，合并顺序为上述的顺序关系。
+* 因此业务层可以根据需要覆盖某个模块的特定配置或字段。
+* 
+* @namespace
+* @name Defaults
+*/
+define('Defaults', function (require, module, exports) {
+    var $Object = require('Object');
+    var Config = require('Config');
+
+    var cfg = new Config(); //存取器。
+    var name$init = {};     //记录对应的模块是否已给处理。
+
+
+    /**
+    * 初始化 KISP 内部的原始配置。
+    * 原始配置是指 `*.defaults` 和 `*.config` 的模块。
+    * 使用之前，会先把 `*.defaults` 和 `*.config` 的模块进行合并。
+    * `*.defaults` 是通用的、底层的默认配置。
+    * `*.config` 是针对某一环境(如移动端)的默认配置。
+    */
+    function init(name) {
+        if (name$init[name]) {
+            return;
+        }
+
+
+        //首次获取，先进行合并。
+        var defaults = require(`${name}.defaults`); //如 `Dialog.defaults`。
+        var config = require(`${name}.config`);     //如 `Dialog.config`。
+        var all = $Object.extendDeeply({}, defaults, config);
+
+        name$init[name] = true;
+
+        cfg.set(name, all);
+    }
+
+    
+
+    return exports = /**@lends Defaults*/ {
+
+        /**
+        * 设置。
+        * 会深度合并传入的目标的子对象与原配置中的对应的子对象。
+        * 已重载 set(obj); //批量设置。
+        * 已重载 set(name, data); //单个设置。
+        */
+        set: function (name, data) {
+            var obj = typeof name == 'object' ? name : { [name]: data, };
+
+            $Object.each(obj, function (name, data) {
+                init(name);
+
+                cfg.set(name, data);
+            });
+
+        },
+
+        /**
+        * 获取。
+        */
+        get: function (name) {
+            init(name);
+            return cfg.get(name);
+        },
+
+        /**
+        * 深度克隆。
+        */
+        clone: function (name, ...targets) {
+            init(name);
+            return cfg.clone(...arguments);
+        },
+
+        /**
+        * 获取或设置 KISP 内部模块的默认配置。
+        * 已重载 config(name); //获取指定名称的模块的默认配置。
+        * 已重载 config(name, value); //单个设置指定名称的模块的默认配置。
+        * 已重载 config(obj); //批量设置模块的默认配置。
+        * @function
+        * @example
+        *   KISP.config({});    
+        */
+        config: function (name, value) {
+            //get(name)
+            if (arguments.length == 1 && typeof name == 'string') {
+                return exports.get(name);
+            }
+
+            //set()
+            exports.set(...arguments);
+        },
+
+      
+    };
+
+});
+
+
+/**
+* 配置工具类。
+* 主要提供数据的存储与获取功能。
+* @class
+* @name Config
+*/
+define('Config', function (require, module,  exports) {
+    var $Object = require('Object');
+    var mapper = new Map();
+
+
+    /**
+    * 构造器。
+    */
+    function Config() {
+        var meta = {
+            'name$data': {},
+        };
+
+        mapper.set(this, meta);
+    }
+
+
+
+    //实例方法
+    Config.prototype = /**@lends Config#*/ {
+        constructor: Config,
+
+        /**
+        * 设置指定模块的默认配置。
+        * 会深度合并传入的目标的子对象与原配置中的对应的子对象。
+        * 已重载 set({...});       //批量设置。
+        * 已重载 set(name, data);  //单个设置。
+        *
+        * @param {string} name 要设置的模块的名称。
+        * @param {Object} data 要设置的默认配置对象。
+        */
+        set: function (name, data) {
+            var meta = mapper.get(this);
+            var name$data = meta.name$data;
+            var obj = typeof name == 'object' ? name : { [name]: data, };
+
+
+            $Object.each(obj, function (name, data) {
+
+                //首次设置
+                if (!(name in name$data)) {
+                    name$data[name] = data;
+                    return;
+                }
+
+
+                //第二(+)次设置
+                var old = name$data[name];
+
+                if ($Object.isPlain(old)) { //纯对象
+                    $Object.extendDeeply(old, data); //则深度合并。
+                }
+                else { //其他的，则重设
+                    name$data[name] = data;
+                }
+            });
+
+        },
+
+        /**
+        * 获取指定模块名称的默认配置。
+        * @param {string|object} name 要获取的模块的名称。
+        * @return {Object} 返回该模块的默认配置对象。
+        */
+        get: function (name) {
+            var meta = mapper.get(this);
+
+            return meta.name$data[name];
+        },
+
+        /**
+        * 获取并深度克隆指定模块名称的默认配置。
+        * @param {string} name 要获取的模块的名称。
+        * @param {Object} [target] 需要合并的对象。
+        *   如果需要提供额外的(深度)合并成员，可指定此参数。
+        * @return {Object} 返回该模块的默认配置对象的克隆版本。
+        */
+        clone: function (name, ...targets) {
+            var old = this.get(name);
+            var all = $Object.extendDeeply({}, old, ...targets);
+
+            return all;
+
+        },
+
+    };
+
+
+    return Config;
+
+
+});
+
+
+/**
+* 业务层的自定义数据管理器。
+* 即针对业务层的 KISP.data() 的功能，用于存储和获取自定义数据。
+* @namespace
+* @name Data
+*/
+define('Data', function (require, module, exports) {
+    var $Object = require('Object');
+    var Config = require('Config');
+
+    var cfg = new Config(); 
+    
+
+
+    return /**@lends Data*/ {
+
+        /**
+        * 获取或设置业务层的自定义数据。
+        * 已重载 data(key); //获取指定键的数据。
+        * 已重载 data(key, value); //设置指定键的数据。
+        * 已重载 data(obj); //批量设置数据。
+        * 
+        * @param {string} key 要存储的数据的键。
+        * @param value 要存储的数据的值，可以是任何类型。
+        *   当不提供此参数时，则为 get 操作；
+        *   否则为 set 操作。
+        */
+        data: function (key, value) {
+            //get(key)
+            if (arguments.length == 1 && typeof key == 'string') {
+                return cfg.get(key);
+            }
+
+            //set
+            cfg.set(...arguments);
+        },
+    };
+
+});
+
+
+/**
+* 路由。
+* @namespace
+* @name Router
+*/
+define('Router', function (require, module, exports) {
+    var $Object = require('Object');
+    var name$factory = {};
+
+
+    //示例解释：
+    /*
+    KISP.route('User', function (require, module) {
+        //以下两种写法是等价的。
+        //如果是写法一，则 KISP 内部也会转换成写法二。
+        //写法一简单明了，但写法二功能更自由、丰富。
+        //一般情况下用写法一，必要时可用写法二。
+
+        //写法一。
+        return {
+            'login': function () { },
+            'logout': function () { },
+        };
+
+        //写法二。
+        return function (User) {
+            User.on({
+                'login': function () { },
+                'logout': function () { },
+            });
+        };
+    });
+    */
+
+
+
+    return {
+
+        /**
+        * 设置路由。
+        * @param {string} name 路由的名称。
+        * @param {function} factory 路由处理函数。
+        *   也可以是一个导出对象。
+        */
+        set: function (name, factory) {
+            if (name$factory[name]) {
+                throw new Error(`重复定义的路由器: ${name}`);
+            }
+
+            name$factory[name] = factory;
+        },
+
+        /**
+        * 绑定全部路由。
+        */
+        bind: function ($require, $module, $exports) {
+
+            var all = $Object.map(name$factory, function (name, factory) {
+
+                if (typeof factory == 'function') {
+                    factory = factory($require, $module, $exports);
+                }
+
+                return factory;
+
+            });
+
+            $module.bind(all);
+
+            return all;
+        },
+    };
+
+   
+
+});
+
+
+
+/**
+* 把请求后台接口代理到本地的工具类。
+* @namespace
+* @name Proxy
+*/
+define('Proxy', function (require, module,  exports) {
+
+    var Defaults = require('Defaults');
+    var Fn = require('Fn');
+    
+    var current = null;     //当前请求到的代理文件的响应结果 factory
+
+
+
+    //模拟一个网络的随机延迟时间去执行一个回调函数
+    function delay(fn) {
+
+        var defaults = Defaults.get(module.id); //默认配置
+        var delay = defaults.delay;
+        var args = [].slice.call(arguments, 1); //提取 fn 后面的参数
+
+        Fn.delay(delay, fn, args);
+
+    }
+
+
+
+
+    /**
+    * 加载指定的 js 代理文件。
+    * 注意：加载完 js 代理文件后，会先执行 js 代理文件的逻辑，再触发 onload 事件。
+    * 经过试验发现，并发加载多个 js 文件，也会严格地按上述顺序对应的进行。
+    */
+    function loadJS(file, config) {
+
+        var Url = module.require('Url');
+        var url = Url.get(file);
+
+        var Script = require('Script');
+        Script.load(url, function () {
+
+            var factory = current;
+            current = null;
+
+            if (typeof factory == 'function') {
+                factory = factory(config.data, config);
+            }
+
+            done(factory, config);
+
+        });
+    }
+
+    /**
+    * 加载指定的 json 代理文件。
+    */
+    function loadJSON(file, config) {
+
+        var Url = module.require('Url');
+        var url = Url.get(file);
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('get', url, true);
+
+        xhr.onreadystatechange = function () {
+
+            if (xhr.readyState != 4) {
+                return;
+            }
+
+            if (xhr.status != 200) {
+                delay(config.error);
+                return;
+            }
+
+            var JSON = require('JSON');
+            var json = JSON.parse(xhr.responseText);
+            done(json, config);
+        };
+
+        xhr.send(null);
+    }
+
+
+    //加载完成后，根据状态分发事件。
+    function done(json, config) {
+        if (!json) {
+            delay(config.error);
+            return;
+        }
+
+        var successCode = config.successCode;
+        var field = config.field;
+        var code = json[field.code];
+
+        if (code == successCode) { // 成功
+            var data = json[field.data] || {};
+            delay(config.success, data, json);
+        }
+        else { //失败
+            var msg = json[field.msg] || '';
+            delay(config.fail, code, msg, json);
+        }
+    }
+
+
+
+
+    return /**@lends Proxy*/ {
+
+        /**
+        * 发起代理请求。
+        * @param {string} file 代理响应的文件地址。
+        * @param {Object} config 配置对象。
+        */
+        request: function (file, config) {
+     
+            var Url = require('Url');
+
+            if (Url.isExt(file, '.js')) { // 映射的响应是一个 js 文件
+                loadJS(file, config);
+                return;
+            }
+
+            if (Url.isExt(file, '.json')) {
+                loadJSON(file, config);
+                return;
+            }
+
+            throw new Error('不支持参数 file 的文件类型: ' + file);
+        },
+
+        /**
+        * 响应代理请求。
+        * 可以生成很复杂的动态数据，并根据提交的参数进行处理，具有真正模拟后台逻辑的能力。
+        * 该方法仅用在代理响应文件中，且在调用之前必须先调用 request 方法。
+        * 已重载 response(json)的情况。
+        * @param {function|Object} factory 响应的处理函数或 json 对象。
+        *   当传进来的 factory 为处理函数时，该函数会接收到两个参数：factory(data, config)。 其中：
+        *   data 为发起 get 或 post 请求时最终的 data 字段；
+        *   config 为发起 get 或 post 请求时全部的配置字段。
+        */
+        response: function (factory) {
+
+            //var type = typeof factory;
+            //var isValid = type == 'function' || type == 'object' && factory;
+
+            //if (!isValid) {
+            //    throw new Error('参数 factory 只能是函数或非空对象');
+            //}
+                
+            current = factory;
+        },
+
+    };
+});
+
+/**
+* Proxy 模块的默认配置
+* @name Proxy.defaults
+*/
+define('Proxy.defaults', /**@lends Proxy.defaults*/ {
+    /**
+    * 加载代理响应文件的起始位置(或目录)。
+    */
+    base: '',
+
+    /**
+    * 为模拟真实网络环境而随机延迟的时间。
+    * 格式为 { min: 500, max: 3000 }。
+    * 当指定为 false 时，则禁用延迟。
+    */
+    delay: {
+        /**
+        * 随机延迟的最小毫秒数。
+        */
+        min: 500,
+        /**
+        * 随机延迟的最大毫秒数。
+        */
+        max: 3000
+    },
+});
+
+
+
+
+/**
+* 当前页面的 Url 工具。
+* @namespace
+* @name Url
+*/
+define('Url', function (require, module, exports) {
+    var $String = require('String');
+
+
+    var meta = {
+        root: '',   //网站的根地址。
+        url: '',    //kisp.js 文件所在的地址。
+        dir: '',    //kisp.js 文件所在的地址所对应的目录。
+    };
+
+
+
+    return exports = /**@lends Url*/ {
+
+        /**
+        * 获取当前 web 站点的根目录。
+        */
+        root: function () {
+            if (meta.root) {
+                return meta.root;
+            }
+
+            var Defaults = require('Defaults');
+            var defaults = Defaults.get(module.id); //默认配置
+
+            var root = defaults.root;
+
+            if (typeof root == 'function') {
+                root = root();
+            }
+
+            //确保以 '/' 结尾。
+            if (!root.endsWith('/')) {
+                root += '/';
+            }
+
+            meta.root = root;
+
+            return root;
+        },
+
+        /**
+        * 获取 KISP 框架文件所对应的 url 地址目录。
+        */
+        dir: function () {
+            if (meta.dir) {
+                return meta.dir;
+            }
+
+            var url = exports.get();
+            var dir = url.split('/').slice(0, -1).join('/') + '/';
+
+            meta.dir = dir;
+
+            return dir;
+        },
+
+
+
+        /**
+        * 获取 KISP 框架文件所对应的 url 地址。
+        */
+        get: function () {
+            if (meta.url) {
+                return meta.url;
+            }
+
+            var Defaults = require('Defaults');
+            var defaults = Defaults.get(module.id); //默认配置
+            var id = defaults.id;
+
+            //使用 `<script id="script-KISP" src="xxx"></script>` 的模式。
+            if (!id) {
+                throw new Error('必须给引用了 KISP 框架文件的 <script> 标签分配一个 id。');
+            }
+
+            var script = document.getElementById(id);
+            var url = script.src.split('?')[0];
+
+            meta.url = url;
+
+            return url;
+
+        },
+
+        /**
+        * 获取 url 的主体部分，即去掉 query 和 hash 后的部分。
+        */
+        main: function (url) {
+            url = url.split('#')[0];
+            url = url.split('?')[0];
+
+            return url;
+        },
+
+
+        /**
+       * 检查给定的 url 是否为完整的 url。
+       * 即是否以 'http://' 或 'https://' 开头。
+       * @param {string} url 要检查的 url。
+       */
+        isFull: function (url) {
+            if (typeof url != 'string') {
+                return false;
+            }
+
+            return url.startsWith('http://') ||
+                url.startsWith('https://');
+        },
+
+
+        /**
+        * 检测指定的 url 是否为特定的扩展名类型的文件。
+        * @param {string} url 要检测的文件名。
+        * @param {string} ext 要检测的扩展名，以 "." 开始。
+        * @return {boolean} 如果该文件名以指定的扩展名结尾，则返回 true；否则返回 false。
+        * @example 
+            Url.is('a/b/c/login.JSON', '.json'); //返回 true
+        */
+        isExt: function (url, ext) {
+
+            if (typeof url != 'string' || typeof ext != 'string') {
+                return false;
+            }
+
+            url = exports.main(url);
+
+            return url.slice(0 - ext.length).toLowerCase() == ext.toLowerCase();
+        },
+
+
+
+        /**
+        * 解析路径。
+        * 这是一个第三方库的方法 resolveUrl。
+        */
+        resolve: function (baseUrl /* ...urls */) {
+            var len = arguments.length;
+            if (len == 0) {
+                throw new Error('resolveUrl requires at least one argument; got none.');
+            }
+
+            var base = document.createElement('base');
+            base.href = baseUrl;
+
+            if (len == 1) {
+                return base.href;
+            }
+
+
+            var head = document.head;
+            head.insertBefore(base, head.firstChild);
+
+            var url = '';
+            var a = document.createElement('a');
+            
+
+            for (var i = 1; i < len; i++) {
+                a.href = arguments[i];
+                url = a.href;
+                base.href = url;
+            }
+
+            head.removeChild(base);
+
+            return url;
+        },
+        
+    };
+
+});
+
+
+/**
+* Url 模块的默认配置。
+* @name Url.defaults
+*/
+define('Url.defaults',  {
+
+    id: 'script-KISP',
+
+    //这里取当前页面的路径作为根地址。
+    //注意：只适用于当前页面在根目录的情况。
+    //IE10 及以下 location.origin 不存在。
+    root: `${location.protocol}//${location.host}${location.pathname.split('/').slice(0, -1).join('/')}/`,
+
+
+});
+
+
+/**
+*
+*/
+define('Proxy/Url', function (require, module, exports) {
+
+ 
+    var Defaults = require('Defaults');
+    var Query = require('Query');
+    var Url = require('Url');
+
+
+    function get(url) {
+
+        //绝对地址
+        if (Url.isFull(url)) {
+            return url;
+        }
+            
+
+        //相对地址
+
+        var defaults = Defaults.get(module.parent.id); //默认配置
+        var base = defaults.base;
+
+        if (Url.isFull(base)) {
+            return base + url;
+        }
+
+
+        var root = Url.root();
+        if (url.slice(0, 1) != '/') {
+            root = root + base;
+        }
+
+        return root + url;
+    }
+
+
+
+
+
+    return {
+        'get': function (url) {
+            url = get(url);
+
+            //增加随机查询字符串，确保拿到最新的
+            return Query.random(url); 
+        },
+    };
+
+
+});
+
+
+/**
+* App 启动类。 
+* @class
+* @name App
+*/
+define('App', function (require, module, exports) {
+    var $String = require('String');
+    var Defaults = require('Defaults');
+    var OuterModule = require('OuterModule');     //对外给页面提供的，即业务层的模块管理器。
+    var Router = require('Router');
+   
+    var Navigator = module.require('Navigator');
+    var defaults = Defaults.get(module.id);
+    
+
+
+    return exports = /**@lends App*/ {
+
+
+        /**
+        * 初始化执行环境，并启动应用程序。
+        * @param {function} factory 工厂函数，即启动函数。
+        */
+        init: function (factory) {
+            var name = defaults.name;
+            var root = defaults.root;                       //app 的名称，一般为空字符串。
+            var seperator = OuterModule.defaults.seperator; //父子模块的分隔符，一般为 `/`。
+            var predefines = defaults.predefines || [];     //业务层需要预定义的 KISP 内部模块，映射到业务层自己的模块。 一般为 `KISP` 和 `$`。
+
+            if (!name) {
+                throw new Error('必须首先给应用分配一个唯一的名称，用于在存储中与其它应用区分开。');
+            }
+
+            if (typeof root != 'string') {
+                throw new Error('应用的顶级模块名称必须为一个 string。');
+            }
+
+            if (root.includes(seperator)) {
+                throw new Error('应用的顶级模块名称不能含有父子模块的分隔符: ' + seperator);
+            }
+
+
+            //让 app 的名称同时用于以下模块。
+            ['SessionStorage', 'LocalStorage', ].forEach(function (item) {
+                // InnerModules 是 KISP 内部的变量，定义在 base 目录。
+                if (!InnerModules.has(item)) {
+                    return;
+                }
+
+                Defaults.set(item, {
+                    'name': name,
+                });
+            });
+            
+
+            //注意，下面注释掉的 require() 语句，是给 KISP 自动化打包工具使用的。
+            //使用显式的模块加载，可以让自动化工具分析出模块的依赖关系。
+            //数目与 App.defaults.js 里的 predefines 一致。
+            //var KISP = require('KISP');
+            //var $ = require('$');
+            predefines.forEach(function (name) {
+                OuterModule.define(name, function () {
+                    return require(name);
+                });
+            });
+
+
+
+            //先定义一个顶级的模块。
+            OuterModule.define(root, function ($require, $module, $exports) {
+                if (defaults.navigator) {
+                    $exports = Navigator.create({
+                        'container': defaults.view.container,
+                        'preload': defaults.view.preload,
+                        'slide': defaults.view.slide,
+                        'animate': defaults.view.animate,
+
+                        'name': defaults.navigator,
+                        'module': $module,
+                    });
+                }
+
+
+                if (defaults.prebind) {
+                    Router.bind($require, $module, $exports);
+                }
+
+
+                factory && factory($require, $module, $exports);
+
+            });
+
+
+        
+
+        },
+
+
+        /**
+        * 启动应用程序。
+        * @param {function} factory 工厂函数，即启动函数。
+        */
+        launch: function (factory) {
+            exports.init(factory);
+
+            
+
+            //定义完后马上加载即可启动。
+            OuterModule.require(defaults.root);
+
+        },
+    };
+
+
+
+});
+
+
+/**
+* App 模块的默认配置
+* @name App.defaults
+*/
+define('App.defaults', /**@lends App.defaults*/ {
+    root: '',
+  
+    /**
+    * 应用的唯一名称。
+    * 用于在存储中区分其它应用。
+    */
+    name: '',
+
+    navigator: 'default-navigator',
+
+    /**
+    * 是否预绑定路由。
+    */
+    prebind: true,
+
+    /**
+    * 针对视图的配置。
+    */
+    view: {
+       
+    },
+
+
+    /**
+    * 给业务层预定义的模块。
+    * 即把 KISP 内部的模块预定义成业务层的模块。
+    */
+    predefines: [
+        'KISP',
+        '$',
+    ],
+
+
+});
+
+
+/**
+* App 模块的默认配置
+* @name App.config
+*/
+define('App.config', /**@lends App.config*/ {
+
+
+
+
+
+
+});
+
+
+
+/**
+* 对外提供的业务层的模块管理器。
+* @namespace
+* @name OuterModule
+*/
+define('OuterModule', function (require, module, exports) {
+    var $String = require('String');
+    var $Object = require('Object');
+    var Defaults = require('Defaults');
+    var Emitter = require('Emitter');
+
+
+    var defaults = Defaults.clone(module.id, {
+        'Emitter': Emitter, //事件驱动器的构造器。
+    });
+
+
+    //对外给业务层使用的模块管理器。
+    var mm = new ModuleManager(defaults);
+
+    //针对模板模块。
+    var id$factory = {};
+
+
+    return /**@lends Module*/ {
+        /**
+        * 默认配置。
+        */
+        'defaults': defaults,
+
+        /**
+        * 定义一个指定名称的静态模块。
+        * 或者定义一个动态模块，模块的 id 是一个模板字符串。
+        * 该方法对外给业务层使用的。
+        * @function
+        * @param {string} id 模块的名称。 可以是一个模板。
+        * @param {Object|function} factory 模块的导出函数或对象。
+        */
+        'define': function (id, factory) {
+            
+            // id 为一个模板字符串，如 `{prefix}/Address`。
+            var isTPL = id.includes('{') && id.includes('}');   
+
+            if (isTPL) {
+                id$factory[id] = factory;   //定义一个模板模块，则先缓存起来。
+            }
+            else {
+                mm.define(id, factory);
+            }
+
+        },
+
+        /**
+        * 加载指定的模块。
+        * KISP 内部使用的：
+        *   在 App 模块中用到，用于启动程序。
+        *   
+        * @function
+        * @param {string} id 模块的名称。
+        * @return 返回指定的模块。 
+        */
+        'require': mm.require.bind(mm),
+     
+        /**
+        * 使用模板模块动态定义一个模块。
+        * 即填充一个模板模块，以生成（定义）一个真正的模块。
+        *   sid: '',    //模板模板的 id，如 `{prefix}/Address`
+        *   data: {},   //要填充的数据，如 { prefix: 'Demo/User', }
+        */
+        'fill': function (sid, data) {
+
+            //需要扫描所有模板，同时填充它的子模块。
+            $Object.each(id$factory, function (id, factory) {
+
+                //所有以 sid 为开头的模板模块都要填充，
+                //如 sid 为 `{prefix}/Address`，id 为 `{prefix}/Address/API`
+                if (!id.startsWith(sid)) {
+                    return;
+                }
+
+                //填充成完整的模块 id。
+                id = $String.format(id, data); 
+
+                console.log(`动态定义模块: ${id}`);
+
+                mm.define(id, factory);
+
+            });
+
+
+    
+
+        },
+
+    };
+
+});
+
+
+/**
+* OuterModule 模块的默认配置
+* @name OuterModule.defaults
+*/
+define('OuterModule.defaults', /**@lends OuterModule.defaults*/ {
+    seperator: '/',     //私有模块的分隔符。
+    repeated: false,    //不允许重复定义同名的模块。
+    cross: false,       //不允许跨级加载模块。
+});
+
+
+
+
+define('$', function (require, module, exports) {
+
+    return window.jQuery || null;
+
+});
+
+
+/**
+*
+*/
+define('App/Navigator', function (require, module, exports) {
+    var Tasks = require('Tasks');
+    var Navigator = require('Navigator');
+
+    
+
+    var Views = module.require('Views');
+    
+
+
+    return {
+        /**
+        * 创建一个带视图滑动效果和滑动返回手势支持的导航器。
+        *   options = {
+        *       container: 'body',  //视图所要附加到的容器。
+        *       preload: true,      //是否按需提前加载视图的分包资源。
+        *       slide: true,        //是否启用滑动返回手势支持。
+        *       animate: true,      //是否启用视图间的前进/后退的过渡动画效果。
+        *       name: '',           //导航器的唯一名称。 因为一个应用里可以存在多个导航器，为区分存储中的数据，须提供一个名称。
+        *       module: Module,     //业务层顶级的 module 对象。 即 KISP.launch() 方法中回调函数的第二个参数 `module`，用于加载视图。
+        *   };
+        */
+        create: function (options) {
+            var $module = options.module;
+            var nav = new Navigator(options.name);
+
+            var animateEnabled = options.animate;
+            var slideEnabled = options.slide;
+
+
+            //针对滑动返回的。
+            //让浏览器的地址栏跟随着后退，但不触发 KISP 内部相应的事件。
+            var back = function () {
+                nav.back(false);
+            };
+
+            /**
+            * 跳到指定视图时触发。
+            * 包括主动跳转、前进、后退、刷新。
+            * 实现根据目标视图的状态信息进行显示或渲染。
+            */
+            nav.on('view', function (target, args, info) {
+                //target 可能尚未加载回来。
+                Views.load(target, options, function (target) {
+                    if (info.cache && target.rendered()) {
+                        target.show();
+                    }
+                    else {
+                        target.render(...args);
+                    }
+                });
+            });
+
+            
+            if (options.preload) {
+                /**
+                * 通过输入地址栏的地址，或刷新浏览器时触发。
+                * 根据缓存到的视图信息，按时间戳进行排序，重建滑动返回顺序的手势支持。
+                */
+                nav.on('immediate', function (hash, hash$info) {
+                    //视图信息列表。
+                    var infos = Object.keys(hash$info).map(function (hash) {
+                        return hash$info[hash];
+                    });
+
+                    //按时间戳降序排序。
+                    infos = infos.sort(function (a, b) {
+                        return a.timestamp > b.timestamp ? -1 : 1;
+                    });
+
+                    Views.load(infos, options, function () {
+                        if (!slideEnabled) {
+                            return;
+                        }
+
+                        
+                    });
+
+
+                });
+            }
+
+
+            
+
+
+            /**
+            * 通过浏览器的前进时触发。
+            * 实现从当前视图到目标视图的滑动过渡效果。
+            */
+            nav.on('forward', function (current, target) {
+                current = $module.require(current);
+
+                //target 可能尚未加载回来。
+                Views.load(target, options, function (target) {
+                    
+                        current.hide();
+                        target.show();
+                    
+
+                });
+
+            });
+
+            /**
+            * 通过浏览器的后退时触发。
+            * 实现从目标视图到当前视图的滑动过渡效果。
+            */
+            nav.on('back', function (current, target) {
+                current = $module.require(current);
+
+                Views.load(target, options, function (target) {
+                    
+                        current.hide();
+                        target.show();
+
+                    
+                });
+
+            });
+
+            return nav;
+
+        },
+
+    };
+    
+
+
+
+  
+
+
+});
+
+
+
+/**
+* 基于浏览器地址栏 hash 的状态导航器。
+* @class
+* @name Navigator
+*/
+define('Navigator', function (require, module, exports) {
+    var $String = require('String');
+    var Defaults = require('Defaults');
+    var Emitter = require('Emitter');
+    var Back = module.require('Back');
+    var Meta = module.require('Meta');
+    var Hash = module.require('Hash');
+    var Infos = module.require('Infos');
+    var Router = module.require('Router');
+    var Storage = module.require('Storage');
+
+    var mapper = new Map();
+
+
+    /**
+    * 构造器。
+    * 已重载 Navigator(config);
+    * 已重载 Navigator(id, config);
+    */
+    function Navigator(id, config) {
+        if (typeof id == 'object') {
+            config = id;
+        }
+        else {
+            config = Object.assign({ 'id': id, }, config);
+        }
+
+
+        config = Defaults.clone(module.id, config);
+
+        var emitter = new Emitter(this);
+        var router = Router.create();
+        var storage = Storage.create(config);
+
+
+        var meta = Meta.create(config, {
+            'emitter': emitter,
+            'router': router,
+            'storage': storage,
+            'this': this,
+        });
+
+        mapper.set(this, meta);
+
+
+        Object.assign(this, {
+            'id': meta.id,
+            '_meta': meta,   //暂时暴露。
+        });
+
+        //是否启用模拟传统多页面的路由转换器。
+        if (config.simulate) {
+            this.route(Navigator.simulate);
+        }
+    }
+
+
+
+    Navigator.prototype = {
+        constructor: Navigator,
+
+        /**
+        * 当前实例 id。
+        */
+        id: '',
+
+        /**
+        * 渲染。
+        * 启用并开始 hash 监听。
+        */
+        render: function () {
+            var meta = mapper.get(this);
+
+            //自动启用。
+            this.enable(true);
+
+            if (!meta.rendered) {
+                Hash.init(meta);
+            }
+        },
+
+        /**
+        * 设置 hash 与 view 的路由关系。
+        * 即 hash 与 view 之间的映射转换关系。
+        *   options = {
+        *       静态如果明确指定为 null，则清空之前的。
+        *       否则，合并覆盖。
+        *       view$hash: {},
+        *       hash$view: {},
+        *
+        *       //视图到 hash 的转换函数。 
+        *       //在调用 to() 方法时会先调用此函数。 
+        *       //如 `UserList` -> `/user-list.html`。
+        *       //该函数会接收到参数: view，传入的视图名，如 `UserList`。 
+        *       //该函数应该返回要生成的 hash 值，如 `/user-list.html`。
+        *       toHash: function (view) { },
+        *
+        *       //hash 到视图的转换函数。 
+        *       //在触发某个事件时，会把相应的 hash 作转换，以还原回原来的视图名。 
+        *       //如 `/user-list.html` -> `UserList`
+        *       //该函数会接收到参数: hash，地址栏中的 hash 值，如 `/user-list.html`。 
+        *       //该函数应该返回要还原的视图名，如 `UserList`。
+        *       toView: function (hash) { },
+        *   };
+        */
+        route: function (options) {
+            var meta = mapper.get(this);
+            var router = meta.router;
+            var view$hash = options.view$hash;
+            var hash$view = options.hash$view;
+            var toHash = options.toHash;
+            var toView = options.toView;
+
+            //如果明确指定为 null，则清空之前的。
+            //否则，合并覆盖。
+            if (hash$view === null) {
+                router.hash$view = {};
+            }
+            else {
+                Object.assign(router.hash$view, hash$view);
+            }
+
+            if (view$hash === null) {
+                router.view$hash = {};
+            }
+            else {
+                Object.assign(router.view$hash, view$hash);
+            }
+            
+
+            if (typeof toHash == 'function') {
+                router.view2hash = toHash;
+            }
+
+            if (typeof toView == 'function') {
+                router.hash2view = toView;
+            }
+
+        },
+
+        /**
+        * 跳转到新视图，并传递一些参数。
+        * @return {Object} 返回目标视图信息。
+        */
+        to: function (view, ...args) {
+            if (typeof view != 'string') {
+                throw new Error('参数 name 必须为 string 类型。');
+            }
+
+
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+            var current = meta.hash$info[meta.hash];    //跳转之前，原来的 hash 对应的视图信息。
+            var target = Infos.set(meta, view, args);   //
+
+
+            //已禁用。
+            if (!meta.enabled) {
+                return target;
+            }
+
+            
+            if (target.hash != meta.hash) {
+                meta.fireEvent = false;
+                Hash.set(target.hash);
+            }
+
+            var cache = false;
+
+            //优先用指定的。
+            if ('cache' in target) {
+                cache = target.cache;
+                delete target.cache;    //一次性的，用完即删。
+            }
+
+
+            if (current) {
+                emitter.fire('to', [current.view, view, {
+                    'cache': cache,  
+                    'current': current,
+                    'target': target,
+                }]);
+            }
+
+            //此处的 target 必不为空。
+            emitter.fire('view', [view, args, {
+                'cache': cache,
+                'current': current,
+                'target': target,
+            }]);
+
+            if (current) {
+                emitter.fire('forward', [current.view, view]);
+            }
+
+            return target;
+
+        },
+
+        /**
+        * 后退。
+        * 已重载 back();           //只回退一步，且触发事件。
+        * 已重载 back(fireEvent);  //只回退一步，且指定是否触发事件。
+        * 已重载 back(step);       //回退到指定的步数，且触发事件。
+        * 已重载 back(target);     //回退指定的视图，且触发事件。
+        * 已重载 back(options);    //更多配置。
+        *   options = {
+        *       fireEvent: true,    //是否触发事件。
+        *       target: 1,          //后退的步数，只能是正数。
+        *       target: '',         //后退的目标视图名。
+        *
+        *       //后退到目标视图，是否要禁用缓存。 
+        *       //如果指定为 false，则目标视图会强制刷新。 
+        *       //该字段是一次性的，只针对本次后退有效。
+        *       cache: false,
+        *   };
+        */
+        back: function (options) {
+            switch (typeof options) {
+                case 'boolean':
+                    options = { 'fireEvent': options, };
+                    break;
+
+                case 'number':
+                case 'string':
+                    options = { 'target': options, };
+                    break;
+
+                default:
+                    options = options || {};
+            }
+
+            var meta = mapper.get(this);
+            var offset = Back.getOffset(meta, options.target);  //为负数。
+            var fireEvent = options.fireEvent;
+            var cache = options.cache;
+            var target = this.get(offset);
+
+
+            meta.fireEvent = fireEvent === undefined ? true : !!fireEvent;  //如果未指定，则为 true。
+
+            if (target && typeof cache == 'boolean') {
+                target.cache = cache;
+            }
+
+            history.go(offset);
+
+            return target;
+        },
+
+        /**
+        * 获取指定的目标视图信息。
+        * 已重载 get();        //获取全部视图信息，返回一个数组，按时间升序排序。
+        * 已重载 get(offset);  //获取指定偏移位置的目标视图信息，返回一个对象。
+        * 已重载 get(view);    //获取指定视图名称的目标视图信息，返回一个对象。
+        * 参数：
+        *   view: '',   //目标视图名称。
+        *   offset: 0,  //当前视图的偏移量为 0，比当前视图时间更早的，则为负数；否则为正数。
+        */
+        get: function (view) {
+            var meta = mapper.get(this);
+            return Infos.get(meta, view);
+        },
+
+
+        /**
+        * 清空缓存和地址栏中的 hash。
+        */
+        clear: function () {
+            var meta = mapper.get(this);
+
+            if (meta.storage) {
+                meta.storage.clear();
+            }
+
+            meta.fireEvent = false;
+            meta.hash$info = {};
+            Hash.set('');
+            meta.fireEvent = true;
+          
+        },
+
+        /**
+        * 除了指定的视图信息，其它的全清除。
+        */
+        reserve: function (view) {
+            var meta = mapper.get(this);
+            var hash = meta.router.toHash(view);
+            var info = meta.hash$info[hash];
+
+            meta.hash$info = {
+                [hash]: info,
+            };
+
+            if (meta.storage) {
+                meta.storage.set('hash$info', meta.hash$info);
+            }
+        },
+
+        /**
+        * 设置启用或禁用。
+        */
+        enable: function (enabled) {
+            var meta = mapper.get(this);
+            meta.enabled = !!enabled;
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+    };
+
+
+    //静态成员。
+    
+    Object.assign(Navigator, {
+
+        /**
+        * 提供一种常用的模拟传统多页面的路由转换器。
+        * 设置 hash 与 view 的双向映射转换关系。
+        * 如 `AccountUsers` <-> `/account-users.html`。
+        */
+        simulate: {
+            //把 view 转成 hash。
+            toHash: function (view) {
+                if (!view) {
+                    return view;
+                }
+
+                view = $String.toHyphenate(view);   // `AccountUsers` -> `-account-users`。
+                view = view.slice(1);               //`-account-users` -> `account-users`。
+                view = `/${view}.html`;             //`account-users` -> `/account-users.html`。
+
+                return view;
+            },
+
+            //把 hash 转成 view。
+            toView: function (hash) {
+                //确保如 `/xx.html` 的格式。
+                if (!(/^\/.+\.html$/).test(hash)) {
+                    return hash;
+                }
+
+                hash = hash.slice(1, -5);
+                hash = $String.toCamelCase(hash);
+                hash = hash[0].toUpperCase() + hash.slice(1);
+
+                return hash;
+            },
+        },
+
+    });
+
+    return Navigator;
+
+
+});
+
+
+
+/**
+* Navigator 模块的默认配置
+* @name Navigator.defaults
+*/
+define('Navigator.defaults', /**@lends Navigator.defaults*/ {
+    
+    /**
+    * 实例 id。
+    * 须确保每个实例 id 唯一。
+    */
+    id: '',
+
+    /**
+    * 是否启用。
+    */
+    enabled: true,
+
+    /**
+    * 对状态要启用的存储类型。
+    * 可取的值有: false、`session`、`local`。
+    * 如果为 false，则禁用存储，页面刷新后将重新开始。
+    */
+    storage: 'session',
+
+    /**
+    * 是否允许在当前激活的视图后面，再添加一个跟当前激活的视图同名的视图进来。
+    */
+    repeated: false,
+
+    /**
+    * 是否启用模拟传统多页面的路由转换器。
+    * 如果启用，则会把视图名与页面进行双向转换。
+    * 如 `AccountUsers` <---> `/account-users.html`。
+    */
+    simulate: false,
+
+});
+
+
+
+define('Navigator/Back', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+
+
+
+    return {
+        /**
+        * 获取指定目标视图相当于当前视图的偏移量。
+        */
+        getOffset: function (meta, target) {
+            if (!target) {
+                return -1;
+            }
+
+
+            var type = typeof target;
+
+            if (type == 'number') {
+                if (target < 0) {
+                    throw new Error(`要回退的步数(参数 target) 如果指定为数字时，只能是正数。`);
+                }
+
+                return 0 - (target || 1); //确保为负数。
+            }
+
+            //此时，把 target 当作一个 string，即目标视图名称。
+
+            if (type != 'string') {
+                throw new Error(`要回退的目标视图(参数 target) 只能是 number 或 string 类型。`);
+            }
+
+
+            var info = meta.hash$info[meta.hash]; //当前视图对应的信息。
+
+            if (!info) {
+                throw new Error(`当前视图为空，无法回退。`);
+            }
+
+
+            var list = meta.this.get();
+            var current = info.view;
+            var targetIndex = -1;
+            var currentIndex = -1;
+
+            list.forEach(function (info, index) {
+                var view = info.view;
+
+                if (view == target) {
+                    targetIndex = index;
+                }
+
+                if (view == current) {
+                    currentIndex = index;
+                }
+            });
+
+
+            if (targetIndex < 0) {
+                throw new Error(`历史记录中不存在名为 ${target} 的目标视图。`);
+            }
+
+
+            var offset = targetIndex - currentIndex;
+
+            if (offset == 0) {
+                throw new Error(`要回退到的目标视图 ${target} 即为当前视图。`);
+            }
+
+            if (offset > 0) {
+                throw new Error(`要回退到的目标视图 ${target} 在当前视图的后面，应该用前进。`);
+            }
+
+
+            return offset;
+
+
+
+        },
+    };
+});
+
+define('Navigator/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var $Date = require('Date');
+
+    var id$existed = {}; //根据 id 记录对应的实例是否已创建。 同一个 id 共用同一个 storage 空间。
+
+
+
+
+    return {
+        create: function (config, others) {
+            var id = config.id;
+
+            if (!id) {
+                throw new Error(`创建 ${module.parent.id} 实例时，必须指定 id 字段。`);
+            }
+
+            if (id$existed[id]) {
+                throw new Error(`${module.parent.id} 已存在 id 为 ${id} 的实例。`);
+            }
+
+            id$existed[id] = true;
+
+
+
+            var storage = others.storage;
+            var hash$info = storage ? storage.get('hash$info') || {} : {};
+
+
+
+            var meta = {
+                'id': id,                   //实例 id，由业务层传入，确保唯一。
+                'hash': '',                 //当前的 hash 值。
+                'fireEvent': true,          //指示某一次(时刻)是否需要触发事件。
+                'rendered': false,          //记录是否调用过 render()。 
+                'enabled': config.enabled,  //是否启用。
+
+                'hash$info': hash$info,     //hash 对应的视图信息。
+                'infos': [],                //视图信息列表，按时间升排序。
+                
+                'storage': null,            //持久存储实例。
+                'emitter': null,            //事件驱动器。
+
+                //hash 与 view 映射转换关系。 
+                //默认不进行转换，即 hash 与 view 相同。
+                //例如，若要在地址栏 hash 中显示的是 `/user-list.html`，
+                //对应的视图却是 `UserList`，则要提供自定义的映射关系。
+                'router': null,
+
+                'this': null,               //当前实例，方便内部使用。
+
+            };
+
+
+
+            Object.assign(meta, others);
+
+            return meta;
+
+        },
+    };
+});
+
+define('Navigator/Hash', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var $Date = require('Date');
+    var Hash = require('Hash');
+
+
+    return {
+        /**
+        * 
+        */
+        init: function (meta) {
+            var emitter = meta.emitter;
+
+
+            //监听窗口 hash 的变化。
+            Hash.onchange(window, true, function (hash, old, isImmediate) {
+                //
+                meta.hash = hash;
+
+                //已禁用。
+                //此值可给动态改变，因此需要每次都判断。
+                if (!meta.enabled) {
+                    return;
+                }
+
+                //此次已临时禁用事件。
+                if (!meta.fireEvent) {
+                    meta.fireEvent = true; //恢复启用事件，供下次使用。
+                    return;
+                }
+
+
+                if (isImmediate) {
+                    emitter.fire('immediate', [hash, meta.hash$info]);
+                }
+
+                //空值。
+                if (!hash) {
+                    old = meta.router.toView(old);
+                    emitter.fire('none', [old]);
+                    return;
+                }
+
+
+                //通过点击前进/后退按钮(或调用浏览器的前进/后退接口)，
+                //或在地址栏中手动输入 hash 导致的变化。
+                //此时 hash 值肯定非空(因为如果为空，前面就已拦截了)。
+                var target = meta.hash$info[hash];   //可能为空。
+                var current = meta.hash$info[old];   //可能为空。
+                
+                if (target) {
+                    var cache = true;
+
+                    //优先用指定的。
+                    if ('cache' in target) {
+                        cache = target.cache;
+                        delete target.cache;    //一次性的，用完即删。
+                    }
+
+                    emitter.fire('view', [target.view, target.args, {
+                        'target': target,
+                        'current': current,
+                        'cache': cache,
+                    }]);
+
+                    if (current) {
+                        var direction = target.timestamp > current.timestamp ? 'forward' : 'back';
+
+                        emitter.fire(direction, [current.view, target.view]);
+                    }
+                    return;
+                }
+
+
+                hash = meta.router.toView(hash);
+                old = meta.router.toView(old);
+
+                //说明页面一进来时，地址栏中就含有了 hash。
+                if (isImmediate) {
+                    emitter.fire('start', [hash, old]);
+                }
+                else {
+                    emitter.fire('404', [hash, old]);
+                }
+
+            });
+        },
+
+        /**
+        * 
+        */
+        set: function (hash) {
+            Hash.set(window, hash);
+        },
+    };
+});
+
+define('Navigator/Infos', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var $Date = require('Date');
+
+
+
+    //把视图信息按时间先后进行升排序。
+    function sort(hash$info) {
+
+        var list = Object.keys(hash$info).map(function (hash) {
+            return hash$info[hash];
+        });
+
+
+        list = list.sort(function (a, b) {
+            return a.timestamp > b.timestamp ? 1 : -1;
+        });
+
+        return list;
+
+    }
+
+
+
+    return {
+        /**
+        * 设置视图信息。
+        * 会把该视图信息的时间戳更新成最新的。
+        */
+        set: function (meta, view, args) {
+            var hash = meta.router.toHash(view);
+            var hash$info = meta.hash$info;
+            var storage = meta.storage;
+
+            var now = new Date();
+            var datetime = $Date.stringify(now);
+            var timestamp = now.getTime();
+
+            var info = hash$info[hash] = {
+                'view': view,           //视图名称。
+                'hash': hash,           //视图对应的 hash 串。
+                'datetime': datetime,   //此字段仅为了方便调试和查看。
+                'timestamp': timestamp, //时间戳数值。
+                'args': args || [],     //渲染视图对应的参数列表。
+                //'cache': false,       //这个值会给动态写入，并且很快删除。　这里只是占位，方便阅读。 请不要在此加入该字段。
+            };
+
+            //重新排序。
+            meta.infos = sort(hash$info);
+
+
+            if (storage) {
+                storage.set('hash$info', hash$info);
+            }
+
+
+            return info;
+
+        },
+
+        /**
+        * 获取视图信息。
+        * 已重载 get();        //获取全部视图信息，返回一个数组，按时间升序排序。
+        * 已重载 get(offset);  //获取指定偏移位置的目标视图信息，返回一个对象。
+        * 已重载 get(view);    //获取指定视图名称的目标视图信息，返回一个对象。
+        * 参数：
+        *   view: '',   //目标视图名称。
+        *   offset: 0,  //当前视图的偏移量为 0，比当前视图时间更早的，则为负数；否则为正数。
+        */
+        get: function (meta, view) {
+            var hash$info = meta.hash$info;
+
+            //此时为 get(view); 
+            //获取指定视图名称的目标视图信息，返回一个对象。
+            if (typeof view == 'string') {
+                var hash = meta.router.toHash(view);
+
+                return hash$info[hash];
+            }
+
+
+            var offset = view;
+            var list = meta.infos;
+
+            //此时为 get();
+            ///获取全部视图信息，返回一个数组，按时间升序排序。
+            if (typeof offset != 'number') {
+                return list;
+            }
+
+
+            //此时为 get(offset);
+            //获取指定偏移位置的目标视图信息，返回一个对象。
+
+            //当前 hash 对应的视图信息。
+            var current = hash$info[meta.hash];         
+
+            //当前视图信息所在的位置。
+            var index = list.findIndex(function (info) {
+                return info === current;
+            });
+
+
+            //要获取的目标视图信息。
+            var target = list[index + offset];
+
+            return target;
+
+        },
+
+    };
+});
+
+define('Navigator/Router', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+
+
+
+    return {
+        create: function () {
+
+            var $exports = {
+                //静态映射表。
+                //优先级高于动态映射函数的。
+                view$hash: {},
+                hash$view: {},
+
+                //动态映射函数。
+                //业务层可提供一个自定义的。
+                view2hash: null,
+                hash2view: null,
+
+
+                //以下两个函数内组件内部使用。
+
+                //把 view 转换成 hash。
+                //在调用 nav.to() 时进行调用的。
+                toHash: function (view) {
+                    var hash = view;
+
+                    if (view in $exports.view$hash) {
+                        hash = $exports.view$hash[view];
+                    }
+                    else if (typeof $exports.view2hash == 'function') {
+                        hash = $exports.view2hash(view);
+                    }
+
+                    hash = hash || '';
+
+                    if (typeof hash != 'string') {
+                        throw new Error('自定义的 view -> hash 的转换关系中，hash 必须为 string 类型。');
+                    }
+
+                    return hash;
+
+                },
+
+                //把 hash 转换成 view。
+                //在触发 `view` 事件时进行调用的。
+                toView: function (hash) {
+                    var view = hash;
+
+                    if (hash in $exports.hash$view) {
+                        view = $exports.hash$view[hash];
+                    }
+                    else if (typeof $exports.hash2view == 'function') {
+                        view = $exports.hash2view(hash);
+                    }
+
+                    view = view || '';
+
+                    if (typeof view != 'string') {
+                        throw new Error('自定义的 hash -> view 的转换关系中，view 必须为 string 类型。');
+                    }
+
+                    return view;
+                },
+            };
+
+            return $exports;
+
+        },
+    };
+});
+
+define('Navigator/Storage', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+
+
+
+
+
+    return {
+        /**
+        * 根据配置创建一个 storage 实例。
+        *
+        *   options = {
+        *       storage: 'session',     //存储的类型，只能是 'session' 或 'local'，否则将不会提供存储功能。
+        *       id: '',                 //Navigator 实例的 id。 用于区分不同实例对应的存储空间。
+        *   };
+        */
+        create: function (options) {
+            var storage = options.storage;
+            var id = options.id;
+
+            if (!storage) {
+                return null;
+            }
+
+
+
+            storage = storage.toLowerCase();
+
+
+            //为了方便自动化工具分析模块的依赖关系，
+            //必须在 require 里使用完整的、常量的模块名称，
+            //而不能使用变量或动态拼接出来的名称，如 'Session' + 'Storage'。
+            var Storage =
+                storage == 'session' ? require('SessionStorage') :
+                storage == 'local' ? require('LocalStorage') : null;
+
+            if (!Storage) {
+                throw new Error(`${module.id} 不支持 Storage 类型: ${storage}，请指定为 'session' 或 'local'。 `);
+            }
+
+
+            storage = new Storage(id);
+
+            return storage;
+        },
+    };
+});
+/**
+* 会话存储工具类。
+* 
+* sessionStorage 属性允许你访问一个 session Storage 对象。
+* 它与 localStorage 相似，不同之处在于 localStorage 里面存储的数据没有过期时间设置，
+* 而存储在 sessionStorage 里面的数据在页面会话结束时会被清除。
+* 页面会话在浏览器打开期间一直保持，并且重新加载或恢复页面仍会保持原来的页面会话。
+* 在新标签或窗口打开一个页面会初始化一个新的会话，这点和 session cookies 的运行方式不同。
+* 应该注意的是，无论是 localStorage 还是 sessionStorage 中保存的数据都仅限于该页面的协议。
+*
+* 此处的 SessionStorage 设计理念为：
+*   KISP 中的 SessionStorage 是针对多个应用的存储，每个应用都有自己独立的存储空间。
+*   使用之前，一个应用请先配置应用的名称(通过配置 `SessionStorage` 模块的 `name` 字段)。
+*   为防止跟别的应用名称冲突，可以加一些随机数，如当前应用名称为 `kis-cloud`，则可以配置为 `kis-cloud-9DCA`。
+*   通过应用的名称来区分每个应用的独立的存储空间。
+*   在每个应用中，又可以创建多个 id 不同的 SessionStorage 的实例，每个 SessionStorage 实例都有自己的存储空间。
+*   每个 SessionStorage 实例中可以储存不同的 key 和 value。
+*   因此，从层级上来说，结构为：web 应用 -> SessionStorage 实例 -> 键值。
+*
+* @class
+* @name SessionStorage
+*/
+define('SessionStorage', function (require, module, exports) {
+    var Storage = require('Storage');
+    var Defaults = require('Defaults');
+
+    var storage = Storage('session');
+    var mapper = new Map();
+
+
+
+    /**
+    * 构造器。
+    *   id: '',         //当前 storage 实例的 id，拥有自己的存储空间。
+    *   config = {
+    *       name: '',   //必选，应用的名称。
+    *   };
+    */
+    function SessionStorage(id, config) {
+        config = Defaults.clone(module.id, config);
+
+        var name = config.name;
+
+        if (!name) {
+            throw new Error(
+                `KISP.${module.id} 是针对多个应用的存储，每个应用都有自己独立的存储空间。
+                请先指定所在应用的名称(通过配置 ${module.id} 模块的 name 字段) 。`);
+        }
+
+        var meta = {
+            'name': name,       //应用名称。
+            'id': id,           //
+        };
+
+        mapper.set(this, meta);
+
+    }
+
+
+
+    SessionStorage.prototype = {
+        constructor: SessionStorage,
+
+        /**
+        * 设置一对键值。
+        * 已重载 set(obj); 批量设置。
+        * 已重载 set(key, value); 单个设置。
+        * @param {string} key 要进行设置的键名称。
+        * @param value 要进行设置的值，可以是任何类型。
+        */
+        set: function (key, value) {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name) || {}; //每次都实时从存储中获取。
+            var data = app[meta.id] || {};
+
+            //重载 set({...}); 批量设置的情况。
+            if (typeof key == 'object') { 
+                Object.assign(data, key);
+            }
+            else { //单个设置
+                data[key] = value;
+            }
+
+            app[meta.id] = data;
+            storage.set(meta.name, app);
+        },
+
+        /**
+        * 根据给定的键获取关联的值。
+        * 已重载 get() 获取全部的情况。
+        * @param {string} [key] 要进行获取的键名称。
+        * @return 返回该键所关联的值。
+        */
+        get: function (key) {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name) || {};   //每次都实时从存储中获取。
+            var data = app[meta.id];
+
+            if (!data) {
+                return;
+            }
+
+            //重载 get(); 获取全部的情况
+            if (arguments.length == 0) {
+                return data;
+            }
+
+            //重载 get(key); 获取指定键的值。
+            return data[key];
+        },
+
+        /**
+        * 移除给定的键所关联的项。
+        * @param {string} key 要进行移除的键名称。
+        */
+        remove: function (key) {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name) || {}; //每次都实时从存储中获取。
+            var data = app[meta.id];
+
+            if (!data) {
+                return;
+            }
+
+            delete data[key];
+
+            storage.set(meta.name, app);
+        },
+
+        /**
+        * 清空所有项。
+        */
+        clear: function () {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name); //每次都实时从存储中获取。
+
+            if (!app) {
+                return;
+            }
+
+            delete app[meta.id];
+            storage.set(meta.name, app);
+        },
+
+    };
+
+    //同时提供底层通用的静态方法。
+    return Object.assign(SessionStorage, storage);
+
+
+
+
+
+
+});
+
+
+
+
+
+
+/**
+* SessionStorage 模块的默认配置
+* @name SessionStorage.defaults
+*/
+define('SessionStorage.defaults', /**@lends SessionStorage.defaults*/ {
+    /**
+    * 应用的名称。
+    * 设定后即可创建与获取在该名称下的本地存储，从而避免跟其它应用的冲突。
+    */
+    name: '',
+});
+
+
+
+/**
+* 底层通用的存储工具。
+* 业务层不应该直接使用该模块，请使用 SessionStorage 或 LocalStorage。
+* @namespace
+* @name Storage
+*/
+define('Storage', function (require, module, exports) {
+    var CircularJSON = require('CircularJSON');
+
+    //type 为 `session` 或 `local`
+    var type$exports = {};
+
+
+    /**
+    * 
+    */
+    return function (type) {
+        var exports = type$exports[type];
+
+        //已创建，直接使用。
+        if (exports) {
+            return exports;
+        }
+
+
+
+        //----------------------------------------------------------
+        //首次创建。
+        var name = `${type}Storage`;    //如 `sessionStorage`。
+        var storage = window[name];     //发 window.sessionStorage。
+
+        if (!storage) {
+            throw new Error(`当前浏览器不支持 ${name} 存储。`);
+        }
+
+
+        var KISP = require('KISP');
+
+        //如 `KISP.mobile.(8.1.0).16A7B9191751AE9B35DAE20DFA209532`。
+        var key = `KISP.${KISP.name}.(${KISP.version}).${KISP.md5}`;    
+        var json = storage.getItem(key) || '{}';    //全部数据的字符串形式。
+        var all = CircularJSON.parse(json) || {};   //全部数据的对象形式。  
+
+
+        //保存到浏览器层面的存储。
+        function save() {
+            json = CircularJSON.stringify(all);
+            storage.setItem(key, json);
+        }
+
+
+        //导出对象。
+        return exports = type$exports[type] = {
+
+            /**
+            * 设置一对键值。
+            * @param {string} key 要进行设置的键名称。
+            * @param value 要进行设置的值，可以是任何类型。
+            */
+            set: function (key, value) {
+                all[key] = value;
+                save();
+            },
+
+            /**
+            * 根据给定的键获取关联的值。
+            * @param {string} key 要进行获取的键名称。
+            * @return 返回该键所关联的值。
+            */
+            get: function (key) {
+                return all[key];
+            },
+
+            /**
+            * 移除给定的键所关联的项。
+            * @param {string} key 要进行移除的键名称。
+            */
+            remove: function (key) {
+                delete all[key];
+                save();
+            },
+
+            /**
+            * 清空所有项。
+            */
+            clear: function () {
+                all = {};
+                save();
+            },
+
+            ///***/
+            //getOnce: function (key) {
+            //    var value = exports.get(key);
+            //    exports.remove(key);
+
+            //    return value;
+            //},
+
+        };
+
+    };
+
+
+
+});
+
+
+
+
+
+
+
+/**
+* ����ѭ�����õĶ���Ϊ JSON��
+*
+* https://github.com/WebReflection/circular-json
+*/
+define('CircularJSON', function (require, module, exports) {
+
+    var
+          // should be a not so common char
+          // possibly one JSON does not encode
+          // possibly one encodeURIComponent does not encode
+          // right now this char is '~' but this might change in the future
+          specialChar = '~',
+          safeSpecialChar = '\\x' + (
+            '0' + specialChar.charCodeAt(0).toString(16)
+          ).slice(-2),
+          escapedSafeSpecialChar = '\\' + safeSpecialChar,
+          specialCharRG = new RegExp(safeSpecialChar, 'g'),
+          safeSpecialCharRG = new RegExp(escapedSafeSpecialChar, 'g'),
+
+          safeStartWithSpecialCharRG = new RegExp('(?:^|([^\\\\]))' + escapedSafeSpecialChar),
+
+          indexOf = [].indexOf || function (v) {
+              for (var i = this.length; i-- && this[i] !== v;);
+              return i;
+          },
+          $String = String  // there's no way to drop warnings in JSHint
+    // about new String ... well, I need that here!
+    // faked, and happy linter!
+    ;
+
+    function generateReplacer(value, replacer, resolve) {
+        var
+          doNotIgnore = false,
+          inspect = !!replacer,
+          path = [],
+          all = [value],
+          seen = [value],
+          mapp = [resolve ? specialChar : '[Circular]'],
+          last = value,
+          lvl = 1,
+          i, fn
+        ;
+        if (inspect) {
+            fn = typeof replacer === 'object' ?
+              function (key, value) {
+                  return key !== '' && replacer.indexOf(key) < 0 ? void 0 : value;
+              } :
+              replacer;
+        }
+        return function (key, value) {
+            // the replacer has rights to decide
+            // if a new object should be returned
+            // or if there's some key to drop
+            // let's call it here rather than "too late"
+            if (inspect) value = fn.call(this, key, value);
+
+            // first pass should be ignored, since it's just the initial object
+            if (doNotIgnore) {
+                if (last !== this) {
+                    i = lvl - indexOf.call(all, this) - 1;
+                    lvl -= i;
+                    all.splice(lvl, all.length);
+                    path.splice(lvl - 1, path.length);
+                    last = this;
+                }
+                // console.log(lvl, key, path);
+                if (typeof value === 'object' && value) {
+                    // if object isn't referring to parent object, add to the
+                    // object path stack. Otherwise it is already there.
+                    if (indexOf.call(all, value) < 0) {
+                        all.push(last = value);
+                    }
+                    lvl = all.length;
+                    i = indexOf.call(seen, value);
+                    if (i < 0) {
+                        i = seen.push(value) - 1;
+                        if (resolve) {
+                            // key cannot contain specialChar but could be not a string
+                            path.push(('' + key).replace(specialCharRG, safeSpecialChar));
+                            mapp[i] = specialChar + path.join(specialChar);
+                        } else {
+                            mapp[i] = mapp[0];
+                        }
+                    } else {
+                        value = mapp[i];
+                    }
+                } else {
+                    if (typeof value === 'string' && resolve) {
+                        // ensure no special char involved on deserialization
+                        // in this case only first char is important
+                        // no need to replace all value (better performance)
+                        value = value.replace(safeSpecialChar, escapedSafeSpecialChar)
+                                      .replace(specialChar, safeSpecialChar);
+                    }
+                }
+            } else {
+                doNotIgnore = true;
+            }
+            return value;
+        };
+    }
+
+    function retrieveFromPath(current, keys) {
+        for (var i = 0, length = keys.length; i < length; current = current[
+            // keys should be normalized back here
+          keys[i++].replace(safeSpecialCharRG, specialChar)
+        ]);
+        return current;
+    }
+
+    function generateReviver(reviver) {
+        return function (key, value) {
+            var isString = typeof value === 'string';
+            if (isString && value.charAt(0) === specialChar) {
+                return new $String(value.slice(1));
+            }
+            if (key === '') value = regenerate(value, value, {});
+            // again, only one needed, do not use the RegExp for this replacement
+            // only keys need the RegExp
+            if (isString) value = value.replace(safeStartWithSpecialCharRG, '$1' + specialChar)
+                                        .replace(escapedSafeSpecialChar, safeSpecialChar);
+            return reviver ? reviver.call(this, key, value) : value;
+        };
+    }
+
+    function regenerateArray(root, current, retrieve) {
+        for (var i = 0, length = current.length; i < length; i++) {
+            current[i] = regenerate(root, current[i], retrieve);
+        }
+        return current;
+    }
+
+    function regenerateObject(root, current, retrieve) {
+        for (var key in current) {
+            if (current.hasOwnProperty(key)) {
+                current[key] = regenerate(root, current[key], retrieve);
+            }
+        }
+        return current;
+    }
+
+    function regenerate(root, current, retrieve) {
+        return current instanceof Array ?
+          // fast Array reconstruction
+          regenerateArray(root, current, retrieve) :
+          (
+            current instanceof $String ?
+              (
+                // root is an empty string
+                current.length ?
+                  (
+                    retrieve.hasOwnProperty(current) ?
+                      retrieve[current] :
+                      retrieve[current] = retrieveFromPath(
+                        root, current.split(specialChar)
+                      )
+                  ) :
+                  root
+              ) :
+              (
+                current instanceof Object ?
+                  // dedicated Object parser
+                  regenerateObject(root, current, retrieve) :
+                  // value as it is
+                  current
+              )
+          )
+        ;
+    }
+
+    var CircularJSON = {
+        stringify: function stringify(value, replacer, space, doNotResolve) {
+            return CircularJSON.parser.stringify(
+              value,
+              generateReplacer(value, replacer, !doNotResolve),
+              space
+            );
+        },
+        parse: function parse(text, reviver) {
+            return CircularJSON.parser.parse(
+              text,
+              generateReviver(reviver)
+            );
+        },
+        // A parser should be an API 1:1 compatible with JSON
+        // it should expose stringify and parse methods.
+        // The default parser is the native JSON.
+        parser: JSON
+    };
+
+    return CircularJSON;
+
+
+});
+
+/**
+* 本地存储工具类。
+* 此处的 LocalStorage 设计理念为：
+*   KISP 中的 LocalStorage 是针对多个应用的存储，每个应用都有自己独立的存储空间。
+*   使用之前，一个应用请先配置应用的名称(通过配置 `LocalStorage` 模块的 `name` 字段)。
+*   为防止跟别的应用名称冲突，可以加一些随机数，如当前应用名称为 `kis-cloud`，则可以配置为 `kis-cloud-9DCA`。
+*   通过应用的名称来区分每个应用的独立的存储空间。
+*   在每个应用中，又可以创建多个 id 不同的 LocalStorage 的实例，每个 LocalStorage 实例都有自己的存储空间。
+*   每个 LocalStorage 实例中可以储存不同的 key 和 value。
+*   因此，从层级上来说，结构为：web 应用 -> LocalStorage 实例 -> 键值。
+* @namespace
+* @name LocalStorage
+*/
+define('LocalStorage', function (require, module, exports) {
+    var Storage = require('Storage');
+    var Defaults = require('Defaults');
+
+    var storage = Storage('local');
+    var mapper = new Map();
+
+
+
+    function LocalStorage(id, config) {
+
+        config = Defaults.clone(module.id, config);
+
+        var name = config.name;
+
+        if (!name) {
+            throw new Error(
+                `KISP.${module.id} 是针对多个应用的存储，每个应用都有自己独立的存储空间。
+                请先指定所在应用的名称(通过配置 ${module.id} 模块的 name 字段) 。`);
+        }
+
+
+
+        var meta = {
+            'name': name,       //应用名称。
+            'id': id,           //
+        };
+
+        mapper.set(this, meta);
+
+    }
+
+
+
+    LocalStorage.prototype = {
+        constructor: LocalStorage,
+
+        /**
+        * 设置一对键值。
+        * 已重载 set(obj); 批量设置。
+        * 已重载 set(key, value); 单个设置。
+        * @param {string} key 要进行设置的键名称。
+        * @param value 要进行设置的值，可以是任何类型。
+        */
+        set: function (key, value) {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name) || {}; //每次都实时从存储中获取。
+            var data = app[meta.id] || {};
+
+            //重载 set({...}); 批量设置的情况。
+            if (typeof key == 'object') {
+                Object.assign(data, key);
+            }
+            else { //单个设置
+                data[key] = value;
+            }
+
+            app[meta.id] = data;
+            storage.set(meta.name, app);
+        },
+
+        /**
+        * 根据给定的键获取关联的值。
+        * 已重载 get() 获取全部的情况。
+        * @param {string} [key] 要进行获取的键名称。
+        * @return 返回该键所关联的值。
+        */
+        get: function (key) {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name) || {};   //每次都实时从存储中获取。
+            var data = app[meta.id];
+
+            if (!data) {
+                return;
+            }
+
+            //重载 get(); 获取全部的情况
+            if (arguments.length == 0) {
+                return data;
+            }
+
+            //重载 get(key); 获取指定键的值。
+            return data[key];
+        },
+
+        /**
+        * 移除给定的键所关联的项。
+        * @param {string} key 要进行移除的键名称。
+        */
+        remove: function (key) {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name) || {}; //每次都实时从存储中获取。
+            var data = app[meta.id];
+
+            if (!data) {
+                return;
+            }
+
+            delete data[key];
+
+            storage.set(meta.name, app);
+        },
+
+        /**
+        * 清空所有项。
+        */
+        clear: function () {
+            var meta = mapper.get(this);
+            var app = storage.get(meta.name); //每次都实时从存储中获取。
+
+            if (!app) {
+                return;
+            }
+
+            delete app[meta.id];
+            storage.set(meta.name, app);
+        },
+
+    };
+
+    //同时提供底层通用的静态方法。
+    return Object.assign(LocalStorage, storage);
+
+});
+
+
+
+/**
+* LocalStorage 模块的默认配置
+* @name LocalStorage.defaults
+*/
+define('LocalStorage.defaults', /**@lends LocalStorage.defaults*/ {
+    /**
+    * 应用的名称。
+    * 设定后即可创建与获取在该名称下的本地存储，从而避免跟其它应用的冲突。
+    */
+    name: '',
+});
+
+
+
+/**
+*
+*/
+define('App/Navigator/Views', function (require, module, exports) {
+    var Tasks = require('Tasks');
+    var $Array = require('Array');
+    var Package = require('Package');
+    
+
+    var name$appended = {}; //记录视图对应的 html 内容是否已附加到容器中。
+
+
+
+    function normalize(views) {
+        views = Array.isArray(views) ? views : [views];
+
+        views = $Array.map(views, function (item) {
+            if (!item) {
+                return null;
+            }
+
+            if (typeof item == 'string') {
+                item = {
+                    'view': item,
+                    'args': [],
+                };
+            }
+
+            return item;
+        });
+
+        return views;
+    }
+
+
+
+
+    return {
+        /**
+        * 加载多个视图。
+        *   options = {
+        *       container: 'body',  //视图所要附加到的容器。
+        *       module: Module,     //业务层顶级的 module 对象。 即 KISP.launch() 方法中回调函数的第二个参数 `module`，用于加载视图。
+        *   };
+        */
+        load: function (views, options, done) {
+            var list = normalize(views);
+            var $module = options.module;
+            var container = options.container;
+
+            var tasks = new Tasks(list);
+
+
+            //先异步加载完所有的视图模块。
+            //可能是异步，也可能是直接加载。
+            tasks.on('each', function (view, index, done) {
+                var name = view.view;
+                var M = $module.require(name);
+
+                //已加载过了。
+                if (M) {
+                    done(M);
+                    return;
+                }
+
+                Package.load(name, function (pack) {
+                    if (!pack) {
+                        throw new Error(`总包中不存在名为 ${name} 的配置节点。`);
+                    }
+
+                    var item = pack['html'] || {};
+                    var html = item.content;
+                    var appended = name$appended[name];
+
+                    //先处理 html 内容。
+                    if (!appended && container && html) {
+                        name$appended[name] = true;
+                        $(container).append(html);
+                    }
+
+
+                    //再加载 js 模块。
+                    //因为 js 模块可能会用到对应的 DOM 节点。
+                    var M = $module.require(name);
+
+                    if (!M) {
+                        throw new Error(`不存在名为 ${name} 的视图模块`);
+                    }
+
+                    done(M);
+                });
+
+            });
+
+
+            tasks.on('all', function (views) {
+                done && done(...views);
+            });
+
+
+            tasks.parallel();
+        },
+
+    };
+    
+
+
+
+  
+
+
+});
+
+
+
+/**
+* 包资源加载器。
+* @namespace
+* @name Package
+*/
+define('Package', function (require, module, exports) {
+    var $ = require('$');
+    var Tasks = require('Tasks');
+    var Session = require('Session');
+    var Defaults = require('Defaults');
+    var All = module.require('All');
+    var Loader = module.require('Loader');
+
+    var defaults = Defaults.clone(module.id);
+    var name$pack = {};     //分包名称对应包信息。
+    var loading = null;     //加载中 Loading 的实例。
+    var prefix = `KISP.${module.id}.${Session.id}`;
+
+
+    //实际加载函数。
+    function load(name, defaults, done) {
+        var opt = defaults.load || {};
+        var begin = opt.begin;
+        var end = opt.end;
+
+        //开始异步加载前的提示函数。
+        //如可以在提示函数中创建 loading 实例，并 show() 出来。
+        if (begin) {
+            loading = begin(require, loading);  //开始 loading 提示。
+        }
+
+
+        //加载总包。
+        All.load(defaults, function (name$type$url) {
+            var type$url = name$type$url[name]; //该名称对应的包资源。
+
+            //不存在该配置节点。
+            if (!type$url) {
+                console.warn(`总包  ${defaults.url} 中不存在名为 ${name} 的配置节点。`);
+                end && end(require, loading);   //结束 loading 提示。
+                done && done(null);
+                return;
+            }
+
+            //并行加载对应的资源文件，如 `css`、`html`、`js`。
+            Loader.load(type$url, function (pack) {
+                //异步加载结束后的提示函数。
+                //如可以在提示函数中 loading.hide() 进行隐藏。
+                end && end(require, loading);
+
+                //给外面的回调函数提供一个非缓存版本，以指示是第一次加载的。
+                done && done(pack); //里面 pack.cache = false。
+            });
+
+
+        });
+
+    }
+
+
+
+
+    return {
+        /**
+        * 加载指定名称的包资源，并在加载完成后执行一个回调。
+        * 对于分包资源的加载，支持同一个分包的多次并发请求，实际只会加载一次。 加载完成后会依次执行回调函数。
+        * 已重载 load(done);       //加载总包文件。 此时回调函数接受到的数据结构为总包 json 文件中的结构。
+        * 已重载 load(name, done); //加载指定名称的分包资源。
+        * @param {string} name 分包的资源名称。
+        * @param {function} done 加载完成后要执行的回调函数。
+        *   该回调函数会接收到一个包资源的数据对象。
+        *   可能会包含一种或多种类型。 
+        *   也可能是接收到一个 null(说明不存在该名称对应的包信息)。
+        *   该名称对应的包资源存在的情况下，回调函数的接收到参数结构：
+        *   done({
+        *       cache: true|false,  //指示是否从缓存中读取的。
+        *       css: {
+        *           type: '',       //资源类型。 如 `css`、`html`、`js`。
+        *           url: '',        //资源地址。
+        *           content: '',    //资源内容。 css 的为空串。
+        *       },
+        *       html: {
+        *           type: '',       //资源类型
+        *           url: '',
+        *           content: '',
+        *       },
+        *       js: {
+        *           type: '',       //资源类型
+        *           url: '',
+        *           content: '',
+        *       },
+        *   });
+        */
+        load: function (name, done) {
+            //重载 load(done); 
+            //加载总包文件。
+            if (typeof name == 'function') {
+                done = name;
+                All.load(defaults, done);
+                return;
+            }
+
+
+            //重载 load(name, done);
+            //加载分包的资源。
+            var pack = name$pack[name];
+
+            //已加载过了，优先使用内存中的缓存。
+            //如果为 null，说明已经加载过了但不存在该名称对应的配置节点。
+            if (pack || pack === null) {
+                done && done(pack);
+                return;
+            }
+
+
+            //支持同一个分包的多次并发请求，实际只会加载一次。 
+            //加载完成后会依次执行回调函数。
+            var todo = { 'done': done, }; //待办项。
+            var sid = `${name}@${prefix}`;
+
+            Tasks.todo(sid, todo, function (finish) {
+
+                load(name, defaults, function (pack) {
+                    if (pack) {
+                        //保存一个新的缓存版本，供下次直接使用。
+                        name$pack[name] = Object.assign({}, pack, {
+                            cache: true,
+                        });
+                    }
+                    else {
+                        //显式填充一个值，用于下次再加载时直接使用。
+                        name$pack[name] = null;         
+                    }
+
+                    finish(function (todo) {
+                        todo.done(pack);
+                    });
+
+                });
+            });
+
+
+        },
+    };
+
+
+
+});
+
+
+/**
+* Package 模块的默认配置
+* @name Package.defaults
+*/
+define('Package.defaults', /**@lends Package.defaults*/ {
+
+
+    /**
+    * 总包的 url 地址，相对于网站的根地址。
+    */
+    url: 'packages/all.json',
+
+    /**
+    * 是否在总包的 url 地址上加上随机 query 串以刷新缓存。
+    */
+    random: true,
+
+    /**
+    * 总包 url 地址的 query 部分，应该由自动化工具写入相应的 MD5 值。
+    * 如果指定，则带在 url 的 query 部分。
+    */
+    query: null,
+
+    /**
+    * 加载总包或分包时的进度提示。
+    */
+    load: {
+        /**
+        * 开始加载时总包或分包时的提示函数。
+        * @param {function} require 用于加载 KISP 内部模板的 require 方法。
+        * @param {Object} loading 上一次创建出来的 Loading 实例。
+        */
+        begin: function (require, loading) {
+            if (!loading) {
+                var Loading = require('Loading');
+                loading = new Loading();
+            }
+            
+            loading.show();
+            return loading;
+        },
+
+        /**
+        * 结束加载时总包或分包时的提示函数。
+        * @param {function} require 用于加载 KISP 内部模板的 require 方法。
+        * @param {Object} loading 上一次创建出来的 Loading 实例。
+        */
+        end: function (require, loading) {
+            loading.hide();
+        },
+    },
+
+});
+
+
+
+/**
+* 加载中提示组件。
+* @class
+* @name Loading
+*/
+define('Loading', function (require, module, exports) {
+    var $String = require('String');
+    var Emitter = require('Emitter');
+    var Defaults = require('Defaults');
+
+    //子模块
+    var Sample = module.require('Sample');
+    var Style = module.require('Style');
+    var Meta = module.require('Meta');
+    var Masker = module.require('Masker');
+    var Presettings = module.require('Presettings');
+
+    var mapper = new Map();
+
+    
+
+
+    /**
+    * 构造器。
+    * @constructor
+    */
+    function Loading(options) {
+        options = options || {};
+
+        var presetting = Presettings[options.presetting] || {};         //预设方案。
+        var config = Defaults.clone(module.id, presetting, options);    //合并预设配置。
+
+        var emitter = new Emitter(this);        //事件驱动器。
+        var sample = Sample.get(config.sample); //加载相应的 HTML 模板。
+        var style = Style.get(config);          //从配置中过滤出样式成员，并进行规范化处理，style 是一个 {}。
+        var masker = Masker.create(config);     //
+
+        var meta = Meta.create(config, {
+            'sample': sample,       //相应的 html 模板。
+            'style': style,         //从配置中过滤出样式成员，并进行规范化处理，style 是一个 {}。
+            'emitter': emitter,     //事件驱动器。
+            'masker': masker,       //遮罩层实例。
+            'this': this,           //当前实例，方便内部使用。
+        });
+
+
+        mapper.set(this, meta);
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'id': meta.id,
+        });
+
+
+    }
+
+
+    //实例方法
+    Loading.prototype = /**@lends Loading#*/ {
+        constructor: Loading,
+
+        /**
+        * 当前实例的 id。
+        * 也是最外层的 DOM 节点的 id。
+        */
+        id: '',
+
+        /**
+        * 当前组件最外层的 DOM 节点对应的 jQuery 实例。
+        * 必须在 render 之后才存在。
+        */
+        $: null,
+
+        /**
+        * 渲染本组件，生成 html 到容器 DOM 节点中。
+        * 该方法只需要调用一次。
+        * 触发事件: `render`。
+        */
+        render: function () {
+            var meta = mapper.get(this);
+
+            //已经渲染过了。
+            if (meta.$) {
+                return;
+            }
+
+            var Style = require('Style');
+
+            var html = $String.format(meta.sample, {
+                'id': meta.id,
+                'text': meta.text,
+                'textId': meta.textId,
+                'cssClass': meta.cssClass,
+            });
+
+            $(meta.container).append(html);
+
+            meta.$ = this.$ = $(`#${meta.id}`);
+            meta.$text = $(`#${meta.textId}`);
+
+            meta.$.css(meta.style);
+
+            meta.emitter.fire('render');
+
+        },
+
+        /**
+        * 显示本组件。
+        * 已重载 show(text);       //显示指定的文本。
+        * 已重载 show(done);       //显示组件，完成后执行回调函数。 要显示的文本以创建实例时指定的为准。
+        * 已重载 show(text, done); //显示指定的文本，完成后执行回调函数。
+        * 参数：
+        *   text: '',       //要显示的文本。
+        *   done: fn,       //完成后回调函数。 须在创建实例时指定 `duration` 字段为大于 0 的值才起作用。 
+        */
+        show: function (text, done) {
+            //重载 show(done); 
+            //不传入要显示的文本，以创建实例时指定的 text 为准。
+            if (typeof text == 'function') {
+                done = text;
+                text = undefined;
+            }
+
+            var meta = mapper.get(this);
+            var masker = meta.masker;
+            var duration = meta.duration;
+
+
+            //首次 render。
+            if (!meta.$) {
+                this.render();
+            }
+
+            if (masker) {
+                masker.show();
+            }
+
+            if (typeof text == 'string') {
+                meta.text = text;
+                meta.$text.html(text);
+            }
+
+
+            if (duration) {
+                setTimeout(function () {
+                    meta.this.hide();
+                    done && done();
+                }, duration);
+            }
+
+            meta.$.toggleClass('NoText', !meta.text);
+            meta.$.show();
+            meta.emitter.fire('show');
+
+        },
+
+        /**
+        * 隐藏本组件。
+        * 触发事件: `hide`。
+        */
+        hide: function () {
+            var meta = mapper.get(this);
+            var masker = meta.masker;
+
+            if (!meta.$) {
+                return;
+            }
+
+            masker && masker.hide();
+            meta.$.hide();
+            meta.emitter.fire('hide');
+        },
+
+        /**
+        * 移除本组件已生成的 DOM 节点。
+        * 触发事件: `remove`。
+        */
+        remove: function () {
+            var meta = mapper.get(this);
+
+            if (!meta.$) {
+                return;
+            }
+
+            var div = meta.$.get(0);
+            var masker = meta.masker;
+
+            div.parentNode.removeChild(div);
+            masker && masker.remove();
+
+
+            meta.$.off();
+
+            meta.$ = this.$ = null;
+            meta.$text = null;
+            meta.masker = null;
+
+            meta.emitter.fire('remove');
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+        /**
+        * 销毁本组件。
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+
+            this.remove();
+            meta.emitter.destroy();
+
+            mapper.remove(this);
+        },
+
+    };
+
+    return Loading;
+
+});
+
+
+/**
+* Loading 模块的默认配置
+* @name Loading.defaults
+*/
+define('Loading.defaults', /**@lends Loading.defaults*/ {
+    
+    /**
+    * 加载中时要显示的文本。
+    */
+    text: '处理中...',
+
+    /**
+    * 是否启用 mask 层。
+    */
+    mask: false,
+
+    /**
+    * 组件用到的 html 模板。
+    * 默认为 'IOS'。 业务层不需要关注该字段。
+    */
+    sample: 'IOS',
+
+    /**
+    * 组件添加到的容器。
+    */
+    container: 'body',
+
+    /**
+    * 显示的持续时间(毫秒)。
+    * 0 表示一直显示。
+    */
+    duration: 0,
+
+    /**
+    * 组件用到的 css 类名。
+    */
+    cssClass: '',
+
+    /**
+    * 组件的 css 样式 z-index 值。
+    * 为了给其它组件计算 `z-index`，此处需要显式提供一个值。
+    * 因为仅用 css 中的会比较麻烦。
+    */
+    'z-index': 1024,
+
+    /**
+    * 组件宽度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    width: '',
+
+    /**
+    * 组件高度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    height: '',
+
+    /**
+    * 样式集合。
+    * 外层的同名字段优先级高于里面的。
+    */
+    style: {},
+
+});
+
+
+
+/**
+* 样式工具。
+* @name Style
+*/
+define('Style', function (require, module,  exports) {
+    var $Object = require('Object');
+
+    function pixelize(value) {
+        if (typeof value == 'number') {
+            return value + 'px';
+        }
+
+        if (typeof value == 'string') {
+            var isPixel = (/^\d+px$/g).test(value);
+            var isEm = (/^\d+em$/g).test(value);
+            var isRem = (/^\d+rem$/g).test(value);
+            var isPercent = (/^\d+%$/g).test(value);
+
+            if (isPixel || isEm || isRem || isPercent) {
+                return value;
+            }
+
+            //尝试提取和转换数字部分。
+            var v = parseInt(value);
+
+            if (isNaN(v)) {
+                return value;
+            }
+
+            return v + 'px';
+        }
+
+        //其它情况。
+        return value;
+    }
+
+
+
+    return exports = /**@lends Style*/ {
+
+        /**
+        * 把一个样式字符串对象化。
+        */
+        objectify: function (style) {
+            if (!style) {
+                return {};
+            }
+
+            if (typeof style == 'object') {
+                return style;
+            }
+
+            if (typeof style != 'string') {
+                return {};
+            }
+
+            var obj = {};
+            var list = style.split(';');
+
+            list.forEach(function (item) {
+                item = item.trim();
+                item = item.replace(/\n/g, '');
+
+                if (!item) {
+                    return;
+                }
+
+                var a = item.split(':');
+                var key = a[0].trim();
+                var value = a[1].trim();
+
+                obj[key] = value;
+
+            });
+
+            return obj;
+
+        },
+
+        /**
+        * 把一个样式对象字符串化。
+        * 以用于 DOM 节点的 style 属性中或 style 标签中。
+        * 已重载 stringify(style, spaces);             //
+        * 已重载 stringify(style, replacer, spaces);   //style 为一个对象或字符串，replacer 为一个函数，spaces 为一个数值;  
+        * 参数：
+        *   style: '',      //样式对象或字符串。
+        *   replace: fn,    //处理器函数，即替换函数。 如果指定，则针对每一项调用它以获得返回值。 如果不返回任何值，则扔掉该项。
+        *   spaces: 4,      //要生成的前导空格数。 如果指定非 0 值，则生成多行的形式；否则生成行内形式。
+        */
+        stringify: function (style, replacer, spaces) {
+            if (!style) {
+                return '';
+            }
+
+            if (typeof style == 'string') {
+                style = exports.objectify(style);
+            }
+
+
+            //重载 stringify(style, spaces);
+            if (typeof replacer == 'number') {
+                spaces = replacer;
+                replacer = null;
+            }
+
+
+            var a = [];
+
+            $Object.each(style, function (key, value) {
+
+                //如果指定了处理器函数函数，则调用它以获得返回值。
+                value = replacer ? replacer(key, value) : value;
+
+                //扔掉空值: null、undefined、''。
+                if (value == null || value === '') {
+                    return; // continue;
+                }
+
+                var s = key + ': ' + value; //如 `width: 100px`
+
+                if (spaces) {
+                    s = new Array(spaces + 1).join(' ') + s; //产生前导空格，如 `    width: 100px`
+                }
+
+                a.push(s);
+
+            });
+
+            if (a.length == 0) {
+                return '';
+            }
+
+            style = spaces ?
+                a.join('; \n') + '; \n' :   //如果指定了前导空格，则生成多行形式的。
+                a.join('; ') + '; ';        //否则生成行内形式的。
+
+            return style;
+        },
+
+        /**
+        * 把一个样式对象像素化。
+        */
+        pixelize: function (style, keys) {
+            //重载 pixelize(value);
+            //直接传一个值进来，根据情况转换成带像素单位的形式。
+            //如 pixelize(100); 得到 `100px`。
+            if (typeof style != 'object' && !keys) {
+                return pixelize(style);
+            }
+
+
+            keys = keys || [];
+            style = exports.objectify(style);
+
+
+            style = $Object.map(style, function (key, value) {
+                //该项并非要处理的项。
+                if (!keys.includes(key)) {
+                    return value;
+                }
+
+                return pixelize(value);
+            });
+
+            return style;
+        },
+
+        /**
+        * 去掉空值。
+        * 即去掉值为 null、undefined、'' 的项。
+        */
+        trim: function (style) {
+            var obj = {};
+
+            //过滤掉空值。
+            $Object.each(style, function (key, value) {
+                if (value == null || value === '') {
+                    return;
+                }
+
+                obj[key] = value;
+            });
+
+            return obj;
+        },
+
+
+        /**
+        * 对每一项进行空值过滤，再进行合并得到一个样式对象。
+        */
+        merge: function (...items) {
+
+            //对一个 item 进行处理
+            items = items.map(function (item) {
+                if (!item) {
+                    return {};
+                }
+
+                item = exports.trim(item);
+                return item;
+
+            });
+
+
+            var obj = Object.assign(...items);
+
+            return obj;
+
+        },
+
+
+
+    };
+
+
+
+   
+});
+
+
+
+
+/**
+*
+*/
+define('Loading/Sample', function (require, module, exports) {
+
+    return {
+        get: function (name) {
+            return module.require(name);
+        },
+    };
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Loading/Style', function (require, module, exports) {
+    var $Object = require('Object');
+    var Style = require('Style');
+    
+
+    
+
+
+    return {
+        /**
+        * 从配置对象中过滤出样式成员，并进行规范化处理。
+        * 返回一个样式对象 {}。
+        */
+        get: function (config) {
+            var obj = $Object.filter(config, ['height', 'width', 'z-index']);
+            var style = Style.objectify(config.style);
+
+            style = Style.merge(style, obj);
+            style = Style.pixelize(style, ['height', 'width', ]);
+
+            return style;
+
+        },
+
+    };
+
+
+});
+
+
+
+define('Loading/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var RandomId = require('RandomId');
+
+
+    var prefix = 'KISP-Loading-';   //用于生成组件 id 的前缀部分。
+    var suffix = 4;                 //用于生成组件 id 的随机部分的长度。
+
+    return {
+        create: function (config, others) {
+            var id = RandomId.get(prefix, suffix);
+            var textId = RandomId.get(prefix, 'text-', suffix);
+
+
+            var meta = {
+                'id': id,
+                'textId': textId,
+                'text': config.text || '',
+                'cssClass': config.cssClass || '',
+                'container': config.container,
+                'duration': config.duration || 0,
+
+                'sample': '',
+                'masker': null,             // Mask 的实例，重复使用。
+                'style': null,              //样式对象。
+                'emitter': null,            //事件驱动器。
+                'this': null,               //当前实例，方便内部使用。
+                '$': null,                  //组件最外层的 DOM 节点的 jQuery 实例。
+                '$text': null,              //$(textId)。
+
+            };
+
+
+
+
+            Object.assign(meta, others);
+
+
+            return meta;
+
+
+        },
+    };
+});
+
+/**
+* 随机 id 生成器。
+* @name RandomId
+*/
+define('RandomId', function (require, module, exports) {
+
+    var $String = require('String');
+
+    return /**@lends RandomId*/ {
+
+        /**
+        * 根据指定的规则生成一个随机 id。
+        */
+        get: function (...list) {
+
+            list = list.map(function (item, index) {
+
+                if (typeof item == 'number') {
+                    item = $String.random(item);
+                    item = item.toLowerCase();
+                }
+
+                return item;
+            });
+
+
+            return list.join('');
+        },
+
+        
+    };
+
+});
+
+
+
+
+define('Loading/Masker', function (require, module, exports) {
+    var $ = require('$');
+
+
+
+    return {
+        create: function (config) {
+            var Mask = require('Mask');
+
+            var defaults = {
+                'container': config.container,
+            };
+
+            var options = Mask.normalize(defaults, config.mask); //返回一个 {} 或 null。
+
+            if (!options) {
+                return null;
+            }
+
+            var masker = new Mask(options);
+            var zIndex = config['z-index'] - 1;
+
+            masker.on('render', function () {
+                masker.$.css({
+                    'z-index': zIndex,
+                });
+            });
+
+            return masker;
+
+
+
+        },
+    };
+});
+
+/**
+* 遮罩层组件。
+* @class
+* @name Mask
+*/
+define('Mask', function (require, module, exports) {
+    var Emitter = require('Emitter');
+    var $String = require('String');
+    var Defaults = require('Defaults');
+
+    var Sample = module.require('Sample');
+    var Style = module.require('Style');
+    var Meta = module.require('Meta');
+
+
+    var mapper = new Map();
+
+
+    /**
+    * 构造器。
+    * @constructor
+    */
+    function Mask(config) {
+        config = Defaults.clone(module.id, config);
+
+        var emitter = new Emitter(this);
+        var style = Style.get(config);
+
+        var meta = Meta.create(config, {
+            'sample': Sample,       //相应的 html 模板。
+            'style': style,         //从配置中过滤出样式成员，并进行规范化处理，style 是一个 {}。
+            'emitter': emitter,     //事件驱动器。
+            'this': this,           //当前实例，方便内部使用。
+        });
+
+
+        mapper.set(this, meta);
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'id': meta.id,
+        });
+
+    }
+
+
+    Mask.prototype = /**@lends Mask#*/ {
+        constructor: Mask,
+
+        /**
+        * 当前实例的 id。
+        * 也是最外层的 DOM 节点的 id。
+        */
+        id: '',
+
+        /**
+        * 当前组件最外层的 DOM 节点对应的 jQuery 实例。
+        * 必须在 render 之后才存在。
+        */
+        $: null,
+
+        /**
+        * 渲染本组件。
+        * 该方法会创建 DOM 节点，并且绑定事件，但没有调用 show()。
+        * 该方法只需要调用一次。
+        * 触发事件: `render`。
+        */
+        render: function () {
+            var meta = mapper.get(this);
+
+            //已经渲染过了。
+            if (meta.$) {
+                return;
+            }
+
+
+            //首次渲染
+            var Style = require('Style');
+            var style = Style.stringify(meta.style);
+
+            var html = $String.format(meta.sample, {
+                'id': meta.id,
+                'style': style,
+            });
+
+
+            $(meta.container).append(html);
+
+            this.$ = meta.$ = $(`#${meta.id}`);
+            
+
+            //根据是否指定了易消失来绑定事件，即点击 mask 层就隐藏。
+            meta.bindVolatile(function () {
+                var ok = meta.this.hide();
+
+                //在 hide() 中明确返回 false 的，则取消关闭。
+                if (ok === false) {
+                    return;
+                }
+
+                //先备份原来的 opacity
+                var opacity = meta.$.css('opacity');
+
+                //显示一个完全透明的层 200ms，防止点透。
+                //并且禁用事件，避免触发 show 事件。
+                meta.$.css('opacity', 0);
+                meta.this.show({ quiet: true, });
+
+                setTimeout(function () {
+                    meta.$.css('opacity', opacity);
+                    meta.$.hide();
+                }, 200);
+            });
+
+            meta.emitter.fire('render');
+
+
+
+        },
+
+        /**
+        * 显示遮罩层。
+        * 触发事件: `show`。
+        *   config = {
+        *       quiet: false,   //是否触发 `show` 事件。 该选项仅开放给组件内部使用。
+        *       duration: 0,    //要持续显示的时间，单位是毫秒。 如果不指定，则使用创建实例时的配置。
+        *       fadeIn: 200,    //可选。 需要淡入的动画时间，如果不指定或为指定为 0，则禁用淡入动画。
+        *   };
+        */
+        show: function (config) {
+            config = config || {};
+
+            var meta = mapper.get(this);
+            var duration = 'duration' in config ? config.duration : meta.duration;
+            var fadeIn = 'fadeIn' in config ? config.fadeIn : meta.fadeIn;
+
+
+            //尚未渲染。
+            //首次渲染。
+            if (!meta.$) {
+                this.render();
+            }
+
+
+            if (duration) {
+                setTimeout(function () {
+                    meta.this.hide();
+                }, duration);
+            }
+
+
+            if (fadeIn) {
+                meta.$.css('opacity', 0);
+            }
+
+            meta.$.show();
+
+            if (fadeIn) {
+                meta.$.animate({
+                    'opacity': meta.opacity,
+                }, fadeIn);
+            }
+
+            //没有明确指定要使用安静模式，则触发事件。
+            if (!config.quiet) {
+                meta.emitter.fire('show');
+            }
+
+        },
+
+
+        /**
+        * 隐藏遮罩层。
+        * 触发事件: `hide`。
+        * 如果在 hide 事件中明确返回 false，则取消隐藏。
+        *   config = {
+        *       fadeOut: 200,    //可选。 需要淡出的动画时间，如果不指定或为指定为 0，则禁用淡出动画。
+        *   };
+        */
+        hide: function (config) {
+            config = config || {};
+
+            var meta = mapper.get(this);
+            var fadeOut = 'fadeOut' in config ? config.fadeOut : meta.fadeOut;
+
+            //尚未渲染。
+            if (!meta.$) {
+                return;
+            }
+
+            var values = meta.emitter.fire('hide');
+
+            //明确返回 false 的，则取消关闭。
+            if (values.includes(false)) {
+                return false;
+            }
+
+
+            if (fadeOut) {
+
+                meta.$.animate({
+                    'opacity': 0,
+
+                }, fadeOut, function () {
+                    meta.$.css('opacity', meta.opacity);
+                    meta.$.hide();
+                });
+            }
+            else {
+                meta.$.hide();
+            }
+        },
+
+
+        /**
+        * 移除本组件已生成的 DOM 节点。
+        * 触发事件: `remove`。
+        */
+        remove: function () {
+            var meta = mapper.get(this);
+
+            //尚未渲染。
+            if (!meta.$) {
+                return;
+            }
+
+            var div = meta.$.get(0);
+            div.parentNode.removeChild(div);
+
+            meta.$.off();
+
+            this.$ = meta.$ = null;
+            meta.emitter.fire('remove');
+        },
+
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+        /**
+        * 销毁本组件
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+
+            this.remove();
+            meta.emitter.destroy();
+
+            mapper.delete(this);
+        },
+
+    };
+
+
+    //静态方法
+    Object.assign(Mask, /**@lends Mask*/{
+
+        /**
+        * 把配置参数规格化。
+        * 已重载 normalize(0, 0);              //任意一个为数字，则当成透明度。 如果都为数字，则使用后者的。   
+        * 已重载 normalize(defaults, false);   //第二个参数显式指定了要禁用 mask，返回 null。
+        * 已重载 normalize({}, {});
+        */
+        normalize: function (defaults, config) {
+
+            //第二个参数显式指定了要禁用 mask。
+            if (config === false) {
+                return null;
+            }
+
+
+            //输入的是数字，则当成是透明度。
+            if (typeof defaults == 'number') { //透明度
+                defaults = { 'opacity': defaults };
+            }
+
+            if (typeof config == 'number') { //透明度
+                config = { 'opacity': config };
+            }
+
+
+            var type0 = typeof defaults;
+            var type1 = typeof config;
+
+            if (type0 == 'object' && type1 == 'object') {
+                return Object.assign({}, defaults, config);
+            }
+
+
+            //显式指定使用 mask。
+            //如果 defaults 没有，则显式分配一个。
+            if (config === true) {
+                return !defaults || type0 != 'object' ? {} : defaults;
+            }
+
+
+            //未指定，则使用默认配置指定的，有或没有
+            if (config === undefined) {
+                return type0 == 'object' ? defaults :
+                    defaults ? {} : null;
+            }
+
+            return type1 == 'object' ? config :
+                config ? {} : null;
+        },
+
+    });
+
+    return Mask;
+
+});
+
+
+/**
+* Mask 模块的默认配置
+* @name Mask.defaults
+*/
+define('Mask.defaults', /**@lends Mask.defaults*/ {
+    /**
+    * 指定是否易消失，即点击 mask 层就是否隐藏/移除。
+    * 可取值为: true|false|"hide"|"remove"，默认为 false，即不易消失。
+    */
+    volatile: false,
+
+    /**
+    * 组件添加到的容器。
+    */
+    container: 'body',
+
+    /**
+    * 点击时需要用到的事件名。
+    */
+    eventName: 'click',
+
+    /**
+    * 需要持续显示的毫秒数。
+    * 指定为 0 或不指定则表示一直显示。
+    */
+    duration: 0,
+
+    /**
+    * 显示时要使用淡入动画的时间。 
+    * 如果不指定或指定为 0，则禁用淡入动画。
+    */
+    fadeIn: 0,
+
+    /**
+    * 隐藏时要使用淡出动画的时间。 
+    * 如果不指定或指定为 0，则禁用淡出动画。
+    */
+    fadeOut: 0,
+
+    /**
+    * 组件用到的 css 类名。
+    */
+    cssClass: '',
+
+    /**
+    * 不透明度。
+    */
+    opacity: 0.5,
+
+    /**
+    * 组件的 css 样式 z-index 值。
+    */
+    'z-index': 1024,
+
+    /**
+    * 样式集合。
+    * 外层的同名字段优先级高于里面的。
+    */
+    style: {},
+
+});
+
+
+/**
+* Mask 模块的默认配置
+* @name Mask.config
+*/
+define('Mask.config', /**@lends Mask.config*/ {
+    /**
+    * 点击时需要用到的事件名。
+    */
+    eventName: 'click',
+
+
+
+    style: {
+        /**
+        * PC 端的用 fixed 定位。
+        */
+        position: 'fixed',
+    },
+
+});
+
+
+/*
+* Mask/Sample
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/ui/mask/Mask/Sample.html
+*/
+define('Mask/Sample', [
+    '<div id="{id}" class="KISP Mask" style="{style} display: none;"></div>',
+].join('\n'));
+
+
+/**
+*
+*/
+define('Mask/Style', function (require, module, exports) {
+    var $Object = require('Object');
+    var Style = require('Style');
+    
+
+    
+
+
+    return {
+
+        /**
+        * 从配置对象中过滤出样式成员，并进行规范化处理。
+        * 返回一个样式对象 {}。
+        */
+        get: function (config) {
+            var obj = $Object.filter(config, ['opacity', 'z-index']);
+            var style = Style.objectify(config.style);
+
+            style = Style.merge(style, obj);
+
+            return style;
+
+        },
+    };
+
+
+});
+
+
+
+define('Mask/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var RandomId = require('RandomId');
+
+
+    var prefix = 'KISP-Mask-';  //用于生成组件 id 的前缀部分。
+    var suffix = 4;             //用于生成组件 id 的随机部分的长度。
+
+
+
+    return {
+        create: function (config, others) {
+            var id = RandomId.get(prefix, suffix);
+            var eventName = config.eventName;
+            var volatile = config.volatile;
+
+            var meta = {
+                'id': id,
+                'sample': '',
+                'eventName': eventName,         //兼容 PC 端和移动端。 PC 端的为 `click`，移动端的为 `touch`。
+                'volatile': volatile,           //是否易消失的。 即点击后自动隐藏。
+                'container': config.container,  //组件要装入的容器 DOM 节点。
+                'duration': config.duration,    //要持续显示的时间，单位是毫秒。
+                'fadeIn': config.fadeIn,        //显示时要使用淡入动画的时间。 如果不指定或指定为 0，则禁用淡入动画。
+                'fadeOut': config.fadeOut,      //隐藏时要使用淡出动画的时间。 如果不指定或指定为 0，则禁用淡出动画。
+                'opacity': config.opacity,      //不透明度。 在淡入淡出时要到进行计算。
+
+                'emitter': null,    //事件驱动器。
+                'style': null,      //样式对象。
+                'this': null,       //当前实例，方便内部使用。
+                '$': null,          //组件最外层的 DOM 节点的 jQuery 实例。
+
+                'bindVolatile': function (fn) {
+                    if (!volatile) {
+                        return;
+                    }
+
+                    if (eventName == 'touch') {
+                        meta.$.touch(fn);
+                    }
+                    else {
+                        meta.$.on(eventName, fn);
+                    }
+                },
+            };
+
+
+
+            Object.assign(meta, others);
+
+            return meta;
+
+
+        },
+    };
+});
+
+/**
+* Loading 的预设配置。
+*/
+define('Loading/Presettings', {
+
+    fullscreen: {
+        cssClass: 'FullScreen',
+    },
+
+    'scroller.pulldown': {
+        sample: 'IOS',
+        cssClass: 'SameLine Pulldown',
+        text: '加载中...',
+       
+    },
+
+    'scroller.pullup': {
+        sample: 'IOS',
+        cssClass: 'SameLine Pullup',
+        text: '加载中...',
+    },
+
+    
+
+});
+
+
+
+/**
+* 会话。
+* @name Session
+*/
+define('Session', function (require, module, exports) {
+    var $String = require('String');
+    var Defaults = require('Defaults');
+    var defaults = Defaults.get(module.id);
+
+    var length = defaults.length || 16;
+    var id = $String.random(length);     //每次运行首先确定，且不会再变。
+
+
+    return {
+        'id': id,
+    };
+    
+
+
+
+});
+
+
+
+/**
+* Session 模块的默认配置
+* @name Session.defaults
+*/
+define('Session.defaults', /**@lends Session.defaults*/ {
+    /**
+    * 会话随机 id 的长度。
+    */
+    length: 16,
+});
+
+
+
+/**
+* 总包。
+*/
+define('Package/All', function (require, module, exports) {
+    var $ = require('$');
+    var Query = require('Query');
+    var Url = require('Url');
+    var Tasks = require('Tasks');
+    var Session = require('Session');
+
+    var sid = `all@KISP.${module.id}.${Session.id}`;
+    var all = null;
+
+
+    //根据配置项生成最终的 url 地址。
+    function makeUrl(options) {
+        var url = Url.root() + options.url;
+        var query = options.query;
+
+        if (typeof query == 'string') {
+            query = Query.parse(query);
+        }
+
+        if (query) {
+            url = Query.add(url, query);
+        }
+
+        if (options.random) {
+            url = Query.random(url, 4);
+        }
+
+        return url;
+    }
+
+
+
+    function load(options, done) {
+        var url = makeUrl(options);
+
+
+        $.ajax({
+            type: 'get',
+            dataType: 'json',
+            url: url,
+
+            error: function () {
+                all = {};
+                done && done(all);
+            },
+
+            success: function (json) {
+                all = json;
+                done && done(all);
+            },
+        });
+    }
+
+
+
+    return {
+        /**
+        * 用异步的方式加载总包文件。
+        * 即 `packages/all.json` 文件。
+        * 该方法会优先使用之前加载过的缓存。
+        *   options = {
+        *       url: '',
+        *       query: {},
+        *       random: true,
+        *   };
+        */
+        load: function (options, done) {
+            if (all) {
+                done && done(all);
+                return;
+            }
+
+
+            Tasks.todo(sid, done, function (finish) {
+
+                load(options, function (all) {
+                    finish(function (done) {
+                        done && done(all);
+                    });
+                });
+            });
+
+
+        },
+    };
+
+
+
+});
+
+
+
+define('Package/Loader', function (require, module, exports) {
+    var Tasks = require('Tasks');
+
+    //内部用的空函数。
+    function noop() { }
+
+    
+    var type$load = {
+        /**
+        * 加载 css 文件。
+        *   url: '',        //要加载的文件的 url 地载。
+        *   success: fn,    //加载成功后的回调函数。
+        */
+        css: function (url, success) {
+            var link = document.createElement('link');
+
+            link.onerror = function () {
+                throw new Error(`css 文件加载失败: ${url}`);
+            };
+
+            link.onload = function () {
+                success && success({
+                    'url': url,
+                    'content': '', //这里无法也不需要获取内容。
+                });
+            };
+
+            link.rel = 'stylesheet';
+            link.href = url;
+
+            document.head.appendChild(link);
+        },
+
+        /**
+        * 加载 html 文件。
+        *   url: '',        //要加载的文件的 url 地载。
+        *   success: fn,    //加载成功后的回调函数。
+        */
+        html: function (url, success) {
+            $.ajax({
+                type: 'get',
+                url: url,
+                dataType: 'html',
+                cache: true,            //不需要加随机数。
+                error: function (ajax, msg, error) {
+                    throw error;
+                },
+
+                success: function (content, msg, ajax) {
+                    success && success({
+                        'url': url,
+                        'content': content,
+                    });
+                },
+            });
+        },
+
+        /**
+        * 加载 js 文件。
+        *   url: '',        //要加载的文件的 url 地载。
+        *   success: fn,    //加载成功后的回调函数。
+        */
+        js: function (url, success) {
+            $.ajax({
+                type: 'get',
+                url: url,
+                dataType: 'script',
+                cache: true,            //不需要加随机数。
+                error: function (ajax, msg, error) {
+                    throw error;
+                },
+                success: function (content, msg, ajax) {
+                    success && success({
+                        'url': url,
+                        'content': content,
+                    });
+                },
+            });
+        },
+
+        /**
+        * 加载 json 文件。
+        *   url: '',        //要加载的文件的 url 地载。
+        *   done: fn,       //加载成功后的回调函数。
+        */
+        json: function (url, done) {
+            $.ajax({
+                type: 'get',
+                dataType: 'json',
+                url: url,
+
+                error: function () {
+                    done && done({});
+                },
+
+                success: function (json) {
+                    done && done(json);
+                },
+            });
+        },
+
+    };
+
+
+
+    return {
+        /**
+        * 并行加载指定的资源文件。
+        */
+        load: function (type$url, done) {
+
+            var types = Object.keys(type$url); //如 ['css', 'html', 'js'];
+
+            //并行加载。
+            Tasks.parallel(types, {
+
+                //针对加载完成某一项。
+                each: function (type, index, done) {
+                    var url = type$url[type];
+                    var load = type$load[type];
+
+                    if (!load) {
+                        throw new Error(`不支持加载 ${type} 类型的文件。`);
+                    }
+
+
+                    load(url, function (data) {
+                        done({
+                            'type': type,
+                            'url': data.url,
+                            'content': data.content,
+                        });
+                    });
+                },
+
+                //全部完成。
+                all: function (items) {
+
+                    var pack = {
+                        cache: false,  //指示不是从缓存中读取的。
+                    };
+
+                    items.forEach(function (item) {
+                        pack[item.type] = item;
+                    });
+
+                    done && done(pack);
+                },
+            });
+        },
+    };
+
+});
+
+
+/**
+* 视图组件。
+* View 是一种特殊的 Panel。
+* 设计 View 类型，是为了从语义上与 Panel 更合理地区分开来。
+* @class
+* @name View
+*/
+define('View', function (require, module, exports) {
+    var Defaults = require('Defaults');
+    var Panel = require('Panel');
+
+    
+
+    var defaults = Defaults.get(module.id);
+    var mapper = require('Mapper');         //这里要用有继承关系的 Mapper。 因为作为子类。
+
+
+    /**
+    * 构造器。
+    * @constructor
+    */
+    function View(container, config) {
+        config = Defaults.clone(module.id, config);
+
+        Panel.call(this, container, config);
+
+        this.$.addClass('KISP View'); //这两个类名必须加上。
+
+        //针对移动端的全屏视图模式。
+        //这里只负责有针对性的加上 `FullScreen` 类，而不用去掉该类。
+        //因为业务层可能自行加上了该类，但 fullscreen 为 false。
+        if (config.fullscreen) {
+            this.$.addClass('FullScreen');
+        }
+
+
+        if (config.background) {
+            this.$.css('background', config.background);
+        }
+
+    }
+
+  
+
+
+
+    //从 Panel 类继承。
+    //扩展的实例成员。
+    View.prototype = Object.assign(new Panel(), {
+
+        
+
+
+    });
+
+
+
+    return Object.assign(View, {
+
+        /**
+        * 提供一种按标准方法定义视图的方式。
+        */
+        define: function (id, factory) {
+            Panel.define(id, factory, {
+                'constructor': View,
+                'defaults': defaults,
+            });
+        },
+
+        /**
+       * 更新容器。
+       * 已重载 update(id);   //更新单个。
+       * 已重载 update(ids);  //更新多个。
+       */
+        update: function (ids) {
+            Panel.update(ids, {
+                'defaults': defaults,
+            });
+        },
+
+
+    });
+
+
+});
+
+
+/**
+* View 模块的默认配置
+* @name View.defaults
+*/
+define('View.defaults', /**@lends View.defaults*/ {
+    /**
+    * 所关联的 DOM 节点容器的选择器模板。
+    */
+    container: '[data-view="{id}"]',
+
+    /**
+    * 背景样式。
+    */
+    background: '',
+
+    /**
+    * 是否启用全屏视图模式。
+    * 全屏视图主要针对移动端。
+    */
+    fullscreen: false,
+
+});
+
+
+/**
+* View 模块的默认配置
+* @name View.config
+*/
+define('View.config', /**@lends View.config*/ {
+    /**
+    * 是否启用全屏视图模式。
+    * 全屏视图主要针对移动端。
+    */
+    fullscreen: false,
+
+});
+
+
+/**
+* 通用的面板组件。
+* @class
+* @name Panel
+*/
+define('Panel', function (require, module, exports) {
+    var $Object = require('Object');
+    var Emitter = require('Emitter');
+    var Defaults = require('Defaults');
+    var OuterModule = require('OuterModule');
+    var Template = require('Template');
+    var Meta = module.require('Meta');
+    var Container = module.require('Container');
+    var Params = module.require('Params');
+
+    var mapper = require('Mapper');         //这里要用有继承关系的 Mapper。 因为作为父类。
+    var id$panel = {};                      //
+    var id$options = {};                    //
+
+    var defaults = Defaults.clone(module.id);
+
+
+
+    /**
+    * 构造器。
+    * @constructor
+    */
+    function Panel(container, config) {
+        config = Defaults.clone(module.id, config);
+
+        var meta = Meta.create(config, {
+            'moudle': null,                 //如果非空，则是由 Panel.define() 创建的，此时 container='[data-panel="XXX"]'。
+            'container': container,         //
+            'tplContainer': container,      //
+            '$emitter': new Emitter(),      //供外部用的事件管理器。
+            'emitter': new Emitter(this),   //内部使用的事件管理器。
+            '$': $(container),              //当前实例关联的 DOM 节点对应的 jQuery 实例。
+            'this': this,                   //方便内部使用。
+        });
+
+        mapper.set(this, meta);
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'container': container,
+            'id': meta.id,
+            '$': meta.$,
+        });
+
+    }
+
+
+    //实例方法
+    Panel.prototype = /**@lends Panel#*/ {
+        constructor: Panel,
+
+        /**
+        * 构造实例时传入的 container 参数。
+        */
+        container: '',
+
+        /**
+        * 当前实例的 id。
+        */
+        id: '',
+
+        /**
+        * 当前实例关联的 DOM 节点对应的 jQuery 实例。
+        * 即 $(container) 的快捷方式。
+        */
+        $: null,
+
+        /**
+        * 当前实例关联的 module 对象。
+        * 业务层只有使用 KISP.panel() 或 KISP.view() 创建实例时，此值才存在。
+        */
+        module: null,
+
+        
+
+        /**
+        * 渲染。
+        * 触发事件:
+        *   首次渲染时，首先会触发 `init` 事件，即该事件只会触发一次。
+        *   每次渲染时，都会依次触发 `before-render`、`render`、`after-render` 事件。
+        */
+        render: function (...args) {
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+
+            meta.renderArgs = args; //保存 render 参数，用于 refresh()。
+
+
+            //首次 render。
+            if (!meta.rendered) {
+                meta.rendered = true;    //要放在此处。
+
+                emitter.fire('init');
+            }
+
+            emitter.fire('before-render', args);
+            emitter.fire('render', args);
+
+
+            //指定了要自动显示。
+            if (meta.show) {
+                this.show();
+            }
+
+            emitter.fire('after-render', args);
+        },
+
+        /**
+        * 显示本组件。
+        * 触发事件: `show`。
+        */
+        show: function (...args) {
+            var meta = mapper.get(this);
+
+            meta.$.show(...args);
+            meta.visible = true;
+
+            //外面可能会用到事件返回值。
+            return meta.emitter.fire('show');
+
+        },
+
+        /**
+        * 隐藏本组件。
+        * 触发事件: `hide`。
+        */
+        hide: function (...args) {
+            var meta = mapper.get(this);
+
+
+            meta.$.hide(...args);
+            meta.visible = false;
+
+            //外面可能会用到事件返回值。
+            return meta.emitter.fire('hide');
+        },
+
+        /**
+        * 切换显示或隐藏本组件。
+        */
+        toggle: function (needShow) {
+            var meta = mapper.get(this);
+
+            //重载 toggle(); 
+            //未指定参数，则根据原有状态进行切换。
+            if (arguments.length == 0) { 
+                meta.visible ? this.hide() : this.show();
+            }
+            else {
+                needShow ? this.show() : this.hide();
+            }
+
+            //返回更改后的可见状态。
+            return meta.visible;
+        },
+
+        /**
+        * 设置模板填充的规则，为模板填充进行预处理。
+        */
+        template: function (process) {
+            var meta = mapper.get(this);
+            var tpl = meta.tpl;
+
+            if (!tpl) {
+                tpl = meta.tpl = new Template(meta.tplContainer);
+            }
+
+            if (process) {
+                tpl.process(...arguments);
+            }
+
+            //返回给外面，可能要用到。
+            //通过 panel.template() 即可取得 tpl。
+            return tpl;
+        },
+
+        /**
+        * 对本组件进行模板填充。
+        * 触发事件: `fill`。
+        * @param {Object|Array} 要填充的数据，可以是对象或数组。
+        * @param {function} [fn] 当要填充的数据是一个数组时，需要进行迭代转换的处理函数。
+        *   调用该函数，可以把一个数组转换成一个新的数组。
+        */
+        fill: function (data, fn) {
+            var meta = mapper.get(this);
+
+            this.template(); //先确保 meta.tpl 存在。
+            meta.tpl.render(data, fn);
+
+            //外面可能会用到事件返回值。
+            return meta.emitter.fire('fill', [data]);
+        },
+
+        /**
+        * 刷新。
+        * 即使用最近一次的渲染参数重新进行渲染。
+        * 触发事件: `refresh`。
+        */
+        refresh: function () {
+            var meta = mapper.get(this);
+            var args = meta.renderArgs;
+
+            this.render(...args);
+
+            //外面可能会用到事件返回值。
+            return meta.emitter.fire('refresh', args);
+        },
+
+        /**
+        * 重置。
+        * 触发事件: `reset`。
+        */
+        reset: function (...args) {
+            var meta = mapper.get(this);
+
+            //外面可能会用到事件返回值。
+            return meta.emitter.fire('reset', args);
+        },
+
+        /**
+        * 关闭。
+        * 触发事件: `close`。
+        */
+        close: function (...args) {
+            var meta = mapper.get(this);
+
+            //外面可能会用到事件返回值。
+            return meta.emitter.fire('close', args);
+        },
+
+        /**
+        * 获取一个状态，该状态表示本组件是否为显示状态。
+        */
+        visible: function () {
+            var meta = mapper.get(this);
+            return meta.visible;
+        },
+
+        /**
+        * 获取一个状态，该状态表示本组件是否已渲染过。
+        */
+        rendered: function () {
+            var meta = mapper.get(this);
+            return meta.rendered;
+        },
+
+        /**
+        * 触发外部的事件。
+        */
+        fire: function (...args) {
+            var meta = mapper.get(this);
+
+            //外面可能会用到事件返回值。
+            return meta.$emitter.fire(...args);
+        },
+
+        /**
+        * 批量绑定(委托)事件到 panel.$ 对象的多个元素上。
+        * 该方法可以批量绑定一个或多个不同的(委托)事件到多个元素上。
+        * 该方法是以事件为组长、选择器为组员进行绑定的。
+        * 已重载 $on(name$selector$fn);            //绑定多个(委托)事件到多个元素上。
+        * 已重载 $on(name$fn);                     //绑定多个事件到当前元素上。
+
+        * 已重载 $on(name, selector$fn);           //绑定单个(委托)事件到多个元素上。
+        * 已重载 $on(name, fn);                    //绑定单个事件到当前元素上。
+
+        * 已重载 $on(name, sample, selector$fn);   //绑定单个(委托)事件到多个元素上，这些元素的选择器有共同的填充模板。 此时 sample 中的 `{value}` 会给 selector$fn 中的 selector 填充。
+        * 已重载 $on(name, selector, fn);          //绑定单个(委托)事件到单个元素上。
+        *   
+        *   name: '',           //事件名。 如 `click`。
+        *   selector$fn: {      //选择器对应的事件处理器。
+        *       '#id-0': fn,    //
+        *       '#id-1': fn,    //
+        *   },
+        *
+        * 例如，绑定多个(委托)事件到多个元素上：
+        *   $on({
+        *       'click': {
+        *           '#id-0': fn,
+        *           '#id-1': fn,
+        *       },
+        *       'keyup': {
+        *           '#id-0': fn,
+        *           '#id-1': fn,
+        *       },
+        *   });
+        * 例如，绑定选择器有共同模板的多个元素：
+        *   $on('click', '[data-cmd="{value}"]', {
+        *       'print': fn,
+        *       'top': fn,
+        *   });
+        *   等价于：
+        *   $on('click', {
+        *       '[data-cmd="print"]': fn,
+        *       '[data-cmd="top"]': fn,
+        *   });
+        */
+        $on: function (name, sample, selector$fn) {
+            var name$selector$fn = Params.normalize(name, sample, selector$fn);
+
+            if (!name$selector$fn) {
+                return;
+            }
+
+            //统一形式后再处理。
+            var meta = mapper.get(this);
+
+            $Object.each(name$selector$fn, function (name, selector$fn) {
+                if (!selector$fn) {
+                    return;
+                }
+
+                //重载 $on(name$fn); 
+                //如 $on({ 'click': fn, });
+                if (typeof selector$fn == 'function') {
+                    meta.$.on(name, selector$fn); //此时的 selector$fn 就是 fn。
+                    return;
+                }
+
+                $Object.each(selector$fn, function (selector, fn) {
+                    meta.$.on(name, selector, fn);
+                });
+            });
+        },
+
+        /**
+        * 对 panel.$ 对象中的多个元素进行多个(委托)事件的绑定。
+        * 该方法可以对一个或多个元素批量绑定多个(委托)事件。
+        * 该方法是以选择器为组长、事件为组员进行绑定的。
+        * 已重载 $bind(selector$name$fn);    //对多个元素绑定多个(委托)事件。
+        * 已重载 $bind(selector, name$fn);   //对单个元素上绑定多个(委托)事件。
+        *   
+        *   selector: '',       //要绑定的元素或其选择器。
+        *   name$fn: {          //事件名对应的处理器函数。
+        *       'click': fn0,   //
+        *       'keyup': fn1,   //
+        *   },
+        *
+        * 例如，对多个元素绑定多个(委托)事件：
+        *   $on({
+        *       '#id-0': {
+        *           'click': fn10,
+        *           'keyup': fn11,
+        *       },
+        *       '#id-1': {
+        *           'click': fn20,
+        *           'keyup': fn21,
+        *       },
+        *   });
+        */
+        $bind: function (selector, name$fn) {
+            var selector$name$fn = null;
+
+            if (typeof selector == 'string') {
+                //重载 $bind(selector, name$fn);
+                //单个元素，多个事件的情况。
+                selector$name$fn = { [selector]: name$fn, };
+            }
+            else if (typeof selector == 'object') {
+                //重载 $bind(selector$name$fn);
+                //多个元素，多个事件的情况。
+                selector$name$fn = selector;
+            }
+            else {
+                throw new Error(`无法识别参数 selector 的类型。`);
+            }
+
+            if (!selector$name$fn) {
+                return;
+            }
+
+            //统一形式后再处理。
+            var meta = mapper.get(this);
+
+            $Object.each(selector$name$fn, function (selector, name$fn) {
+                if (!name$fn) {
+                    return;
+                }
+
+                $Object.each(name$fn, function (name, fn) {
+                    meta.$.on(name, selector, fn);
+                });
+            });
+
+        },
+
+
+        /**
+        * 包装一个新对象，使其拥有当前 Panel 实例的部分成员和新对象的成员。
+        * @param {Object} [obj] 要需要包装的对象。 
+            如果不指定，则只包装当前实例对象。
+        * @return {Object} 返回一个由当前实例的部分成员和要包装对象的成员组成的新对象。
+        * @example
+            var panel = KISP.create('Panel');
+            var obj = panel.wrap();
+            obj.show();
+
+            var obj1 = panel.wrap({ a: 100 });
+            console.log(obj1.a);
+        */
+        wrap: function (obj) {
+            var meta = mapper.get(this);
+            var panel = meta.panel;
+
+            if (panel) {
+                return panel;
+            }
+
+            obj = obj || {};
+            panel = meta.panel = {};
+
+
+            //忽略的成员。
+            var ignores = new Set([
+                'constructor',
+                'fire',
+                'wrap',
+            ]);
+
+            //拷贝实例原有的成员，忽略的成员除外。
+            $Object.each(meta.this, function (key, value) {
+                if (ignores.has(key)) {
+                    return;
+                }
+
+                //实例方法静态化
+                if (typeof value == 'function') {
+                    value = value.bind(meta.this); 
+                }
+
+                panel[key] = value;
+            });
+
+            //重写事件绑定，让事件绑定到外部的事件管理器上，而不是内部使用的 emitter。
+            Object.assign(panel, obj, {
+                'on': meta.$emitter.on.bind(meta.$emitter),
+                'off': meta.$emitter.off.bind(meta.$emitter),
+            });
+
+            return panel;
+        },
+
+        /**
+        * 传播指定模块的事件列表。
+        * 用于透传子模块的事件给父级。
+        */
+        propagate: function (M, names) {
+            var meta = mapper.get(this);
+
+            names.forEach(function (name) {
+                M.on(name, function (...args) {
+                    meta.this.fire(name, args);
+                });
+            });
+        },
+
+        /**
+        * 设置指定的属性。
+        * 已重载 set(obj);         //批量设置。
+        * 已重载 set(key, value);  //单个设置。
+        * @param {string} key 要设置的属性的名称。 
+        *   目前支持的字段有：'show'、'rendered'、'$'、'container'、'visible'、'template'。
+        * @param value 要设置的属性的值，可以是任何类型。
+        */
+        set: function (key, value) {
+            var meta = mapper.get(this);
+
+            //重载 set({...}); 
+            //批量设置的情况。
+            if ($Object.isPlain(key)) {
+                $Object.each(key, function (key, value) {
+                    meta.this.set(key, value);
+                });
+                return;
+            }
+
+            //重载 set(key, value); 单个设置的情况。
+            switch (key) {
+                case 'show':
+
+                //提供一个重置的机会，以便可以再次触发 init。 
+                //这是高级用法，针对特殊场景。
+                //场景：在 set('$') 更新容器后，原 `init` 事件中绑定的逻辑，如果用到了 panel.$.on() 之类的，则会失效。
+                //因此在 set('$') 后再调一下 set('rendered', false)，可以让 `init` 事件有机会再次触发。
+                case 'rendered': 
+                    meta[key] = value;
+                    break;
+
+                //更新容器。
+                case '$':
+                case 'container':
+                    Container.set(meta, value);
+                    break;
+
+                //允许设置可见性的初始状态，以便在不调用 render() 的前提下直接调用 show() 或 hide()。
+                case 'visible':
+                    meta.visible = !!value;
+                    break;
+
+                //设置新的模板容器，这样可以把指定的子部分当成模板进行填充，而不影响其它部分。
+                case 'template':
+                    if (meta.tpl) {
+                        throw new Error(`当前实例中已创建了模板实例，无法再修改模板实例所关联的 DOM 容器。`);
+                    }
+
+                    meta.tplContainer = meta.$.find(value);
+                    break;
+                default:
+                    throw new Error(`目前不支持设置属性: ${key}`);
+            }
+
+        },
+
+        /**
+        * 销毁本组件。
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+            meta.emitter.destroy();
+            meta.$emitter.destroy();
+            meta.$.off();
+
+            mapper.delete(this);
+        },
+
+        /**
+        * 绑定事件到内部的事件管理器。
+        * 注意，该方法在通过 wrap() 导出后，会给重写。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+
+    };
+
+    //静态方法。
+    Object.assign(Panel, {
+
+        /**
+        * 提供一种按标准方法定义面板的方式。
+        * 参数 options 是留给内部模块 View 扩展使用的。
+        *   options = {
+        *       constructor: Panel, //要使用的构造器，Panel 或 View。
+        *       defaults: {},       //要使用的默认配置，为 Panel 或 View 对应的配置。
+        *   };
+        */
+        define: function (id, factory, options) {
+            options = options || {
+                'constructor': Panel,
+                'defaults': defaults,
+            };
+
+
+            OuterModule.define(id, function ($require, $module, $exports) {
+                id = $module.id;    //此 id 才是完整的 id。 外面的那个可能是个模板 id。
+
+                var container = Container.get(id, options.defaults);    //如 `[data-panel="/Users/Main"]`。
+                var panel = new options.constructor(container);         //如 new Panel(`[data-panel="/Users/Main"]`)。
+                var meta = mapper.get(panel);                           //获取 panel 对应的元数据。
+
+                //指示此 panel 由 Panel.define() 创建的。
+                meta.module = panel.module = $module;    
+
+                //注意，参数中的 factory 并不是真正的工厂函数，本函数体才是。
+                //因此，参数中的 factory 的返回值 $exports 只是一个部分的导出对象。 
+                $exports = factory($require, $module, panel);
+
+                //把部分的导出对象跟 panel 实例合并成一个新的导出对象，
+                //让新的导出对象拥有 panel 实例的大部分成员，以及 factory 中导出的成员。
+                $exports = panel.wrap($exports); 
+
+                id$panel[id] = panel;
+
+                //业务层拿到的是 $module.exports === $exports。
+                //在 factory 函数体内，panel !== $module.exports，它们是包装前与后的关系。
+                return $exports;
+            });
+
+        },
+
+        /**
+        * 更新容器。
+        * 已重载 update(id);   //更新单个。
+        * 已重载 update(ids);  //更新多个。
+        * 参数 options 是留给内部模块 View 扩展使用的。
+        */
+        update: function (ids, options) {
+            ids = Array.isArray(ids) ? ids : [ids];
+
+            options = options || {
+                'defaults': defaults,
+            };
+
+            ids.forEach(function (id) {
+                var panel = id$panel[id];
+                var container = Container.get(id, options.defaults);  //如 `[data-panel="/Users/Main"]`。
+
+                if (!panel) {
+                    console.warn(`不存在 ${container} 的 Panel 实例。`);
+                    return;
+                }
+
+                panel.set('container', container);
+            });
+        },
+
+    });
+
+
+    return Panel;
+
+});
+
+
+/**
+* Panel 模块的默认配置
+* @name Panel.defaults
+*/
+define('Panel.defaults', /**@lends Panel.defaults*/ {
+    /**
+    * 所关联的 DOM 节点容器的选择器模板。
+    */
+    container: '[data-panel="{id}"]',
+
+    /**
+    * 是否在组件 render 后自动调用 show() 方法以进行显示。
+    */
+    show: true,
+
+  
+
+
+});
+
+
+
+/**
+* 模板类。
+*/
+define('Template', function (require, module, exports) {
+    var $String = require('String');
+    var $Object = require('Object');
+    var Emitter = require('Emitter');
+
+    var Meta = module.require('Meta');
+    var Parser = module.require('Parser');
+    var Sample = module.require('Sample');
+    var Child = module.require('Child');
+
+    var mapper = new Map();
+
+
+    /**
+    * 构造器。
+    * 参数：
+    *   selector: '' | DOM | jQuery | {}, //DOM 节点或选择器。 也可以是一个分析到的数据结构对象。
+    */
+    function Template(selector) {
+        //如果传入的是一个纯对象，则认为是内部解析到的数据结构。
+        //即要从一个已解析到的数据对象中创建实例。
+        var isParsedData = $Object.isPlain(selector);
+
+        var meta = Meta.create({
+            'emitter': new Emitter(this),
+            'this': this,
+        });
+
+        mapper.set(this, meta);
+
+
+        //传入的是一个普通的 DOM 节点或其选择器。
+        if (!isParsedData) {
+            var node = $(selector).get(0); //包装、拆装，可以让入参多样化。
+
+            if (!node) {
+                selector = (selector instanceof $) ? selector.selector : selector;
+                throw new Error('不存在模板节点: ' + selector);
+            }
+
+            var isTPL = node.nodeName.toLowerCase() == 'template'; //判断是否为 <template> 模板节点。
+            var html = Sample.removeScript(node.innerHTML);         //要先移除可能给 `script` 标签包含的内容
+            var info = Parser.parse(html);
+
+            meta.sample = Sample.betweenComment(html); 
+            meta.name = isTPL ? node.getAttribute('name') : '';
+            meta.placeholder = isTPL ? node.getAttribute('placeholder') : '';
+            meta.innerHTML = html;
+            meta.outerHTML = node.outerHTML;
+            meta.node = node;
+
+            meta.tpls = info.tpls.map(function (item) {
+                var tpl = Child.create(Template, meta, item);
+                var sample = meta.sample;
+
+                meta.sample = Sample.replace(sample, item); //替换掉当前模板在父模板中的内容。
+
+                return tpl;
+            });
+        }
+        else {//传入的是一个已解析到的数据对象。
+            var item = selector;
+
+            Meta.assign(meta, item);
+
+            meta.tpls = item.items.map(function (item) {
+                var tpl = Child.create(Template, meta, item);
+
+                return tpl;
+            });
+        }
+
+
+        /**
+        * 这里增加个限制：
+        * 某一层里只允许出现一个纯 `<template>` 标签，且不允许再嵌套子级 `<template>` 标签。
+        * 纯 `<template>` 标签是指无 `name` 和 `placeholder` 属性的 `<template>` 标签。
+        * 这段逻辑会把该 template 实例中的 sample 上升为父级实例的 sample 值。
+        * 这样可以方便把一级模板用一对 `<template></template>` 标签括起来，等价于直接注释掉当模板的方式，
+        * 但比后者多了个语法高亮的优点。 例如：
+        *   <ul>
+        *       <template>
+        *           <li></li>
+        *       </temlate>
+        *   </ul>
+        * 与传统的用注释方式是等价的：
+        *   <ul>
+        *       <!--
+        *       <li></li>
+        *       -->
+        *   </ul>
+        */
+        (function () {
+            //获取空白名称的直接子级 tpl。
+            var tpl = meta.name$tpl[''];
+
+            if (!tpl) {
+                return;
+            }
+
+            //空白名称的直接子级 tpl 对应 meta。
+            var tplMeta = mapper.get(tpl);
+            var keys = Object.keys(tplMeta.name$tpl);
+
+            if (keys.length > 0) {
+                throw new Error('无名称的 template 标签下不能再嵌套子级 template。');
+            }
+
+            if (tplMeta.placeholder) {
+                throw new Error('无名称的 template 标签不能设置 placeholder 属性。');
+            }
+
+            //把空白名称的直接子级 tpl 的 sample 当成本级的 sample。
+            meta.sample = tplMeta.sample;
+
+        })();
+
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'id': meta.id,
+            '_meta': meta, //用于测试。
+        });
+
+    }
+
+
+
+
+    //实例成员。
+    Template.prototype = {
+        constructor: Template,
+
+        /**
+        * 当前实例的 id。
+        */
+        id: '',
+
+
+
+        /**
+        * 父实例。
+        */
+        parent: null,
+
+        /**
+        * 获取指定名称(或由多个名称组成的路径)节点所对应的下级 Template 实例。
+        * 已重载 template(names);                      //传入子模板的名称列表。
+        * 已重载 template(name0, name1, ..., nameN);   //依次传入多个子模板的名称。
+        */
+        template: function (names) {
+            //重载 template(name0, name1, ..., nameN); 
+            if (!Array.isArray(names)) {
+                names = [...arguments];
+            }
+
+            //从当前实例开始。
+            var tpl = this;
+            var meta = mapper.get(tpl);
+
+            names.map(function (name) {
+                tpl = meta.name$tpl[name];  //取子级的实例。
+                meta = mapper.get(tpl);     //子级实例对应的元数据。
+            });
+
+            return tpl;
+        },
+
+        /**
+        * 获取指定名称(或由多个名称组成的路径)节点所对应的下级 sample 模板。
+        */
+        sample: function (...names) {
+            var tpl = this.template(...names);
+            var meta = mapper.get(tpl);
+
+            if (!meta) {
+                throw new Error(`当前实例下不存在名称路径为 ${names.join(' ')} 的 Template 子实例。`);
+            }
+            
+            return meta.sample;
+        },
+
+        /**
+        * 获取内部指定的属性。
+        */
+        get: function (key) {
+            var meta = mapper.get(this);
+            console.warn(`${module.id} 类的实例 get 方法已过时，请不要使用。`);
+
+            switch (key) {
+                case 'name':
+                case 'sample':
+                    return meta[key];
+            }
+
+        },
+
+        /**
+        * 对当前模板进行填充，并用填充后的 html 字符串渲染容器节点。
+        * @param {Object|Array} data 要填充的数据，可以是一个对象或数组。
+        * @param {function} process 填充规则的处理器，即处理函数。
+        * @return 填充后的 html 内容。
+        */
+        render: function (data, process) {
+            if (process) {
+                this.process(process);
+            }
+
+            var meta = mapper.get(this);
+            var node = meta.node;
+            var html = this.fill(data);
+
+            if (node) {
+                node.innerHTML = html;
+            }
+
+            return html;
+        },
+
+        /**
+        * 对当前模板及子模板(如果有)进行填充。
+        * 已重载 fill(data);
+        * 已重载 fill(data, param0, ..., paramN);
+        * 已重载 fill(name0, name1, ..., nameN, data);
+        * 已重载 fill(name0, name1, ..., nameN, data, param0, ..., paramN);
+        * @return {string} 返回填充后的 html 字符串。
+        */
+        fill: function (data, ...params) {
+            //重载 fill(name0, name1, ..., nameN, data, param0, ..., paramN);
+            //即一步到位填充指定路径的子模板。
+
+            //全部参数列表。
+            var args = [...arguments];
+
+
+            //找出 data 在参数列表中所在的位置。
+            var index = args.findIndex(function (item) {
+                return Array.isArray(item) || $Object.isPlain(item);
+            });
+
+            //参数列表中没找到任何可用于填充的数据。
+            if (index < 0) {
+                throw new Error('填充模板时必须指定数据为一个数组或纯对象。');
+            }
+
+            //找到该数据，但它前面有子模板的名称。
+            //使用子模板进行填充。
+            if (index > 0) {
+                var names = args.slice(0, index);   //子模板名称列表，[name0, name1, ..., nameN];
+                var tpl = this.template(...names);
+
+                if (!tpl) {
+                    throw new Error(`不存在路径为 ${names.join('.')} 的模板节点，请检查 html 模板树。`);
+                }
+
+                var rest = args.slice(index);   //[data, param0, ..., paramN];
+                var html = tpl.fill(...rest);
+                return html;
+            }
+
+
+            //以下情况是直接传入数据进行填充的，不存在传入子模板的情况。
+
+            var meta = mapper.get(this);
+
+
+            //这里不要缓存 sample，应该实时去获取 meta.sample，
+            //因为它可能在 process 函数中给使用者调用了 this.fix() 更改了。
+            //var sample = meta.sample; !!!
+
+            //单个纯对象形式。
+            if (!Array.isArray(data)) {
+                meta.emitter.fire('process', args);
+
+                //调用处理器获得填充数据。
+                //此处特意让处理器函数获得 `this` 执行环境。
+                data = meta.process.apply(meta.this, args); 
+
+
+                //处理器已直接返回 html 内容，则不需要用模板去填充。
+                if (typeof data == 'string') {
+                    return data;
+                }
+                
+                var html = $String.format(meta.sample, data);
+                return html;
+            }
+
+            //传进来的是一个数组，则迭代每一项去填充。
+            //每一项都会调用处理器函数，并传递一些参数。
+            var htmls = data.map(function (item, index) {
+                //传给处理器的参数列表。
+                //除了传当前迭代的 item 和 index 外，还把 params 也一同传过去。
+                //params 就是用户在 fill(data, ...params) 传进来的、data 后面的其它参数。
+                //params 用于透传给处理器函数。
+                var args = [item, index, ...params];
+
+                meta.emitter.fire('process', args);
+
+                //调用处理器获得填充数据。
+                //此处特意让处理器函数获得 `this` 执行环境。
+                var data = meta.process.apply(meta.this, args);
+
+                //处理器已直接返回 html 内容，则不需要用模板去填充。
+                if (typeof data == 'string') {
+                    return data;
+                }
+
+                if (!data) {
+                    return ''; //这里要返回空串。
+                }
+
+                var html = $String.format(meta.sample, data);
+                return html;
+            });
+
+            return htmls.join('');
+        },
+
+        /**
+        * 设置模板填充的处理规则。
+        * 已重载 process(fn);      //设置当前实例的处理器。
+        * 已重载 process({...});   //批量设置当前实例以及子实例的处理器。                 
+        * 已重载 process(name0, ..., nameN, fn);       //设置路径为 `name0->name1->...->nameN` 的子实例的处理器。
+        * 已重载 process(name0, ..., nameN, {...});    //批量设置前缀路径为`name0->name1->...->nameN` 的子实例的处理器。
+        */
+        process: function (process) {
+            var meta = mapper.get(this);
+
+            //重载 process(fn); 
+            //设置当前实例的 process 处理函数。
+            if (typeof process == 'function') {
+                meta.process = process;
+                return;
+            }
+
+
+            var args = [...arguments];
+
+            //查找处理器所在的位置。
+            var index = args.findIndex(function (item) {
+                return typeof item == 'function' || $Object.isPlain(item);
+            });
+
+            if (index < 0) {
+                throw new Error(`模板节点 ${meta.name} 缺少处理器。`);
+            }
+
+
+            //前面存在前缀名称，则跟后面的处理器合并为一个完整对象，方便后续统一处理。
+            //如 process('A', 'B', 'C', process); 则合并为 { A: { B: { C: process } } };
+            if (index > 0) {
+                var keys = args.slice(0, index);    //如 ['A', 'B', ]
+                var item = args[index];             //
+
+                process = $Object.make({}, keys, item); //此时 process 是一个 {...}。
+            }
+
+
+            //展开成扁平结构。
+            //如：list = [ { keys: ['A', 'B', 'C'], value: fn, } ];
+            var list = $Object.flat(process);
+
+            list.forEach(function (item) {
+                //去掉空字符串。 因为空串是代表自身。
+                var keys = item.keys.filter(function (key) {
+                    return !!key;
+                });
+
+                var value = item.value;
+
+                if (typeof value != 'function') {
+                    throw new Error(`模板节点 ${keys.join('.')} 的处理器必须为一个函数。`);
+                }
+
+
+                var tpl = meta.this.template(keys);
+
+                if (!tpl) {
+                    console.warn(`不存在模板节点: ${keys.join('.')}`);
+                    return;
+                }
+
+                //此时 value 为一个函数。
+                tpl.process(value);
+
+            });
+
+        },
+
+        /**
+        * 修正模板中指定的占位符。
+        * 因为模板中的 html 给 DOM 解析和处理后，没有等号的占位符属性会给替换成有空值的属性值。
+        * 如 `<img {test} />` 经过 DOM 解析后会变成 `<img {test}="" />`，这并不是我们想要的结果。
+        * 因此我们需要手动修正以替换回我们写模板时的结果。
+        */
+        fix: function (keys) {
+            var meta = mapper.get(this);
+            var sample = meta.sample;
+
+            keys = Array.isArray(keys) ? keys : [keys];
+
+            keys.map(function (key) {
+                var target = '{' + key + '}';
+                var old = target + '=""';
+
+                sample = sample.split(old).join(target); //replaceAll
+            });
+
+            meta.sample = sample;
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+        /**
+        * 销毁本组件。
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+            if (!meta) {
+                return;
+            }
+
+            meta.tpls.map(function (tpl) {
+                tpl.destroy();
+            });
+
+            meta.emitter.destroy();
+            meta.node = null;
+            meta.parent = null;
+            meta.emitter = null;
+
+            mapper.delete(this);
+
+        },
+    };
+
+
+
+    //静态方法
+    Object.assign(Template, {
+        /**
+        * 从一段 html 中解析出信息，并创建一个 Template 实例。
+        */
+        create: function (html) {
+            html = `<template>${html}</template>`;
+
+            var HTMLParser = require('HTMLParser');
+            var dom = HTMLParser.parse(html);
+
+            //if (dom.childNodes.length != 1) {
+            //    throw new Error('要解析的 html 最外层只允许(必须)有一个节点。');
+            //}
+
+            var tpl = new Template(dom.childNodes[0]);
+
+            return tpl;
+        },
+    });
+
+
+    return Template;
+
+
+
+});
+
+
+
+/**
+* Parse a string of HTML into an HTML DOM.
+* 
+* https://github.com/developit/htmlParser
+*/
+define('HTMLParser', function (require, module) {
+
+    var exports = {},
+            util = {},
+            splitAttrsTokenizer = /([a-z0-9_\:\-]*)\s*?=\s*?(['"]?)(.*?)\2\s+/gim,
+            domParserTokenizer = /(?:<(\/?)([a-zA-Z][a-zA-Z0-9\:]*)(?:\s([^>]*?))?((?:\s*\/)?)>|(<\!\-\-)([\s\S]*?)(\-\->)|(<\!\[CDATA\[)([\s\S]*?)(\]\]>))/gm;
+
+    util.extend = function (a, b) {
+        for (var x in b) {
+            if (b.hasOwnProperty(x)) {
+                a[x] = b[x];
+            }
+        }
+        return a;
+    };
+
+    util.inherit = function (a, b) {
+        var p = a.prototype;
+        function F() {
+
+        }
+
+        F.prototype = b.prototype;
+        a.prototype = new F();
+
+        util.extend(a.prototype, p);
+        a.prototype.constructor = a;
+    };
+
+    //by micty��
+    //������˸���ġ�
+    util.selfClosingTags = ['area', 'base', 'br', 'col', 'embed', 'frame', 'hr', 'img', 'input', 'keygen', 'link', 'meta', 'object', 'param', 'source'];
+
+    util.getElementsByTagName = function (el, tag) {
+        var els = [], c = 0, i, n;
+        if (!tag) {
+            tag = '*';
+        }
+        tag = tag.toLowerCase();
+
+        if (el.childNodes) {
+            for (i = 0; i < el.childNodes.length; i++) {
+                n = el.childNodes[i];
+                if (n.nodeType === 1 && (tag === '*' || n.nodeName === tag)) {
+                    els[c++] = n;
+                }
+
+                Array.prototype.splice.apply(els, [els.length, 0].concat(util.getElementsByTagName(n, tag)));
+                c = els.length;
+            }
+        }
+
+        return els;
+    };
+
+    util.splitAttrs = function (str) {
+        var obj = {}, token;
+
+        if (str) {
+            splitAttrsTokenizer.lastIndex = 0;
+            str = ' ' + (str || '') + ' ';
+
+            while ((token = splitAttrsTokenizer.exec(str))) {
+                obj[token[1]] = token[3];
+            }
+        }
+
+        return obj;
+    };
+
+    util.ta = document.createElement('textarea');
+
+    util.encodeEntities = function (str) {
+        util.ta.value = str || '';
+        return util.ta.innerHTML;
+    };
+
+    util.decodeEntities = function (str) {
+        util.ta.innerHTML = str || '';
+        return util.ta.value;
+    };
+
+    util.htmlToText = function (html) {
+        html = html.replace(/<\/?[a-z].*?>/gim, '');
+        return util.decodeEntities(html);
+    };
+
+    function HTMLElement() {
+        this.childNodes = [];
+    }
+
+    util.extend(HTMLElement.prototype, {
+        nodeType: 1,
+        textContent: '',
+
+        getElementsByTagName: function (tag) {
+            return util.getElementsByTagName(this, tag);
+        },
+
+        getAttribute: function (a) {
+            if (this.attributes.hasOwnProperty(a)) {
+                return this.attributes[a];
+            }
+        },
+
+        setAttribute: function (name, value) {
+            var lcName = (name + '').toLowerCase();
+            this.attributes[name] = value + '';
+            if (lcName === 'id' || lcName === 'name') {
+                this[lcName] = value;
+            }
+            if (lcName === 'class') {
+                this.className = value;
+            }
+        },
+
+        getElementById: function (id) {
+            var all = this.getElementsByTagName('*'),
+                i;
+            for (i = all.length; i--;) {
+                if (all[i].id === id) {
+                    return all[i];
+                }
+            }
+        },
+
+        appendChild: function (child) {
+            if (child.parentNode) {
+                child.parentNode.removeChild(child);
+            }
+            this.childNodes.push(child);
+        },
+
+        insertBefore: function (child, sibling) {
+            if (child.parentNode) {
+                child.parentNode.removeChild(child);
+            }
+            for (var i = 0; i < this.childNodes.length; i++) {
+                if (this.childNodes[i] === sibling) {
+                    break;
+                }
+            }
+            this.childNodes.splice(i, 0, child);
+        },
+
+        removeChild: function (child) {
+            for (var i = this.childNodes.length; i--;) {
+                if (this.childNodes[i] === child) {
+                    this.childNodes.splice(i, 1);
+                    break;
+                }
+            }
+        },
+    });
+
+    exports.HTMLElement = HTMLElement;
+
+
+    function Node() {
+
+    }
+
+    util.extend(Node.prototype, {
+        toString: function () {
+            return this.textContent;
+        },
+    });
+
+
+    function Document() {
+        HTMLElement.call(this);
+    }
+
+    util.inherit(Document, HTMLElement);
+
+    util.extend(Document.prototype, {
+        nodeType: 9,
+        nodeName: '#document',
+    });
+
+    exports.Document = Document;
+
+    function TextNode() {
+
+    }
+
+    util.inherit(TextNode, Node);
+
+    util.extend(TextNode.prototype, {
+        nodeType: 3,
+        nodeName: '#text'
+    });
+
+
+    exports.TextNode = TextNode;
+
+    function CommentNode() {
+
+    }
+
+    util.inherit(CommentNode, Node);
+    util.extend(CommentNode.prototype, {
+        nodeType: 8,
+        nodeName: '#comment'
+    });
+
+    exports.CommentNode = CommentNode;
+
+
+
+    function CDATASectionNode() { }
+
+    util.inherit(CDATASectionNode, Node);
+    util.extend(CDATASectionNode.prototype, {
+        nodeType: 4,
+        nodeName: '#cdata-section'
+    });
+    exports.CDATASectionNode = CDATASectionNode;
+
+
+    util.blockConstructors = {
+        '<!--': CommentNode,
+        '<![CDATA[': CDATASectionNode
+    };
+
+
+    /** Parse a string of HTML into an HTML DOM.
+     *  @param {String} str		A string containing HTML
+     *  @returns {Document}		A Node, the type corresponding to the type of the root HTML node.
+     */
+    exports.parse = function (str) {
+        var tags, doc, parent, prev, token, text, i,
+            bStart, bText, bEnd, BlockConstructor, commitTextNode, tag;
+        tags = [];
+        domParserTokenizer.lastIndex = 0;
+
+        parent = doc = new Document();
+
+        commitTextNode = function () {
+            // note: this is moved out of the loop but still uses its scope!!
+            if (parent && tags.length > 0) {
+                prev = tags[tags.length - 1];
+                i = (prev.documentPosition.closeTag || prev.documentPosition.openTag).end;
+                if (prev.parentNode === parent && i && i < tag.documentPosition.openTag.start) {
+                    text = str.substring(i, tag.documentPosition.openTag.start);
+                    if (text) {
+                        text = util.decodeEntities(text);
+                        parent.childNodes.push(util.extend(new TextNode(), {
+                            textContent: text,
+                            nodeValue: text,
+                            parentNode: parent
+                        }));
+                    }
+                }
+            }
+        };
+
+        while ((token = domParserTokenizer.exec(str))) {
+            bStart = token[5] || token[8];
+            bText = token[6] || token[9];
+            bEnd = token[7] || token[10];
+            if (bStart === '<!--' || bStart === '<![CDATA[') {
+                i = domParserTokenizer.lastIndex - token[0].length;
+                BlockConstructor = util.blockConstructors[bStart];
+                if (BlockConstructor) {
+                    tag = util.extend(new BlockConstructor(), {
+                        textContent: bText,
+                        nodeValue: bText,
+                        parentNode: parent,
+                        documentPosition: {
+                            openTag: {
+                                start: i,
+                                end: i + bStart.length
+                            },
+                            closeTag: {
+                                start: domParserTokenizer.lastIndex - bEnd.length,
+                                end: domParserTokenizer.lastIndex
+                            }
+                        }
+                    });
+                    commitTextNode();
+                    tags.push(tag);
+                    tag.parentNode.childNodes.push(tag);
+                }
+            }
+            else if (token[1] !== '/') {
+                tag = util.extend(new HTMLElement(), {
+                    nodeName: (token[2] + '').toLowerCase(),
+                    attributes: util.splitAttrs(token[3]),
+                    parentNode: parent,
+                    documentPosition: {
+                        openTag: {
+                            start: domParserTokenizer.lastIndex - token[0].length,
+                            end: domParserTokenizer.lastIndex
+                        }
+                    }
+                });
+                tag.className = tag.attributes['class'];
+                tag.id = tag.attributes.id;
+                tag.name = tag.attributes.name;
+                commitTextNode();
+                tags.push(tag);
+                tag.parentNode.childNodes.push(tag);
+
+                //by micty��
+                if ((token[4] && token[4].indexOf('/') > -1) || util.selfClosingTags.includes(tag.nodeName)) {
+                    tag.documentPosition.closeTag = tag.documentPosition.openTag;
+                    tag.isSelfClosingTag = true;
+                    tag.innerHTML = '';
+                    tag.outerHTML = str.substring(tag.documentPosition.openTag.start, tag.documentPosition.closeTag.end);
+                }
+                else {
+                    parent = tag;
+                }
+            }
+            else {
+                // Close parent node if end-tag matches
+                if ((token[2] + '').toLowerCase() === parent.nodeName) {
+                    tag = parent;
+                    parent = tag.parentNode;
+                    delete tag.isSelfClosingTag;
+                    tag.documentPosition.closeTag = {
+                        start: domParserTokenizer.lastIndex - token[0].length,
+                        end: domParserTokenizer.lastIndex
+                    };
+                    tag.innerHTML = str.substring(tag.documentPosition.openTag.end, tag.documentPosition.closeTag.start);
+                    tag.outerHTML = str.substring(tag.documentPosition.openTag.start, tag.documentPosition.closeTag.end);
+                    tag.textContent = util.htmlToText(tag.innerHTML);
+                }
+                    // account for abuse of self-closing tags when an end-tag is also provided:
+                else if ((token[2] + '').toLowerCase() === tags[tags.length - 1].nodeName && tags[tags.length - 1].isSelfClosingTag === true) {
+                    tag = tags[tags.length - 1];
+                    console.warn('HTML Error: discarding dangling <\/' + token[2] + '> tag. Already closed via: ' + tag.outerHTML);
+                    delete tag.isSelfClosing;
+                    tag.documentPosition.closeTag = {
+                        start: domParserTokenizer.lastIndex - token[0].length,
+                        end: domParserTokenizer.lastIndex
+                    };
+                }
+                else {
+                    console.warn('tag mismatch: "' + token[2] + '" vs "' + tag.nodeName + '"', tag);
+                }
+            }
+        }
+
+        doc.documentElement = doc.getElementsByTagName('html')[0];
+        doc.body = doc.getElementsByTagName('body')[0];
+
+        return doc;
+    };
+
+    return exports;
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Template/Meta', function (require, module, exports) {
+    var $String = require('String');
+    var $Object = require('Object');
+    var RandomId = require('RandomId');
+
+
+    var prefix = 'KISP-Template-';   //用于生成组件 id 的前缀部分。
+    var suffix = 4;                 //用于生成组件 id 的随机部分的长度。
+
+
+
+    //默认的处理函数。
+    function process(data) {
+        return data;
+    }
+
+
+    return {
+
+        /**
+        *
+        */
+        create: function (others) {
+            var id = RandomId.get(prefix, suffix);
+
+            var meta = {
+                'id': id,               //
+                'sample': '',           //
+                'name': '',             //
+                'placeholder': '',      //
+                'innerHTML': '',        //
+                'outerHTML': '',        //
+
+                'tpls': [],             //下级实例列表。
+                'name$tpl': {},         //命名的下级实例映射，方便按名称读取。
+
+                'node': null,           //DOM 节点。
+                'parent': null,         //父实例。
+                'emitter': null,        //
+                'this': null,           //
+
+                'process': process,     //默认的处理函数。
+            };
+
+
+            Object.assign(meta, others);
+
+            return meta;
+
+        },
+
+        /**
+        *
+        */
+        assign: function (meta, item) {
+            Object.assign(meta, {
+                'sample': item.sample,
+                'name': item.name,
+                'placeholder': item.placeholder,
+                'innerHTML': item.innerHTML,
+                'outerHTML': item.outerHTML,
+                'node': item.node,
+            });
+        },
+
+    };
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Template/Parser', function (require, module, exports) {
+    var $String = require('String');
+    var HTMLParser = require('HTMLParser');
+    var Templates = module.require('Templates');
+
+
+
+
+    return {
+
+
+        parse: function (html) {
+
+            var dom = HTMLParser.parse(html);
+
+            var tpls = Templates.get(dom);
+
+            return { dom, tpls, };
+
+
+        },
+    };
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Template/Parser/Templates', function (require, module, exports) {
+    var $String = require('String');
+    var $Object = require('Object');
+
+
+    /**
+    * 获取指定 template 节点的父亲 template 节点(。
+    */
+    function getParent(tpl) {
+        tpl = tpl.parentNode;
+
+        while (tpl) {
+
+            if (tpl.nodeName == 'template') {
+                return tpl;
+            }
+
+            tpl = tpl.parentNode;
+        }
+
+        return null;
+    }
+
+
+
+
+    return {
+
+
+        /**
+        * 把所有的 template 节点信息提取出来。
+        * 返回一个由顶层 template 节点对应的描述信息对象组成的数组。
+        */
+        get: function (dom) {
+            var tpls = dom.getElementsByTagName('template');
+            var tpl$item = new Map();
+
+            var list = tpls.map(function (tpl) {
+                var attributes = tpl.attributes;
+                var innerHTML = tpl.innerHTML;
+
+                var item = {
+                    'id': tpl.id || '',
+                    'name': tpl.name || '',
+                    'placeholder': attributes.placeholder || '',
+                    'innerHTML': innerHTML,
+                    'outerHTML': tpl.outerHTML,
+                    'node': tpl,
+                    'sample': innerHTML,
+                    'parent': null,
+                    'attributes': attributes,
+                    'items': [],    //直接下级列表。
+                };
+
+                tpl$item.set(tpl, item);
+
+                return item;
+            });
+
+
+            var roots = list.filter(function (item) {
+                var tpl = getParent(item.node);
+                var parent = tpl$item.get(tpl);
+
+                //收集根节点。
+                if (!parent) {
+                    return true;
+                }
+
+                //顺便处理一下其它。
+                item.parent = parent;
+                parent.items.push(item);
+
+                //替换掉子模板在父模板中的内容。
+                var sample = parent.sample;
+                var outerHTML = item.outerHTML;
+                var placeholder = item.placeholder;
+
+                if (placeholder) {
+                    placeholder = '{' + placeholder + '}';
+                }
+
+                parent.sample = sample.replace(outerHTML, placeholder);
+
+            });
+
+            return roots;
+        },
+
+    };
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Template/Sample', function (require, module, exports) {
+    var $String = require('String');
+    var $Object = require('Object');
+
+
+    var script = {
+        begin: '<script type="text/template">',
+        end: '</script>',
+    };
+
+    var comment = {
+        begin: '<!--',
+        end: '-->',
+    };
+
+
+
+
+
+    return exports = {
+
+        /**
+        * 替换掉子模板在父模板中的内容。
+        *   sample: 父模板的内容。
+        *   item: 解析到的模板数据结构。
+        */
+        replace: function (sample, item) {
+            var outerHTML = item.outerHTML;
+            var placeholder = item.placeholder;
+
+            if (placeholder) {
+                placeholder = '{' + placeholder + '}';
+            }
+
+
+         
+            sample = exports.removeScript(sample);
+
+            sample = sample.replace(outerHTML, placeholder); //这里不要用全部替换，否则可能会误及后面的。
+
+            return sample;
+
+        },
+
+        /**
+        * 提取 `<!--` 和 `-->` 之间的内容作为 sample。
+        */
+        betweenComment: function (sample) {
+            if (sample.includes(comment.begin) &&
+                sample.includes(comment.end)) {
+
+                sample = $String.between(sample, comment.begin, comment.end);   //这里用提取。
+            }
+
+            return sample;
+        },
+
+        /** 
+        * 移除 html 中的 `<script type="text/template">` 和 `</script>` 标签。
+        * 如果不存在 script 包裹标签，则原样返回。
+        */
+        removeScript: function (html) {
+            if (html.includes(script.begin) &&
+                html.includes(script.end)) {
+
+                html = html.split(script.begin).join('');   //这里用删除。
+                html = html.split(script.end).join('');     
+            }
+
+            return html;
+        },
+
+
+    };
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Template/Child', function (require, module, exports) {
+    var $String = require('String');
+    var $Object = require('Object');
+
+
+   
+
+    return {
+
+        /**
+        * 根据已解析到的数据节点创建一个子级实例，并设置父子关系等。
+        */
+        create: function (Template, meta, item) {
+            var name = item.name;
+            var sibling = meta.name$tpl[name]; //兄弟节点。
+
+            //检测同一级下是否已存在同名的模板。
+            if (sibling) {
+                throw new Error('同一级下已存在名为 `' + name + '` 的模板。');
+            }
+
+            var tpl = new Template(item);
+
+            meta.name$tpl[name] = tpl;
+            meta.parent = meta.this;    //设置父实例，内部使用的。
+            tpl.parent = meta.this;     //设置父实例，外部使用的。
+
+            tpl.on('process', function () {
+                var args = Array.from(arguments);
+                meta.emitter.fire('process', args);
+            });
+
+            return tpl;
+
+        },
+
+      
+
+
+    };
+
+
+});
+
+
+
+/**
+* 针对有继承关系的类提供同一个的 mapper 实例容器。
+* @namespace
+* @name Mapper
+*/
+define('Mapper', function (require, module, exports) {
+    var mapper = new Map();
+    return mapper;
+
+});
+
+
+
+define('Panel/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var RandomId = require('RandomId');
+
+    var prefix = 'KISP-Panel-';     //用于生成组件 id 的前缀部分。
+    var suffix = 4;                 //用于生成组件 id 的随机部分的长度。
+
+
+    return {
+        create: function (config, others) {
+            var id = RandomId.get(prefix, suffix);
+
+
+            var meta = {
+                'id': id,               //实例的 id，全局唯一。
+                'container': '',        //容器的 DOM 节点(或其对应的选择器)。
+                'rendered': false,      //是否已渲染过。
+                'renderArgs': [],       //最近一次 render() 时的参数数组，用于 refresh()。
+                'show': config.show,    //是否在组件 render() 后自动调用 show() 方法以进行显示。
+                'visible': false,       //当前组件是否可见。
+
+                'tplContainer': null,   //用于构造 Template 实例即 tpl 时的参数。 默认为当前 panel 实例的 container，但可以指定来改变。
+                'module': null,         //如果非空，则是由 Panel.define() 创建的。 此时 container='[data-panel="xx"]' 的形式。
+                '$': null,              //当前实例关联的 DOM 节点对应的 jQuery 实例。
+                '$emitter': null,       //供外部用的事件管理器。
+                'emitter': null,        //内部使用的事件管理器。
+                'tpl': null,            //模板填充的 Template 实例。
+                'panel': null,          //缓存调用 this.wrap() 后的返回结果。
+                'this': null,           //方便内部使用。
+            };
+
+
+
+            Object.assign(meta, others);
+
+
+            return meta;
+
+
+        },
+    };
+});
+/**
+*/
+define('Panel/Container', function (require, module, exports) {
+    var $String = require('String');
+    var Defaults = require('Defaults');
+
+
+    return {
+        /**
+        * 获取容器对应的选择器。
+        */
+        get: function (id, defaults) {
+
+            //如 `[data-panel="/Users/Main"]`。
+            var container = $String.format(defaults.container, {
+                'id': id,
+            });
+
+            return container;
+        },
+
+        /**
+        * 设置新的容器。
+        */
+        set: function (meta, value) {
+            //在 jQuery 3.x 版本，meta.$.selector 为 undefined。
+            value = value || meta.$.selector;
+
+            //空值，并且确定它是来源于 Panel.define() 创建的。
+            //此时可以用回 meta.container，它为 `[data-panel="xx"]` 格式。
+            if (!value && meta.module) {
+                value = meta.container;
+            }
+
+            if (!value) {
+                throw new Error(`设置 container 时，请给参数 value 提供一个有效的值。`);
+            }
+
+            meta.container = value;
+
+            //先解除绑定旧容器的事件。
+            meta.$.off();
+
+            //构造新的容器。
+            meta.$ = meta.this.$ = $(meta.container);
+
+            //同时更新导出对象的 $ 字段。
+            if (meta.panel) {
+                meta.panel.$ = meta.$;
+            }
+
+
+
+            //更新容器后，可能会产生两份完全一样的节点。
+            //其中有一份完全是作废的，它们不在 DOM 树中。
+            //这里检测并清理不在 DOM 树中的孤立节点。
+            //重写 jQuery 中的 find 方法。
+            var find = meta.$.find.bind(meta.$);
+
+            meta.$.find = function (...args) {
+                var $items = find(...args);
+
+                $items.each(function (index) {
+                    var el = this;
+
+                    if (!document.documentElement.contains(el)) {
+                        el.parentNode.removeChild(el);
+                    }
+
+                });
+
+                //重新获取一次。
+                $items = find(...args);
+
+                return $items;
+            };
+
+
+        },
+
+    };
+});
+
+
+
+define('Panel/Params', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var $Object = require('Object');
+
+
+
+    return {
+        /**
+        * 针对方法 panel.$on() 提供标准化参数的能力，以支持多样化的重载情况。
+        * 已重载 $on(name$selector$fn);            //绑定多个(委托)事件到多个元素上。
+        * 已重载 $on(name$fn);                     //绑定多个事件到当前元素上。
+
+        * 已重载 $on(name, selector$fn);           //绑定单个(委托)事件到多个元素上。
+        * 已重载 $on(name, fn);                    //绑定单个事件到当前元素上。
+
+        * 已重载 $on(name, sample, selector$fn);   //绑定单个(委托)事件到多个元素上，这些元素的选择器有共同的填充模板。
+        * 已重载 $on(name, selector, fn);          //绑定单个(委托)事件到单个元素上。
+        */
+        normalize: function (name, sample, selector$fn) {
+            var type = typeof name;
+
+            //重载 $on(name$selector$fn);
+            //重载 $on(name$fn);
+            if (type == 'object') {
+                return name;
+            }
+
+            //此时要求 name 必须为一个 string。
+            if (type != 'string') {
+                throw new Error(`无法识别参数 name 的类型。`);
+            }
+
+
+            type = typeof sample;
+
+            //重载 $on(name, selector$fn); 
+            //重载 $on(name, fn);      
+            if (type == 'object' || type == 'function') {
+                return { [name]: sample, };
+            }
+
+
+            //此时要求 sample 必须为一个 string。
+            if (type != 'string') {
+                throw new Error(`无法识别参数 sample 的类型。`);
+            }
+
+            type = typeof selector$fn;
+
+
+            //重载 $on(name, selector, fn);
+            if (type == 'function') {
+                return {
+                    [name]: {
+                        [sample]: selector$fn,  //此时 sample 为 selector，而 selector$fn 为 fn。
+                    },
+                };
+            }
+
+            //重载 $on(name, sample, selector$fn);
+            if (type == 'object') {
+                var all = {};
+
+                $Object.each(selector$fn, function (selector, fn) {
+                    //如填充前的 sample 为 `[data-cmd="{value}"]`，且 selector 为 `print`，
+                    //则填充后的 selector 为 `[data-cmd="print"]`。
+                    selector = $String.format(sample, {
+                        'value': selector,
+                    });
+
+                    all[selector] = fn;
+                });
+
+                return {
+                    [name]: all,
+                };
+            }
+
+
+            throw new Error(`无法识别参数 selector$fn 的类型。`);
+
+        },
+    };
+});
+/**
+* alert 对话框。
+* @namespace
+* @name Alert
+* @private
+*/
+define('Alert', function (require, module, exports) {
+    var $String = require('String');
+    var Dialog = module.require('Dialog');
+    var Sample = module.require('Sample');
+
+    
+
+
+
+
+    return {
+        /**
+        * 显示一个 alert 对话框。 
+        * 支持多次调用，会将多次调用加进队列，在显示完上一次后进行下一次的显示。
+        */
+        show: function (text, text1, textN, fn) {
+            //重载 show(obj); 
+            //以方便程序员调试查看 json 对象。
+            if (typeof text == 'object') {
+                text = JSON.stringify(text, null, 4);
+                text = $String.format(Sample, { 'text': text, });
+            }
+
+            var args = [...arguments];
+
+            //在参数列表中找到的第一个函数当作是回调函数，并忽略后面的参数。
+            var index = args.findIndex(function (item, index) {
+                return typeof item == 'function';
+            });
+
+            if (index > 0) { //找到回调函数
+                fn = args[index];
+                args = args.slice(0, index); //回调函数前面的都当作是要显示的文本
+            }
+            else {
+                fn = null;
+            }
+
+            text = $String.format(...args);
+
+            Dialog.add(text, fn);
+        },
+    };
+
+});
+
+
+/**
+* Alert 模块的默认配置
+* @name Alert.defaults
+*/
+define('Alert.defaults', /**@lends Alert.defaults*/ {
+    volatile: false,
+    mask: true,
+    autoClose: true,
+    width: '80%',
+    'z-index': 99999,
+
+    buttons: [
+       { text: '确定', cmd: 'ok', cssClass: 'OK', },
+    ],
+});
+
+
+/**
+* Alert 模块的默认配置
+* @name Alert.config
+*/
+define('Alert.config', /**@lends Alert.config*/ {
+    width: 450,
+
+});
+
+
+
+define('Alert/Dialog', function (require, module, exports) {
+    var $String = require('String');
+    var Defaults = require('Defaults');
+    var Height = module.require('Height');
+
+    var dialog = null;
+    var visible = false;
+    var list = [];
+    var activeElement = null;   //上次获得焦点的元素。
+    var showFrom = 13;          //记录一下是否由于按下回车键导致的显示。
+
+
+    //创建对话框。
+    function create() {
+        var Dialog = require('Dialog');
+        var config = Defaults.clone(module.parent.id);
+
+        var dialog = new Dialog({
+            'cssClass': 'Alert',
+            'volatile': config.volatile,
+            'mask': config.mask,
+            'autoClose': config.autoClose,
+            'width': config.width,
+            'z-index': config['z-index'],
+            'buttons': config.buttons,
+            'scrollable': config.scrollable,
+        });
+
+
+
+        dialog.on('button', {
+            'ok': function () {
+                var fn = dialog.data('fn');
+                fn && fn();
+            },
+        });
+
+
+        dialog.on({
+            'show': function () {
+                visible = true;
+
+                showFrom = showFrom == 13 ? 'enter' : '';
+                activeElement = document.activeElement;
+                activeElement.blur();
+            },
+
+            'hide': function () {
+                visible = false;
+
+                var item = list.shift();
+
+                if (item) {
+                    render(item.text, item.fn);
+                }
+
+                activeElement = null;
+                showFrom = '';
+            },
+        });
+
+        //响应回车键。
+        $(document).on({
+            'keydown': function (event) {
+                showFrom = event.keyCode;
+            },
+
+            'keyup': function (event) {
+                var invalid =
+                        event.keyCode != 13 ||  //不是回车键。
+                        !visible ||             //已是隐藏，避免再次触发。
+                        showFrom == 'enter';    //由于之前按下回车键导致的显示。
+
+                if (invalid) {
+                    return;
+                }
+
+                dialog.hide();
+
+                var fn = dialog.data('fn');
+                fn && fn();
+            },
+        });
+
+
+        return dialog;
+
+    }
+
+
+
+
+
+    function render(text, fn) {
+        var height = Height.get(text);
+
+        dialog = dialog || create();
+
+        dialog.data('fn', fn);
+
+        dialog.set({
+            'content': text,
+            'height': height,
+        });
+
+        dialog.show();
+
+    }
+
+
+    
+
+
+
+    return {
+        /**
+        * 把要显示的文本和要执行的回调函数加到队列里，并在特定时机显示出来。
+        */
+        add: function (text, fn) {
+            //首次显示，或之前显示的已经给隐藏了，立即显示出来。
+            if (!visible) {
+                render(text, fn);
+                return;
+            }
+
+            //已经是显示的，加到队列里进行排队。
+            list.push({
+                'text': text,
+                'fn': fn,
+            });
+        },
+    };
+
+});
+
+/**
+* 对话框组件。
+* @class
+* @name Dialog
+*/
+define('Dialog', function (require, module, exports) {
+    var $Object = require('Object');
+    var Emitter = require('Emitter');
+    var Defaults = require('Defaults');
+
+    
+
+
+    var Style = module.require('Style');
+    var Meta = module.require('Meta');
+    var Masker = module.require('Masker');
+    var Events = module.require('Events');
+    var Template = module.require('Template');
+
+    var mapper = require('Mapper');
+
+
+    /**
+    * 构造器。
+    * @constructor
+    */
+    function Dialog(config) {
+        config = Defaults.clone(module.id, config);
+
+        var emitter = new Emitter(this);        //事件驱动器。
+        var style = Style.get(config);          //
+        var masker = Masker.create(config);     //
+
+        var meta = Meta.create(config, {
+            'style': style,         //从配置中过滤出样式成员，并进行规范化处理，style 是一个 {}。
+            'emitter': emitter,     //事件驱动器。
+            'masker': masker,       //遮罩层实例。
+            'this': this,           //当前实例，方便内部使用。
+        });
+
+
+
+        mapper.set(this, meta);
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'id': meta.id,
+        });
+        
+    }
+
+
+    //实例方法
+    Dialog.prototype = /**@lends Dialog#*/ {
+        constructor: Dialog,
+
+        /**
+        * 当前实例的 id。
+        * 也是最外层的 DOM 节点的 id。
+        */
+        id: '',
+
+        /**
+        * 当前组件最外层的 DOM 节点对应的 jQuery 实例。
+        * 必须在 render 之后才存在。
+        */
+        $: null,
+
+        /**
+        * 渲染本组件，生成 html 到容器 DOM 节点中。
+        * 该方法只需要调用一次。
+        * 触发事件: `render`。
+        */
+        render: function () {
+            var meta = mapper.get(this);
+
+            //已经渲染过了。
+            if (meta.$) {
+                return;
+            }
+
+
+            var html = Template.fill(meta);
+
+            $(meta.container).append(html);
+
+            meta.$ = this.$ = $(`#${meta.id}`);
+            meta.$header = $(`#${meta.headerId}`);
+            meta.$article = $(`#${meta.articleId}`);
+            meta.$content = $(`#${meta.contentId}`);
+            meta.$footer = $(`#${meta.footerId}`);
+
+            
+
+
+            Events.bind(meta);
+
+            meta.emitter.fire('render');
+
+        },
+
+        /**
+        * 显示本组件。
+        */
+        show: function () {
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+
+
+            //已是显示状态。
+            if (meta.visible) {
+                meta.scroller && meta.scroller.refresh(200);
+                return;
+            }
+
+            if (!meta.$) {
+                this.render();
+            }
+
+
+            meta.$.show();
+            meta.visible = true;
+            meta.masker && meta.masker.show();
+            meta.scroller && meta.scroller.refresh(200);
+            meta.emitter.fire('show');
+        },
+
+        /**
+        * 隐藏本组件。
+        */
+        hide: function () {
+            var meta = mapper.get(this);
+
+            //未渲染或已隐藏。
+            if (!meta.$ || !meta.visible) {
+                return;
+            }
+
+            meta.$.hide();
+            meta.visible = false;
+            meta.masker && meta.masker.hide();
+            meta.emitter.fire('hide');
+
+        },
+
+        /**
+        * 移除本组件对应的 DOM 节点。
+        */
+        remove: function () {
+            var meta = mapper.get(this);
+
+            if (!meta.$) {
+                return;
+            }
+
+
+            meta.masker && meta.masker.remove();
+            meta.layer && meta.layer.remove();
+
+            //reset
+            var div = meta.$.get(0);
+            div.parentNode.removeChild(div);
+
+            meta.$.off();
+            meta.visible = false;
+            meta.masker = null;
+            meta.layer = null;
+            meta.$ = null;
+            meta.$header = null;
+            meta.$content = null;
+            meta.$footer = null;
+
+            meta.emitter.fire('remove');
+
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+        /**
+        * 销毁本组件。
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+            if (!meta) {
+                throw new Error('该实例已给销毁，无法再次调用 destroy 方法。');
+            }
+
+
+            this.remove();
+
+            meta.emitter.destroy();
+            meta.scroller && meta.scroller.destroy(); //在 PC 端为 null
+
+            mapper.delete(this);
+        },
+
+        /**
+        * 设置指定的属性。
+        * 已重载 set({}); //批量设置多个字段。
+        * 已重载 set(key, value); //设置单个指定的字段。
+        * @param {string} key 要设置的属性的名称。 
+        *  目前支持的字段有：'title', 'content', 'height', 'width。
+        * @param value 要设置的属性的值，可以是任何类型。
+        */
+        set: function (key, value) {
+            this.render();
+
+
+            var meta = mapper.get(this);
+            var scroller = meta.scroller;
+            var obj = typeof key == 'object' ? key : { [key]: value, };
+
+            $Object.each(obj, function (key, value) {
+                switch (key) {
+                    case 'title':
+                        meta.$header.html(value);
+                        break;
+
+                    case 'content':
+                        meta.$content.html(value);
+                        scroller && scroller.refresh(200);
+                        break;
+
+                    case 'height':
+                    case 'width':
+                        var obj = {};
+
+                        obj[key] = meta[key] = value;
+                        obj = Style.get(obj);
+
+                        Object.assign(meta.style, obj); //回写
+                        meta.$.css(obj);
+                        scroller && scroller.refresh(300);
+                        break;
+
+                    default:
+                        throw new Error(`${module.id} 目前不支持设置属性: ${key}`);
+                }
+
+            });
+
+            
+
+        },
+
+        /**
+        * 获取或设置自定义数据。 
+        * 在跨函数中传递数据时会比较方便。
+        * 已重载 data();           //获取全部自定义数据。
+        * 已重载 data(key);        //获取指定键的自定义数据。
+        * 已重载 data(obj);        //批量设置多个字段的自定义数据。
+        * 已重载 data(key, value); //单个设置指定字段的自定义数据。
+        * @param {string|Object} key 要获取或设置的数据的名称(键)。
+            当指定为一个纯对象 {} 时，则表示批量设置。
+            当指定为字符串或可以转为字符串的类型时，则表示获取指定名称的数据。
+        * @param value 要设置的数据的值。 只有显式提供该参数，才表示设置。
+        * @return 返回获取到的或设置进来的值。
+        */
+        data: function (key, value) {
+            var meta = mapper.get(this);
+            var data = meta.data;
+
+            var len = arguments.length;
+            if (len == 0) { //获取全部
+                return data;
+            }
+
+            //重载 data(obj); 批量设置
+            if ($Object.isPlain(key)) {
+                Object.assign(data, key);
+                return key;
+            }
+
+            //get(key)
+            if (len == 1) {
+                return data[key];
+            }
+
+            //set(key, value)
+            data[key] = value;
+
+            return value;
+
+        },
+
+
+    };
+
+    return Dialog;
+
+});
+
+
+/**
+* Dialog 模块的默认配置
+* @name Dialog.defaults
+*/
+define('Dialog.defaults', /**@lends Dialog.defaults*/ {
+
+    /**
+    * 组件添加到的容器。
+    * 默认为 document.body。
+    */
+    container: 'body',
+
+    /**
+    * 是否启用 mask 层。
+    */
+    mask: true,
+
+    /**
+    * 点击按钮后是否自动关闭组件。
+    * 可取值为: true|false，默认为 true，即自动关闭。
+    */
+    autoClose: true,
+
+    /**
+    * 指定是否易消失，即点击 mask 层就是否隐藏/移除。
+    * 可取值为: true|false，默认为不易消失。
+    */
+    volatile: false,
+
+    /**
+    * 组件的标题文本。
+    */
+    title: '',
+
+    /**
+    * 组件的内容文本。
+    */
+    content: '',
+
+    /**
+    * 点击按钮时需要用到的事件名。
+    */
+    eventName: 'click',
+
+    /**
+    * 组件用到的 css 类名。
+    */
+    cssClass: '',
+
+    /**
+    * 组件的 css 样式 z-index 值。
+    */
+    'z-index': 1024,
+
+    /**
+    * 组件宽度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    width: '80%',
+
+    /**
+    * 组件高度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    height: '50%',
+
+    /**
+    * 样式集合。
+    * 外层里面的同名字段优先级高于里面的。
+    */
+    style: {},
+
+    /**
+    * 按钮数组。
+    */
+    buttons: [],
+
+
+});
+
+
+/**
+* Dialog 模块的默认配置
+* @name Dialog.config
+*/
+define('Dialog.config', /**@lends Dialog.config*/ {
+
+    /**
+    * 内容区是否可滚动。
+    * PC 端用不可滚动。
+    */
+    scrollable: false,
+
+    /**
+    * 针对滚动器的配置。
+    * PC 端。
+    */
+    scroller: null,
+
+    /**
+    * 点击按钮时需要用到的事件名。
+    * PC 端。
+    */
+    eventName: 'click',
+
+    /**
+    * 
+    */
+    width: 600,
+
+
+});
+
+
+
+/**
+* 
+*/
+define('Dialog/Style', function (require, module, exports) {
+    var $Object = require('Object');
+    var Style = require('Style');
+    
+
+
+
+    
+
+    return {
+
+        get: function (config) {
+            var obj = $Object.filter(config, ['height', 'width', 'z-index']);
+            var style = Style.objectify(config.style);
+
+            style = Style.merge(style, obj);
+            style = Style.pixelize(style, ['height', 'width', ]);
+
+            return style;
+
+        },
+
+
+    };
+
+
+});
+
+
+
+define('Dialog/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var RandomId = require('RandomId');
+
+    var prefix = 'KISP-Dialog-';    //用于生成组件 id 的前缀部分。
+    var suffix = 4;                 //用于生成组件 id 的随机部分的长度。
+
+
+
+    return {
+        create: function (config, others) {
+            var id = RandomId.get(prefix, suffix);
+            var buttons = config.buttons || [];
+
+
+            buttons = buttons.map(function (item) {
+                return item == 'string' ? { 'text': item, } : item;
+            });
+
+            var meta = {
+                'id': id,
+                'headerId': RandomId.get(prefix, 'header-', suffix),
+                'articleId': RandomId.get(prefix, 'article-', suffix),
+                'contentId': RandomId.get(prefix, 'content-', suffix),
+                'footerId': RandomId.get(prefix, 'footer-', suffix),
+
+                'scrollable': config.scrollable,
+                'scrollerConfig': config.scroller,
+                'eventName': config.eventName,
+                'title': config.title,
+                'content': config.content,
+                'buttons': buttons,
+                'z-index': config['z-index'],       //生成透明层时要用到。
+                'width': config.width,              //宽度。
+                'height': config.height,            //高度。
+                'autoClose': config.autoClose,      //点击任何一个按钮后是否自动关闭组件
+                'volatile': config.volatile,        //是否易消失。 即点击对话框外的 masker 时自动关闭对话框。
+                'cssClass': config.cssClass || '',  //
+                'container': config.container,      //
+        
+                'pressedClass': 'Pressed',  //底部按钮按下去时的样式类名。
+                'visible': false,           //记录当前组件是否已显示
+                'style': {},                //样式对象。
+                'data': {},                 //供 this.data() 方法使用
+
+                'scroller': null,           //针对移动端的滚动器。
+                'masker': null,             //Mask 的实例，重复使用。
+                'emitter': null,            //事件驱动器。
+                'this': null,               //当前实例，方便内部使用。
+                '$': null,                  //组件最外层的 DOM 节点的 jQuery 实例。
+                '$header': null,            //$(headerId)。
+                '$content': null,           //$(contentId)。
+                '$footer': null,            //$(footerId)。
+            };
+
+
+
+            Object.assign(meta, others);
+
+
+            return meta;
+
+
+        },
+    };
+});
+
+define('Dialog/Masker', function (require, module, exports) {
+    var $ = require('$');
+
+
+
+    return {
+        create: function (config) {
+            var Mask = require('Mask');
+
+            var defaults = {
+                'container': config.container,
+            };
+
+            var options = Mask.normalize(defaults, config.mask); //返回一个 {} 或 null。
+
+            if (!options) {
+                return null;
+            }
+
+
+            Object.assign(options, {
+                'volatile': config.volatile,
+                'z-index': config['z-index'] - 1,
+            });
+
+
+            var masker = new Mask(options);
+            
+            return masker;
+
+
+
+        },
+    };
+});
+
+/**
+*
+*/
+define('Dialog/Events', function (require, module, exports) {
+    var Template = require('Template');
+    var $Array = require('Array');
+    var $String = require('String');
+
+  
+
+
+
+
+    return {
+        bind: function (meta) {
+        
+
+            //监控 masker 层的隐藏。
+            if (meta.masker && meta.volatile) {
+                meta.masker.on({
+                    'show': function () {
+
+                    },
+                    'hide': function () {
+                        meta.this.hide();
+                    },
+                });
+            }
+
+
+            //底部按钮。
+            (function () {
+                if (!meta.buttons.length) {
+                    return;
+                }
+
+                var $footer = meta.$footer;
+                var eventName = meta.eventName;
+                var selector = 'button[data-index]';
+                var pressed = meta.pressedClass;
+
+                //移动端。
+                if (eventName == 'touch') {
+                    $footer.touch(selector, handler, pressed);
+                    return;
+                }
+
+                //PC 端。
+                $footer.on(eventName, selector, handler); //如 on('click', selector);
+
+                $footer.on('mousedown', selector, function (event) {
+                    $(this).addClass(pressed);
+                });
+
+                $footer.on('mouseup mouseout', selector, function (event) {
+                    $(this).removeClass(pressed);
+                });
+              
+
+                //内部共用的处理器。
+                function handler(event) {
+                    var button = this;
+                    var index = +button.getAttribute('data-index');
+                    var item = meta.buttons[index];
+                    var cmd = item.cmd || String(index);
+                    var fn = item.fn;
+
+                    fn && fn(item, index);
+
+                    meta.emitter.fire('button', cmd, [item, index]);
+                    meta.emitter.fire('button', [item, index]);
+
+
+                    // item.autoClose 优先级高于 meta.autoClose。
+                    var autoClose = item.autoClose;
+
+                    if (autoClose === undefined) {
+                        autoClose = meta.autoClose;
+                    }
+
+                    if (autoClose) {
+                        meta.this.hide();
+                    }
+                }
+
+            })();
+
+           
+
+            
+        },
+    };
+
+});
+
+
+
+/**
+*
+*/
+define('Dialog/Template', function (require, module, exports) {
+    var Template = require('Template');
+    var $Array = require('Array');
+    var $String = require('String');
+    var Style = require('Style');
+
+
+    var Sample = module.require('Sample');
+
+    var tpl = Template.create(Sample);
+
+
+
+    tpl.process({
+        '': function (data) {
+            var header = this.fill('header', data);
+            var content = this.fill('content', data);
+            var footer = this.fill('footer', data);
+
+            var style = Style.stringify(data.style);
+
+            return {
+                'id': data.id,
+                'cssClass': data.cssClass || '',
+                'style': style,
+                'header': header,
+                'content': content,
+                'footer': footer,
+            };
+        },
+
+        'header': function (data) {
+            var title = data.title;
+
+            if (!title) {
+                return '';
+            }
+
+
+            return {
+                'headerId': data.headerId,
+                'title': title,
+            };
+        },
+
+        'content': function (data) {
+
+            return {
+                'articleId': data.articleId,
+                'contentId': data.contentId,
+                'content': data.content,
+                'noHeader': data.title ? '' : 'NoHeader',              //针对无标题时。
+                'noFooter': data.buttons.length > 0 ? '' : 'NoFooter', //针对无按钮时。
+            };
+        },
+
+        'footer': {
+            '': function (data) {
+                var buttons = data.buttons;
+                var count = buttons.length;
+
+                if (!count) {
+                    return '';
+                }
+
+                buttons = this.fill('button', buttons);
+
+                return {
+                    'footerId': data.footerId,
+                    'count': count,
+                    'buttons': buttons,
+                };
+
+            },
+
+            'button': function (item, index) {
+
+                var style = Style.stringify(item.style);
+
+                return {
+                    'index': index,
+                    'text': item.text,
+                    'cssClass': item.cssClass || '',
+                    'style': style,
+
+                };
+            },
+        },
+
+    });
+
+
+    return tpl;
+
+
+});
+
+
+/*
+* Dialog/Template/Sample
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/ui/dialog/Dialog/Template/Sample.html
+*/
+define('Dialog/Template/Sample', [
     '',
-    '<div id="{id}" class="KISP NumberPad {cssClass}" style="{style}">',
-    '    <ul id="{header-id}" class="header {has-text}">',
-    '        <li id="{text-id}" class="text">{text}</li>',
-    '        <li id="{value-id}" class="value">{value}</li>',
-    '        <li class="ok">',
-    '            <span data-cmd="done">完成</span>',
-    '        </li>',
-    '    </ul>',
-    '    <div class="main">',
-    '        <ul>',
-    '            <li><span data-key="1">1</span></li>',
-    '            <li><span data-key="2">2</span></li>',
-    '            <li><span data-key="3">3</span></li>',
-    '        </ul>',
-    '        <ul>',
-    '            <li><span data-key="4">4</span></li>',
-    '            <li><span data-key="5">5</span></li>',
-    '            <li><span data-key="6">6</span></li>',
-    '        </ul>',
-    '        <ul>',
-    '            <li><span data-key="7">7</span></li>',
-    '            <li><span data-key="8">8</span></li>',
-    '            <li><span data-key="9">9</span></li>',
-    '        </ul>',
-    '        <ul id="{footer-id}" class="special {no-point}">',
-    '            <li class="key-point"><span data-key=".">.</span></li>',
-    '            <li><span data-key="0" class="zero">0</span></li>',
-    '            <li><span data-cmd="back" class="icon-back"></span></li>',
-    '        </ul>',
+    '<div id="{id}" class="KISP Dialog {cssClass}" style="{style} display: none;">',
+    '    <template name="header" placeholder="header">',
+    '        <header id="{headerId}">',
+    '            {title}',
+    '        </header>',
+    '    </template>',
+    '',
+    '    <template name="content" placeholder="content">',
+    '        <article id="{articleId}" class="{noHeader} {noFooter}">',
+    '            <div id="{contentId}">{content}</div>',
+    '        </article>',
+    '    </template>',
+    '',
+    '    <template name="footer" placeholder="footer">',
+    '        <footer id="{footerId}" class="Buttons-{count}">',
+    '            <template name="button" placeholder="buttons">',
+    '                <button data-index="{index}" class="{cssClass}" style="{style}">{text}</button>',
+    '            </template>',
+    '        </footer>',
+    '    </template>',
+    '</div>',
+    '',
+].join('\n'));
+
+
+define('Alert/Dialog/Height', function (require, module, exports) {
+    var $String = require('String');
+
+
+
+    //根据文本来计算高度，大概值，并不要求很准确。
+    function getHeightByLength(text) {
+        text = String(text);
+
+        var len = $String.getByteLength(text);
+        var h = Math.max(len, 125);
+        var max = document.documentElement.clientHeight;
+
+        if (h >= max * 0.8) {
+            h = '80%';
+        }
+
+
+        return h;
+    }
+
+    //根据文本来计算高度，大概值，并不要求很准确。
+    function getHeightByLines(text) {
+        text = String(text);
+
+        var lines = text.split('\n');
+        var h = lines.length * 25 + 60;
+        var max = document.documentElement.clientHeight;
+
+        if (h >= max * 0.8) {
+            h = '80%';
+        }
+
+
+        return h;
+    }
+
+    
+
+
+
+    
+
+
+
+    return {
+        /**
+        * 根据文本获取对话框的高度。
+        */
+        get: function getHeight(text) {
+            var h0 = getHeightByLength(text);
+            var h1 = getHeightByLines(text);
+
+            var h = Math.max(h0, h1);
+
+
+            //保证取偶数。
+            //因为奇数的高度，如 `height: 125px;`，
+            //会导致 footer 的 `border-top` 变粗，暂未找到原因。
+            if (typeof h == 'number') {
+                h = h % 2 == 1 ? h + 1 : h;
+            }
+
+            return h;
+
+        },
+    };
+
+});
+/*
+* Alert/Sample
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/ui/alert/Alert/Sample.html
+*/
+define('Alert/Sample', [
+    '<pre class="JSON">{text}</pre>',
+].join('\n'));
+
+/**
+* 简单的 confirm 对话框。
+* @namespace
+* @name Confirm
+* @private
+*/
+define('Confirm', function (require, module, exports) {
+    var $String = require('String');
+    var Defaults = require('Defaults');
+
+    var dialog = null;
+    var visible = false;
+    var list = [];
+    var activeElement = null;   //上次获得焦点的元素。
+    var showFrom = 13;          //记录一下是否由于按下回车键导致的显示。
+
+    var defaults = null;
+    
+
+    //创建对话框
+    function create() {
+        var Dialog = require('Dialog');
+
+        defaults = Defaults.clone(module.id);
+
+
+
+        var dialog = new Dialog({
+            'cssClass': module.id,
+            'volatile': defaults.volatile,
+            'mask': defaults.mask,
+            'autoClose': defaults.autoClose,
+            'height': defaults.height,
+            'z-index': defaults['z-index'],
+            'buttons': defaults.buttons,
+            'scrollable': defaults.scrollable,
+        });
+
+
+
+
+        dialog.on('button', {
+            'ok': function () {
+                var fn = dialog.data('ok');
+
+                fn && fn();
+            },
+            'cancel': function () {
+                var fn = dialog.data('cancel');
+
+                fn && fn();
+            },
+        });
+
+
+
+        dialog.on({
+            'show': function () {
+                visible = true;
+
+                showFrom = showFrom == 13 ? 'enter' : '';
+
+                //先暂存之前的焦点元素。
+                activeElement = document.activeElement;
+                activeElement.blur();
+
+                //让 `确定` 按钮获得焦点。
+                dialog.$.find('footer button').get(0).focus();
+            },
+
+            'hide': function () {
+                visible = false;
+
+                var item = list.shift();
+
+                if (item) {
+                    render(item);
+                }
+
+                //恢复之前的焦点元素。
+                activeElement && activeElement.focus();
+                activeElement = null;
+                showFrom = '';
+            },
+        });
+
+        //响应回车键
+        $(document).on({
+            'keydown': function (event) {
+                showFrom = event.keyCode;
+            },
+
+            'keyup': function (event) {
+                var invalid =
+                        event.keyCode != 13 ||  //不是回车键。
+                        !visible ||             //已是隐藏，避免再次触发。
+                        showFrom == 'enter';    //由于之前按下回车键导致的显示。
+
+                if (invalid) {
+                    return;
+                }
+
+                dialog.hide();
+
+                var fn = dialog.data('ok');
+                fn && fn();
+            },
+        });
+
+
+        return dialog;
+
+    }
+
+
+
+
+    /**
+    *   item = {
+    *       text: '',
+    *       ok: fn,
+    *       cancel: fn,
+    *       buttons: ['确定', '取消'],
+    *   };
+    */
+    function render(item) {
+        dialog = dialog || create();
+
+        dialog.data(item);
+
+        dialog.set({
+            'content': item.text,
+        });
+
+        dialog.show();
+
+
+        //重新设置按钮的文本。
+        var buttons = item.buttons || [];
+
+        defaults.buttons.forEach(function (item, index) {
+            var $btn = dialog.$.find(`button[data-index="${index}"]`);
+            var text = buttons[index] || item.text;
+
+            $btn.html(text);
+        });
+
+    }
+
+
+
+
+
+
+    return {
+        /**
+        * 显示一个 confirm 对话框。 
+        * 支持多次调用，会将多次调用加进队列，在显示完上一次后进行下一次的显示。
+        * 已重载 show(opt);   //传入一个配置对象。
+        * 已重载 show(text, ok);       //分开传入参数。
+        *   opt = {
+        *       text: '',        //要显示的消息内容。
+        *       ok: fn,         //可选，点击 `确定` 按钮后要执行的回调函数。
+        *       cancel: fn,     //可选，点击 `取消` 按钮后要执行的回调函数。
+        *       buttons: [],    //按钮数组。
+        *   };
+        */
+        show: function (text, ok) {
+            var item = typeof text == 'object' ? text : {
+                'text': text,
+                'ok': ok,
+            };
+
+
+            //首次显示，或之前显示的已经给隐藏了，立即显示出来。
+            if (!visible) {
+                render(item);
+                return;
+            }
+
+            //已经是显示的，加到队列里进行排队。
+            list.push(item);
+        },
+    };
+
+});
+
+
+/**
+* Confirm 模块的默认配置
+* @name Confirm.defaults
+*/
+define('Confirm.defaults', /**@lends Confirm.defaults*/ {
+    /**
+    * 组件高度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    mask: true,
+    height: 140,
+    autoClose: true,
+    volatile: false,
+
+    'z-index': 99999,
+
+    buttons: [
+        { text: '确定', cmd: 'ok', cssClass: 'OK', },
+        { text: '取消', cmd: 'cancel', cssClass: 'Cancel' },
+    ],
+
+
+});
+
+
+
+/**
+* 后台 API 接口请求类。
+* @class
+* @name API
+*/
+define('API', function (require, module, exports) {
+    var Emitter = require('Emitter');
+    var Defaults = require('Defaults');
+    var Fn = require('Fn');
+
+    var mapper = require('Mapper'); //这里要用有继承关系的 Mapper
+
+
+
+    /**
+    * API 构造器。
+    * @param {string} name 后台接口的名称。 简短名称，且不包括后缀。
+    * @param {Object} [config] 配置对象。
+    *   config = {
+    *       
+    *   };
+    */
+    function API(name, config) {
+        //重载 API(config);
+        if (typeof name == 'object') {
+            config = name;
+            name = '';
+        }
+
+        name = name || '';
+        config = Defaults.clone(module.id, config);
+
+
+        var emitter = new Emitter(this);
+        var successCode = config.successCode;
+        var proxy = config.proxy;
+
+        //支持简写，代理的文件名跟 API 的名称一致。
+        switch (proxy) {
+            case true:
+                proxy = name + '.js';
+                break;
+            case '.json':
+            case '.js':
+                proxy = name + proxy;
+                break;
+        }
+
+
+        
+
+        //发起 ajax 请求所需要的配置对象。
+        var ajax = {
+            'name': name,
+            'data': config.data,
+            'query': config.query,
+
+            'url': config.url,
+            'prefix': config.prefix,
+            'ext': config.ext,
+            'random': config.random,
+
+            'successCode': successCode,
+            'field': config.field,
+            'proxy': proxy,
+            'serialize': config.serialize,
+            'timeout': config.timeout,
+            'headers': config.headers, 
+
+            success: function (data, json, xhr) { //成功
+                fireEvent('success', [data, json, xhr]);
+            },
+
+            fail: function (code, msg, json, xhr) { //失败
+                fireEvent('fail', [code, msg, json, xhr]);
+            },
+
+            error: function (xhr) { //错误
+                if (meta.aborted) { //避免因手动调用了 abort() 而导致触发 error 事件。
+                    meta.aborted = false; //归位
+                    return;
+                }
+
+                fireEvent('error', [xhr]);
+            },
+
+            ontimeout: function (xhr) { //超时，自定义的
+                fireEvent('timeout', [xhr]);
+            },
+        };
+
+
+        var Ajax = module.require('Ajax');
+
+        var meta = {
+            'ajax': ajax,
+            'status': '',
+            'args': [],
+            'emitter': emitter,
+            'xhr': null,            //缓存创建出来的 xhr 对象。
+            'aborted': false,       //指示是否已调用了 abort()。
+            'fireEvent': fireEvent, //
+
+            /**
+            * 用于发起 ajax 请求的 get 方法。
+            * 如果想实现自己的 get 方法，可以提供此函数。
+            * 否则使用内部默认的 Ajax.get() 方法。
+            */
+            'get': config.get || Ajax.get,
+
+            /**
+            * 用于发起 ajax 请求的 post 方法。
+            * 如果想实现自己的 post 方法，可以提供此函数。
+            * 否则使用内部默认的 Ajax.post() 方法。
+            */
+            'post': config.post || Ajax.post,    
+        };
+
+        mapper.set(this, meta);
+
+
+        //内部共用函数。
+        function fireEvent(status, args, emitter) {
+            status = meta.status = status || meta.status;
+            args = meta.args = args || meta.args;
+            emitter = emitter || meta.emitter;
+            meta.xhr = null; //请求已完成，针对 abort() 方法。
+
+            var len = args.length;
+            var xhr = args[len - 1];
+            var json = args[len - 2];
+            var isSuccess = status == 'success';
+            var isFail = status == 'fail';
+
+
+            Fn.delay(config.delay, function () {
+
+                //最先触发
+                var values = emitter.fire('response', [status, json, xhr]); 
+
+                if (values.includes(false)) {
+                    return;
+                }
+
+
+                //进一步触发具体 code 对应的事件
+                if (isSuccess || isFail) {
+                    var code = isSuccess ? successCode : args[0];
+                    values = emitter.fire('code', code, args);
+
+                    if (values.includes(false)) {
+                        return;
+                    }
+                }
+
+
+                //在 Proxy 的响应中 xhr 为 null。
+                if (xhr) { 
+                    values = emitter.fire('status', xhr.status, args);
+
+                    if (values.includes(false)) {
+                        return;
+                    }
+                }
+
+                //触发命名的分类事件，如 success|fail|error|timeout
+                values = emitter.fire(status, args);
+
+                if (values.includes(false)) {
+                    return;
+                }
+
+                //触发总事件。
+                emitter.fire('done', [status, json, xhr]);
+            });
+        }
+
+     
+    }
+
+
+
+    //实例方法
+    API.prototype = /**@lends API#*/ {
+        constructor: API,
+
+        /**
+        * 发起网络 GET 请求。
+        * 请求完成后会最先触发相应的事件。
+        * @param {Object} [data] 请求的数据对象。
+        *   该数据会给序列化成查询字符串以拼接到 url 中。
+        * @example
+            var api = new API('test');
+            api.get({ name: 'micty' });
+        */
+        get: function (data) {
+            var meta = mapper.get(this);    //API 类给继承后，this 就是子类的实例。 比如 SSH 继承 API，则 this 为 SSH 的实例，不再是 API 的实例。
+            var emitter = meta.emitter;
+
+            meta.aborted = false; //归位
+
+            var obj = Object.assign({}, meta.ajax);
+            if (data) {
+                obj.data = data;
+            }
+
+            data = obj.data;  //这里用 obj.data
+           
+            emitter.fire('request', 'get', [data]);
+            emitter.fire('request', ['get', data]); 
+
+            meta.xhr = meta.get(obj);
+      
+        },
+
+        /**
+        * 发起网络 POST 请求。
+        * 请求完成后会最先触发相应的事件。
+        * @param {Object} [data] POST 请求的数据对象。
+        * @param {Object} [query] 查询字符串的数据对象。
+        *   该数据会给序列化成查询字符串，并且通过 form-data 发送出去。
+        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
+        */
+        post: function (data, query) {
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+            var ajax = meta.ajax;
+
+            meta.aborted = false; //归位
+
+            var obj = Object.assign({}, ajax, {
+                'data': data || ajax.data,
+                'query': query || ajax.query,
+            });
+
+            data = obj.data;    //这里用 obj.data
+            query = obj.query;  //这里用 obj.query
+
+            emitter.fire('request', 'post', [data, query]);
+            emitter.fire('request', ['post', data, query]);
+
+     
+            meta.xhr = meta.post(obj);
+
+        },
+
+        /**
+        * 取消当前已发起但未完成的请求。
+        * 只有已发起了请求但未完成，才会执行取消操作，并会触发 abort 事件。
+        */
+        abort: function () {
+            var meta = mapper.get(this);
+            var xhr = meta.xhr;
+            if (!xhr) {
+                return;
+            }
+
+            meta.aborted = true;        //先设置状态
+            xhr.abort();                //会触发 ajax.error 事件。
+            meta.emitter.fire('abort'); //
+        },
+        
+
+        /**
+        * 绑定事件。
+        * 已重载 on({...}，因此支持批量绑定。
+        * @param {string} name 事件名称。
+        * @param {function} fn 回调函数。
+        * @return {API} 返回当前 API 的实例 this，因此进一步可用于链式调用。
+        */
+        on: function (name, fn) {
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+
+            var args = [].slice.call(arguments, 0);
+            emitter.on.apply(emitter, args);
+
+            var status = meta.status;
+
+            if (status) { //请求已完成，立即触发
+                var emt = new Emitter(this); //使用临时的事件触发器。
+                emt.on.apply(emt, args);
+                meta.fireEvent(status, meta.args, emt);
+                emt.destroy();
+            }
+
+        },
+
+       
+
+        /**
+        * 销毁本实例对象。
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+            var emitter = meta.emitter;
+            emitter.destroy();
+
+            mapper.delete(this);
+        },
+    };
+
+
+    return API;
+
+});
+
+
+
+/**
+* API 模块的默认配置
+* @name API.defaults
+*/
+define('API.defaults', /**@lends API.defaults*/ {
+    /**
+    * 成功的状态码。 
+    * 只有状态码为该值是才表示成功，其它的均表示失败。
+    */
+    successCode: 200,
+
+    /**
+    * 字段映射。
+    */
+    field: {
+        /**
+        * 状态码。
+        */
+        code: 'code',
+        /**
+        * 消息。
+        */
+        msg: 'msg',
+        /**
+        * 主体数据。
+        */
+        data: 'data',
+    },
+
+    /**
+    * 代理配置。
+    */
+    proxy: null,
+
+    /**
+    * 随机延迟时间，更真实模拟实际网络环境。
+    * 可指定为 false，或如 { min: 500, max: 2000 } 的格式。
+    */
+    delay: false,
+
+    /**
+    * 在 url 中增加一个随机 key，以解决缓存问题。
+    * 当指定为 false 时，则禁用。
+    */
+    random: true,
+
+    /**
+    * API 接口 Url 的主体部分。
+    */
+    url: '',
+
+    /**
+    * API 接口 Url 的前缀部分。
+    */
+    prefix: '',
+
+    /**
+    * API 接口 Url 的后缀部分。
+    * 针对那些如 '.do'、'.aspx' 等有后缀名的接口比较实用。
+    */
+    ext: '',
+
+    /**
+    * 要发送的数据。 可选的。
+    * 当发送方式为 get 时，该数据将会给序列化成查询字符串并附加到 url 查询参数中。
+    * 当发送方式为 post 时，会用在表单中。
+    */
+    data: null,
+
+    /**
+    * 要发送的查询参数，仅当发送方式为 post 时有效 (可选的)。
+    * 当发送方式为 post 时，该数据将会给序列化成查询字符串并附加到 url 查询参数中。
+    */
+    query: null,
+
+    /**
+    * 要发送的请求头。
+    */
+    headers: null,
+
+    /**
+    * 请求超时的最大值(毫秒)。
+    * 0 表示由浏览器控制，代码层面不控制。
+    */
+    timeout: 0,
+
+
+    /**
+    * 把请求时的 data 中的第一级子对象进行序列化的方法。
+    * @param {string} key 要进行处理的子对象的键。
+    * @param {Object} value 要进行处理的子对象的值对象。
+    * @return {string} 返回该子对象序列化的字符串。
+    */
+    serialize: function (key, value) {
+        var json = JSON.stringify(value);
+        return encodeURIComponent(json);
+    },
+
+    /**
+    * 用于发起 ajax 请求的 get 方法。
+    * 如果想实现自己的 get 方法，可以提供此函数。
+    * 否则使用内部默认的 Ajax.get() 方法。
+    */
+    get: null,
+
+    /**
+    * 用于发起 ajax 请求的 post 方法。
+    * 如果想实现自己的 post 方法，可以提供此函数。
+    * 否则使用内部默认的 Ajax.post() 方法。
+    */
+    post: null,
+
+});
+
+
+
+/**
+*
+*/
+define('API/Ajax', function (require, module, exports) {
+
+    var $Object = require('Object');
+    var $String = require('String');
+    var Query = require('Query');
+
+    //[XMLHttpRequest 增强功能](https://technet.microsoft.com/zh-cn/office/hh673569)
+    //[XMLHttpRequest2 新技巧](http://www.html5rocks.com/zh/tutorials/file/xhr2/)
+    //[XMLHttpRequest Level 2 使用指南](http://kb.cnblogs.com/page/157047/)
+
+    /**
+    * 发起 ajax 网络请求(核心方法)。
+    *   method: 'get' | 'post', //网络请求的方式：'get' 或 'post'。
+    *   config = {
+    *       url: '',            //可选，请求的 url 地址。
+    *       prefix: '',         //可选，url 的前缀。
+    *       name: '',           //必选，后台接口的名称，会用在 url 中。
+    *       ext: '',            //可选，要用在 url 中的后缀。
+    *       successCode: 200,   //指示请求成功时的代码。 数字或字符串。
+    *       random: true,       //是否给 url 加上随机数，以刷新缓存。
+    *       proxy: false,       //是否启用代理。 要启用，可以指定为 true，或一个具体的 json 或 js 文件名。
+    *       timeout: 0,         //超时时间。 如果指定为 0，则使用浏览器内置的超时管理，会调用 error 回调函数。
+    *
+    *       //该数据会给序列化成查询字符串，然后：
+    *       //当 method 为 'get' 时，数据拼接在 url 中。
+    *       //当 method 为 'post' 时，数据放在 form-data 表单中。
+    *       data: {},           //可选，要发送的数据。 
+    *       query: {},          //可选，要发送的查询字符串数据。 该字段仅在 method 为 'post' 时可用。
+    *       headers: {},        //可选，要发送的请求头数据。
+    *
+    *       field: {            //响应中的映射字段。
+    *           code: 'code',   //状态码。
+    *           msg: 'msg',     //消息。
+    *           data: 'data',   //主体数据。
+    *       },
+    *
+    *       success: fn,        //请求成功时的回调函数。
+    *       fail: fn,           //请求失败时的回调函数。
+    *       error: fn,          //请求错误时的回调函数。
+    *       ontimeout: fn,      //请求超时时的回调函数。
+    *       serialize: fn,      //对 data 字段的子对象进行序列化的方法。
+    *   };
+    *
+    * 返回： 
+    *   XMLHTTPRequest 实例对象 xhr。 
+    *   如果使用的是代理，则返回 null。
+    */
+    function request(method, config) {
+        var proxy = config.proxy;
+
+        if (proxy) { //使用了代理
+            var Proxy = require('Proxy');
+            Proxy.request(proxy, config);
+            return null;
+        }
+
+
+        //完整的 url
+        var url = [
+            config.url,
+            config.prefix,
+            config.name,
+            config.ext,
+        ].join('');
+
+
+        var data = config.data || null; // null 可能会在 xhr.send(data) 里用到。
+        if (data) {
+
+            var serialize = config.serialize; //对子对象进行序列化的方法。
+
+            data = $Object.map(data, function (key, value) {
+                if (typeof value == 'object' && value) { //子对象编码成 JSON 字符串
+                    return serialize(key, value);
+                }
+
+                //其他的
+                return value; //原样返回
+            });
+        }
+
+
+        if (method == 'post') {
+            var query = config.query;
+            if (query) {
+                url = Query.add(url, query);
+            }
+            if (data) {
+                data = Query.stringify(data);
+            }
+        }
+        else if (data) { // 'get'
+            url = Query.add(url, data);
+            data = null; //要发送的数据已附加到 url 参数上
+        }
+
+
+        //增加一个随机字段，以使缓存失效
+        var random = config.random;
+        if (random) {
+            random = $String.random(4);
+            url = Query.add(url, random);
+        }
+      
+
+        //同时启动超时器和发起请求，让它们去竞争。
+       
+        var isTimeout = false; //指示是否已超时
+        var tid = null;
+        var timeout = config.timeout || 0;
+
+        if (timeout > 0) {
+            tid = setTimeout(function () {
+                isTimeout = true;
+                xhr.abort(); //取消当前响应，关闭连接并且结束任何未决的网络活动。
+
+                var fn = config.ontimeout;
+                fn && fn(xhr);
+
+            }, timeout);
+        }
+
+
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url, true);
+
+        xhr.onreadystatechange = function () {
+
+            if (isTimeout || xhr.readyState != 4) {
+                return;
+            }
+
+
+            clearTimeout(tid);
+
+            var successCode = config.successCode;
+            var fnError = config.error;
+
+            if (xhr.status != 200) {
+                fnError && fnError(xhr);
+                return;
+            }
+
+            var JSON = require('JSON');
+            var json = JSON.parse(xhr.responseText);
+            if (!json) {
+                fnError && fnError(xhr);
+                return;
+            }
+
+            var field = config.field;
+
+            var code = json[field.code];
+            if (code == successCode) {
+
+                var fnSuccess = config.success;
+                var data = field.data in json ? json[field.data] : {};
+
+                fnSuccess && fnSuccess(data, json, xhr);
+            }
+            else {
+                var fnFail = config.fail;
+                fnFail && fnFail(code, json[field.msg], json, xhr);
+            }
+        };
+
+        //设置请求头。
+        var headers = config.headers;
+
+        if (headers) {
+            $Object.each(headers, function (key, value) {
+                xhr.setRequestHeader(key, value);
+            });
+        }
+        
+
+        if (method == 'post') {
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        }
+
+        xhr.send(data);
+
+
+        return xhr;
+    }
+
+
+
+
+
+
+    return /**@lends Ajax*/ {
+
+        get: function (config) {
+            return request('get', config);
+        },
+
+        post: function (config) {
+            return request('post', config);
+        },
+    };
+
+    
+
+});
+
+
+
+
+/**
+* 页签列表控件。
+* @class
+* @name Tabs
+*/
+define('Tabs', function (require, module, exports) {
+    var Emitter = require('Emitter');
+    var $Object = require('Object');
+    var Template = require('Template');
+    var Defaults = require('Defaults');
+
+    //子模块
+    var Events = module.require('Events');
+    var Meta = module.require('Meta');
+
+    var mapper = new Map();
+
+    
+    /**
+    * 构造器。
+    * 已重载 Tabs(config); //传入一个配置对象。
+    * 已重载 Tabs(container, config); //容器从配置对象中分离出来。
+    * @constructor
+    */
+    function Tabs(container, config) {
+        //重载 Tabs(config)
+        if ($Object.isPlain(container)) {
+            config = container;
+            container = config.container;
+        }
+
+        config = Defaults.clone(module.id, config);
+
+        var emitter = new Emitter(this);
+
+        var meta = Meta.create(config, {
+            'container': container,
+            'this': this,
+            'emitter': emitter,
+            '$': $(container),              //
+        });
+
+        mapper.set(this, meta);
+
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'container': container,
+            'id': meta.id,
+            '$': meta.$,
+        });
+
+    }
+
+
+
+
+    Tabs.prototype = /**@lends Tabs#*/ {
+        constructor: Tabs,
+
+        /**
+        * 构造实例时传入的 container 参数。
+        */
+        container: '',
+
+        /**
+        * 当前实例的 id。
+        */
+        id: '',
+
+        /**
+        * 当前实例关联的 DOM 节点对应的 jQuery 实例。
+        * 即 $(container) 的快捷方式。
+        */
+        $: null,
+
+        /**
+        * 设置模板填充的规则，为模板填充进行预处理。
+        */
+        template: function (process) {
+            var meta = mapper.get(this);
+            var tpl = meta.tpl;
+
+            if (!tpl) {
+                tpl = meta.tpl = new Template(meta.container);
+            }
+
+            if (process) {
+                tpl.process(...arguments);
+            }
+
+            //返回给外面，可能要用到。
+            //通过 tabs.template() 即可取得 tpl。
+            return tpl;
+        },
+
+        /**
+        * 填充数据。
+        * 触发事件: `fill`。
+        */
+        fill: function (list, process) {
+            var meta = mapper.get(this);
+            var tpl = this.template(process); //确保 meta.tpl 存在，同时设置填充规则。
+            var html = tpl.fill(list);
+
+            meta.$.html(html);
+            meta.list = list;
+
+            meta.reset();
+            meta.emitter.fire('fill', [list]);
+
+            return html;
+        },
+
+        /**
+        * 渲染列表。
+        * 触发事件: `render`。
+        */
+        render: function (list, process) {
+            var meta = mapper.get(this);
+
+            //首次渲染。
+            if (!meta.change) {
+                Events.bind(meta);
+            }
+
+            if (list) {
+                this.fill(list, process);
+            }
+
+            meta.emitter.fire('render', [list]);
+
+        },
+
+        /**
+        * 激活指定的项。
+        * 已重载 active(index);            //不传递任何附加数据，触发事件。
+        * 已重载 active(index, true);      //不传递任何附加数据，触发事件。 
+        * 已重载 active(index, options);   //传递一些附加数据，触发事件。
+        * 已重载 active(index, false);     //不传递任何附加数据，也不触发事件，在某种场景下会用到。
+        * @param {number} index 要激活的项的索引值。
+        * @param {Object} options 要传递给事件的附加数据。 
+        */
+        active: function (index, options) {
+            var fireEvent = true; //默认为触发事件。
+
+            //重载
+            if (typeof options == 'boolean') {
+                fireEvent = options;
+                options = {};
+            }
+            else {
+                options = options || {};
+            }
+
+            var meta = mapper.get(this);
+            var current = meta.current;
+
+
+            //当前项已激活，并且配置指定了不允许激活重复的项。
+            if (index == current.index && !meta.repeated) {
+                return;
+            }
+
+
+            var item = meta.list[index] || null;
+            var actived = meta.activedClass;
+            var old = Object.assign({}, current);           //先备份。
+
+            if (current.$) {
+                current.$.removeClass(actived);    //移除上次已激活过的样式类名。
+            }
+
+            current.index = index;
+            current.item = item;
+            current.event = options.event;
+            current.$ = meta.$.find(`${meta.selector}:eq(${index})`); //如 `>li:eq(2)`。
+
+
+            var info = {
+                'current': current,
+                'old': old,
+                'options': options,
+            };
+
+
+            meta.activing(info, function () {
+                current.$.addClass(actived);
+
+                //指定了使用安静模式，则不触发事件。
+                if (!fireEvent) {
+                    return;
+                }
+                
+
+                var args = [item, index, info];
+                var cmd = item ? item.cmd || '' : '';
+
+                meta.emitter.fire('before-change', args);
+                meta.emitter.fire('change', `${index}`, args);
+
+                //触发指定的事件名。
+                if (cmd) {
+                    meta.emitter.fire('change', cmd, args);
+                }
+
+                meta.emitter.fire('change', args);
+            });
+
+        },
+
+        /**
+        * 移除指定的项。
+        * 仅处理数据和激活项的状态，不移除 DOM 节点。
+        * 触发事件: `before-remove`、`remove`。
+        */
+        remove: function (index) {
+            var meta = mapper.get(this);
+            var activedIndex = meta.current.index;
+
+            meta.fire('before-remove', [index]);
+
+            //移除的是当前激活项之前的，则重新设置激活状态即可。
+            if (index < activedIndex) {
+                this.active(activedIndex - 1, false);
+            }
+            else if (index == activedIndex) {
+                //移除的是当前的激活项
+                meta.reset();
+            }
+
+            meta.list.splice(index, 1);
+
+            meta.fire('remove', [index]);
+
+        },
+
+        /**
+        * 重置当前组件到未选中状态。
+        */
+        reset: function () {
+            var meta = mapper.get(this);
+            meta.reset();
+        },
+
+
+        /**
+        * 获取当前实例激活的索引值。
+        */
+        getActivedIndex: function () {
+            var meta = mapper.get(this);
+
+            return meta.current.index;
+        },
+
+        /**
+        * 获取或设置 active 时的动画过渡效果函数。
+        * 业务层可传入(设置)一个函数 fn 以实现页签激活的动画过渡效果。
+        * 函数 fn 会接受到两个参数:
+        *   info: { current, old, options, },   //激活过程中的相关信息。
+        *   done: function,                     //完成后的回调函数。
+        * 在函数 fn 中必须手动调用一下参数中传入的 done() 回调函数，以通知本组件进行后续处理。
+        * @example:
+        *   tabs.activing(function (info, done) { 
+        *       console.log(info);
+        *       done();
+        *   });
+        */
+        activing: function (fn) {
+            var meta = mapper.get(this);
+
+            fn = fn || meta.activing;
+
+            if (typeof fn != 'function') {
+                throw new Error('参数 fn 必须为 function 类型。');
+            }
+
+            meta.activing = fn;
+
+            return fn; //业务层可能会到。
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+        /**
+        * 销毁本组件。
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+
+            meta.emitter.destroy();
+            meta.tpl.destroy();
+            meta.$.off();
+
+            mapper.delete(this);
+        },
+
+
+
+
+        
+    };
+
+
+
+    return Tabs;
+
+});
+
+
+/**
+* Tabs 模块的默认配置
+* @name Tabs.defaults
+*/
+define('Tabs.defaults', /**@lends Tabs.defaults*/ {
+    
+    /**
+    * 创建实例后首先给激的项。
+    */
+    current: null,
+
+    /**
+    * 按下去时的样式的 css 类名。
+    */
+    pressedClass: '',
+
+    /**
+    * 项目给激活时的样式的 css 类名。
+    */
+    activedClass: '',
+
+    /**
+    * 要监听的事件名。
+    */
+    eventName: 'click',
+
+    /**
+    * 取得项目列表所需要用到的选择器。
+    * 默认取全部直接子节点。
+    */
+    selector: '>*',
+
+    /**
+    * 是否允许重复激活相同的项。
+    * 当指定为 true 时，方响应已给激活的项目的重新点击。
+    */
+    repeated: false,
+
+});
+
+
+/**
+* Tabs 模块的默认配置
+* @name Tabs.config
+*/
+define('Tabs.config', /**@lends Tabs.config*/ {
+    /**
+    * 要监听的事件名。
+    */
+    eventName: 'click',
+
+});
+
+
+
+/**
+*
+*/
+define('Tabs/Events', function (require, module, exports) {
+    var $Array = require('Array');
+    var $String = require('String');
+  
+
+
+
+
+    return {
+        /**
+        * 
+        */
+        bind: function (meta) {
+            var eventName = meta.eventName;
+            var selector = meta.selector;
+            var pressed = meta.pressedClass;
+
+            meta.change = function (event) {
+                var target = this;
+
+                //每次都重新获取列表。
+                //因为可能会动态添加或删除了子节点。
+                var items = meta.$.find(selector).toArray(); 
+
+                var index = items.findIndex(function (item) {
+                    return item === target;
+                });
+
+                meta.this.active(index, {
+                    'event': event,
+                });
+            };
+
+            //针对移动端的。
+            
+
+
+            //针对 PC 端的。
+            meta.$.on(eventName, selector, meta.change);
+
+            meta.$.on('mousedown', selector, function (event) {
+                $(this).addClass(pressed);
+            });
+
+            meta.$.on('mouseup mouseout', selector, function (event) {
+                $(this).removeClass(pressed);
+            });
+        },
+
+    };
+
+});
+
+
+
+define('Tabs/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var RandomId = require('RandomId');
+
+    var prefix = 'KISP-Tabs-';  //用于生成组件 id 的前缀部分。
+    var suffix = 4;             //用于生成组件 id 的随机部分的长度。
+
+
+
+    return {
+        create: function (config, others) {
+            var id = RandomId.get(prefix, suffix);
+
+            var meta = {
+                'id': id,
+                'activedClass': config.activedClass || '',  //激活时的 item 的样式类名。
+                'pressedClass': config.pressedClass || '',  //按下时的 item 的样式类名。
+                'eventName': config.eventName || '',        //
+                'selector': config.selector || '',          //子项的选择器。
+                'repeated': !!config.repeated,              //是否允许重复激活。
+                'list': config.list || [],                  //fill() 时对应的列表数据。
+
+
+                //当前激活的信息。
+                'current': {
+                    index: -1,
+                    item: null,     //list[index];
+                    event: null,
+                    $: null,
+                },
+
+                'container': null,      //
+                'tpl': null,            //
+                'emitter': null,        //事件驱动器。
+                'this': null,           //当前实例，方便内部使用。
+                '$': null,              //组件最外层的 DOM 节点的 jQuery 实例。
+                'change': null,         //change 事件处理函数。 如果非空，则说明已绑定。
+
+                'reset': function () {
+                    meta.$.find(meta.selector).removeClass(meta.activedClass);
+
+                    meta.current = {
+                        index: -1,
+                        item: null,     //list[index];
+                        event: null,
+                        $: null,
+                    };
+                },
+
+                //在 acitve 过程中要执行的回调函数。 
+                //业务层可传入此函数以实现页签激活的动画过渡效果。
+                //若提供此函数，则必须手动调用一下参数中传入的 done() 回调函数，以通知本组件进行后续处理。
+                'activing': function (info, done) {
+                    done();
+                },
+            };
+
+
+
+
+            Object.assign(meta, others);
+
+
+            return meta;
+
+
+        },
+    };
+});
+
+/**
+* 简易信息提示组件。
+* @class
+* @name Toast
+*/
+define('Toast', function (require, module, exports) {
+    var $String = require('String');
+    var Emitter = require('Emitter');
+    var Defaults = require('Defaults');
+
+    //子模块
+    var Sample = module.require('Sample');
+    var Style = module.require('Style');
+    var Meta = module.require('Meta');
+    var Masker = module.require('Masker');
+
+
+    var mapper = new Map();
+
+
+
+    /**
+    * 构造器。
+    * @constructor
+    */
+    function Toast(config) {
+        config = Defaults.clone(module.id, config);
+
+        var emitter = new Emitter(this);        //事件驱动器。
+        var style = Style.get(config);          //
+        var masker = Masker.create(config);     //
+
+        var meta = Meta.create(config, {
+            'sample': Sample,       //相应的 html 模板。
+            'style': style,         //从配置中过滤出样式成员，并进行规范化处理，style 是一个 {}。
+            'emitter': emitter,     //事件驱动器。
+            'masker': masker,       //遮罩层实例。
+            'this': this,           //当前实例，方便内部使用。
+        });
+
+
+        mapper.set(this, meta);
+
+
+        //对外暴露的属性。
+        Object.assign(this, {
+            'id': meta.id,
+        });
+
+    }
+
+
+    //实例方法
+    Toast.prototype = /**@lends Toast#*/ {
+        constructor: Toast,
+
+        /**
+        * 当前实例的 id。
+        * 也是最外层的 DOM 节点的 id。
+        */
+        id: '',
+
+        /**
+        * 当前组件最外层的 DOM 节点对应的 jQuery 实例。
+        * 必须在 render 之后才存在。
+        */
+        $: null,
+
+        /**
+        * 渲染本组件，生成 html 到容器 DOM 节点中。
+        * 该方法只允许调用一次。
+        * 触发事件: `render`。
+        */
+        render: function () {
+            var meta = mapper.get(this);
+
+            //已经渲染过了。
+            if (meta.$) {
+                return;
+            }
+
+            var Style = require('Style');
+            var style = Style.stringify(meta.style);
+
+            var html = $String.format(meta.sample, {
+                'id': meta.id,
+                'icon': meta.icon,
+                'text': meta.text,
+                'textId': meta.textId,
+                'iconId': meta.iconId,
+                'cssClass': meta.cssClass,
+                'style': style,
+            });
+
+            $(meta.container).append(html);
+
+            meta.$ = this.$ = $(`#${meta.id}`);
+            meta.$icon = $(`#${meta.iconId}`);
+            meta.$text = $(`#${meta.textId}`);
+
+            meta.emitter.fire('render');
+
+        },
+
+
+        /**
+        * 显示本组件。
+        * 已重载 show(text);       //显示指定的文本。
+        * 已重载 show(done);       //显示组件，完成后执行回调函数。 要显示的文本以创建实例时指定的为准。
+        * 已重载 show(text, done); //显示指定的文本，完成后执行回调函数。
+        * 参数：
+        *   text: '',       //要显示的文本。
+        *   done: fn,       //完成后回调函数。 须在创建实例时指定 `duration` 字段为大于 0 的值才起作用。 
+        */
+        show: function (text, done) {
+            //重载 show(done); 
+            //不传入要显示的文本，以创建实例时指定的 text 为准。
+            if (typeof text == 'function') {
+                done = text;
+                text = undefined;
+            }
+
+            var meta = mapper.get(this);
+            var masker = meta.masker;
+            var duration = meta.duration;
+
+
+            //首次 render。
+            if (!meta.$) {
+                this.render();
+            }
+
+            if (masker) {
+                masker.show();
+            }
+
+            if (typeof text == 'string') {
+                meta.text = text;
+                meta.$text.html(text);
+            }
+
+            if (duration) {
+                setTimeout(function () {
+                    meta.this.hide();
+                    done && done();
+
+                }, duration);
+            }
+
+            meta.$.toggleClass('NoIcon', !meta.icon);
+            meta.$.toggleClass('NoText', !meta.text);
+            meta.$.show();
+            meta.emitter.fire('show');
+
+           
+        },
+        
+        /**
+        * 隐藏本组件。
+        * 触发事件: `hide`。
+        */
+        hide: function () {
+            var meta = mapper.get(this);
+            var masker = meta.masker;
+
+            if (!meta.$) {
+                return;
+            }
+
+            masker && masker.hide();
+            meta.$.hide();
+            meta.emitter.fire('hide');
+
+        },
+
+        /**
+        * 移除本组件已生成的 DOM 节点。
+        * 触发事件: `remove`。
+        */
+        remove: function () {
+            var meta = mapper.get(this);
+
+            if (!meta.$) {
+                return;
+            }
+
+            var div = meta.$.get(0);
+            var masker = meta.masker;
+
+            div.parentNode.removeChild(div);
+            masker && masker.remove();
+
+
+            meta.$.off();
+
+            meta.$ = this.$ = null;
+            meta.$icon = null;
+            meta.$text = null;
+            meta.masker = null;
+
+            meta.emitter.fire('remove');
+        },
+
+        /**
+        * 绑定事件。
+        */
+        on: function (...args) {
+            var meta = mapper.get(this);
+            meta.emitter.on(...args);
+        },
+
+        /**
+        * 销毁本组件
+        */
+        destroy: function () {
+            var meta = mapper.get(this);
+
+            this.remove();
+
+            meta.emitter.destroy();
+            mapper.remove(this);
+        },
+
+    };
+
+    return Toast;
+
+});
+
+
+/**
+* Toast 模块的默认配置
+* @name Toast.defaults
+*/
+define('Toast.defaults', /**@lends Toast.defaults*/ {
+    
+    /**
+    * 提示文本。
+    */
+    text: '',
+
+    /**
+    * 组件添加到的容器。
+    * 默认为 document.body。
+    */
+    container: 'body',
+
+    /**
+    * 是否启用 mask 层。
+    */
+    mask: false,
+
+
+    /**
+    * 用到的 font-awsome 的图标。
+    */
+    icon: 'check',
+
+    /**
+    * 显示的持续时间(毫秒)。
+    * 0 表示一直显示。
+    */
+    duration: 0,
+
+    /**
+    * 组件用到的 css 类名。
+    */
+    cssClass: '',
+
+    /**
+    * 组件的 css 样式 z-index 值。
+    * 为了给其它组件计算 `z-index`，此处需要显式提供一个值。
+    * 因为仅用 css 中的会比较麻烦。
+    */
+    'z-index': 1024,
+
+    /**
+    * 组件宽度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    width: '',
+
+    /**
+    * 组件高度。
+    * 可以指定为百分比的字符串，或指定具体的数值（单位为像素），
+    */
+    height: '',
+
+    /**
+    * 样式集合。
+    * 外层的同名字段优先级高于里面的。
+    */
+    style: {},
+
+});
+
+
+/*
+* Toast/Sample
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/ui/toast/Toast/Sample.html
+*/
+define('Toast/Sample', [
+    '<div id="{id}" class="KISP Toast {cssClass}" style="{style}">',
+    '    <div>',
+    '        <i id="{iconId}" class="fa fa-{icon}"></i>',
     '    </div>',
+    '    <span id="{textId}" class="Text">{text}</span>',
     '</div>',
 ].join('\n'));
-/*
-* Dialog/Sample/iOS
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/ui/Dialog/Sample/iOS.html
+
+
+/**
+* 
 */
-define('Dialog/Sample/iOS', [
-    '#--div.begin--#',
-    '<div id="{id}" class="KISP Dialog {cssClass}" style="{style}">',
+define('Toast/Style', function (require, module, exports) {
+    var $Object = require('Object');
+    var Style = require('Style');
+    
+
+
+    return {
+
+        /**
+        * 从配置对象中过滤出样式成员，并进行规范化处理。
+        * 返回一个样式对象 {}。
+        */
+        get: function (config) {
+            var obj = $Object.filter(config, ['height', 'width', 'z-index']);
+            var style = Style.objectify(config.style);
+
+            style = Style.merge(style, obj);
+            style = Style.pixelize(style, ['height', 'width', ]);
+
+            return style;
+
+        },
+
+    };
+
+
+});
+
+
+
+define('Toast/Meta', function (require, module, exports) {
+    var $ = require('$');
+    var $String = require('String');
+    var RandomId = require('RandomId');
+
+    var prefix = 'KISP-Toast-';     //用于生成组件 id 的前缀部分。
+    var suffix = 4;                 //用于生成组件 id 的随机部分的长度。
+
+
+
+    return {
+        create: function (config, others) {
+            var id = RandomId.get(prefix, suffix);
+            var textId = RandomId.get(prefix, 'text-', suffix);
+            var iconId = RandomId.get(prefix, 'icon-', suffix);
+            var text = config.text;
+
+            text = typeof text == 'number' ? String(text) : text;
+            text = text || '';
+
+
+            var meta = {
+                'id': id,
+                'icon': config.icon,
+                'text': text,
+                'textId': textId,
+                'iconId': iconId,
+                'cssClass': config.cssClass || '',
+                'container': config.container,
+                'duration': config.duration || 0,
+                'sample': '',
+                'style': '',                //样式字符串。
+
+                'masker': null,             // Mask 的实例，重复使用。
+                'emitter': null,            //事件驱动器。
+                'this': null,               //当前实例，方便内部使用。
+                '$': null,                  //组件最外层的 DOM 节点的 jQuery 实例。
+                '$icon': null,              //$(iconId)。
+                '$text': null,              //$(textId)。
+
+            };
+
+
+
+            Object.assign(meta, others);
+
+
+            return meta;
+
+
+        },
+    };
+});
+
+define('Toast/Masker', function (require, module, exports) {
+    var $ = require('$');
+
+
+
+    return {
+        create: function (config) {
+            var Mask = require('Mask');
+
+            var defaults = {
+                'container': config.container,
+            };
+
+            var options = Mask.normalize(defaults, config.mask); //返回一个 {} 或 null。
+
+            
+            if (!options) {
+                return null;
+            }
+
+            Object.assign(options, {
+                'z-index': config['z-index'] - 1,
+            });
+
+            var masker = new Mask(options);
+
+
+            return masker;
+
+
+
+        },
+    };
+});
+/*
+* Scroller/Pulldown/Indicator/Sample
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/mobile/scroller/Scroller/pulldown/Pulldown/Indicator/Sample.html
+*/
+define('Scroller/Pulldown/Indicator/Sample', [
     '',
-    '    #--header.begin--#',
-    '    <header style="{style}">',
-    '        {title}',
-    '    </header>',
-    '    #--header.end--#',
     '',
-    '    <article id="{article-id}" class="{no-header} {no-footer}">',
-    '        <div id="{content-id}">{text}</div>',
-    '    </article>',
-    '',
-    '    #--footer.begin--#',
-    '    <footer id="{id}" class="buttons-{count}">',
-    '        #--button.begin--#',
-    '        <button data-index="{index}" style="{style}">{text}</button>',
-    '        #--button.end--#',
-    '    </footer>',
-    '    #--footer.end--#',
-    '</div>',
-    '#--div.end--#',
+    '<div id="{id}" class="Scroller-Pulldown-Indicator" style="display: none; transform: translateY({translateY}px);">下拉刷新</div>',
 ].join('\n'));
+
 /*
-* Loading/Sample/iOS
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/ui/Loading/Sample/iOS.html
+* Scroller/Pullup/Indicator/Sample
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/mobile/scroller/Scroller/pullup/Pullup/Indicator/Sample.html
 */
-define('Loading/Sample/iOS', [
-    '<div id="{id}" class="KISP Loading-iOS {cssClass}" style="{style}">',
+define('Scroller/Pullup/Indicator/Sample', [
+    '',
+    '',
+    '<div id="{id}" class="Scroller-Pullup-Indicator" style="display: none; transform: translateY({translateY}px); ">上拉加载更多</div>',
+].join('\n'));
+
+/*
+* Loading/Sample/IOS
+* 由 kisp-packer 生成。 
+* 来源: ../build/pc/8.2.0/src/ui/loading/Loading/Sample/IOS.html
+*/
+define('Loading/Sample/IOS', [
+    '<div id="{id}" class="KISP Loading-iOS {cssClass}" >',
     '    <div class="Main">',
     '        <div class="Item-0"></div>',
     '        <div class="Item-1"></div>',
@@ -14776,28 +14532,18 @@ define('Loading/Sample/iOS', [
     '        <div class="Item-10"></div>',
     '        <div class="Item-11"></div>',
     '    </div>',
-    '    <span id="{text-id}" class="Text">{text}</span>',
+    '    <span id="{textId}" class="Text">{text}</span>',
     '</div>',
 ].join('\n'));
-/*
-* Toast/Sample/font-awesome
-* 由 auto-packer 生成，来源: ../build/pc/0.0.1/src/ui/Toast/Sample/font-awesome.html
-*/
-define('Toast/Sample/font-awesome', [
-    '<div id="{id}" class="KISP Toast-font-awesome {cssClass}">',
-    '    <div>',
-    '        <i id="{icon-id}" class="fa fa-{icon}"></i>',
-    '    </div>',
-    '    <span id="{text-id}" class="Text">{text}</span>',
-    '</div>',
-].join('\n'));
+
 
 (function(require){
     var KISP = require('KISP');
-    var Module = require('Module');
+    var OuterModule = require('OuterModule');
 
-    global.KISP = KISP;
-    global.define = Module.define;  //这个 define 是对外的，跟内部用的 define 不是同一个。
+    global.KISP = KISP;                     //对外提供的命名空间 KISP。
+    global.define = OuterModule.define;     //这个 define 是对外的，跟内部用的 define 不是同一个。
+    global.define.fill = OuterModule.fill;  //提供一个快捷方式。
 
 
 })(InnerModules.require);
@@ -14806,7 +14552,7 @@ define('Toast/Sample/font-awesome', [
 
 
 })(
-    window,  // 在浏览器环境中
+    window,  // 在浏览器环境中。
 
     top,
     parent,
