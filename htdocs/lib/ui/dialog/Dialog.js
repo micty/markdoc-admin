@@ -123,7 +123,7 @@ define('Dialog', function (require, module, exports) {
 
             var masker = meta.masker;
             if (masker) {
-                var mask = Mask.filter(meta.mask);
+                var mask = Mask.normalize(meta.mask);
                 masker.show(mask);
             }
 

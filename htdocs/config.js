@@ -10,7 +10,8 @@
 
         'demo': {
             //url: 'http://172.18.2.149/',
-            url: 'http://www.definejs.com/',
+            //url: 'http://www.definejs.com/',
+            url: 'http://kisp.definejs.com/',
             file: '{url}#!{file}',
         },
     });
@@ -21,7 +22,8 @@
     KISP.config({
         'API': {
             //url: 'http://172.18.2.149:8089/',
-            url: 'http://120.76.123.129:8089/',
+            //url: 'http://120.76.123.129:8089/',
+            url: 'http://120.76.123.129:8090/',
             ext: '',
         },
       
