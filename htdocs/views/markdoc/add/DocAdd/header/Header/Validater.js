@@ -8,7 +8,8 @@ KISP.panel('/DocAdd/Header/Validater', function (require, module, panel) {
     var toast = KISP.create('Toast', {
         icon: 'times',
         duration: 1200,
-        mask: 0.4,
+        mask: 0,
+        width: 250,
     });
 
     var timeout = 150;
@@ -61,19 +62,19 @@ KISP.panel('/DocAdd/Header/Validater', function (require, module, panel) {
             var file = name.replace(/\\/g, '/'); //把所有的 '\' 替换成 '/'。
 
             if (file.includes('../')) {
-                return error('不能引用到父目录中去。');
+                return error('不能引用到父目录中去');
             }
 
             if (file.includes('./')) {
-                return error('不能使用相对路径。');
+                return error('不能使用相对路径');
             }
 
             if (file.startsWith('.')) {
-                return error('文件路径非法。');
+                return error('文件路径非法');
             }
 
             if (!file.includes('.')) {
-                return error('文件名必须包含后缀名。');
+                return error('文件名必须包含后缀名');
             }
 
             if (file.includes('..') ||
@@ -88,7 +89,7 @@ KISP.panel('/DocAdd/Header/Validater', function (require, module, panel) {
                 file.includes(' ') ||
                 file.includes('./')) {
 
-                return error('文件路径非法。');
+                return error('文件路径非法');
             }
 
            

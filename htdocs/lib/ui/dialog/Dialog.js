@@ -4,9 +4,9 @@ define('Dialog', function (require, module, exports) {
     var $ = require('$');
     var Defaults = require('Defaults');
 
-    var $String = KISP.require('String');
     var Emitter = KISP.require('Emitter');
     var Mask = KISP.require('Mask');
+    var Panel = KISP.require('Panel');
 
     var Meta = module.require('Meta');
     var Template = module.require('Template');
@@ -271,14 +271,34 @@ define('Dialog', function (require, module, exports) {
 
             var dialog = new Dialog(config);
 
+      
+
             dialog.on({
                 'first-render': function () {
                     //删除 panel 中对应原先的 DOM 节点，
-                    //在 KISP 内部会让相应的 panel 重新绑定到新的 DOM 节点。
                     container.parentNode.removeChild(container);
                     content.parentNode.removeChild(content);
-
                     footer && footer.parentNode.removeChild(footer);
+
+                    //重新绑定到对应原 Panel 中。
+                    Container.set('$');
+
+
+                    var moduleId = container.getAttribute('data-panel');
+                    var selector = `[data-panel^="${moduleId}"]`;
+                    var list = Container.$.find(selector).toArray();
+
+                    list = list.map(function (item) {
+                        return item.getAttribute('data-panel');
+                    });
+
+
+                    Panel.update(list);
+
+                    container = null;
+                    content = null;
+                    footer = null;
+
                 },
             });
 
