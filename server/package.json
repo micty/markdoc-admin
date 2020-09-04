@@ -15,7 +15,7 @@
         "colors": "",
         "multer": "",
         "defineJS": "0.3.2",
-        "marked": "0.4.0",
+        "marked": "1.1.1",
         "highlight.js": "9.12.0",
         "cheerio": "1.0.0-rc.2"
     }
